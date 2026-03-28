@@ -1,0 +1,41 @@
+{
+  "version": "4.5",
+  "fecha": "2026-03-05",
+  "sesion": "tarde",
+  "hora": "19:15",
+  "alertas_shorts": [],
+  "consensos_ayer_pendientes": [],
+  "triangulacion": {
+    "consensos": [],
+    "solo_claude": [],
+    "solo_openai": [],
+    "evitar": [
+      {
+        "ticker": "REP",
+        "razon": "Presión por caída petróleo, ruptura soporte técnico",
+        "shorts_pct": 1.2
+      },
+      {
+        "ticker": "TEF",
+        "razon": "Shorts institucionales altos",
+        "shorts_pct": 0.8
+      },
+      {
+        "ticker": "IAG",
+        "razon": "Sector aéreo bajo presión, incertidumbre combustible",
+        "shorts_pct": 1.5
+      }
+    ],
+    "sentimiento_claude": "NEUTRAL",
+    "sentimiento_openai": "NEUTRAL",
+    "radar_macro_claude": {},
+    "radar_macro_openai": {}
+  },
+  "reglas_aplicadas": {
+    "R9_delay": false,
+    "R10_shorts": false,
+    "consensos_hoy": 0,
+    "valores_evitar": 3
+  },
+  "accion_recomendada": "EVALUAR"
+}

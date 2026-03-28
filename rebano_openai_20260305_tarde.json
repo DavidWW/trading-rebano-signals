@@ -1,0 +1,71 @@
+{
+  "fecha": "2026-03-05",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [],
+    "indice_movimiento_notable": [],
+    "vix_cambio": {
+      "valor_cierre": 0.0,
+      "nivel": "NORMAL",
+      "cambio_significativo": false
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Banca",
+        "var_dia_pct": 0.5,
+        "direccion": "POSITIVO"
+      }
+    ],
+    "resumen_cambios": "Comportamiento neutral con ligera mejora en banca."
+  },
+  "resumen": {
+    "ibex_var_pct": 0.2,
+    "valores_destacados": [
+      "SAN +2%",
+      "IDR +1%",
+      "ACS -1%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "SAN",
+      "nivel_barrido": 9.65,
+      "recupero": true,
+      "recuperacion_pct": 0.36
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "sector": "Retail",
+      "accion": "COMPRA",
+      "precio_cierre": 53.02,
+      "soporte_obvio": 52.0,
+      "resistencia_obvia": 54.5,
+      "soporte_secundario": 51.35,
+      "resistencia_secundaria": 55.85,
+      "distancia_max_52s_pct": -5.0,
+      "distancia_min_52s_pct": 40.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 110,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Ruptura al alza de resistencia anterior.",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-10",
+          "descripcion": "Presentación de resultados anuales."
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "TEF",
+      "razon": "Shorts institucionales altos",
+      "shorts_pct": 0.8
+    }
+  ]
+}

@@ -1,0 +1,500 @@
+{
+  "version": "4.5",
+  "fecha": "2026-03-03",
+  "sesion": "manana",
+  "hora": "06:35",
+  "alertas_shorts": [],
+  "consensos_ayer_pendientes": [],
+  "triangulacion": {
+    "consensos": [
+      {
+        "ticker": "REP",
+        "nombre": "Repsol",
+        "sector": "Energía",
+        "accion": "COMPRA",
+        "tipo": "TOTAL",
+        "conviccion_claude": "ALTA",
+        "conviccion_openai": "MEDIA",
+        "stop_claude": 19.15,
+        "stop_openai": 19.4,
+        "target_claude": 21.25,
+        "target_openai": 21.0,
+        "soporte_obvio_claude": 19.8,
+        "soporte_obvio_openai": 19.5,
+        "soporte_sec_claude": 19.35,
+        "soporte_sec_openai": 19.0,
+        "resistencia_obvia_claude": 20.5,
+        "resistencia_obvia_openai": 21.0,
+        "catalizador_claude": "SECTORIAL",
+        "catalizador_openai": "MACRO",
+        "prob_barrido_claude": "MEDIA",
+        "prob_barrido_openai": "BAJA",
+        "tendencia_claude": "ALCISTA",
+        "tendencia_openai": "ALCISTA",
+        "dist_max_52s_claude": -8.2,
+        "dist_max_52s_openai": -7.0,
+        "dist_min_52s_claude": 18.5,
+        "dist_min_52s_openai": 20.0,
+        "volumen_claude": 135,
+        "volumen_openai": 140,
+        "shorts_claude": 0.3,
+        "shorts_openai": 0.4,
+        "eventos_claude": [
+          {
+            "tipo": "RESULTADOS",
+            "fecha": "2026-03-18",
+            "descripcion": "Resultados Q4 2025"
+          }
+        ],
+        "eventos_openai": [],
+        "precio_actual": 20.08
+      },
+      {
+        "ticker": "BBVA",
+        "nombre": "BBVA",
+        "sector": "Banca",
+        "accion": "COMPRA",
+        "tipo": "TOTAL",
+        "conviccion_claude": "MEDIA",
+        "conviccion_openai": "MEDIA",
+        "stop_claude": 18.15,
+        "stop_openai": 18.2,
+        "target_claude": 19.85,
+        "target_openai": 19.75,
+        "soporte_obvio_claude": 18.7,
+        "soporte_obvio_openai": 18.4,
+        "soporte_sec_claude": 18.25,
+        "soporte_sec_openai": 17.8,
+        "resistencia_obvia_claude": 19.5,
+        "resistencia_obvia_openai": 19.5,
+        "catalizador_claude": "TECNICO",
+        "catalizador_openai": "SECTORIAL",
+        "prob_barrido_claude": "MEDIA",
+        "prob_barrido_openai": "MEDIA",
+        "tendencia_claude": "LATERAL",
+        "tendencia_openai": "ALCISTA",
+        "dist_max_52s_claude": -12.5,
+        "dist_max_52s_openai": -5.0,
+        "dist_min_52s_claude": 28.3,
+        "dist_min_52s_openai": 15.2,
+        "volumen_claude": 108,
+        "volumen_openai": 110,
+        "shorts_claude": 0.4,
+        "shorts_openai": 0.2,
+        "eventos_claude": [],
+        "eventos_openai": [
+          {
+            "tipo": "DIVIDENDO",
+            "fecha": "2026-03-12",
+            "descripcion": "Derecho de suscripción al dividendo"
+          }
+        ],
+        "precio_actual": 18.99
+      },
+      {
+        "ticker": "ITX",
+        "nombre": "Inditex",
+        "sector": "Retail",
+        "accion": "COMPRA",
+        "tipo": "TOTAL",
+        "conviccion_claude": "MEDIA",
+        "conviccion_openai": "ALTA",
+        "stop_claude": 51.65,
+        "stop_openai": 52.75,
+        "target_claude": 56.15,
+        "target_openai": 56.5,
+        "soporte_obvio_claude": 53.5,
+        "soporte_obvio_openai": 53.2,
+        "soporte_sec_claude": 52.25,
+        "soporte_sec_openai": 52.0,
+        "resistencia_obvia_claude": 55.0,
+        "resistencia_obvia_openai": 55.0,
+        "catalizador_claude": "FUNDAMENTAL",
+        "catalizador_openai": "FUNDAMENTAL",
+        "prob_barrido_claude": "BAJA",
+        "prob_barrido_openai": "BAJA",
+        "tendencia_claude": "LATERAL",
+        "tendencia_openai": "ALCISTA",
+        "dist_max_52s_claude": -6.8,
+        "dist_max_52s_openai": -10.2,
+        "dist_min_52s_claude": 32.1,
+        "dist_min_52s_openai": 12.3,
+        "volumen_claude": 95,
+        "volumen_openai": 120,
+        "shorts_claude": 0.1,
+        "shorts_openai": 0.3,
+        "eventos_claude": [
+          {
+            "tipo": "RESULTADOS",
+            "fecha": "2026-03-12",
+            "descripcion": "Resultados Q4 2025 y guidance 2026"
+          }
+        ],
+        "eventos_openai": [
+          {
+            "tipo": "RESULTADOS",
+            "fecha": "2026-03-10",
+            "descripcion": "Publicación de resultados anuales"
+          }
+        ],
+        "precio_actual": 54.06
+      }
+    ],
+    "solo_claude": [
+      {
+        "ranking": 2,
+        "ticker": "IBE",
+        "nombre": "Iberdrola",
+        "sector": "Utilities",
+        "accion": "COMPRA",
+        "conviccion": "ALTA",
+        "precio_actual": 19.8,
+        "entrada": 19.85,
+        "stop_loss": 18.85,
+        "stop_pct": -4.8,
+        "take_profit_1": 20.65,
+        "tp1_pct": 4.3,
+        "take_profit_2": 21.35,
+        "tp2_pct": 7.8,
+        "soporte_obvio": 19.5,
+        "resistencia_obvia": 20.2,
+        "soporte_secundario": 19.15,
+        "resistencia_secundaria": 20.65,
+        "distancia_max_52s_pct": -3.8,
+        "distancia_min_52s_pct": 25.2,
+        "tendencia": "LATERAL",
+        "volumen_vs_media_pct": 118,
+        "catalizador_tipo": "FUNDAMENTAL",
+        "catalizador_desc": "Aproximación a ex-dividendo y rebote desde soporte clave",
+        "catalizador_reversible": true,
+        "shorts_pct": 0.2,
+        "prob_barrido": "BAJA",
+        "riesgo": "Subidas de tipos o debilidad utilities europeas",
+        "horizonte_dias": 3,
+        "eventos_proximos": [
+          {
+            "tipo": "EX_DIVIDENDO",
+            "fecha": "2026-03-15",
+            "descripcion": "Ex-dividendo ~0.52€"
+          }
+        ]
+      },
+      {
+        "ranking": 5,
+        "ticker": "ACS",
+        "nombre": "ACS",
+        "sector": "Construcción",
+        "accion": "COMPRA",
+        "conviccion": "BAJA",
+        "precio_actual": 109.6,
+        "entrada": 110.15,
+        "stop_loss": 105.35,
+        "stop_pct": -4.2,
+        "take_profit_1": 113.25,
+        "tp1_pct": 3.3,
+        "take_profit_2": 115.85,
+        "tp2_pct": 5.7,
+        "soporte_obvio": 108.5,
+        "resistencia_obvia": 112.0,
+        "soporte_secundario": 106.25,
+        "resistencia_secundaria": 114.5,
+        "distancia_max_52s_pct": -4.2,
+        "distancia_min_52s_pct": 22.8,
+        "tendencia": "LATERAL",
+        "volumen_vs_media_pct": 88,
+        "catalizador_tipo": "SECTORIAL",
+        "catalizador_desc": "Posible rotación hacia infraestructuras por estímulos",
+        "catalizador_reversible": true,
+        "shorts_pct": 0.2,
+        "prob_barrido": "MEDIA",
+        "riesgo": "Retrasos en proyectos internacionales o subidas costes",
+        "horizonte_dias": 4,
+        "eventos_proximos": []
+      }
+    ],
+    "solo_openai": [
+      {
+        "ranking": 3,
+        "ticker": "SLR",
+        "nombre": "Solaria",
+        "sector": "Renovables",
+        "accion": "VENTA",
+        "conviccion": "MEDIA",
+        "precio_actual": 21.22,
+        "entrada": 21.25,
+        "stop_loss": 22.0,
+        "stop_pct": -3.5,
+        "take_profit_1": 20.0,
+        "tp1_pct": 5.7,
+        "take_profit_2": 19.0,
+        "tp2_pct": 10.5,
+        "soporte_obvio": 21.0,
+        "resistencia_obvia": 23.0,
+        "soporte_secundario": 20.5,
+        "resistencia_secundaria": 24.0,
+        "distancia_max_52s_pct": -12.0,
+        "distancia_min_52s_pct": 18.5,
+        "tendencia": "BAJISTA",
+        "volumen_vs_media_pct": 130,
+        "catalizador_tipo": "TECNICO",
+        "catalizador_desc": "Ruptura de soporte técnico clave",
+        "catalizador_reversible": true,
+        "shorts_pct": 1.2,
+        "prob_barrido": "ALTA",
+        "riesgo": "Rebotar sobre soportes previos",
+        "horizonte_dias": 4,
+        "eventos_proximos": []
+      },
+      {
+        "ranking": 5,
+        "ticker": "MRL",
+        "nombre": "Merlin Properties",
+        "sector": "Inmobiliario",
+        "accion": "VENTA",
+        "conviccion": "BAJA",
+        "precio_actual": 14.65,
+        "entrada": 14.6,
+        "stop_loss": 15.1,
+        "stop_pct": -3.4,
+        "take_profit_1": 14.0,
+        "tp1_pct": 4.4,
+        "take_profit_2": 13.5,
+        "tp2_pct": 7.8,
+        "soporte_obvio": 14.55,
+        "resistencia_obvia": 15.0,
+        "soporte_secundario": 13.9,
+        "resistencia_secundaria": 15.5,
+        "distancia_max_52s_pct": -15.2,
+        "distancia_min_52s_pct": 12.1,
+        "tendencia": "LATERAL",
+        "volumen_vs_media_pct": 105,
+        "catalizador_tipo": "SECTORIAL",
+        "catalizador_desc": "Preocupaciones sobre aumento de tasas",
+        "catalizador_reversible": true,
+        "shorts_pct": 0.7,
+        "prob_barrido": "MEDIA",
+        "riesgo": "Desempeño sector inmobiliario",
+        "horizonte_dias": 5,
+        "eventos_proximos": []
+      }
+    ],
+    "evitar": [
+      {
+        "ticker": "TEF",
+        "razon": "Sector telecom bajo presión, cerca mínimos anuales",
+        "shorts_pct": 0.8
+      },
+      {
+        "ticker": "IAG",
+        "razon": "Debilidad aerolíneas, alta volatilidad combustibles",
+        "shorts_pct": 0.6
+      },
+      {
+        "ticker": "SLR",
+        "razon": "Corto institucional elevado",
+        "shorts_pct": 1.2
+      }
+    ],
+    "sentimiento_claude": "NEUTRAL",
+    "sentimiento_openai": "NEUTRAL",
+    "radar_macro_claude": {
+      "commodities": {
+        "oro": {
+          "precio_usd": 2685.5,
+          "var_semanal_pct": -1.2,
+          "var_mensual_pct": 2.3,
+          "dist_max_52s_pct": -4.1,
+          "alerta": false
+        },
+        "plata": {
+          "precio_usd": 30.85,
+          "var_semanal_pct": -2.1,
+          "var_mensual_pct": 1.8,
+          "dist_max_52s_pct": -8.3,
+          "alerta": false
+        },
+        "petroleo_brent": {
+          "precio_usd": 82.15,
+          "var_semanal_pct": 1.8,
+          "var_mensual_pct": 4.2,
+          "alerta": false
+        }
+      },
+      "indices": {
+        "sp500": {
+          "valor": 5920,
+          "var_semanal_pct": 0.8,
+          "dist_max_52s_pct": -2.1,
+          "alerta": false
+        },
+        "nasdaq100": {
+          "valor": 20450,
+          "var_semanal_pct": 1.2,
+          "dist_max_52s_pct": -3.5,
+          "alerta": false
+        },
+        "stoxx600": {
+          "valor": 528,
+          "var_semanal_pct": -0.3,
+          "dist_max_52s_pct": -1.8,
+          "alerta": false
+        },
+        "msci_em": {
+          "valor": 1145,
+          "var_semanal_pct": 0.5,
+          "dist_max_52s_pct": -6.2,
+          "alerta": false
+        },
+        "nikkei225": {
+          "valor": 39850,
+          "var_semanal_pct": -1.1,
+          "dist_max_52s_pct": -5.3,
+          "alerta": false
+        }
+      },
+      "sectores_europa": {
+        "mejor_sector": {
+          "nombre": "Energía",
+          "var_semanal_pct": 2.4
+        },
+        "peor_sector": {
+          "nombre": "Tecnología",
+          "var_semanal_pct": -1.8
+        },
+        "sector_en_correccion": {
+          "hay_correccion": false,
+          "nombre": "",
+          "caida_desde_max_pct": 0.0,
+          "causa": ""
+        }
+      },
+      "divisas": {
+        "eur_usd": {
+          "valor": 1.0512,
+          "var_semanal_pct": 0.3,
+          "var_mensual_pct": -1.2
+        }
+      },
+      "vix": {
+        "valor": 16.8,
+        "nivel": "NORMAL"
+      },
+      "eventos_clave": [
+        {
+          "evento": "ISM Manufacturas EEUU",
+          "hora_cet": "16:00",
+          "relevancia": "ALTA"
+        },
+        {
+          "evento": "Decisión tipos BCE (esperado sin cambios)",
+          "hora_cet": "14:15",
+          "relevancia": "MEDIA"
+        }
+      ],
+      "resumen_macro": "Entorno neutral con rotación sectorial hacia energía y cautela tecnológica"
+    },
+    "radar_macro_openai": {
+      "commodities": {
+        "oro": {
+          "precio_usd": 1850.76,
+          "var_semanal_pct": -1.2,
+          "var_mensual_pct": 1.0,
+          "dist_max_52s_pct": -5.6,
+          "alerta": false
+        },
+        "plata": {
+          "precio_usd": 24.32,
+          "var_semanal_pct": -0.8,
+          "var_mensual_pct": 2.4,
+          "dist_max_52s_pct": -10.0,
+          "alerta": false
+        },
+        "petroleo_brent": {
+          "precio_usd": 96.45,
+          "var_semanal_pct": 3.5,
+          "var_mensual_pct": 10.0,
+          "alerta": false
+        }
+      },
+      "indices": {
+        "sp500": {
+          "valor": 4380,
+          "var_semanal_pct": -0.3,
+          "dist_max_52s_pct": -6.5,
+          "alerta": false
+        },
+        "nasdaq100": {
+          "valor": 14500,
+          "var_semanal_pct": -0.8,
+          "dist_max_52s_pct": -8.9,
+          "alerta": false
+        },
+        "stoxx600": {
+          "valor": 430,
+          "var_semanal_pct": 0.5,
+          "dist_max_52s_pct": -4.3,
+          "alerta": false
+        },
+        "msci_em": {
+          "valor": 1020,
+          "var_semanal_pct": -0.5,
+          "dist_max_52s_pct": -12.7,
+          "alerta": false
+        },
+        "nikkei225": {
+          "valor": 29800,
+          "var_semanal_pct": 1.2,
+          "dist_max_52s_pct": -3.6,
+          "alerta": false
+        }
+      },
+      "sectores_europa": {
+        "mejor_sector": {
+          "nombre": "Tecnología",
+          "var_semanal_pct": 2.3
+        },
+        "peor_sector": {
+          "nombre": "Consumo Básico",
+          "var_semanal_pct": -1.8
+        },
+        "sector_en_correccion": {
+          "hay_correccion": false,
+          "nombre": "",
+          "caida_desde_max_pct": 0.0,
+          "causa": ""
+        }
+      },
+      "divisas": {
+        "eur_usd": {
+          "valor": 1.087,
+          "var_semanal_pct": 0.6,
+          "var_mensual_pct": 1.8
+        }
+      },
+      "vix": {
+        "valor": 19.5,
+        "nivel": "NORMAL"
+      },
+      "eventos_clave": [
+        {
+          "evento": "Informe de Empleo EE.UU.",
+          "hora_cet": "14:30",
+          "relevancia": "ALTA"
+        },
+        {
+          "evento": "Decisión de Tipos del ECB",
+          "hora_cet": "13:45",
+          "relevancia": "ALTA"
+        }
+      ],
+      "resumen_macro": "El mercado muestra una postura neutral a la espera de datos clave de empleo y decisión de tipos del BCE."
+    }
+  },
+  "reglas_aplicadas": {
+    "R9_delay": true,
+    "R10_shorts": false,
+    "consensos_hoy": 3,
+    "valores_evitar": 3
+  },
+  "accion_recomendada": "OBSERVAR"
+}

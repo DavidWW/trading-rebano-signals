@@ -1,0 +1,200 @@
+{
+  "version": "4.1",
+  "fecha": "2026-02-06",
+  "sesion": "manana",
+  "hora": "06:39",
+  "alertas_shorts": [],
+  "consensos_ayer_pendientes": [],
+  "triangulacion": {
+    "consensos": [
+      {
+        "ticker": "ITX",
+        "nombre": "Inditex",
+        "accion": "COMPRA",
+        "tipo": "TOTAL",
+        "conviccion_claude": "ALTA",
+        "conviccion_openai": "ALTA",
+        "stop_claude": 55.37,
+        "stop_openai": 55.37,
+        "target_claude": 58.5,
+        "target_openai": 58.34,
+        "soporte_obvio_claude": 55.0,
+        "soporte_obvio_openai": 55.5,
+        "catalizador_claude": "SECTORIAL",
+        "catalizador_openai": "TECNICO",
+        "prob_barrido_claude": "MEDIA",
+        "prob_barrido_openai": "BAJA",
+        "precio_actual": 56.7
+      },
+      {
+        "ticker": "BBVA",
+        "nombre": "Banco Bilbao Vizcaya",
+        "accion": "COMPRA",
+        "tipo": "TOTAL",
+        "conviccion_claude": "ALTA",
+        "conviccion_openai": "MEDIA",
+        "stop_claude": 19.45,
+        "stop_openai": 19.58,
+        "target_claude": 20.75,
+        "target_openai": 20.6,
+        "soporte_obvio_claude": 19.2,
+        "soporte_obvio_openai": 19.7,
+        "catalizador_claude": "FUNDAMENTAL",
+        "catalizador_openai": "FUNDAMENTAL",
+        "prob_barrido_claude": "BAJA",
+        "prob_barrido_openai": "BAJA",
+        "precio_actual": 19.98
+      },
+      {
+        "ticker": "REP",
+        "nombre": "Repsol",
+        "accion": "COMPRA",
+        "tipo": "TOTAL",
+        "conviccion_claude": "MEDIA",
+        "conviccion_openai": "MEDIA",
+        "stop_claude": 15.73,
+        "stop_openai": 15.83,
+        "target_claude": 16.75,
+        "target_openai": 16.75,
+        "soporte_obvio_claude": 15.5,
+        "soporte_obvio_openai": 15.9,
+        "catalizador_claude": "GEOPOLITICO",
+        "catalizador_openai": "SECTORIAL",
+        "prob_barrido_claude": "MEDIA",
+        "prob_barrido_openai": "MEDIA",
+        "precio_actual": 16.15
+      }
+    ],
+    "solo_claude": [
+      {
+        "ranking": 4,
+        "ticker": "IBE",
+        "nombre": "Iberdrola",
+        "accion": "COMPRA",
+        "conviccion": "MEDIA",
+        "precio_actual": 19.15,
+        "entrada": 19.05,
+        "stop_loss": 18.67,
+        "stop_pct": -2.0,
+        "take_profit_1": 19.8,
+        "tp1_pct": 3.9,
+        "take_profit_2": 20.3,
+        "tp2_pct": 6.6,
+        "soporte_obvio": 18.5,
+        "resistencia_obvia": 20.0,
+        "catalizador_tipo": "SECTORIAL",
+        "catalizador_desc": "Impulso renovables, inversiones infraestructura",
+        "catalizador_reversible": false,
+        "shorts_pct": 0.7,
+        "prob_barrido": "BAJA",
+        "riesgo": "Regulación energética",
+        "horizonte_dias": 4
+      },
+      {
+        "ranking": 5,
+        "ticker": "AMS",
+        "nombre": "Amadeus",
+        "accion": "COMPRA",
+        "conviccion": "BAJA",
+        "precio_actual": 53.22,
+        "entrada": 52.95,
+        "stop_loss": 51.89,
+        "stop_pct": -2.0,
+        "take_profit_1": 54.8,
+        "tp1_pct": 3.5,
+        "take_profit_2": 56.0,
+        "tp2_pct": 5.8,
+        "soporte_obvio": 51.5,
+        "resistencia_obvia": 55.5,
+        "catalizador_tipo": "SECTORIAL",
+        "catalizador_desc": "Temporada alta reservas viajes primer trimestre",
+        "catalizador_reversible": false,
+        "shorts_pct": 0.5,
+        "prob_barrido": "MEDIA",
+        "riesgo": "Dependencia sector turismo",
+        "horizonte_dias": 5
+      }
+    ],
+    "solo_openai": [
+      {
+        "ranking": 4,
+        "ticker": "LOG",
+        "nombre": "Logista",
+        "accion": "COMPRA",
+        "conviccion": "BAJA",
+        "precio_actual": 33.3,
+        "entrada": 33.4,
+        "stop_loss": 32.63,
+        "stop_pct": -2.3,
+        "take_profit_1": 34.0,
+        "tp1_pct": 2.1,
+        "take_profit_2": 34.5,
+        "tp2_pct": 3.6,
+        "soporte_obvio": 32.9,
+        "resistencia_obvia": 33.9,
+        "catalizador_tipo": "SECTORIAL",
+        "catalizador_desc": "Incremento de demanda en el sector",
+        "catalizador_reversible": true,
+        "shorts_pct": 0.7,
+        "prob_barrido": "MEDIA",
+        "riesgo": "Alta competencia en el sector",
+        "horizonte_dias": 5
+      },
+      {
+        "ranking": 5,
+        "ticker": "CABK",
+        "nombre": "Caixabank",
+        "accion": "COMPRA",
+        "conviccion": "BAJA",
+        "precio_actual": 10.94,
+        "entrada": 11.0,
+        "stop_loss": 10.72,
+        "stop_pct": -2.0,
+        "take_profit_1": 11.3,
+        "tp1_pct": 3.3,
+        "take_profit_2": 11.6,
+        "tp2_pct": 6.0,
+        "soporte_obvio": 10.8,
+        "resistencia_obvia": 11.2,
+        "catalizador_tipo": "FUNDAMENTAL",
+        "catalizador_desc": "Mejora en expectativas macroeconómicas",
+        "catalizador_reversible": false,
+        "shorts_pct": 0.5,
+        "prob_barrido": "BAJA",
+        "riesgo": "Incertidumbre regulatoria",
+        "horizonte_dias": 3
+      }
+    ],
+    "evitar": [
+      {
+        "ticker": "TEF",
+        "razon": "Debilidad técnica persistente, resistencia fuerte en 3.70"
+      },
+      {
+        "ticker": "SAB",
+        "razon": "Bajo volumen, consolidación lateral prolongada"
+      },
+      {
+        "ticker": "BBVA",
+        "razon": "Shorts elevados"
+      },
+      {
+        "ticker": "SAN",
+        "razon": "Altos niveles de shorts"
+      },
+      {
+        "ticker": "FER",
+        "razon": "Shorts superiores al 1 por ciento"
+      }
+    ],
+    "sentimiento_claude": "NEUTRAL",
+    "sentimiento_openai": "ALCISTA"
+  },
+  "reglas_aplicadas": {
+    "R9_delay": true,
+    "R10_shorts": false,
+    "consensos_hoy": 3,
+    "valores_evitar": 5
+  },
+  "accion_recomendada": "OBSERVAR"
+}

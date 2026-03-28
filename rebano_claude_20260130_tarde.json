@@ -1,0 +1,62 @@
+{
+  "fecha": "2026-01-30",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "resumen": {
+    "ibex_var_pct": 0.0,
+    "valores_destacados": [
+      "ITX estable en 55",
+      "TEF debil en minimos"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "TEF",
+      "nivel_barrido": 3.45,
+      "recupero": false,
+      "recuperacion_pct": -1.2
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "SAN",
+      "nombre": "Banco Santander",
+      "accion": "COMPRA",
+      "precio_cierre": 10.78,
+      "soporte_obvio": 10.5,
+      "resistencia_obvia": 11.2,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Rebote desde soporte clave, volumen creciente"
+    },
+    {
+      "ticker": "BBVA",
+      "nombre": "Banco Bilbao Vizcaya",
+      "accion": "VIGILAR",
+      "precio_cierre": 21.45,
+      "soporte_obvio": 21.0,
+      "resistencia_obvia": 22.5,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Consolidacion previa a movimiento direccional"
+    },
+    {
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "accion": "COMPRA",
+      "precio_cierre": 16.56,
+      "soporte_obvio": 16.2,
+      "resistencia_obvia": 17.2,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Precio petroleo estable, sector energetico recupera"
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "TEF",
+      "razon": "Tendencia bajista persistente, alta volatilidad"
+    },
+    {
+      "ticker": "SAB",
+      "razon": "Baja liquidez, spreads elevados"
+    }
+  ]
+}

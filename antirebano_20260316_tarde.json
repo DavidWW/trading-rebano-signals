@@ -1,0 +1,46 @@
+{
+  "version": "4.5",
+  "fecha": "2026-03-16",
+  "sesion": "tarde",
+  "hora": "18:14",
+  "alertas_shorts": [],
+  "consensos_ayer_pendientes": [],
+  "triangulacion": {
+    "consensos": [],
+    "solo_claude": [],
+    "solo_openai": [],
+    "evitar": [
+      {
+        "ticker": "REP",
+        "razon": "Presión por caída petróleo, rompió soporte clave",
+        "shorts_pct": 0.8
+      },
+      {
+        "ticker": "TEF",
+        "razon": "Debilidad sectorial telecom, alta deuda en entorno tipos altos",
+        "shorts_pct": 1.2
+      },
+      {
+        "ticker": "ACX",
+        "razon": "Sector acero bajo presión por desaceleración industrial",
+        "shorts_pct": 0.6
+      },
+      {
+        "ticker": "SAN",
+        "razon": "Alta exposición a shorts por encima de 0.5%",
+        "shorts_pct": 0.75
+      }
+    ],
+    "sentimiento_claude": "NEUTRAL",
+    "sentimiento_openai": "NEUTRAL",
+    "radar_macro_claude": {},
+    "radar_macro_openai": {}
+  },
+  "reglas_aplicadas": {
+    "R9_delay": false,
+    "R10_shorts": false,
+    "consensos_hoy": 0,
+    "valores_evitar": 4
+  },
+  "accion_recomendada": "EVALUAR"
+}

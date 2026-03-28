@@ -1,0 +1,315 @@
+{
+  "fecha": "2026-03-16",
+  "sesion": "manana",
+  "sentimiento": "ALCISTA",
+  "radar_macro": {
+    "commodities": {
+      "oro": {
+        "precio_usd": 2385.4,
+        "var_semanal_pct": 1.8,
+        "var_mensual_pct": 3.2,
+        "dist_max_52s_pct": -2.1,
+        "alerta": false
+      },
+      "plata": {
+        "precio_usd": 29.15,
+        "var_semanal_pct": 2.4,
+        "var_mensual_pct": 4.1,
+        "dist_max_52s_pct": -8.3,
+        "alerta": false
+      },
+      "petroleo_brent": {
+        "precio_usd": 78.5,
+        "var_semanal_pct": 3.1,
+        "var_mensual_pct": 5.8,
+        "alerta": true
+      }
+    },
+    "indices": {
+      "sp500": {
+        "valor": 5892,
+        "var_semanal_pct": 1.2,
+        "dist_max_52s_pct": -1.8,
+        "alerta": false
+      },
+      "nasdaq100": {
+        "valor": 21450,
+        "var_semanal_pct": 0.8,
+        "dist_max_52s_pct": -3.2,
+        "alerta": false
+      },
+      "stoxx600": {
+        "valor": 518.2,
+        "var_semanal_pct": 1.5,
+        "dist_max_52s_pct": -0.9,
+        "alerta": false
+      },
+      "msci_em": {
+        "valor": 1089,
+        "var_semanal_pct": 2.3,
+        "dist_max_52s_pct": -4.1,
+        "alerta": false
+      },
+      "nikkei225": {
+        "valor": 40125,
+        "var_semanal_pct": -0.5,
+        "dist_max_52s_pct": -2.8,
+        "alerta": false
+      }
+    },
+    "sectores_europa": {
+      "mejor_sector": {
+        "nombre": "Energía",
+        "var_semanal_pct": 4.2
+      },
+      "peor_sector": {
+        "nombre": "Inmobiliario",
+        "var_semanal_pct": -1.8
+      },
+      "sector_en_correccion": {
+        "hay_correccion": false,
+        "nombre": "",
+        "caida_desde_max_pct": 0.0,
+        "causa": ""
+      }
+    },
+    "divisas": {
+      "eur_usd": {
+        "valor": 1.0785,
+        "var_semanal_pct": 0.8,
+        "var_mensual_pct": 2.1
+      }
+    },
+    "vix": {
+      "valor": 16.2,
+      "nivel": "NORMAL"
+    },
+    "eventos_clave": [
+      {
+        "evento": "BCE decisión tipos interés",
+        "hora_cet": "14:15",
+        "relevancia": "ALTA"
+      },
+      {
+        "evento": "Datos PMI manufacturero eurozona",
+        "hora_cet": "10:00",
+        "relevancia": "MEDIA"
+      },
+      {
+        "evento": "Ventas minoristas EEUU",
+        "hora_cet": "14:30",
+        "relevancia": "MEDIA"
+      }
+    ],
+    "resumen_macro": "Ambiente risk-on con commodities energéticos al alza y expectativas de BCE dovish"
+  },
+  "recomendaciones": [
+    {
+      "ranking": 1,
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "sector": "Energía",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 23.0,
+      "entrada": 23.15,
+      "stop_loss": 21.85,
+      "stop_pct": -5.6,
+      "take_profit_1": 24.65,
+      "tp1_pct": 6.5,
+      "take_profit_2": 26.15,
+      "tp2_pct": 13.0,
+      "soporte_obvio": 22.5,
+      "resistencia_obvia": 24.0,
+      "soporte_secundario": 21.8,
+      "resistencia_secundaria": 24.85,
+      "distancia_max_52s_pct": -12.5,
+      "distancia_min_52s_pct": 28.3,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 165,
+      "catalizador_tipo": "SECTORIAL",
+      "catalizador_desc": "Rally en petróleo Brent (+5.8% mensual) y fortalecimiento downstream",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.8,
+      "prob_barrido": "BAJA",
+      "riesgo": "Volatilidad commodity y tensiones geopolíticas",
+      "horizonte_dias": 4,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-28",
+          "descripcion": "Q1 2026 earnings"
+        }
+      ]
+    },
+    {
+      "ranking": 2,
+      "ticker": "ACS",
+      "nombre": "ACS",
+      "sector": "Construcción",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 103.3,
+      "entrada": 104.15,
+      "stop_loss": 97.85,
+      "stop_pct": -6.0,
+      "take_profit_1": 109.65,
+      "tp1_pct": 5.3,
+      "take_profit_2": 115.35,
+      "tp2_pct": 10.7,
+      "soporte_obvio": 100.0,
+      "resistencia_obvia": 107.5,
+      "soporte_secundario": 98.15,
+      "resistencia_secundaria": 110.85,
+      "distancia_max_52s_pct": -8.2,
+      "distancia_min_52s_pct": 35.8,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 142,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "catalizador_desc": "Backlog robusto y plan infraestructuras europeo post-pandemia",
+      "catalizador_reversible": false,
+      "shorts_pct": 1.2,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Exposición a tipos de interés y costes materiales",
+      "horizonte_dias": 5,
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-04-15",
+          "descripcion": "Dividend payment 1.35 EUR"
+        }
+      ]
+    },
+    {
+      "ranking": 3,
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "sector": "Retail",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 51.62,
+      "entrada": 52.35,
+      "stop_loss": 49.15,
+      "stop_pct": -6.1,
+      "take_profit_1": 54.85,
+      "tp1_pct": 4.8,
+      "take_profit_2": 57.65,
+      "tp2_pct": 10.1,
+      "soporte_obvio": 50.0,
+      "resistencia_obvia": 53.5,
+      "soporte_secundario": 48.85,
+      "resistencia_secundaria": 55.15,
+      "distancia_max_52s_pct": -15.3,
+      "distancia_min_52s_pct": 22.1,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 118,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "catalizador_desc": "Recuperación consumo europeo y expansión digital acelerada",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.3,
+      "prob_barrido": "BAJA",
+      "riesgo": "Sensibilidad al consumo discrecional y competencia fast-fashion",
+      "horizonte_dias": 3,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-18",
+          "descripcion": "FY2025 full year results"
+        }
+      ]
+    },
+    {
+      "ranking": 4,
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 19.81,
+      "entrada": 19.95,
+      "stop_loss": 18.65,
+      "stop_pct": -6.5,
+      "take_profit_1": 21.15,
+      "tp1_pct": 6.0,
+      "take_profit_2": 22.35,
+      "tp2_pct": 12.0,
+      "soporte_obvio": 19.2,
+      "resistencia_obvia": 20.5,
+      "soporte_secundario": 18.85,
+      "resistencia_secundaria": 21.35,
+      "distancia_max_52s_pct": -9.8,
+      "distancia_min_52s_pct": 18.5,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 108,
+      "catalizador_tipo": "SECTORIAL",
+      "catalizador_desc": "Expectativas tipos BCE más dovish benefician utilities defensivas",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.4,
+      "prob_barrido": "BAJA",
+      "riesgo": "Regulación energética y competencia renovables",
+      "horizonte_dias": 4,
+      "eventos_proximos": [
+        {
+          "tipo": "EX_DIVIDENDO",
+          "fecha": "2026-04-02",
+          "descripcion": "Ex-dividend date 0.168 EUR"
+        }
+      ]
+    },
+    {
+      "ranking": 5,
+      "ticker": "BBVA",
+      "nombre": "BBVA",
+      "sector": "Banca",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 18.01,
+      "entrada": 18.25,
+      "stop_loss": 17.15,
+      "stop_pct": -6.0,
+      "take_profit_1": 19.15,
+      "tp1_pct": 4.9,
+      "take_profit_2": 20.35,
+      "tp2_pct": 11.5,
+      "soporte_obvio": 17.5,
+      "resistencia_obvia": 18.75,
+      "soporte_secundario": 16.95,
+      "resistencia_secundaria": 19.45,
+      "distancia_max_52s_pct": -13.2,
+      "distancia_min_52s_pct": 25.8,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 125,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "catalizador_desc": "Exposición México beneficiada por nearshoring y tipos estables",
+      "catalizador_reversible": true,
+      "shorts_pct": 1.8,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Sensibilidad tipos interés y riesgo emergentes México",
+      "horizonte_dias": 3,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-30",
+          "descripcion": "Q1 2026 results presentation"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "COL",
+      "razon": "Sector inmobiliario en debilidad semanal (-1.8%)",
+      "shorts_pct": 0.2
+    },
+    {
+      "ticker": "MRL",
+      "razon": "Sector inmobiliario bajo presión por tipos",
+      "shorts_pct": 0.1
+    },
+    {
+      "ticker": "TEF",
+      "razon": "Telecom con fundamentales deteriorados",
+      "shorts_pct": 2.1
+    }
+  ]
+}

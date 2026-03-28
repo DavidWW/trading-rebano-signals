@@ -1,0 +1,38 @@
+{
+  "fecha": "2026-02-18",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "resumen": {
+    "ibex_var_pct": 0.0,
+    "valores_destacados": [
+      "SAN +2%",
+      "REP -1%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "SAN",
+      "nivel_barrido": 10.5,
+      "recupero": true,
+      "recuperacion_pct": 2.1
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "BBVA",
+      "nombre": "Banco Bilbao Vizcaya Argentaria",
+      "accion": "COMPRA",
+      "precio_cierre": 20.0,
+      "soporte_obvio": 19.5,
+      "resistencia_obvia": 21.0,
+      "catalizador_tipo": "TECNICO",
+      "razon": "El precio ha roto resistencia de corto plazo"
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "REP",
+      "razon": "Corrección en el precio del petróleo afectando el valor"
+    }
+  ]
+}

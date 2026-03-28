@@ -1,0 +1,161 @@
+{
+  "fecha": "2026-03-13",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Brent",
+        "var_dia_pct": -1.8,
+        "nuevo_precio": 72.45
+      },
+      {
+        "activo": "Cobre",
+        "var_dia_pct": 2.1,
+        "nuevo_precio": 9875.0
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "CAC40",
+        "var_dia_pct": -0.8
+      },
+      {
+        "indice": "FTSE MIB",
+        "var_dia_pct": 1.2
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 16.8,
+      "nivel": "NORMAL",
+      "cambio_significativo": false
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Utilities Europeas",
+        "var_dia_pct": 1.8,
+        "direccion": "POSITIVO"
+      },
+      {
+        "nombre": "Energia",
+        "var_dia_pct": -1.5,
+        "direccion": "NEGATIVO"
+      }
+    ],
+    "resumen_cambios": "Sesión mixta con rotación hacia utilities y presión en energía por caída del petróleo"
+  },
+  "resumen": {
+    "ibex_var_pct": 0.4,
+    "valores_destacados": [
+      "IDR +2.1%",
+      "IBE +1.8%",
+      "REP -2.2%",
+      "TEF -1.9%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "TEF",
+      "nivel_barrido": 3.6,
+      "recupero": false,
+      "recuperacion_pct": -0.3
+    },
+    {
+      "ticker": "IAG",
+      "nivel_barrido": 4.15,
+      "recupero": true,
+      "recuperacion_pct": 1.2
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "precio_cierre": 19.81,
+      "soporte_obvio": 19.25,
+      "resistencia_obvia": 20.5,
+      "soporte_secundario": 18.85,
+      "resistencia_secundaria": 21.15,
+      "distancia_max_52s_pct": -8.2,
+      "distancia_min_52s_pct": 22.5,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 165,
+      "catalizador_tipo": "MACRO",
+      "razon": "Fortaleza utilities por caída tipos y plan inversión renovables",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-28",
+          "descripcion": "Presentación plan estratégico 2026-2030"
+        }
+      ]
+    },
+    {
+      "ticker": "IDR",
+      "nombre": "Indra",
+      "sector": "Defensa/Tech",
+      "accion": "COMPRA",
+      "precio_cierre": 59.0,
+      "soporte_obvio": 57.15,
+      "resistencia_obvia": 62.5,
+      "soporte_secundario": 55.3,
+      "resistencia_secundaria": 65.85,
+      "distancia_max_52s_pct": -5.8,
+      "distancia_min_52s_pct": 48.7,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 185,
+      "catalizador_tipo": "GEOPOLITICO",
+      "razon": "Momentum defensivo y contratos tecnológicos, breakout alcista",
+      "eventos_proximos": [
+        {
+          "tipo": "OTRO",
+          "fecha": "2026-03-20",
+          "descripcion": "Presentación en congreso defensa europeo"
+        }
+      ]
+    },
+    {
+      "ticker": "SLR",
+      "nombre": "Solaria",
+      "sector": "Renovables",
+      "accion": "VIGILAR",
+      "precio_cierre": 20.86,
+      "soporte_obvio": 20.15,
+      "resistencia_obvia": 22.3,
+      "soporte_secundario": 19.35,
+      "resistencia_secundaria": 23.65,
+      "distancia_max_52s_pct": -12.4,
+      "distancia_min_52s_pct": 35.2,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 125,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Consolidación antes posible movimiento, esperar confirmación",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-02",
+          "descripcion": "Resultados Q1 2026"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "REP",
+      "razon": "Presión por caída petróleo y márgenes refinado",
+      "shorts_pct": 0.3
+    },
+    {
+      "ticker": "TEF",
+      "razon": "Debilidad técnica bajo 3.60, sin catalizadores positivos",
+      "shorts_pct": 1.2
+    },
+    {
+      "ticker": "SAB",
+      "razon": "Banca pequeña con problemas estructurales",
+      "shorts_pct": 0.8
+    }
+  ]
+}

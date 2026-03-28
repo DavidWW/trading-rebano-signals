@@ -1,0 +1,167 @@
+{
+  "version": "4.1",
+  "fecha": "2026-01-29",
+  "sesion": "manana",
+  "hora": "06:30",
+  "alertas_shorts": [],
+  "consensos_ayer_pendientes": [],
+  "triangulacion": {
+    "consensos": [
+      {
+        "ticker": "ITX",
+        "nombre": "Inditex",
+        "accion": "COMPRA",
+        "tipo": "TOTAL",
+        "conviccion_claude": "ALTA",
+        "conviccion_openai": "ALTA",
+        "stop_claude": 52.73,
+        "stop_openai": 52.92,
+        "target_claude": 55.5,
+        "target_openai": 57.0,
+        "soporte_obvio_claude": 52.5,
+        "soporte_obvio_openai": 53.0,
+        "catalizador_claude": "SECTORIAL",
+        "catalizador_openai": "TECNICO",
+        "prob_barrido_claude": "MEDIA",
+        "prob_barrido_openai": "MEDIA",
+        "precio_actual": 54.12
+      },
+      {
+        "ticker": "BBVA",
+        "nombre": "Banco Bilbao Vizcaya",
+        "accion": "COMPRA",
+        "tipo": "TOTAL",
+        "conviccion_claude": "MEDIA",
+        "conviccion_openai": "MEDIA",
+        "stop_claude": 20.43,
+        "stop_openai": 20.49,
+        "target_claude": 21.6,
+        "target_openai": 22.0,
+        "soporte_obvio_claude": 20.2,
+        "soporte_obvio_openai": 20.5,
+        "catalizador_claude": "FUNDAMENTAL",
+        "catalizador_openai": "SECTORIAL",
+        "prob_barrido_claude": "BAJA",
+        "prob_barrido_openai": "BAJA",
+        "precio_actual": 21.02
+      },
+      {
+        "ticker": "REP",
+        "nombre": "Repsol",
+        "accion": "COMPRA",
+        "tipo": "TOTAL",
+        "conviccion_claude": "MEDIA",
+        "conviccion_openai": "MEDIA",
+        "stop_claude": 15.53,
+        "stop_openai": 15.61,
+        "target_claude": 16.4,
+        "target_openai": 16.8,
+        "soporte_obvio_claude": 15.4,
+        "soporte_obvio_openai": 15.5,
+        "catalizador_claude": "GEOPOLITICO",
+        "catalizador_openai": "FUNDAMENTAL",
+        "prob_barrido_claude": "MEDIA",
+        "prob_barrido_openai": "BAJA",
+        "precio_actual": 15.97
+      },
+      {
+        "ticker": "IBE",
+        "nombre": "Iberdrola",
+        "accion": "COMPRA",
+        "tipo": "TOTAL",
+        "conviccion_claude": "MEDIA",
+        "conviccion_openai": "MEDIA",
+        "stop_claude": 18.28,
+        "stop_openai": 18.4,
+        "target_claude": 19.2,
+        "target_openai": 19.5,
+        "soporte_obvio_claude": 18.2,
+        "soporte_obvio_openai": 18.5,
+        "catalizador_claude": "SECTORIAL",
+        "catalizador_openai": "FUNDAMENTAL",
+        "prob_barrido_claude": "BAJA",
+        "prob_barrido_openai": "MEDIA",
+        "precio_actual": 18.78
+      }
+    ],
+    "solo_claude": [
+      {
+        "ranking": 5,
+        "ticker": "AENA",
+        "nombre": "Aena",
+        "accion": "VENTA",
+        "conviccion": "BAJA",
+        "precio_actual": 25.42,
+        "entrada": 25.5,
+        "stop_loss": 26.01,
+        "stop_pct": -2.0,
+        "take_profit_1": 24.8,
+        "tp1_pct": 2.7,
+        "take_profit_2": 24.2,
+        "tp2_pct": 5.1,
+        "soporte_obvio": 24.5,
+        "resistencia_obvia": 26.2,
+        "catalizador_tipo": "TECNICO",
+        "catalizador_desc": "Resistencia técnica tras subida reciente",
+        "catalizador_reversible": true,
+        "shorts_pct": 0.7,
+        "prob_barrido": "MEDIA",
+        "riesgo": "Datos tráfico aéreo positivos inesperados",
+        "horizonte_dias": 3
+      }
+    ],
+    "solo_openai": [
+      {
+        "ranking": 5,
+        "ticker": "AENA",
+        "nombre": "Aena",
+        "accion": "COMPRA",
+        "conviccion": "MEDIA",
+        "precio_actual": 25.42,
+        "entrada": 25.5,
+        "stop_loss": 24.9,
+        "stop_pct": -2.4,
+        "take_profit_1": 26.5,
+        "tp1_pct": 4.25,
+        "take_profit_2": 27.0,
+        "tp2_pct": 6.24,
+        "soporte_obvio": 24.8,
+        "resistencia_obvia": 26.0,
+        "catalizador_tipo": "TECNICO",
+        "catalizador_desc": "Patrón de inversión",
+        "catalizador_reversible": false,
+        "shorts_pct": 0.3,
+        "prob_barrido": "BAJA",
+        "riesgo": "Impacto en turismo",
+        "horizonte_dias": 3
+      }
+    ],
+    "evitar": [
+      {
+        "ticker": "TEF",
+        "razon": "Debilidad fundamental sector telco y alta volatilidad"
+      },
+      {
+        "ticker": "SAB",
+        "razon": "Baja liquidez y momentum bajista persistente"
+      },
+      {
+        "ticker": "IAG",
+        "razon": "Alta incertidumbre en el sector aéreo con shorts del 1.2"
+      },
+      {
+        "ticker": "MAP",
+        "razon": "Poca volatilidad con shorts del 1.1"
+      }
+    ],
+    "sentimiento_claude": "NEUTRAL",
+    "sentimiento_openai": "ALCISTA"
+  },
+  "reglas_aplicadas": {
+    "R9_delay": true,
+    "R10_shorts": false,
+    "consensos_hoy": 4,
+    "valores_evitar": 4
+  },
+  "accion_recomendada": "OBSERVAR"
+}

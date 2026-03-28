@@ -1,0 +1,538 @@
+{
+  "version": "4.5",
+  "fecha": "2026-03-26",
+  "sesion": "manana",
+  "hora": "07:47",
+  "alertas_shorts": [],
+  "consensos_ayer_pendientes": [],
+  "triangulacion": {
+    "consensos": [
+      {
+        "ticker": "ITX",
+        "nombre": "Inditex",
+        "sector": "Retail",
+        "accion": "COMPRA",
+        "tipo": "TOTAL",
+        "conviccion_claude": "MEDIA",
+        "conviccion_openai": "MEDIA",
+        "stop_claude": 47.85,
+        "stop_openai": 48.35,
+        "target_claude": 52.3,
+        "target_openai": 52.5,
+        "soporte_obvio_claude": 49.5,
+        "soporte_obvio_openai": 49.0,
+        "soporte_sec_claude": 48.8,
+        "soporte_sec_openai": 48.5,
+        "resistencia_obvia_claude": 51.2,
+        "resistencia_obvia_openai": 51.5,
+        "catalizador_claude": "FUNDAMENTAL",
+        "catalizador_openai": "TECNICO",
+        "prob_barrido_claude": "BAJA",
+        "prob_barrido_openai": "MEDIA",
+        "tendencia_claude": "LATERAL",
+        "tendencia_openai": "ALCISTA",
+        "dist_max_52s_claude": -6.8,
+        "dist_max_52s_openai": -5.0,
+        "dist_min_52s_claude": 28.4,
+        "dist_min_52s_openai": 22.1,
+        "volumen_claude": 118,
+        "volumen_openai": 120,
+        "shorts_claude": 0.1,
+        "shorts_openai": 0.4,
+        "eventos_claude": [],
+        "eventos_openai": [
+          {
+            "tipo": "JUNTA",
+            "fecha": "2026-03-28",
+            "descripcion": "Junta de accionistas"
+          }
+        ],
+        "precio_actual": 50.4
+      },
+      {
+        "ticker": "REP",
+        "nombre": "Repsol",
+        "sector": "Energía",
+        "accion": "COMPRA",
+        "tipo": "TOTAL",
+        "conviccion_claude": "MEDIA",
+        "conviccion_openai": "MEDIA",
+        "stop_claude": 22.15,
+        "stop_openai": 22.85,
+        "target_claude": 24.85,
+        "target_openai": 25.0,
+        "soporte_obvio_claude": 23.0,
+        "soporte_obvio_openai": 23.1,
+        "soporte_sec_claude": 22.4,
+        "soporte_sec_openai": 22.75,
+        "resistencia_obvia_claude": 24.2,
+        "resistencia_obvia_openai": 24.8,
+        "catalizador_claude": "MACRO",
+        "catalizador_openai": "MACRO",
+        "prob_barrido_claude": "MEDIA",
+        "prob_barrido_openai": "MEDIA",
+        "tendencia_claude": "LATERAL",
+        "tendencia_openai": "ALCISTA",
+        "dist_max_52s_claude": -15.2,
+        "dist_max_52s_openai": -4.5,
+        "dist_min_52s_claude": 31.6,
+        "dist_min_52s_openai": 19.6,
+        "volumen_claude": 135,
+        "volumen_openai": 112,
+        "shorts_claude": 0.4,
+        "shorts_openai": 0.6,
+        "eventos_claude": [],
+        "eventos_openai": [
+          {
+            "tipo": "DIVIDENDO",
+            "fecha": "2026-04-05",
+            "descripcion": "Fecha ex-dividendo"
+          }
+        ],
+        "precio_actual": 23.62
+      }
+    ],
+    "solo_claude": [
+      {
+        "ranking": 1,
+        "ticker": "IDR",
+        "nombre": "Indra",
+        "sector": "Defensa/Tech",
+        "accion": "COMPRA",
+        "conviccion": "ALTA",
+        "precio_actual": 48.02,
+        "entrada": 47.85,
+        "stop_loss": 45.15,
+        "stop_pct": -5.6,
+        "take_profit_1": 50.85,
+        "tp1_pct": 6.3,
+        "take_profit_2": 53.2,
+        "tp2_pct": 11.2,
+        "soporte_obvio": 46.8,
+        "resistencia_obvia": 49.5,
+        "soporte_secundario": 45.3,
+        "resistencia_secundaria": 51.2,
+        "distancia_max_52s_pct": -8.2,
+        "distancia_min_52s_pct": 42.1,
+        "tendencia": "ALCISTA",
+        "volumen_vs_media_pct": 165,
+        "catalizador_tipo": "SECTORIAL",
+        "catalizador_desc": "Impulso defensa europea post-tensiones geopolíticas",
+        "catalizador_reversible": false,
+        "shorts_pct": 0.2,
+        "prob_barrido": "BAJA",
+        "riesgo": "Corrección sector tech si BCE más hawkish",
+        "horizonte_dias": 4,
+        "eventos_proximos": []
+      },
+      {
+        "ranking": 2,
+        "ticker": "BBVA",
+        "nombre": "BBVA",
+        "sector": "Banca",
+        "accion": "COMPRA",
+        "conviccion": "ALTA",
+        "precio_actual": 18.68,
+        "entrada": 18.55,
+        "stop_loss": 17.35,
+        "stop_pct": -6.5,
+        "take_profit_1": 19.85,
+        "tp1_pct": 7.0,
+        "take_profit_2": 21.1,
+        "tp2_pct": 13.7,
+        "soporte_obvio": 18.0,
+        "resistencia_obvia": 19.2,
+        "soporte_secundario": 17.5,
+        "resistencia_secundaria": 20.0,
+        "distancia_max_52s_pct": -12.4,
+        "distancia_min_52s_pct": 38.9,
+        "tendencia": "ALCISTA",
+        "volumen_vs_media_pct": 142,
+        "catalizador_tipo": "MACRO",
+        "catalizador_desc": "Beneficio tipos altos BCE mantenidos",
+        "catalizador_reversible": true,
+        "shorts_pct": 0.3,
+        "prob_barrido": "MEDIA",
+        "riesgo": "Reversión si BCE señala bajadas agresivas",
+        "horizonte_dias": 3,
+        "eventos_proximos": []
+      },
+      {
+        "ranking": 5,
+        "ticker": "ACS",
+        "nombre": "ACS",
+        "sector": "Construcción",
+        "accion": "VENTA",
+        "conviccion": "MEDIA",
+        "precio_actual": 107.0,
+        "entrada": 106.85,
+        "stop_loss": 109.65,
+        "stop_pct": -2.6,
+        "take_profit_1": 104.2,
+        "tp1_pct": -2.5,
+        "take_profit_2": 101.8,
+        "tp2_pct": -4.7,
+        "soporte_obvio": 105.0,
+        "resistencia_obvia": 108.5,
+        "soporte_secundario": 103.5,
+        "resistencia_secundaria": 110.0,
+        "distancia_max_52s_pct": -3.1,
+        "distancia_min_52s_pct": 48.2,
+        "tendencia": "BAJISTA",
+        "volumen_vs_media_pct": 178,
+        "catalizador_tipo": "TECNICO",
+        "catalizador_desc": "Ruptura soporte clave 107 con volumen alto",
+        "catalizador_reversible": true,
+        "shorts_pct": 0.8,
+        "prob_barrido": "ALTA",
+        "riesgo": "Rebote técnico desde 105 por oversold",
+        "horizonte_dias": 3,
+        "eventos_proximos": []
+      }
+    ],
+    "solo_openai": [
+      {
+        "ranking": 5,
+        "ticker": "ACS",
+        "nombre": "ACS",
+        "sector": "Construcción",
+        "accion": "COMPRA",
+        "conviccion": "BAJA",
+        "precio_actual": 107.0,
+        "entrada": 106.5,
+        "stop_loss": 103.9,
+        "stop_pct": -2.4,
+        "take_profit_1": 110.5,
+        "tp1_pct": 3.3,
+        "take_profit_2": 112.8,
+        "tp2_pct": 5.4,
+        "soporte_obvio": 105.0,
+        "resistencia_obvia": 109.5,
+        "soporte_secundario": 102.5,
+        "resistencia_secundaria": 113.0,
+        "distancia_max_52s_pct": -6.0,
+        "distancia_min_52s_pct": 18.7,
+        "tendencia": "LATERAL",
+        "volumen_vs_media_pct": 98,
+        "catalizador_tipo": "TECNICO",
+        "catalizador_desc": "Ruptura por análisis técnico de patrón de consolidación",
+        "catalizador_reversible": true,
+        "shorts_pct": 0.7,
+        "prob_barrido": "MEDIA",
+        "riesgo": "Falsa ruptura por baja convicción general",
+        "horizonte_dias": 3,
+        "eventos_proximos": [
+          {
+            "tipo": "OTRO",
+            "fecha": "2026-04-02",
+            "descripcion": "Adjudicación de nuevo contrato internacional"
+          }
+        ]
+      },
+      {
+        "ranking": 1,
+        "ticker": "IBE",
+        "nombre": "Iberdrola",
+        "sector": "Utilities",
+        "accion": "COMPRA",
+        "conviccion": "ALTA",
+        "precio_actual": 19.4,
+        "entrada": 19.15,
+        "stop_loss": 18.85,
+        "stop_pct": -1.3,
+        "take_profit_1": 20.5,
+        "tp1_pct": 5.7,
+        "take_profit_2": 21.2,
+        "tp2_pct": 9.3,
+        "soporte_obvio": 18.7,
+        "resistencia_obvia": 20.0,
+        "soporte_secundario": 18.5,
+        "resistencia_secundaria": 20.5,
+        "distancia_max_52s_pct": -2.0,
+        "distancia_min_52s_pct": 15.4,
+        "tendencia": "ALCISTA",
+        "volumen_vs_media_pct": 165,
+        "catalizador_tipo": "SECTORIAL",
+        "catalizador_desc": "Mejores perspectivas en el sector energético renovable",
+        "catalizador_reversible": false,
+        "shorts_pct": 0.2,
+        "prob_barrido": "BAJA",
+        "riesgo": "Posible volatilidad sectorial",
+        "horizonte_dias": 4,
+        "eventos_proximos": [
+          {
+            "tipo": "RESULTADOS",
+            "fecha": "2026-03-30",
+            "descripcion": "Presentación de resultados Q1"
+          }
+        ]
+      },
+      {
+        "ranking": 4,
+        "ticker": "GRF",
+        "nombre": "Grifols",
+        "sector": "Salud",
+        "accion": "VENTA",
+        "conviccion": "ALTA",
+        "precio_actual": 8.96,
+        "entrada": 9.1,
+        "stop_loss": 9.42,
+        "stop_pct": 3.5,
+        "take_profit_1": 8.4,
+        "tp1_pct": -6.3,
+        "take_profit_2": 8.0,
+        "tp2_pct": -10.7,
+        "soporte_obvio": 8.5,
+        "resistencia_obvia": 9.3,
+        "soporte_secundario": 8.0,
+        "resistencia_secundaria": 9.6,
+        "distancia_max_52s_pct": -15.3,
+        "distancia_min_52s_pct": 5.7,
+        "tendencia": "BAJISTA",
+        "volumen_vs_media_pct": 175,
+        "catalizador_tipo": "FUNDAMENTAL",
+        "catalizador_desc": "Aumento en costos de producción inesperado",
+        "catalizador_reversible": false,
+        "shorts_pct": 1.2,
+        "prob_barrido": "ALTA",
+        "riesgo": "Continua debilidad en márgenes",
+        "horizonte_dias": 5,
+        "eventos_proximos": [
+          {
+            "tipo": "RESULTADOS",
+            "fecha": "2026-03-31",
+            "descripcion": "Reporte trimestral Q1"
+          }
+        ]
+      }
+    ],
+    "evitar": [
+      {
+        "ticker": "IBE",
+        "razon": "Sector utilities en corrección -12% desde máximos",
+        "shorts_pct": 0.1
+      },
+      {
+        "ticker": "ELE",
+        "razon": "Presión tipos BCE sobre utilities defensivas",
+        "shorts_pct": 0.2
+      },
+      {
+        "ticker": "COL",
+        "razon": "Inmobiliario peor sector semanal -2.8%",
+        "shorts_pct": 0.3
+      },
+      {
+        "ticker": "GRF",
+        "razon": "Aumento en costos de producción inesperado",
+        "shorts_pct": 1.2
+      }
+    ],
+    "sentimiento_claude": "NEUTRAL",
+    "sentimiento_openai": "NEUTRAL",
+    "radar_macro_claude": {
+      "commodities": {
+        "oro": {
+          "precio_usd": 2087.5,
+          "var_semanal_pct": -1.2,
+          "var_mensual_pct": 2.8,
+          "dist_max_52s_pct": -3.4,
+          "alerta": false
+        },
+        "plata": {
+          "precio_usd": 24.32,
+          "var_semanal_pct": -2.1,
+          "var_mensual_pct": 1.9,
+          "dist_max_52s_pct": -8.7,
+          "alerta": false
+        },
+        "petroleo_brent": {
+          "precio_usd": 82.15,
+          "var_semanal_pct": 1.8,
+          "var_mensual_pct": 4.2,
+          "alerta": false
+        }
+      },
+      "indices": {
+        "sp500": {
+          "valor": 5845,
+          "var_semanal_pct": 0.6,
+          "dist_max_52s_pct": -1.2,
+          "alerta": false
+        },
+        "nasdaq100": {
+          "valor": 20124,
+          "var_semanal_pct": 1.1,
+          "dist_max_52s_pct": -2.8,
+          "alerta": false
+        },
+        "stoxx600": {
+          "valor": 512,
+          "var_semanal_pct": -0.3,
+          "dist_max_52s_pct": -4.1,
+          "alerta": false
+        },
+        "msci_em": {
+          "valor": 1087,
+          "var_semanal_pct": -1.4,
+          "dist_max_52s_pct": -6.8,
+          "alerta": false
+        },
+        "nikkei225": {
+          "valor": 39450,
+          "var_semanal_pct": 2.3,
+          "dist_max_52s_pct": -1.9,
+          "alerta": false
+        }
+      },
+      "sectores_europa": {
+        "mejor_sector": {
+          "nombre": "Tecnología",
+          "var_semanal_pct": 3.2
+        },
+        "peor_sector": {
+          "nombre": "Inmobiliario",
+          "var_semanal_pct": -2.8
+        },
+        "sector_en_correccion": {
+          "hay_correccion": true,
+          "nombre": "Utilities",
+          "caida_desde_max_pct": -12.1,
+          "causa": "Presión tipos interés BCE"
+        }
+      },
+      "divisas": {
+        "eur_usd": {
+          "valor": 1.0825,
+          "var_semanal_pct": -0.4,
+          "var_mensual_pct": 1.2
+        }
+      },
+      "vix": {
+        "valor": 17.8,
+        "nivel": "NORMAL"
+      },
+      "eventos_clave": [
+        {
+          "evento": "BCE - Decisión tipos interés",
+          "hora_cet": "14:15",
+          "relevancia": "ALTA"
+        },
+        {
+          "evento": "Rueda prensa Lagarde",
+          "hora_cet": "14:45",
+          "relevancia": "ALTA"
+        },
+        {
+          "evento": "PMI servicios Eurozona final",
+          "hora_cet": "10:00",
+          "relevancia": "MEDIA"
+        }
+      ],
+      "resumen_macro": "Cautela pre-BCE con utilities presionadas por expectativas tipos"
+    },
+    "radar_macro_openai": {
+      "commodities": {
+        "oro": {
+          "precio_usd": 1975.5,
+          "var_semanal_pct": 1.2,
+          "var_mensual_pct": 0.5,
+          "dist_max_52s_pct": -3.0,
+          "alerta": false
+        },
+        "plata": {
+          "precio_usd": 25.7,
+          "var_semanal_pct": 0.8,
+          "var_mensual_pct": -1.4,
+          "dist_max_52s_pct": -5.5,
+          "alerta": false
+        },
+        "petroleo_brent": {
+          "precio_usd": 82.3,
+          "var_semanal_pct": -0.6,
+          "var_mensual_pct": 2.3,
+          "alerta": false
+        }
+      },
+      "indices": {
+        "sp500": {
+          "valor": 4265,
+          "var_semanal_pct": -0.4,
+          "dist_max_52s_pct": -6.5,
+          "alerta": false
+        },
+        "nasdaq100": {
+          "valor": 13247,
+          "var_semanal_pct": 0.5,
+          "dist_max_52s_pct": -8.1,
+          "alerta": false
+        },
+        "stoxx600": {
+          "valor": 467,
+          "var_semanal_pct": 0.2,
+          "dist_max_52s_pct": -4.3,
+          "alerta": false
+        },
+        "msci_em": {
+          "valor": 1325,
+          "var_semanal_pct": -0.7,
+          "dist_max_52s_pct": -11.9,
+          "alerta": false
+        },
+        "nikkei225": {
+          "valor": 28345,
+          "var_semanal_pct": 1.0,
+          "dist_max_52s_pct": -2.9,
+          "alerta": false
+        }
+      },
+      "sectores_europa": {
+        "mejor_sector": {
+          "nombre": "Tecnología",
+          "var_semanal_pct": 1.3
+        },
+        "peor_sector": {
+          "nombre": "Turismo",
+          "var_semanal_pct": -2.1
+        },
+        "sector_en_correccion": {
+          "hay_correccion": false,
+          "nombre": "",
+          "caida_desde_max_pct": 0.0,
+          "causa": ""
+        }
+      },
+      "divisas": {
+        "eur_usd": {
+          "valor": 1.085,
+          "var_semanal_pct": 0.2,
+          "var_mensual_pct": -0.8
+        }
+      },
+      "vix": {
+        "valor": 18.5,
+        "nivel": "NORMAL"
+      },
+      "eventos_clave": [
+        {
+          "evento": "Reunión BCE",
+          "hora_cet": "14:30",
+          "relevancia": "ALTA"
+        },
+        {
+          "evento": "Informe de empleo en EE.UU.",
+          "hora_cet": "16:00",
+          "relevancia": "ALTA"
+        }
+      ],
+      "resumen_macro": "Neutral con ligera inclinación hacia risk-off"
+    }
+  },
+  "reglas_aplicadas": {
+    "R9_delay": true,
+    "R10_shorts": false,
+    "consensos_hoy": 2,
+    "valores_evitar": 4
+  },
+  "accion_recomendada": "OBSERVAR"
+}

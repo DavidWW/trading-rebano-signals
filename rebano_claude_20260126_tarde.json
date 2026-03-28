@@ -1,0 +1,62 @@
+{
+  "fecha": "2026-01-26",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "resumen": {
+    "ibex_var_pct": 0.0,
+    "valores_destacados": [
+      "ACS +1.2%",
+      "TEF -0.8%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "TEF",
+      "nivel_barrido": 3.35,
+      "recupero": false,
+      "recuperacion_pct": 0.0
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "BBVA",
+      "nombre": "Banco Bilbao Vizcaya",
+      "accion": "COMPRA",
+      "precio_cierre": 21.33,
+      "soporte_obvio": 20.8,
+      "resistencia_obvia": 22.5,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Consolidación sobre soporte clave con volumen"
+    },
+    {
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "accion": "VIGILAR",
+      "precio_cierre": 54.34,
+      "soporte_obvio": 53.0,
+      "resistencia_obvia": 56.0,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Próximas ventas navideñas y expansión internacional"
+    },
+    {
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "accion": "COMPRA",
+      "precio_cierre": 15.97,
+      "soporte_obvio": 15.5,
+      "resistencia_obvia": 17.2,
+      "catalizador_tipo": "GEOPOLITICO",
+      "razon": "Tensiones geopolíticas benefician sector energético"
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "TEF",
+      "razon": "Debilidad técnica persistente y barrido de soporte"
+    },
+    {
+      "ticker": "SAB",
+      "razon": "Baja liquidez y volatilidad excesiva"
+    }
+  ]
+}

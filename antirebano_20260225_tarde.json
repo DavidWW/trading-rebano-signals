@@ -1,0 +1,51 @@
+{
+  "version": "4.5",
+  "fecha": "2026-02-25",
+  "sesion": "tarde",
+  "hora": "18:16",
+  "alertas_shorts": [],
+  "consensos_ayer_pendientes": [],
+  "triangulacion": {
+    "consensos": [],
+    "solo_claude": [],
+    "solo_openai": [],
+    "evitar": [
+      {
+        "ticker": "REP",
+        "razon": "Ruptura bajista de soporte clave con debilidad del crudo",
+        "shorts_pct": 0.8
+      },
+      {
+        "ticker": "TEF",
+        "razon": "Debilidad persistente en mínimos anuales",
+        "shorts_pct": 0.3
+      },
+      {
+        "ticker": "IAG",
+        "razon": "Sector aéreo bajo presión por costes combustible",
+        "shorts_pct": 1.2
+      },
+      {
+        "ticker": "IBERDROLA",
+        "razon": "Shorts institucionales",
+        "shorts_pct": 0.6
+      },
+      {
+        "ticker": "BBVA",
+        "razon": "Shorts institucionales",
+        "shorts_pct": 0.7
+      }
+    ],
+    "sentimiento_claude": "NEUTRAL",
+    "sentimiento_openai": "NEUTRAL",
+    "radar_macro_claude": {},
+    "radar_macro_openai": {}
+  },
+  "reglas_aplicadas": {
+    "R9_delay": false,
+    "R10_shorts": false,
+    "consensos_hoy": 0,
+    "valores_evitar": 5
+  },
+  "accion_recomendada": "EVALUAR"
+}

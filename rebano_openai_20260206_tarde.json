@@ -1,0 +1,38 @@
+{
+  "fecha": "2026-02-06",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "resumen": {
+    "ibex_var_pct": 0.0,
+    "valores_destacados": [
+      "REP +2%",
+      "FDR -1%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "REP",
+      "nivel_barrido": 16.5,
+      "recupero": true,
+      "recuperacion_pct": 1.8
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "SAN",
+      "nombre": "Santander",
+      "accion": "COMPRA",
+      "precio_cierre": 10.66,
+      "soporte_obvio": 10.5,
+      "resistencia_obvia": 11.0,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Rebote en soporte obvio"
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "IAG",
+      "razon": "Shorts elevados"
+    }
+  ]
+}

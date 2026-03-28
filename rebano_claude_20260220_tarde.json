@@ -1,0 +1,62 @@
+{
+  "fecha": "2026-02-20",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "resumen": {
+    "ibex_var_pct": 0.0,
+    "valores_destacados": [
+      "ACS estable en 106€",
+      "FER mantiene 61.72€"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "TEF",
+      "nivel_barrido": 3.5,
+      "recupero": true,
+      "recuperacion_pct": 2.3
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "SAN",
+      "nombre": "Santander",
+      "accion": "COMPRA",
+      "precio_cierre": 10.76,
+      "soporte_obvio": 10.5,
+      "resistencia_obvia": 11.2,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Consolidacion tras correccion, volumen defensivo"
+    },
+    {
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "accion": "VIGILAR",
+      "precio_cierre": 57.66,
+      "soporte_obvio": 56.0,
+      "resistencia_obvia": 60.0,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Proximidad a resultados Q4, patron estacional positivo"
+    },
+    {
+      "ticker": "IAG",
+      "nombre": "IAG",
+      "accion": "COMPRA",
+      "precio_cierre": 5.01,
+      "soporte_obvio": 4.85,
+      "resistencia_obvia": 5.4,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Rebote desde minimos, sector aereo recuperandose"
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "TEF",
+      "razon": "Alta volatilidad reciente, falta de direccion clara"
+    },
+    {
+      "ticker": "SAB",
+      "razon": "Debilidad persistente en 3.29, sin catalizadores"
+    }
+  ]
+}

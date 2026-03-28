@@ -1,0 +1,46 @@
+{
+  "version": "4.5",
+  "fecha": "2026-03-13",
+  "sesion": "tarde",
+  "hora": "17:54",
+  "alertas_shorts": [],
+  "consensos_ayer_pendientes": [],
+  "triangulacion": {
+    "consensos": [],
+    "solo_claude": [],
+    "solo_openai": [],
+    "evitar": [
+      {
+        "ticker": "REP",
+        "razon": "Presión por caída petróleo y márgenes refinado",
+        "shorts_pct": 0.3
+      },
+      {
+        "ticker": "TEF",
+        "razon": "Debilidad técnica bajo 3.60, sin catalizadores positivos",
+        "shorts_pct": 1.2
+      },
+      {
+        "ticker": "SAB",
+        "razon": "Banca pequeña con problemas estructurales",
+        "shorts_pct": 0.8
+      },
+      {
+        "ticker": "IAG",
+        "razon": "Altos niveles de shorts institucionales",
+        "shorts_pct": 1.2
+      }
+    ],
+    "sentimiento_claude": "NEUTRAL",
+    "sentimiento_openai": "NEUTRAL",
+    "radar_macro_claude": {},
+    "radar_macro_openai": {}
+  },
+  "reglas_aplicadas": {
+    "R9_delay": false,
+    "R10_shorts": false,
+    "consensos_hoy": 0,
+    "valores_evitar": 4
+  },
+  "accion_recomendada": "EVALUAR"
+}

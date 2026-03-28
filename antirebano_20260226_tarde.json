@@ -1,0 +1,46 @@
+{
+  "version": "4.5",
+  "fecha": "2026-02-26",
+  "sesion": "tarde",
+  "hora": "18:11",
+  "alertas_shorts": [],
+  "consensos_ayer_pendientes": [],
+  "triangulacion": {
+    "consensos": [],
+    "solo_claude": [],
+    "solo_openai": [],
+    "evitar": [
+      {
+        "ticker": "TEF",
+        "razon": "Ruptura soporte clave 3.70, debilidad técnica persistente",
+        "shorts_pct": 2.1
+      },
+      {
+        "ticker": "REP",
+        "razon": "Presión por caída crudo, sector energía bajo presión",
+        "shorts_pct": 1.8
+      },
+      {
+        "ticker": "IAG",
+        "razon": "Sector aéreo vulnerable a volatilidad combustible",
+        "shorts_pct": 0.9
+      },
+      {
+        "ticker": "BBVA",
+        "razon": "Shorts institucionales significativos",
+        "shorts_pct": 1.2
+      }
+    ],
+    "sentimiento_claude": "NEUTRAL",
+    "sentimiento_openai": "NEUTRAL",
+    "radar_macro_claude": {},
+    "radar_macro_openai": {}
+  },
+  "reglas_aplicadas": {
+    "R9_delay": false,
+    "R10_shorts": false,
+    "consensos_hoy": 0,
+    "valores_evitar": 4
+  },
+  "accion_recomendada": "EVALUAR"
+}

@@ -1,0 +1,41 @@
+{
+  "version": "4.5",
+  "fecha": "2026-02-27",
+  "sesion": "tarde",
+  "hora": "17:53",
+  "alertas_shorts": [],
+  "consensos_ayer_pendientes": [],
+  "triangulacion": {
+    "consensos": [],
+    "solo_claude": [],
+    "solo_openai": [],
+    "evitar": [
+      {
+        "ticker": "REP",
+        "razon": "Presión por caída del Brent, resistencia en 19.50",
+        "shorts_pct": 0.8
+      },
+      {
+        "ticker": "TEF",
+        "razon": "Ruptura soporte clave 3.80, debilidad técnica",
+        "shorts_pct": 1.2
+      },
+      {
+        "ticker": "IAG",
+        "razon": "Sector aéreo vulnerable a volatilidad combustible",
+        "shorts_pct": 0.6
+      }
+    ],
+    "sentimiento_claude": "NEUTRAL",
+    "sentimiento_openai": "NEUTRAL",
+    "radar_macro_claude": {},
+    "radar_macro_openai": {}
+  },
+  "reglas_aplicadas": {
+    "R9_delay": false,
+    "R10_shorts": false,
+    "consensos_hoy": 0,
+    "valores_evitar": 3
+  },
+  "accion_recomendada": "EVALUAR"
+}

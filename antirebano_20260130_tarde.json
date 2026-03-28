@@ -1,0 +1,32 @@
+{
+  "version": "4.1",
+  "fecha": "2026-01-30",
+  "sesion": "tarde",
+  "hora": "17:53",
+  "alertas_shorts": [],
+  "consensos_ayer_pendientes": [],
+  "triangulacion": {
+    "consensos": [],
+    "solo_claude": [],
+    "solo_openai": [],
+    "evitar": [
+      {
+        "ticker": "TEF",
+        "razon": "Conflicto en la junta directiva"
+      },
+      {
+        "ticker": "SAB",
+        "razon": "Baja liquidez, spreads elevados"
+      }
+    ],
+    "sentimiento_claude": "NEUTRAL",
+    "sentimiento_openai": "NEUTRAL"
+  },
+  "reglas_aplicadas": {
+    "R9_delay": false,
+    "R10_shorts": false,
+    "consensos_hoy": 0,
+    "valores_evitar": 2
+  },
+  "accion_recomendada": "EVALUAR"
+}

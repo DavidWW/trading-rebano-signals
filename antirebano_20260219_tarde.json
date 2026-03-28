@@ -1,0 +1,36 @@
+{
+  "version": "4.1",
+  "fecha": "2026-02-19",
+  "sesion": "tarde",
+  "hora": "18:07",
+  "alertas_shorts": [],
+  "consensos_ayer_pendientes": [],
+  "triangulacion": {
+    "consensos": [],
+    "solo_claude": [],
+    "solo_openai": [],
+    "evitar": [
+      {
+        "ticker": "TEF",
+        "razon": "Debilidad tecnica persistente, bajo minimos recientes"
+      },
+      {
+        "ticker": "MAP",
+        "razon": "Volatilidad excesiva en niveles bajos, falta de catalizadores"
+      },
+      {
+        "ticker": "IAG",
+        "razon": "Rendimiento débil en mercado bajista"
+      }
+    ],
+    "sentimiento_claude": "NEUTRAL",
+    "sentimiento_openai": "NEUTRAL"
+  },
+  "reglas_aplicadas": {
+    "R9_delay": false,
+    "R10_shorts": false,
+    "consensos_hoy": 0,
+    "valores_evitar": 3
+  },
+  "accion_recomendada": "EVALUAR"
+}

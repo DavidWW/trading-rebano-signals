@@ -1,0 +1,81 @@
+{
+  "fecha": "2026-03-25",
+  "sesion": "tarde",
+  "sentimiento": "BAJISTA",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Petróleo Brent",
+        "var_dia_pct": 2.5,
+        "nuevo_precio": 97.5
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "NASDAQ",
+        "var_dia_pct": -1.2
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 22.0,
+      "nivel": "ALTO",
+      "cambio_significativo": true
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Energía",
+        "var_dia_pct": 1.8,
+        "direccion": "POSITIVO"
+      }
+    ],
+    "resumen_cambios": "Volatilidad alta con repuntes en commodities energéticos."
+  },
+  "resumen": {
+    "ibex_var_pct": -0.8,
+    "valores_destacados": [
+      "REP +3%",
+      "ITX -2%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "ENG",
+      "nivel_barrido": 14.3,
+      "recupero": true,
+      "recuperacion_pct": 3.4
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "sector": "Energía",
+      "accion": "VIGILAR",
+      "precio_cierre": 23.62,
+      "soporte_obvio": 22.9,
+      "resistencia_obvia": 24.5,
+      "soporte_secundario": 22.5,
+      "resistencia_secundaria": 25.0,
+      "distancia_max_52s_pct": -5.0,
+      "distancia_min_52s_pct": 15.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 180,
+      "catalizador_tipo": "MACRO",
+      "razon": "Aumento del precio del petróleo.",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-30",
+          "descripcion": "Presentación de resultados del Q1"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "ACX",
+      "razon": "Shorts institucionales altos",
+      "shorts_pct": 0.6
+    }
+  ]
+}

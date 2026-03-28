@@ -1,0 +1,300 @@
+{
+  "fecha": "2026-03-09",
+  "sesion": "manana",
+  "sentimiento": "NEUTRAL",
+  "radar_macro": {
+    "commodities": {
+      "oro": {
+        "precio_usd": 1840.0,
+        "var_semanal_pct": 1.2,
+        "var_mensual_pct": 3.1,
+        "dist_max_52s_pct": -4.2,
+        "alerta": false
+      },
+      "plata": {
+        "precio_usd": 22.5,
+        "var_semanal_pct": 0.5,
+        "var_mensual_pct": 2.8,
+        "dist_max_52s_pct": -7.0,
+        "alerta": false
+      },
+      "petroleo_brent": {
+        "precio_usd": 78.2,
+        "var_semanal_pct": -2.1,
+        "var_mensual_pct": 4.3,
+        "alerta": false
+      }
+    },
+    "indices": {
+      "sp500": {
+        "valor": 4350,
+        "var_semanal_pct": -1.0,
+        "dist_max_52s_pct": -10.5,
+        "alerta": false
+      },
+      "nasdaq100": {
+        "valor": 13650,
+        "var_semanal_pct": -0.8,
+        "dist_max_52s_pct": -12.3,
+        "alerta": false
+      },
+      "stoxx600": {
+        "valor": 445,
+        "var_semanal_pct": 0.2,
+        "dist_max_52s_pct": -5.7,
+        "alerta": false
+      },
+      "msci_em": {
+        "valor": 1030,
+        "var_semanal_pct": 0.0,
+        "dist_max_52s_pct": -8.9,
+        "alerta": false
+      },
+      "nikkei225": {
+        "valor": 28650,
+        "var_semanal_pct": 0.6,
+        "dist_max_52s_pct": -3.2,
+        "alerta": false
+      }
+    },
+    "sectores_europa": {
+      "mejor_sector": {
+        "nombre": "Tecnología",
+        "var_semanal_pct": 1.8
+      },
+      "peor_sector": {
+        "nombre": "Energía",
+        "var_semanal_pct": -1.5
+      },
+      "sector_en_correccion": {
+        "hay_correccion": true,
+        "nombre": "Banca",
+        "caida_desde_max_pct": 12.3,
+        "causa": "subida tipos de interés"
+      }
+    },
+    "divisas": {
+      "eur_usd": {
+        "valor": 1.09,
+        "var_semanal_pct": 0.4,
+        "var_mensual_pct": 1.2
+      }
+    },
+    "vix": {
+      "valor": 17.5,
+      "nivel": "NORMAL"
+    },
+    "eventos_clave": [
+      {
+        "evento": "Decisión de tipos del BCE",
+        "hora_cet": "13:45",
+        "relevancia": "ALTA"
+      }
+    ],
+    "resumen_macro": "Neutral con riesgos de corrección en banca."
+  },
+  "recomendaciones": [
+    {
+      "ranking": 1,
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 19.22,
+      "entrada": 19.0,
+      "stop_loss": 18.45,
+      "stop_pct": -2.89,
+      "take_profit_1": 20.1,
+      "tp1_pct": 4.62,
+      "take_profit_2": 20.75,
+      "tp2_pct": 8.0,
+      "soporte_obvio": 18.5,
+      "resistencia_obvia": 20.0,
+      "soporte_secundario": 18.0,
+      "resistencia_secundaria": 21.0,
+      "distancia_max_52s_pct": -5.0,
+      "distancia_min_52s_pct": 7.5,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 110,
+      "catalizador_tipo": "TECNICO",
+      "catalizador_desc": "Rotura de resistencias con volumen alto",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.2,
+      "prob_barrido": "BAJA",
+      "riesgo": "Volatilidad en el sector energético",
+      "horizonte_dias": 3,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-20",
+          "descripcion": "Resultados anuales"
+        }
+      ]
+    },
+    {
+      "ranking": 2,
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "sector": "Retail",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 51.88,
+      "entrada": 51.5,
+      "stop_loss": 49.95,
+      "stop_pct": -3.03,
+      "take_profit_1": 53.5,
+      "tp1_pct": 3.12,
+      "take_profit_2": 55.0,
+      "tp2_pct": 6.01,
+      "soporte_obvio": 50.0,
+      "resistencia_obvia": 54.0,
+      "soporte_secundario": 48.5,
+      "resistencia_secundaria": 56.0,
+      "distancia_max_52s_pct": -7.5,
+      "distancia_min_52s_pct": 10.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 120,
+      "catalizador_tipo": "SECTORIAL",
+      "catalizador_desc": "Recuperación en retail y consumo",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.4,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Presión inflacionaria en consumo",
+      "horizonte_dias": 4,
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-03-25",
+          "descripcion": "Pago de dividendo trimestral"
+        }
+      ]
+    },
+    {
+      "ranking": 3,
+      "ticker": "TEF",
+      "nombre": "Telefónica",
+      "sector": "Telecom",
+      "accion": "VENTA",
+      "conviccion": "ALTA",
+      "precio_actual": 3.67,
+      "entrada": 3.7,
+      "stop_loss": 3.81,
+      "stop_pct": -2.97,
+      "take_profit_1": 3.5,
+      "tp1_pct": -4.62,
+      "take_profit_2": 3.3,
+      "tp2_pct": -9.83,
+      "soporte_obvio": 3.4,
+      "resistencia_obvia": 3.75,
+      "soporte_secundario": 3.2,
+      "resistencia_secundaria": 3.9,
+      "distancia_max_52s_pct": -15.0,
+      "distancia_min_52s_pct": 3.4,
+      "tendencia": "BAJISTA",
+      "volumen_vs_media_pct": 95,
+      "catalizador_tipo": "TECNICO",
+      "catalizador_desc": "Pérdida de soportes clave",
+      "catalizador_reversible": true,
+      "shorts_pct": 1.0,
+      "prob_barrido": "ALTA",
+      "riesgo": "Alta volatilidad por presión regulatoria",
+      "horizonte_dias": 5,
+      "eventos_proximos": [
+        {
+          "tipo": "EX_DIVIDENDO",
+          "fecha": "2026-03-15",
+          "descripcion": "Salida de dividendo"
+        }
+      ]
+    },
+    {
+      "ranking": 4,
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "sector": "Energía",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 20.76,
+      "entrada": 20.5,
+      "stop_loss": 19.85,
+      "stop_pct": -3.17,
+      "take_profit_1": 21.8,
+      "tp1_pct": 5.02,
+      "take_profit_2": 22.5,
+      "tp2_pct": 8.37,
+      "soporte_obvio": 20.0,
+      "resistencia_obvia": 21.5,
+      "soporte_secundario": 19.5,
+      "resistencia_secundaria": 23.0,
+      "distancia_max_52s_pct": -6.5,
+      "distancia_min_52s_pct": 12.7,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 105,
+      "catalizador_tipo": "MACRO",
+      "catalizador_desc": "Alza en precios de petróleo",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.35,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Inestabilidad económica global",
+      "horizonte_dias": 3,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-22",
+          "descripcion": "Publicación de resultados trimestrales"
+        }
+      ]
+    },
+    {
+      "ranking": 5,
+      "ticker": "IAG",
+      "nombre": "International Airlines Group",
+      "sector": "Aerolíneas",
+      "accion": "VENTA",
+      "conviccion": "BAJA",
+      "precio_actual": 4.2,
+      "entrada": 4.25,
+      "stop_loss": 4.45,
+      "stop_pct": -4.71,
+      "take_profit_1": 3.98,
+      "tp1_pct": -5.24,
+      "take_profit_2": 3.75,
+      "tp2_pct": -10.71,
+      "soporte_obvio": 4.0,
+      "resistencia_obvia": 4.5,
+      "soporte_secundario": 3.7,
+      "resistencia_secundaria": 4.8,
+      "distancia_max_52s_pct": -18.0,
+      "distancia_min_52s_pct": 4.5,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 130,
+      "catalizador_tipo": "GEOPOLITICO",
+      "catalizador_desc": "Impactos geopolíticos en turismo",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.85,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Cambios regulatorios en mercado aéreo",
+      "horizonte_dias": 2,
+      "eventos_proximos": [
+        {
+          "tipo": "OTRO",
+          "fecha": "2026-03-28",
+          "descripcion": "Cumbre de aviación europea"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "SAB",
+      "razon": "Elevados cortos institucionales",
+      "shorts_pct": 0.94
+    },
+    {
+      "ticker": "CABK",
+      "razon": "Corrección en banca por tipo de interés",
+      "shorts_pct": 0.6
+    }
+  ]
+}

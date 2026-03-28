@@ -1,0 +1,36 @@
+{
+  "version": "4.1",
+  "fecha": "2026-02-04",
+  "sesion": "tarde",
+  "hora": "18:02",
+  "alertas_shorts": [],
+  "consensos_ayer_pendientes": [],
+  "triangulacion": {
+    "consensos": [],
+    "solo_claude": [],
+    "solo_openai": [],
+    "evitar": [
+      {
+        "ticker": "TEF",
+        "razon": "Tendencia bajista persistente"
+      },
+      {
+        "ticker": "IAG",
+        "razon": "Debilidad sectorial, presión vendedora"
+      },
+      {
+        "ticker": "SAN",
+        "razon": "Shorts por encima de 1%"
+      }
+    ],
+    "sentimiento_claude": "NEUTRAL",
+    "sentimiento_openai": "NEUTRAL"
+  },
+  "reglas_aplicadas": {
+    "R9_delay": false,
+    "R10_shorts": false,
+    "consensos_hoy": 0,
+    "valores_evitar": 3
+  },
+  "accion_recomendada": "EVALUAR"
+}

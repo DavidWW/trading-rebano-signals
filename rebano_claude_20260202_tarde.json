@@ -1,0 +1,55 @@
+{
+  "fecha": "2026-02-02",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "resumen": {
+    "ibex_var_pct": 0.0,
+    "valores_destacados": [
+      "SAN estable",
+      "BBVA lateral"
+    ]
+  },
+  "barridos": [],
+  "oportunidades_manana": [
+    {
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "accion": "COMPRA",
+      "precio_cierre": 55.0,
+      "soporte_obvio": 53.5,
+      "resistencia_obvia": 57.0,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Consolidación en zona de soporte, posible rebote técnico"
+    },
+    {
+      "ticker": "SAN",
+      "nombre": "Santander",
+      "accion": "VIGILAR",
+      "precio_cierre": 10.78,
+      "soporte_obvio": 10.5,
+      "resistencia_obvia": 11.2,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Lateral estrecho, esperar ruptura direccional"
+    },
+    {
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "accion": "COMPRA",
+      "precio_cierre": 16.56,
+      "soporte_obvio": 16.0,
+      "resistencia_obvia": 17.2,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Sector energético con potencial por precios petróleo"
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "TEF",
+      "razon": "Debilidad técnica persistente"
+    },
+    {
+      "ticker": "SAB",
+      "razon": "Volatilidad excesiva para swing trading"
+    }
+  ]
+}

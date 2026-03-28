@@ -1,0 +1,62 @@
+{
+  "fecha": "2026-02-19",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "resumen": {
+    "ibex_var_pct": 0.0,
+    "valores_destacados": [
+      "ACS +1.2%",
+      "TEF -0.8%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "TEF",
+      "nivel_barrido": 3.61,
+      "recupero": false,
+      "recuperacion_pct": 0.0
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "BBVA",
+      "nombre": "Banco Bilbao Vizcaya",
+      "accion": "COMPRA",
+      "precio_cierre": 19.81,
+      "soporte_obvio": 19.2,
+      "resistencia_obvia": 20.5,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Consolidacion en maximos con potencial ruptura alcista"
+    },
+    {
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "accion": "VIGILAR",
+      "precio_cierre": 57.92,
+      "soporte_obvio": 56.5,
+      "resistencia_obvia": 59.0,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Proximidad a resistencia clave, esperar confirmacion"
+    },
+    {
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "accion": "COMPRA",
+      "precio_cierre": 18.14,
+      "soporte_obvio": 17.5,
+      "resistencia_obvia": 18.8,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Sector energetico con momentum, precios petroleo estables"
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "TEF",
+      "razon": "Debilidad tecnica persistente, bajo minimos recientes"
+    },
+    {
+      "ticker": "MAP",
+      "razon": "Volatilidad excesiva en niveles bajos, falta de catalizadores"
+    }
+  ]
+}

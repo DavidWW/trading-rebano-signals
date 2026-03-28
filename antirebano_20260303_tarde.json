@@ -1,0 +1,46 @@
+{
+  "version": "4.5",
+  "fecha": "2026-03-03",
+  "sesion": "tarde",
+  "hora": "18:01",
+  "alertas_shorts": [],
+  "consensos_ayer_pendientes": [],
+  "triangulacion": {
+    "consensos": [],
+    "solo_claude": [],
+    "solo_openai": [],
+    "evitar": [
+      {
+        "ticker": "REP",
+        "razon": "Debilidad por caída petróleo, rompe soporte 21.00",
+        "shorts_pct": 0.8
+      },
+      {
+        "ticker": "TEF",
+        "razon": "Barrido de soporte 3.55 sin recuperación, tendencia bajista",
+        "shorts_pct": 1.2
+      },
+      {
+        "ticker": "ANE",
+        "razon": "Sector renovables bajo presión, alta volatilidad",
+        "shorts_pct": 0.6
+      },
+      {
+        "ticker": "BBVA",
+        "razon": "Elevado nivel de shorts institucionales",
+        "shorts_pct": 0.7
+      }
+    ],
+    "sentimiento_claude": "NEUTRAL",
+    "sentimiento_openai": "NEUTRAL",
+    "radar_macro_claude": {},
+    "radar_macro_openai": {}
+  },
+  "reglas_aplicadas": {
+    "R9_delay": false,
+    "R10_shorts": false,
+    "consensos_hoy": 0,
+    "valores_evitar": 4
+  },
+  "accion_recomendada": "EVALUAR"
+}

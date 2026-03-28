@@ -1,0 +1,38 @@
+{
+  "fecha": "2026-02-19",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "resumen": {
+    "ibex_var_pct": 0.0,
+    "valores_destacados": [
+      "SAN +2%",
+      "TEF -1%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "BBVA",
+      "nivel_barrido": 19.5,
+      "recupero": true,
+      "recuperacion_pct": 1.5
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "ACS",
+      "nombre": "ACS",
+      "accion": "COMPRA",
+      "precio_cierre": 104.6,
+      "soporte_obvio": 102.0,
+      "resistencia_obvia": 108.0,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Rompimiento de resistencia en gráficos horarios"
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "IAG",
+      "razon": "Rendimiento débil en mercado bajista"
+    }
+  ]
+}

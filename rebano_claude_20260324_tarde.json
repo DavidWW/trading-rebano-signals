@@ -1,0 +1,161 @@
+{
+  "fecha": "2026-03-24",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Cobre",
+        "var_dia_pct": -2.3,
+        "nuevo_precio": 8245.0
+      },
+      {
+        "activo": "Gas Natural",
+        "var_dia_pct": 2.8,
+        "nuevo_precio": 28.45
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "DAX",
+        "var_dia_pct": -1.2
+      },
+      {
+        "indice": "FTSE MiB",
+        "var_dia_pct": 1.4
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 18.7,
+      "nivel": "NORMAL",
+      "cambio_significativo": false
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Utilities Europeas",
+        "var_dia_pct": 1.8,
+        "direccion": "POSITIVO"
+      },
+      {
+        "nombre": "Bancos Europeos",
+        "var_dia_pct": -0.9,
+        "direccion": "NEGATIVO"
+      }
+    ],
+    "resumen_cambios": "Rotación sectorial con fortaleza en utilities y debilidad en banca"
+  },
+  "resumen": {
+    "ibex_var_pct": 0.2,
+    "valores_destacados": [
+      "IBE +1.8%",
+      "ELE +1.5%",
+      "SAN -1.2%",
+      "BBVA -0.8%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "TEF",
+      "nivel_barrido": 3.65,
+      "recupero": false,
+      "recuperacion_pct": -0.8
+    },
+    {
+      "ticker": "IAG",
+      "nivel_barrido": 4.1,
+      "recupero": true,
+      "recuperacion_pct": 1.0
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "precio_cierre": 19.3,
+      "soporte_obvio": 18.85,
+      "resistencia_obvia": 19.65,
+      "soporte_secundario": 18.45,
+      "resistencia_secundaria": 20.15,
+      "distancia_max_52s_pct": -8.2,
+      "distancia_min_52s_pct": 15.3,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 145,
+      "catalizador_tipo": "MACRO",
+      "razon": "Fortaleza sectorial en utilities, ruptura al alza con volumen",
+      "eventos_proximos": [
+        {
+          "tipo": "EX_DIVIDENDO",
+          "fecha": "2026-04-02",
+          "descripcion": "Ex-dividendo 0.168€"
+        }
+      ]
+    },
+    {
+      "ticker": "ELE",
+      "nombre": "Endesa",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "precio_cierre": 34.65,
+      "soporte_obvio": 33.85,
+      "resistencia_obvia": 35.4,
+      "soporte_secundario": 33.25,
+      "resistencia_secundaria": 36.15,
+      "distancia_max_52s_pct": -6.5,
+      "distancia_min_52s_pct": 18.7,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 130,
+      "catalizador_tipo": "MACRO",
+      "razon": "Momentum sectorial utilities, aproximación a resistencia clave",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-28",
+          "descripcion": "Resultados Q1 2026"
+        }
+      ]
+    },
+    {
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "sector": "Retail",
+      "accion": "VIGILAR",
+      "precio_cierre": 49.82,
+      "soporte_obvio": 48.95,
+      "resistencia_obvia": 51.2,
+      "soporte_secundario": 47.85,
+      "resistencia_secundaria": 52.35,
+      "distancia_max_52s_pct": -2.8,
+      "distancia_min_52s_pct": 28.4,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 95,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Consolidación cerca de máximos, pendiente ruptura direccional",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-31",
+          "descripcion": "Ventas febrero"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "TEF",
+      "razon": "Ruptura bajista confirmada, tendencia deteriorada",
+      "shorts_pct": 0.3
+    },
+    {
+      "ticker": "SAN",
+      "razon": "Debilidad sectorial banca, presión vendedora",
+      "shorts_pct": 0.7
+    },
+    {
+      "ticker": "MAP",
+      "razon": "Sector seguros bajo presión, volumen bajista",
+      "shorts_pct": 0.2
+    }
+  ]
+}

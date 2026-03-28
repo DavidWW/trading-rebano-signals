@@ -1,0 +1,161 @@
+{
+  "fecha": "2026-03-06",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Brent",
+        "var_dia_pct": -1.8,
+        "nuevo_precio": 82.45
+      },
+      {
+        "activo": "Gas Natural",
+        "var_dia_pct": 2.3,
+        "nuevo_precio": 28.65
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "DAX",
+        "var_dia_pct": -0.8
+      },
+      {
+        "indice": "FTSE MIB",
+        "var_dia_pct": 1.2
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 16.8,
+      "nivel": "NORMAL",
+      "cambio_significativo": false
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Utilities Europeas",
+        "var_dia_pct": 1.5,
+        "direccion": "POSITIVO"
+      },
+      {
+        "nombre": "Energía Europea",
+        "var_dia_pct": -1.2,
+        "direccion": "NEGATIVO"
+      }
+    ],
+    "resumen_cambios": "Sesión mixta con rotación hacia defensivos ante incertidumbre energética"
+  },
+  "resumen": {
+    "ibex_var_pct": 0.3,
+    "valores_destacados": [
+      "PHM +2.1%",
+      "ROVI +1.8%",
+      "REP -1.5%",
+      "SLR -1.2%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "IBE",
+      "nivel_barrido": 19.0,
+      "recupero": true,
+      "recuperacion_pct": 1.2
+    },
+    {
+      "ticker": "BBVA",
+      "nivel_barrido": 18.5,
+      "recupero": false,
+      "recuperacion_pct": -0.7
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "precio_cierre": 19.22,
+      "soporte_obvio": 18.85,
+      "resistencia_obvia": 19.65,
+      "soporte_secundario": 18.45,
+      "resistencia_secundaria": 20.15,
+      "distancia_max_52s_pct": -8.2,
+      "distancia_min_52s_pct": 24.5,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 145,
+      "catalizador_tipo": "MACRO",
+      "razon": "Rotación hacia defensivos por tensiones energéticas, soporte en 19.00 aguantó",
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-03-15",
+          "descripcion": "Dividendo a cuenta 0.168€"
+        }
+      ]
+    },
+    {
+      "ticker": "PHM",
+      "nombre": "Pharma Mar",
+      "sector": "Salud",
+      "accion": "VIGILAR",
+      "precio_cierre": 80.4,
+      "soporte_obvio": 77.5,
+      "resistencia_obvia": 83.0,
+      "soporte_secundario": 75.15,
+      "resistencia_secundaria": 85.65,
+      "distancia_max_52s_pct": -12.5,
+      "distancia_min_52s_pct": 45.2,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 180,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Volumen elevado tras subida, vigilar ruptura resistencia 83€ con confirmación",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-12",
+          "descripcion": "Resultados anuales 2025"
+        }
+      ]
+    },
+    {
+      "ticker": "AENA",
+      "nombre": "AENA",
+      "sector": "Infraestructuras",
+      "accion": "COMPRA",
+      "precio_cierre": 25.46,
+      "soporte_obvio": 24.85,
+      "resistencia_obvia": 26.2,
+      "soporte_secundario": 24.15,
+      "resistencia_secundaria": 26.85,
+      "distancia_max_52s_pct": -15.3,
+      "distancia_min_52s_pct": 18.7,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 125,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Recuperación tráfico aéreo sostenida, niveles técnicos atractivos",
+      "eventos_proximos": [
+        {
+          "tipo": "OTRO",
+          "fecha": "2026-03-20",
+          "descripcion": "Datos tráfico febrero"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "REP",
+      "razon": "Presión por caída petróleo y preocupaciones energéticas",
+      "shorts_pct": 0.3
+    },
+    {
+      "ticker": "TEF",
+      "razon": "Debilidad técnica persistente, sin catalizadores",
+      "shorts_pct": 0.8
+    },
+    {
+      "ticker": "SAB",
+      "razon": "Banca pequeña vulnerable, múltiplos elevados",
+      "shorts_pct": 1.2
+    }
+  ]
+}

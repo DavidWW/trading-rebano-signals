@@ -1,0 +1,155 @@
+{
+  "fecha": "2026-02-25",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Brent",
+        "var_dia_pct": -1.8,
+        "nuevo_precio": 78.45
+      },
+      {
+        "activo": "Gas Natural",
+        "var_dia_pct": 2.3,
+        "nuevo_precio": 42.1
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "DAX",
+        "var_dia_pct": -0.8
+      },
+      {
+        "indice": "CAC40",
+        "var_dia_pct": -0.6
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 18.2,
+      "nivel": "NORMAL",
+      "cambio_significativo": false
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Utilities",
+        "var_dia_pct": 1.2,
+        "direccion": "POSITIVO"
+      },
+      {
+        "nombre": "Energía",
+        "var_dia_pct": -1.5,
+        "direccion": "NEGATIVO"
+      }
+    ],
+    "resumen_cambios": "Sesión mixta con rotación hacia defensivos ante incertidumbre geopolítica"
+  },
+  "resumen": {
+    "ibex_var_pct": -0.3,
+    "valores_destacados": [
+      "IBE +1.8%",
+      "ELE +1.5%",
+      "REP -2.1%",
+      "SAN -0.8%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "REP",
+      "nivel_barrido": 19.2,
+      "recupero": false,
+      "recuperacion_pct": -1.9
+    },
+    {
+      "ticker": "SAN",
+      "nivel_barrido": 11.25,
+      "recupero": true,
+      "recuperacion_pct": 0.8
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "precio_cierre": 20.35,
+      "soporte_obvio": 19.85,
+      "resistencia_obvia": 20.8,
+      "soporte_secundario": 19.65,
+      "resistencia_secundaria": 21.15,
+      "distancia_max_52s_pct": -8.2,
+      "distancia_min_52s_pct": 18.5,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 145,
+      "catalizador_tipo": "MACRO",
+      "razon": "Breakout alcista con volumen tras rotación sectorial hacia utilities defensivos",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-02-28",
+          "descripcion": "Q4 2025"
+        }
+      ]
+    },
+    {
+      "ticker": "ELE",
+      "nombre": "Endesa",
+      "sector": "Utilities",
+      "accion": "VIGILAR",
+      "precio_cierre": 35.19,
+      "soporte_obvio": 34.5,
+      "resistencia_obvia": 36.0,
+      "soporte_secundario": 33.85,
+      "resistencia_secundaria": 36.65,
+      "distancia_max_52s_pct": -12.1,
+      "distancia_min_52s_pct": 22.3,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 125,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Aproximación a resistencia clave tras impulso sectorial",
+      "eventos_proximos": []
+    },
+    {
+      "ticker": "SAN",
+      "nombre": "Santander",
+      "sector": "Banca",
+      "accion": "COMPRA",
+      "precio_cierre": 11.16,
+      "soporte_obvio": 10.95,
+      "resistencia_obvia": 11.45,
+      "soporte_secundario": 10.75,
+      "resistencia_secundaria": 11.75,
+      "distancia_max_52s_pct": -15.8,
+      "distancia_min_52s_pct": 28.4,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 135,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Recuperación tras barrido de soporte con divergencia alcista RSI",
+      "eventos_proximos": [
+        {
+          "tipo": "EX_DIVIDENDO",
+          "fecha": "2026-03-15",
+          "descripcion": "0.18€ dividendo"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "REP",
+      "razon": "Ruptura bajista de soporte clave con debilidad del crudo",
+      "shorts_pct": 0.8
+    },
+    {
+      "ticker": "TEF",
+      "razon": "Debilidad persistente en mínimos anuales",
+      "shorts_pct": 0.3
+    },
+    {
+      "ticker": "IAG",
+      "razon": "Sector aéreo bajo presión por costes combustible",
+      "shorts_pct": 1.2
+    }
+  ]
+}

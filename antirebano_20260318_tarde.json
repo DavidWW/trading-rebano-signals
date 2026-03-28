@@ -1,0 +1,46 @@
+{
+  "version": "4.5",
+  "fecha": "2026-03-18",
+  "sesion": "tarde",
+  "hora": "18:13",
+  "alertas_shorts": [],
+  "consensos_ayer_pendientes": [],
+  "triangulacion": {
+    "consensos": [],
+    "solo_claude": [],
+    "solo_openai": [],
+    "evitar": [
+      {
+        "ticker": "REP",
+        "razon": "Presion por caida petroleo, resistencia 24.80 muy fuerte",
+        "shorts_pct": 0.3
+      },
+      {
+        "ticker": "TEF",
+        "razon": "Ruptura soporte critico 3.60, sin recuperacion, debilidad tecnica",
+        "shorts_pct": 0.8
+      },
+      {
+        "ticker": "IAG",
+        "razon": "Sector aerolineas bajo presion, resistencia 4.25 rechaza",
+        "shorts_pct": 1.2
+      },
+      {
+        "ticker": "MEL",
+        "razon": "Presión por alta short interest",
+        "shorts_pct": 0.9
+      }
+    ],
+    "sentimiento_claude": "NEUTRAL",
+    "sentimiento_openai": "NEUTRAL",
+    "radar_macro_claude": {},
+    "radar_macro_openai": {}
+  },
+  "reglas_aplicadas": {
+    "R9_delay": false,
+    "R10_shorts": false,
+    "consensos_hoy": 0,
+    "valores_evitar": 4
+  },
+  "accion_recomendada": "EVALUAR"
+}

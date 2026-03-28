@@ -1,0 +1,293 @@
+{
+  "fecha": "2026-03-18",
+  "sesion": "manana",
+  "sentimiento": "NEUTRAL",
+  "radar_macro": {
+    "commodities": {
+      "oro": {
+        "precio_usd": 1923.7,
+        "var_semanal_pct": 0.3,
+        "var_mensual_pct": 1.2,
+        "dist_max_52s_pct": -10.5,
+        "alerta": false
+      },
+      "plata": {
+        "precio_usd": 22.67,
+        "var_semanal_pct": -0.8,
+        "var_mensual_pct": -2.3,
+        "dist_max_52s_pct": -15.6,
+        "alerta": false
+      },
+      "petroleo_brent": {
+        "precio_usd": 78.31,
+        "var_semanal_pct": 1.5,
+        "var_mensual_pct": -4.0,
+        "alerta": false
+      }
+    },
+    "indices": {
+      "sp500": {
+        "valor": 4345,
+        "var_semanal_pct": 1.2,
+        "dist_max_52s_pct": -4.0,
+        "alerta": false
+      },
+      "nasdaq100": {
+        "valor": 13900,
+        "var_semanal_pct": 1.5,
+        "dist_max_52s_pct": -7.5,
+        "alerta": false
+      },
+      "stoxx600": {
+        "valor": 440,
+        "var_semanal_pct": -0.3,
+        "dist_max_52s_pct": -6.8,
+        "alerta": false
+      },
+      "msci_em": {
+        "valor": 1052,
+        "var_semanal_pct": 0.5,
+        "dist_max_52s_pct": -12.0,
+        "alerta": true
+      },
+      "nikkei225": {
+        "valor": 29645,
+        "var_semanal_pct": 2.2,
+        "dist_max_52s_pct": -3.0,
+        "alerta": false
+      }
+    },
+    "sectores_europa": {
+      "mejor_sector": {
+        "nombre": "Tecnología",
+        "var_semanal_pct": 3.5
+      },
+      "peor_sector": {
+        "nombre": "Energía",
+        "var_semanal_pct": -1.7
+      },
+      "sector_en_correccion": {
+        "hay_correccion": true,
+        "nombre": "Consumo",
+        "caida_desde_max_pct": 10.2,
+        "causa": "Caida en demanda"
+      }
+    },
+    "divisas": {
+      "eur_usd": {
+        "valor": 1.0865,
+        "var_semanal_pct": -0.4,
+        "var_mensual_pct": -0.8
+      }
+    },
+    "vix": {
+      "valor": 17.2,
+      "nivel": "NORMAL"
+    },
+    "eventos_clave": [
+      {
+        "evento": "Decisión de tipos de interés FED",
+        "hora_cet": "19:00",
+        "relevancia": "ALTA"
+      },
+      {
+        "evento": "Informe de empleo Reino Unido",
+        "hora_cet": "08:00",
+        "relevancia": "ALTA"
+      }
+    ],
+    "resumen_macro": "Mercados globales muestran comportamiento mixto; Atención en decisión de tipos de la FED."
+  },
+  "recomendaciones": [
+    {
+      "ranking": 1,
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "sector": "Retail",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 51.4,
+      "entrada": 51.4,
+      "stop_loss": 49.85,
+      "stop_pct": -3.0,
+      "take_profit_1": 54.3,
+      "tp1_pct": 5.6,
+      "take_profit_2": 56.5,
+      "tp2_pct": 10.0,
+      "soporte_obvio": 49.5,
+      "resistencia_obvia": 54.0,
+      "soporte_secundario": 47.0,
+      "resistencia_secundaria": 57.0,
+      "distancia_max_52s_pct": -8.0,
+      "distancia_min_52s_pct": 20.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 120,
+      "catalizador_tipo": "SECTORIAL",
+      "catalizador_desc": "Expectativas de ventas positivas en el sector retail.",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.3,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Posible corrección en sector si inflación persiste.",
+      "horizonte_dias": 4,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-25",
+          "descripcion": "Presentación de resultados anuales."
+        }
+      ]
+    },
+    {
+      "ranking": 2,
+      "ticker": "ACS",
+      "nombre": "ACS",
+      "sector": "Construcción",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 107.8,
+      "entrada": 108.0,
+      "stop_loss": 104.2,
+      "stop_pct": -3.5,
+      "take_profit_1": 113.3,
+      "tp1_pct": 5.0,
+      "take_profit_2": 116.1,
+      "tp2_pct": 7.7,
+      "soporte_obvio": 105.0,
+      "resistencia_obvia": 110.0,
+      "soporte_secundario": 102.0,
+      "resistencia_secundaria": 115.0,
+      "distancia_max_52s_pct": -5.0,
+      "distancia_min_52s_pct": 18.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 155,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "catalizador_desc": "Incremento en contratos de infraestructuras.",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.4,
+      "prob_barrido": "BAJA",
+      "riesgo": "Cambio en políticas de infraestructura gubernamentales.",
+      "horizonte_dias": 5,
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-03-24",
+          "descripcion": "Pago de dividendo trimestral."
+        }
+      ]
+    },
+    {
+      "ranking": 3,
+      "ticker": "CABK",
+      "nombre": "CaixaBank",
+      "sector": "Banca",
+      "accion": "VENTA",
+      "conviccion": "MEDIA",
+      "precio_actual": 9.98,
+      "entrada": 9.95,
+      "stop_loss": 10.35,
+      "stop_pct": -4.0,
+      "take_profit_1": 9.5,
+      "tp1_pct": -4.5,
+      "take_profit_2": 9.25,
+      "tp2_pct": -7.3,
+      "soporte_obvio": 9.5,
+      "resistencia_obvia": 10.2,
+      "soporte_secundario": 9.3,
+      "resistencia_secundaria": 10.5,
+      "distancia_max_52s_pct": -12.0,
+      "distancia_min_52s_pct": 15.0,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 95,
+      "catalizador_tipo": "MACRO",
+      "catalizador_desc": "Expectativas de subida de tipos impactando a márgenes.",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.6,
+      "prob_barrido": "ALTA",
+      "riesgo": "Reacción del BCE ante posibles nuevas políticas monetarias.",
+      "horizonte_dias": 3,
+      "eventos_proximos": [
+        {
+          "tipo": "EX_DIVIDENDO",
+          "fecha": "2026-03-22",
+          "descripcion": "Fecha ex-dividendo próxima."
+        }
+      ]
+    },
+    {
+      "ranking": 4,
+      "ticker": "SLR",
+      "nombre": "Solaria",
+      "sector": "Renovables",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 21.99,
+      "entrada": 22.0,
+      "stop_loss": 21.34,
+      "stop_pct": -3.0,
+      "take_profit_1": 23.5,
+      "tp1_pct": 6.9,
+      "take_profit_2": 24.3,
+      "tp2_pct": 10.5,
+      "soporte_obvio": 21.0,
+      "resistencia_obvia": 23.0,
+      "soporte_secundario": 20.5,
+      "resistencia_secundaria": 24.0,
+      "distancia_max_52s_pct": -14.0,
+      "distancia_min_52s_pct": 18.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 130,
+      "catalizador_tipo": "SECTORIAL",
+      "catalizador_desc": "Impulso del sector renovable por nuevas políticas verdes.",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.2,
+      "prob_barrido": "BAJA",
+      "riesgo": "Volatilidad en precios de energía.",
+      "horizonte_dias": 5,
+      "eventos_proximos": []
+    },
+    {
+      "ranking": 5,
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "sector": "Energía",
+      "accion": "VENTA",
+      "conviccion": "BAJA",
+      "precio_actual": 24.19,
+      "entrada": 24.15,
+      "stop_loss": 24.98,
+      "stop_pct": -3.5,
+      "take_profit_1": 23.5,
+      "tp1_pct": -2.9,
+      "take_profit_2": 22.8,
+      "tp2_pct": -5.8,
+      "soporte_obvio": 23.5,
+      "resistencia_obvia": 25.0,
+      "soporte_secundario": 23.0,
+      "resistencia_secundaria": 25.5,
+      "distancia_max_52s_pct": -9.0,
+      "distancia_min_52s_pct": 15.0,
+      "tendencia": "BAJISTA",
+      "volumen_vs_media_pct": 110,
+      "catalizador_tipo": "MACRO",
+      "catalizador_desc": "Presiones a la baja por inventarios altos de crudo.",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.7,
+      "prob_barrido": "ALTA",
+      "riesgo": "Fluctuaciones en precios del petróleo.",
+      "horizonte_dias": 4,
+      "eventos_proximos": []
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "CABK",
+      "razon": "Shorts institucionales >0.5%",
+      "shorts_pct": 0.6
+    },
+    {
+      "ticker": "REP",
+      "razon": "Shorts institucionales >0.5%",
+      "shorts_pct": 0.7
+    }
+  ]
+}

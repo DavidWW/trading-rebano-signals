@@ -1,0 +1,204 @@
+{
+  "version": "4.1",
+  "fecha": "2026-01-28",
+  "sesion": "manana",
+  "hora": "06:03",
+  "alertas_shorts": [],
+  "consensos_ayer_pendientes": [],
+  "triangulacion": {
+    "consensos": [
+      {
+        "ticker": "BBVA",
+        "nombre": "Banco Bilbao Vizcaya Argentaria",
+        "accion": "COMPRA",
+        "tipo": "TOTAL",
+        "conviccion_claude": "ALTA",
+        "conviccion_openai": "ALTA",
+        "stop_claude": 20.67,
+        "stop_openai": 21.2,
+        "target_claude": 22.7,
+        "target_openai": 22.5,
+        "soporte_obvio_claude": 20.8,
+        "soporte_obvio_openai": 21.3,
+        "catalizador_claude": "FUNDAMENTAL",
+        "catalizador_openai": "FUNDAMENTAL",
+        "prob_barrido_claude": "MEDIA",
+        "prob_barrido_openai": "BAJA",
+        "precio_actual": 21.63
+      },
+      {
+        "ticker": "ITX",
+        "nombre": "Industria de Diseño Textil",
+        "accion": "COMPRA",
+        "tipo": "TOTAL",
+        "conviccion_claude": "ALTA",
+        "conviccion_openai": "MEDIA",
+        "stop_claude": 52.5,
+        "stop_openai": 53.37,
+        "target_claude": 56.5,
+        "target_openai": 56.0,
+        "soporte_obvio_claude": 53.0,
+        "soporte_obvio_openai": 53.5,
+        "catalizador_claude": "SECTORIAL",
+        "catalizador_openai": "TECNICO",
+        "prob_barrido_claude": "BAJA",
+        "prob_barrido_openai": "MEDIA",
+        "precio_actual": 54.42
+      },
+      {
+        "ticker": "IBE",
+        "nombre": "Iberdrola",
+        "accion": "COMPRA",
+        "tipo": "TOTAL",
+        "conviccion_claude": "MEDIA",
+        "conviccion_openai": "BAJA",
+        "stop_claude": 18.0,
+        "stop_openai": 18.37,
+        "target_claude": 19.5,
+        "target_openai": 19.2,
+        "soporte_obvio_claude": 18.2,
+        "soporte_obvio_openai": 18.5,
+        "catalizador_claude": "FUNDAMENTAL",
+        "catalizador_openai": "SECTORIAL",
+        "prob_barrido_claude": "BAJA",
+        "prob_barrido_openai": "ALTA",
+        "precio_actual": 18.75
+      }
+    ],
+    "solo_claude": [
+      {
+        "ranking": 4,
+        "ticker": "IAG",
+        "nombre": "International Airlines Group",
+        "accion": "COMPRA",
+        "conviccion": "MEDIA",
+        "precio_actual": 4.79,
+        "entrada": 4.75,
+        "stop_loss": 4.55,
+        "stop_pct": -4.2,
+        "take_profit_1": 5.05,
+        "tp1_pct": 6.3,
+        "take_profit_2": 5.25,
+        "tp2_pct": 10.5,
+        "soporte_obvio": 4.6,
+        "resistencia_obvia": 5.0,
+        "catalizador_tipo": "SECTORIAL",
+        "catalizador_desc": "Recuperación demanda viajes y precio combustible estable",
+        "catalizador_reversible": true,
+        "shorts_pct": 0.7,
+        "prob_barrido": "MEDIA",
+        "riesgo": "Volatilidad precio petróleo y clima geopolítico",
+        "horizonte_dias": 4
+      },
+      {
+        "ranking": 5,
+        "ticker": "AMS",
+        "nombre": "Amadeus IT Group",
+        "accion": "COMPRA",
+        "conviccion": "MEDIA",
+        "precio_actual": 56.48,
+        "entrada": 56.0,
+        "stop_loss": 54.5,
+        "stop_pct": -2.7,
+        "take_profit_1": 58.5,
+        "tp1_pct": 4.5,
+        "take_profit_2": 60.0,
+        "tp2_pct": 7.1,
+        "soporte_obvio": 55.0,
+        "resistencia_obvia": 58.0,
+        "catalizador_tipo": "TECNICO",
+        "catalizador_desc": "Ruptura resistencia 56.20 con volumen creciente",
+        "catalizador_reversible": true,
+        "shorts_pct": 0.4,
+        "prob_barrido": "BAJA",
+        "riesgo": "Correlación con sector turismo y tecnológico",
+        "horizonte_dias": 3
+      }
+    ],
+    "solo_openai": [
+      {
+        "ranking": 4,
+        "ticker": "TEF",
+        "nombre": "Telefónica",
+        "accion": "COMPRA",
+        "conviccion": "MEDIA",
+        "precio_actual": 3.35,
+        "entrada": 3.36,
+        "stop_loss": 3.29,
+        "stop_pct": -2.09,
+        "take_profit_1": 3.45,
+        "tp1_pct": 2.69,
+        "take_profit_2": 3.55,
+        "tp2_pct": 5.97,
+        "soporte_obvio": 3.3,
+        "resistencia_obvia": 3.5,
+        "catalizador_tipo": "TECNICO",
+        "catalizador_desc": "Patrón de doble suelo en formación.",
+        "catalizador_reversible": false,
+        "shorts_pct": 0.7,
+        "prob_barrido": "MEDIA",
+        "riesgo": "Riesgo relativo bajo.",
+        "horizonte_dias": 3
+      },
+      {
+        "ranking": 5,
+        "ticker": "REP",
+        "nombre": "Repsol",
+        "accion": "COMPRA",
+        "conviccion": "BAJA",
+        "precio_actual": 15.81,
+        "entrada": 15.85,
+        "stop_loss": 15.5,
+        "stop_pct": -1.96,
+        "take_profit_1": 16.2,
+        "tp1_pct": 2.47,
+        "take_profit_2": 16.6,
+        "tp2_pct": 4.99,
+        "soporte_obvio": 15.6,
+        "resistencia_obvia": 16.5,
+        "catalizador_tipo": "GEOPOLITICO",
+        "catalizador_desc": "Recuperación de precios del petróleo.",
+        "catalizador_reversible": true,
+        "shorts_pct": 0.9,
+        "prob_barrido": "MEDIA",
+        "riesgo": "Cambios en políticas energéticas internacionales pueden afectar.",
+        "horizonte_dias": 5
+      }
+    ],
+    "evitar": [
+      {
+        "ticker": "TEF",
+        "razon": "Presión regulatoria y debilidad técnica persistente"
+      },
+      {
+        "ticker": "MAP",
+        "razon": "Sobreventa extrema pero sin catalizador claro de reversión"
+      },
+      {
+        "ticker": "IBE",
+        "razon": "Alta proporción de shorts"
+      },
+      {
+        "ticker": "SAN",
+        "razon": "Condiciones macroeconómicas desfavorables"
+      },
+      {
+        "ticker": "CABK",
+        "razon": "Acontecimientos recientes impactando en el valor"
+      },
+      {
+        "ticker": "SAB",
+        "razon": "Inestabilidad en el sector financiero"
+      }
+    ],
+    "sentimiento_claude": "ALCISTA",
+    "sentimiento_openai": "ALCISTA"
+  },
+  "reglas_aplicadas": {
+    "R9_delay": true,
+    "R10_shorts": false,
+    "consensos_hoy": 3,
+    "valores_evitar": 6
+  },
+  "accion_recomendada": "OBSERVAR"
+}

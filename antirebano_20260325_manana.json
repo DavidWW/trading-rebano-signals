@@ -1,0 +1,623 @@
+{
+  "version": "4.5",
+  "fecha": "2026-03-25",
+  "sesion": "manana",
+  "hora": "06:47",
+  "alertas_shorts": [],
+  "consensos_ayer_pendientes": [],
+  "triangulacion": {
+    "consensos": [],
+    "solo_claude": [
+      {
+        "ranking": 1,
+        "ticker": "IDR",
+        "nombre": "Indra",
+        "sector": "Defensa/Tech",
+        "accion": "COMPRA",
+        "conviccion": "ALTA",
+        "precio_actual": 46.64,
+        "entrada": 46.85,
+        "stop_loss": 44.15,
+        "stop_pct": -5.8,
+        "take_profit_1": 49.65,
+        "tp1_pct": 6.0,
+        "take_profit_2": 52.35,
+        "tp2_pct": 11.7,
+        "soporte_obvio": 45.5,
+        "resistencia_obvia": 48.2,
+        "soporte_secundario": 44.8,
+        "resistencia_secundaria": 49.9,
+        "distancia_max_52s_pct": -6.8,
+        "distancia_min_52s_pct": 28.4,
+        "tendencia": "ALCISTA",
+        "volumen_vs_media_pct": 145,
+        "catalizador_tipo": "FUNDAMENTAL",
+        "catalizador_desc": "Contrato defensa europea 850M€ adjudicado",
+        "catalizador_reversible": false,
+        "shorts_pct": 0.2,
+        "prob_barrido": "BAJA",
+        "riesgo": "Dependencia contratos públicos",
+        "horizonte_dias": 4,
+        "eventos_proximos": [
+          {
+            "tipo": "RESULTADOS",
+            "fecha": "2026-04-15",
+            "descripcion": "Q1 2026 resultados"
+          }
+        ]
+      },
+      {
+        "ranking": 2,
+        "ticker": "PUIG",
+        "nombre": "Puig",
+        "sector": "Lujo/Consumo",
+        "accion": "COMPRA",
+        "conviccion": "ALTA",
+        "precio_actual": 17.59,
+        "entrada": 17.75,
+        "stop_loss": 16.65,
+        "stop_pct": -5.3,
+        "take_profit_1": 19.15,
+        "tp1_pct": 8.9,
+        "take_profit_2": 20.85,
+        "tp2_pct": 18.5,
+        "soporte_obvio": 17.0,
+        "resistencia_obvia": 18.5,
+        "soporte_secundario": 16.4,
+        "resistencia_secundaria": 19.2,
+        "distancia_max_52s_pct": -12.3,
+        "distancia_min_52s_pct": 19.7,
+        "tendencia": "ALCISTA",
+        "volumen_vs_media_pct": 165,
+        "catalizador_tipo": "SECTORIAL",
+        "catalizador_desc": "Sector lujo recuperando tras corrección",
+        "catalizador_reversible": true,
+        "shorts_pct": 0.3,
+        "prob_barrido": "MEDIA",
+        "riesgo": "Sensible economía China",
+        "horizonte_dias": 3,
+        "eventos_proximos": [
+          {
+            "tipo": "RESULTADOS",
+            "fecha": "2026-04-22",
+            "descripcion": "Resultados anuales 2025"
+          }
+        ]
+      },
+      {
+        "ranking": 3,
+        "ticker": "REP",
+        "nombre": "Repsol",
+        "sector": "Energía",
+        "accion": "COMPRA",
+        "conviccion": "MEDIA",
+        "precio_actual": 23.47,
+        "entrada": 23.65,
+        "stop_loss": 22.35,
+        "stop_pct": -4.8,
+        "take_profit_1": 25.15,
+        "tp1_pct": 7.2,
+        "take_profit_2": 26.85,
+        "tp2_pct": 14.4,
+        "soporte_obvio": 22.8,
+        "resistencia_obvia": 24.5,
+        "soporte_secundario": 22.2,
+        "resistencia_secundaria": 25.3,
+        "distancia_max_52s_pct": -8.9,
+        "distancia_min_52s_pct": 15.2,
+        "tendencia": "LATERAL",
+        "volumen_vs_media_pct": 120,
+        "catalizador_tipo": "MACRO",
+        "catalizador_desc": "Brent estabilizado por encima 80$",
+        "catalizador_reversible": true,
+        "shorts_pct": 0.4,
+        "prob_barrido": "MEDIA",
+        "riesgo": "Volatilidad petróleo geopolítica",
+        "horizonte_dias": 5,
+        "eventos_proximos": [
+          {
+            "tipo": "EX_DIVIDENDO",
+            "fecha": "2026-04-08",
+            "descripcion": "Dividendo 0.45€"
+          }
+        ]
+      },
+      {
+        "ranking": 4,
+        "ticker": "SAN",
+        "nombre": "Santander",
+        "sector": "Banca",
+        "accion": "VENTA",
+        "conviccion": "MEDIA",
+        "precio_actual": 9.48,
+        "entrada": 9.35,
+        "stop_loss": 9.85,
+        "stop_pct": -5.3,
+        "take_profit_1": 8.85,
+        "tp1_pct": 6.6,
+        "take_profit_2": 8.15,
+        "tp2_pct": 14.0,
+        "soporte_obvio": 9.0,
+        "resistencia_obvia": 9.8,
+        "soporte_secundario": 8.65,
+        "resistencia_secundaria": 10.15,
+        "distancia_max_52s_pct": -15.2,
+        "distancia_min_52s_pct": 8.9,
+        "tendencia": "BAJISTA",
+        "volumen_vs_media_pct": 135,
+        "catalizador_tipo": "SECTORIAL",
+        "catalizador_desc": "Sector bancario bajo presión regulatoria",
+        "catalizador_reversible": false,
+        "shorts_pct": 1.2,
+        "prob_barrido": "ALTA",
+        "riesgo": "Posible rebote técnico",
+        "horizonte_dias": 4,
+        "eventos_proximos": [
+          {
+            "tipo": "RESULTADOS",
+            "fecha": "2026-04-28",
+            "descripcion": "Q1 2026 earnings"
+          }
+        ]
+      },
+      {
+        "ranking": 5,
+        "ticker": "AMS",
+        "nombre": "Amadeus",
+        "sector": "Tecnología/Turismo",
+        "accion": "COMPRA",
+        "conviccion": "MEDIA",
+        "precio_actual": 49.68,
+        "entrada": 49.95,
+        "stop_loss": 47.15,
+        "stop_pct": -5.6,
+        "take_profit_1": 52.85,
+        "tp1_pct": 6.4,
+        "take_profit_2": 55.65,
+        "tp2_pct": 12.0,
+        "soporte_obvio": 48.5,
+        "resistencia_obvia": 51.2,
+        "soporte_secundario": 46.8,
+        "resistencia_secundaria": 53.4,
+        "distancia_max_52s_pct": -9.5,
+        "distancia_min_52s_pct": 22.8,
+        "tendencia": "ALCISTA",
+        "volumen_vs_media_pct": 110,
+        "catalizador_tipo": "SECTORIAL",
+        "catalizador_desc": "Temporada viajes primavera iniciando",
+        "catalizador_reversible": true,
+        "shorts_pct": 0.1,
+        "prob_barrido": "BAJA",
+        "riesgo": "Dependencia industria aérea",
+        "horizonte_dias": 5,
+        "eventos_proximos": [
+          {
+            "tipo": "OTRO",
+            "fecha": "2026-04-12",
+            "descripcion": "Conferencia sector turismo"
+          }
+        ]
+      }
+    ],
+    "solo_openai": [
+      {
+        "ranking": 1,
+        "ticker": "ENG",
+        "nombre": "Enagás",
+        "sector": "Utilities",
+        "accion": "COMPRA",
+        "conviccion": "ALTA",
+        "precio_actual": 14.61,
+        "entrada": 14.5,
+        "stop_loss": 14.05,
+        "stop_pct": -3.1,
+        "take_profit_1": 15.5,
+        "tp1_pct": 6.8,
+        "take_profit_2": 16.1,
+        "tp2_pct": 10.2,
+        "soporte_obvio": 14.3,
+        "resistencia_obvia": 15.6,
+        "soporte_secundario": 13.9,
+        "resistencia_secundaria": 16.5,
+        "distancia_max_52s_pct": -12.5,
+        "distancia_min_52s_pct": 18.0,
+        "tendencia": "ALCISTA",
+        "volumen_vs_media_pct": 160,
+        "catalizador_tipo": "TECNICO",
+        "catalizador_desc": "cruce alcista del MA50 sobre MA200",
+        "catalizador_reversible": false,
+        "shorts_pct": 0.0,
+        "prob_barrido": "BAJA",
+        "riesgo": "nivel alto pero con soporte técnico fuerte",
+        "horizonte_dias": 4,
+        "eventos_proximos": [
+          {
+            "tipo": "DIVIDENDO",
+            "fecha": "2026-03-31",
+            "descripcion": "Pago de dividendo"
+          }
+        ]
+      },
+      {
+        "ranking": 2,
+        "ticker": "ITX",
+        "nombre": "Inditex",
+        "sector": "Retail",
+        "accion": "COMPRA",
+        "conviccion": "MEDIA",
+        "precio_actual": 49.82,
+        "entrada": 49.5,
+        "stop_loss": 48.1,
+        "stop_pct": -2.8,
+        "take_profit_1": 52.0,
+        "tp1_pct": 4.4,
+        "take_profit_2": 53.5,
+        "tp2_pct": 7.4,
+        "soporte_obvio": 48.9,
+        "resistencia_obvia": 51.7,
+        "soporte_secundario": 47.5,
+        "resistencia_secundaria": 54.0,
+        "distancia_max_52s_pct": -7.2,
+        "distancia_min_52s_pct": 13.6,
+        "tendencia": "ALCISTA",
+        "volumen_vs_media_pct": 140,
+        "catalizador_tipo": "FUNDAMENTAL",
+        "catalizador_desc": "incremento de ventas en el último trimestre",
+        "catalizador_reversible": false,
+        "shorts_pct": 0.2,
+        "prob_barrido": "MEDIA",
+        "riesgo": "riesgo moderado, buen momentum de ventas",
+        "horizonte_dias": 3,
+        "eventos_proximos": [
+          {
+            "tipo": "RESULTADOS",
+            "fecha": "2026-04-05",
+            "descripcion": "Presentación de resultados trimestrales"
+          }
+        ]
+      },
+      {
+        "ranking": 3,
+        "ticker": "ELE",
+        "nombre": "Endesa",
+        "sector": "Utilities",
+        "accion": "VENTA",
+        "conviccion": "ALTA",
+        "precio_actual": 34.65,
+        "entrada": 34.6,
+        "stop_loss": 35.85,
+        "stop_pct": -3.6,
+        "take_profit_1": 33.0,
+        "tp1_pct": -4.8,
+        "take_profit_2": 32.0,
+        "tp2_pct": -7.6,
+        "soporte_obvio": 33.4,
+        "resistencia_obvia": 35.5,
+        "soporte_secundario": 32.8,
+        "resistencia_secundaria": 36.3,
+        "distancia_max_52s_pct": -14.3,
+        "distancia_min_52s_pct": 16.9,
+        "tendencia": "BAJISTA",
+        "volumen_vs_media_pct": 120,
+        "catalizador_tipo": "TECNICO",
+        "catalizador_desc": "reversión bajista tras máximo relativo",
+        "catalizador_reversible": false,
+        "shorts_pct": 0.8,
+        "prob_barrido": "ALTA",
+        "riesgo": "alto riesgo de rebote técnico",
+        "horizonte_dias": 4,
+        "eventos_proximos": [
+          {
+            "tipo": "EX_DIVIDENDO",
+            "fecha": "2026-04-10",
+            "descripcion": "Fecha ex-dividendo próxima"
+          }
+        ]
+      },
+      {
+        "ranking": 4,
+        "ticker": "TEF",
+        "nombre": "Telefónica",
+        "sector": "Telecom",
+        "accion": "COMPRA",
+        "conviccion": "MEDIA",
+        "precio_actual": 3.68,
+        "entrada": 3.7,
+        "stop_loss": 3.55,
+        "stop_pct": -3.9,
+        "take_profit_1": 4.0,
+        "tp1_pct": 8.7,
+        "take_profit_2": 4.2,
+        "tp2_pct": 14.1,
+        "soporte_obvio": 3.6,
+        "resistencia_obvia": 4.1,
+        "soporte_secundario": 3.45,
+        "resistencia_secundaria": 4.35,
+        "distancia_max_52s_pct": -23.5,
+        "distancia_min_52s_pct": 10.2,
+        "tendencia": "LATERAL",
+        "volumen_vs_media_pct": 130,
+        "catalizador_tipo": "MACRO",
+        "catalizador_desc": "mejoras en el marco regulatorio europeo",
+        "catalizador_reversible": true,
+        "shorts_pct": 0.7,
+        "prob_barrido": "MEDIA",
+        "riesgo": "regulatorio y de competencia",
+        "horizonte_dias": 5,
+        "eventos_proximos": [
+          {
+            "tipo": "OTRO",
+            "fecha": "2026-04-02",
+            "descripcion": "Conferencia del sector telecomunicaciones"
+          }
+        ]
+      },
+      {
+        "ranking": 5,
+        "ticker": "IBEX",
+        "nombre": "IBEX 35",
+        "sector": "Índice",
+        "accion": "VENTA",
+        "conviccion": "BAJA",
+        "precio_actual": 8344.2,
+        "entrada": 8350.0,
+        "stop_loss": 8600.0,
+        "stop_pct": -3.0,
+        "take_profit_1": 8100.0,
+        "tp1_pct": -2.9,
+        "take_profit_2": 7900.0,
+        "tp2_pct": -5.3,
+        "soporte_obvio": 8200.0,
+        "resistencia_obvia": 8450.0,
+        "soporte_secundario": 7900.0,
+        "resistencia_secundaria": 8650.0,
+        "distancia_max_52s_pct": -18.9,
+        "distancia_min_52s_pct": 5.5,
+        "tendencia": "LATERAL",
+        "volumen_vs_media_pct": 110,
+        "catalizador_tipo": "MACRO",
+        "catalizador_desc": "incertidumbre económica global",
+        "catalizador_reversible": true,
+        "shorts_pct": 0.0,
+        "prob_barrido": "ALTA",
+        "riesgo": "alta volatilidad de mercado global",
+        "horizonte_dias": 5,
+        "eventos_proximos": [
+          {
+            "tipo": "OTRO",
+            "fecha": "2026-03-29",
+            "descripcion": "Revisión de ponderaciones del índice"
+          }
+        ]
+      }
+    ],
+    "evitar": [
+      {
+        "ticker": "COL",
+        "razon": "Sector inmobiliario presionado tipos altos",
+        "shorts_pct": 0.8
+      },
+      {
+        "ticker": "MRL",
+        "razon": "Mismo sector inmobiliario debil",
+        "shorts_pct": 1.1
+      },
+      {
+        "ticker": "TEF",
+        "razon": "Telecom tradicional sin catalizadores",
+        "shorts_pct": 0.6
+      },
+      {
+        "ticker": "SAN",
+        "razon": "Shorts institucionales elevados",
+        "shorts_pct": 1.2
+      },
+      {
+        "ticker": "ELE",
+        "razon": "Cortos institucionales mayores al 0.5% y tendencia bajista",
+        "shorts_pct": 0.8
+      }
+    ],
+    "sentimiento_claude": "NEUTRAL",
+    "sentimiento_openai": "NEUTRAL",
+    "radar_macro_claude": {
+      "commodities": {
+        "oro": {
+          "precio_usd": 2198.5,
+          "var_semanal_pct": -1.2,
+          "var_mensual_pct": 2.8,
+          "dist_max_52s_pct": -3.5,
+          "alerta": false
+        },
+        "plata": {
+          "precio_usd": 24.85,
+          "var_semanal_pct": -2.1,
+          "var_mensual_pct": 1.9,
+          "dist_max_52s_pct": -8.2,
+          "alerta": false
+        },
+        "petroleo_brent": {
+          "precio_usd": 82.45,
+          "var_semanal_pct": 0.8,
+          "var_mensual_pct": 4.2,
+          "alerta": false
+        }
+      },
+      "indices": {
+        "sp500": {
+          "valor": 5945,
+          "var_semanal_pct": 0.5,
+          "dist_max_52s_pct": -2.1,
+          "alerta": false
+        },
+        "nasdaq100": {
+          "valor": 20850,
+          "var_semanal_pct": 1.2,
+          "dist_max_52s_pct": -1.8,
+          "alerta": false
+        },
+        "stoxx600": {
+          "valor": 518,
+          "var_semanal_pct": -0.3,
+          "dist_max_52s_pct": -4.2,
+          "alerta": false
+        },
+        "msci_em": {
+          "valor": 1085,
+          "var_semanal_pct": -1.1,
+          "dist_max_52s_pct": -6.8,
+          "alerta": false
+        },
+        "nikkei225": {
+          "valor": 40250,
+          "var_semanal_pct": 1.8,
+          "dist_max_52s_pct": -0.9,
+          "alerta": false
+        }
+      },
+      "sectores_europa": {
+        "mejor_sector": {
+          "nombre": "Tecnología",
+          "var_semanal_pct": 2.4
+        },
+        "peor_sector": {
+          "nombre": "Inmobiliario",
+          "var_semanal_pct": -3.1
+        },
+        "sector_en_correccion": {
+          "hay_correccion": true,
+          "nombre": "Utilities",
+          "caida_desde_max_pct": -12.8,
+          "causa": "Subida tipos interés"
+        }
+      },
+      "divisas": {
+        "eur_usd": {
+          "valor": 1.0845,
+          "var_semanal_pct": -0.4,
+          "var_mensual_pct": 1.2
+        }
+      },
+      "vix": {
+        "valor": 16.8,
+        "nivel": "NORMAL"
+      },
+      "eventos_clave": [
+        {
+          "evento": "Fed Beige Book",
+          "hora_cet": "20:00",
+          "relevancia": "MEDIA"
+        },
+        {
+          "evento": "PMI Eurozona preliminar",
+          "hora_cet": "10:00",
+          "relevancia": "ALTA"
+        },
+        {
+          "evento": "Confianza consumidor alemán",
+          "hora_cet": "08:00",
+          "relevancia": "MEDIA"
+        }
+      ],
+      "resumen_macro": "Ambiente neutral con datos mixtos pendientes"
+    },
+    "radar_macro_openai": {
+      "commodities": {
+        "oro": {
+          "precio_usd": 1856.3,
+          "var_semanal_pct": -1.2,
+          "var_mensual_pct": 0.3,
+          "dist_max_52s_pct": -9.4,
+          "alerta": false
+        },
+        "plata": {
+          "precio_usd": 24.58,
+          "var_semanal_pct": 0.5,
+          "var_mensual_pct": 1.1,
+          "dist_max_52s_pct": -12.3,
+          "alerta": false
+        },
+        "petroleo_brent": {
+          "precio_usd": 79.23,
+          "var_semanal_pct": 2.3,
+          "var_mensual_pct": -0.8,
+          "alerta": false
+        }
+      },
+      "indices": {
+        "sp500": {
+          "valor": 3975,
+          "var_semanal_pct": 1.5,
+          "dist_max_52s_pct": -5.9,
+          "alerta": false
+        },
+        "nasdaq100": {
+          "valor": 12958,
+          "var_semanal_pct": 0.9,
+          "dist_max_52s_pct": -8.7,
+          "alerta": false
+        },
+        "stoxx600": {
+          "valor": 443,
+          "var_semanal_pct": 1.2,
+          "dist_max_52s_pct": -3.5,
+          "alerta": false
+        },
+        "msci_em": {
+          "valor": 1112,
+          "var_semanal_pct": 0.7,
+          "dist_max_52s_pct": -6.8,
+          "alerta": false
+        },
+        "nikkei225": {
+          "valor": 28700,
+          "var_semanal_pct": 1.8,
+          "dist_max_52s_pct": -4.4,
+          "alerta": false
+        }
+      },
+      "sectores_europa": {
+        "mejor_sector": {
+          "nombre": "Tecnología",
+          "var_semanal_pct": 2.6
+        },
+        "peor_sector": {
+          "nombre": "Energía",
+          "var_semanal_pct": -1.5
+        },
+        "sector_en_correccion": {
+          "hay_correccion": false,
+          "nombre": "",
+          "caida_desde_max_pct": 0.0,
+          "causa": ""
+        }
+      },
+      "divisas": {
+        "eur_usd": {
+          "valor": 1.0834,
+          "var_semanal_pct": 0.2,
+          "var_mensual_pct": -0.7
+        }
+      },
+      "vix": {
+        "valor": 16.4,
+        "nivel": "NORMAL"
+      },
+      "eventos_clave": [
+        {
+          "evento": "Decisión de tipos de interés de la Fed",
+          "hora_cet": "20:00",
+          "relevancia": "ALTA"
+        }
+      ],
+      "resumen_macro": "neutral con ligera inclinación hacia riesgo por decisión de tasa de la Fed"
+    }
+  },
+  "reglas_aplicadas": {
+    "R9_delay": false,
+    "R10_shorts": false,
+    "consensos_hoy": 0,
+    "valores_evitar": 5
+  },
+  "accion_recomendada": "EVALUAR"
+}

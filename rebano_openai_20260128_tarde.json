@@ -1,0 +1,38 @@
+{
+  "fecha": "2026-01-28",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "resumen": {
+    "ibex_var_pct": 0.0,
+    "valores_destacados": [
+      "FER +2%",
+      "SAB -1%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "FER",
+      "nivel_barrido": 56.0,
+      "recupero": true,
+      "recuperacion_pct": 1.4
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "accion": "COMPRA",
+      "precio_cierre": 18.78,
+      "soporte_obvio": 17.5,
+      "resistencia_obvia": 19.5,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Rompió resistencia anterior"
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "SAB",
+      "razon": "Pérdidas recientes mayores al 1%"
+    }
+  ]
+}

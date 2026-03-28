@@ -1,0 +1,58 @@
+{
+  "fecha": "2026-02-13",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "resumen": {
+    "ibex_var_pct": 0.0,
+    "valores_destacados": [
+      "ACS mantenimiento",
+      "ITX consolidación"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "TEF",
+      "nivel_barrido": 3.7,
+      "recupero": false,
+      "recuperacion_pct": -0.8
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "BBVA",
+      "nombre": "Banco Bilbao Vizcaya",
+      "accion": "COMPRA",
+      "precio_cierre": 19.11,
+      "soporte_obvio": 18.8,
+      "resistencia_obvia": 19.5,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Rebote desde soporte clave con volumen"
+    },
+    {
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "accion": "VIGILAR",
+      "precio_cierre": 20.06,
+      "soporte_obvio": 19.8,
+      "resistencia_obvia": 20.4,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Consolidación en zona de resistencia"
+    },
+    {
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "accion": "COMPRA",
+      "precio_cierre": 16.99,
+      "soporte_obvio": 16.7,
+      "resistencia_obvia": 17.3,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Precio petróleo favorable y nivel técnico atractivo"
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "TEF",
+      "razon": "Tendencia bajista confirmada sin catalizadores"
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "fecha": "2026-02-25",
+  "sesion": "manana",
+  "sentimiento": "NEUTRAL",
+  "radar_macro": {
+    "commodities": {
+      "oro": {
+        "precio_usd": 2685.4,
+        "var_semanal_pct": -1.2,
+        "var_mensual_pct": 3.8,
+        "dist_max_52s_pct": -2.1,
+        "alerta": false
+      },
+      "plata": {
+        "precio_usd": 30.85,
+        "var_semanal_pct": -2.4,
+        "var_mensual_pct": 5.6,
+        "dist_max_52s_pct": -8.3,
+        "alerta": false
+      },
+      "petroleo_brent": {
+        "precio_usd": 82.15,
+        "var_semanal_pct": 1.8,
+        "var_mensual_pct": 4.2,
+        "alerta": false
+      }
+    },
+    "indices": {
+      "sp500": {
+        "valor": 5980,
+        "var_semanal_pct": 0.3,
+        "dist_max_52s_pct": -1.5,
+        "alerta": false
+      },
+      "nasdaq100": {
+        "valor": 21450,
+        "var_semanal_pct": -0.8,
+        "dist_max_52s_pct": -3.2,
+        "alerta": false
+      },
+      "stoxx600": {
+        "valor": 538,
+        "var_semanal_pct": 0.9,
+        "dist_max_52s_pct": -0.8,
+        "alerta": false
+      },
+      "msci_em": {
+        "valor": 1185,
+        "var_semanal_pct": 1.4,
+        "dist_max_52s_pct": -4.7,
+        "alerta": false
+      },
+      "nikkei225": {
+        "valor": 40250,
+        "var_semanal_pct": -1.1,
+        "dist_max_52s_pct": -6.2,
+        "alerta": false
+      }
+    },
+    "sectores_europa": {
+      "mejor_sector": {
+        "nombre": "Utilities",
+        "var_semanal_pct": 2.8
+      },
+      "peor_sector": {
+        "nombre": "Tecnología",
+        "var_semanal_pct": -2.1
+      },
+      "sector_en_correccion": {
+        "hay_correccion": true,
+        "nombre": "Retail",
+        "caida_desde_max_pct": -12.4,
+        "causa": "Preocupaciones consumo"
+      }
+    },
+    "divisas": {
+      "eur_usd": {
+        "valor": 1.0425,
+        "var_semanal_pct": -0.6,
+        "var_mensual_pct": 1.2
+      }
+    },
+    "vix": {
+      "valor": 16.8,
+      "nivel": "NORMAL"
+    },
+    "eventos_clave": [
+      {
+        "evento": "Confianza Consumidor EE.UU.",
+        "hora_cet": "16:00",
+        "relevancia": "MEDIA"
+      },
+      {
+        "evento": "Ventas Viviendas Nuevas EE.UU.",
+        "hora_cet": "16:00",
+        "relevancia": "BAJA"
+      }
+    ],
+    "resumen_macro": "Mercados en pausa técnica con rotación sectorial hacia defensivos"
+  },
+  "recomendaciones": [
+    {
+      "ranking": 1,
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 20.05,
+      "entrada": 20.15,
+      "stop_loss": 19.35,
+      "stop_pct": -4.0,
+      "take_profit_1": 20.85,
+      "tp1_pct": 3.5,
+      "take_profit_2": 21.65,
+      "tp2_pct": 7.4,
+      "soporte_obvio": 19.5,
+      "resistencia_obvia": 20.8,
+      "soporte_secundario": 19.1,
+      "resistencia_secundaria": 21.2,
+      "distancia_max_52s_pct": -8.5,
+      "distancia_min_52s_pct": 15.2,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 135,
+      "catalizador_tipo": "SECTORIAL",
+      "catalizador_desc": "Rotación hacia utilities defensivos y fortaleza energías renovables",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.2,
+      "prob_barrido": "BAJA",
+      "riesgo": "Corrección mercado general",
+      "horizonte_dias": 4,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-05",
+          "descripcion": "Resultados anuales 2025"
+        }
+      ]
+    },
+    {
+      "ranking": 2,
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "sector": "Energía",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 18.67,
+      "entrada": 18.85,
+      "stop_loss": 17.85,
+      "stop_pct": -5.3,
+      "take_profit_1": 19.65,
+      "tp1_pct": 4.2,
+      "take_profit_2": 20.45,
+      "tp2_pct": 8.5,
+      "soporte_obvio": 18.2,
+      "resistencia_obvia": 19.5,
+      "soporte_secundario": 17.6,
+      "resistencia_secundaria": 20.1,
+      "distancia_max_52s_pct": -12.4,
+      "distancia_min_52s_pct": 18.9,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 142,
+      "catalizador_tipo": "MACRO",
+      "catalizador_desc": "Subida precio petróleo y expectativas dividendo atractivo",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.3,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Volatilidad commodities",
+      "horizonte_dias": 5,
+      "eventos_proximos": [
+        {
+          "tipo": "EX_DIVIDENDO",
+          "fecha": "2026-03-15",
+          "descripcion": "Dividendo extraordinario 0.40€"
+        }
+      ]
+    },
+    {
+      "ranking": 3,
+      "ticker": "SAN",
+      "nombre": "Santander",
+      "sector": "Banca",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 10.65,
+      "entrada": 10.75,
+      "stop_loss": 10.15,
+      "stop_pct": -5.6,
+      "take_profit_1": 11.35,
+      "tp1_pct": 5.6,
+      "take_profit_2": 11.95,
+      "tp2_pct": 11.2,
+      "soporte_obvio": 10.3,
+      "resistencia_obvia": 11.2,
+      "soporte_secundario": 9.85,
+      "resistencia_secundaria": 11.65,
+      "distancia_max_52s_pct": -15.8,
+      "distancia_min_52s_pct": 22.4,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 118,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "catalizador_desc": "Valoración atractiva y mejora margen de intereses",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.4,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Presión regulatoria banca",
+      "horizonte_dias": 3,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-02-28",
+          "descripcion": "Resultados Q4 2025"
+        }
+      ]
+    },
+    {
+      "ranking": 4,
+      "ticker": "ELE",
+      "nombre": "Endesa",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 34.28,
+      "entrada": 34.65,
+      "stop_loss": 32.85,
+      "stop_pct": -5.2,
+      "take_profit_1": 35.85,
+      "tp1_pct": 3.5,
+      "take_profit_2": 37.15,
+      "tp2_pct": 7.2,
+      "soporte_obvio": 33.5,
+      "resistencia_obvia": 35.6,
+      "soporte_secundario": 32.2,
+      "resistencia_secundaria": 36.8,
+      "distancia_max_52s_pct": -6.2,
+      "distancia_min_52s_pct": 19.8,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 108,
+      "catalizador_tipo": "SECTORIAL",
+      "catalizador_desc": "Fortaleza sector utilities y política dividendos",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.1,
+      "prob_barrido": "BAJA",
+      "riesgo": "Regulación energética",
+      "horizonte_dias": 4,
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-03-20",
+          "descripcion": "Dividendo ordinario"
+        }
+      ]
+    },
+    {
+      "ranking": 5,
+      "ticker": "FER",
+      "nombre": "Ferrovial",
+      "sector": "Infraestructuras",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 61.74,
+      "entrada": 62.35,
+      "stop_loss": 58.65,
+      "stop_pct": -5.9,
+      "take_profit_1": 64.85,
+      "tp1_pct": 4.0,
+      "take_profit_2": 67.25,
+      "tp2_pct": 7.9,
+      "soporte_obvio": 60.2,
+      "resistencia_obvia": 64.5,
+      "soporte_secundario": 58.1,
+      "resistencia_secundaria": 66.8,
+      "distancia_max_52s_pct": -9.8,
+      "distancia_min_52s_pct": 28.5,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 95,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "catalizador_desc": "Expansión internacional y cartera infraestructuras sólida",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.2,
+      "prob_barrido": "BAJA",
+      "riesgo": "Exposición mercados internacionales",
+      "horizonte_dias": 5,
+      "eventos_proximos": []
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "ITX",
+      "razon": "Sector retail en corrección técnica -12.4%",
+      "shorts_pct": 0.3
+    },
+    {
+      "ticker": "TEF",
+      "razon": "Debilidad técnica persistente y alta deuda",
+      "shorts_pct": 0.8
+    }
+  ]
+}

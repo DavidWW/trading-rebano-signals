@@ -1,0 +1,81 @@
+{
+  "fecha": "2026-03-23",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Petróleo",
+        "var_dia_pct": 2.3,
+        "nuevo_precio": 95.45
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "NASDAQ",
+        "var_dia_pct": -1.5
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 21.0,
+      "nivel": "ALTO",
+      "cambio_significativo": true
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Energía",
+        "var_dia_pct": 1.4,
+        "direccion": "POSITIVO"
+      }
+    ],
+    "resumen_cambios": "El aumento en los precios del petróleo impulsa al sector energético, mientras los índices tecnológicos caen."
+  },
+  "resumen": {
+    "ibex_var_pct": 0.25,
+    "valores_destacados": [
+      "REP +2%",
+      "BTK -1%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "SAN",
+      "nivel_barrido": 9.6,
+      "recupero": true,
+      "recuperacion_pct": 0.2
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "sector": "Energía",
+      "accion": "COMPRA",
+      "precio_cierre": 22.69,
+      "soporte_obvio": 22.0,
+      "resistencia_obvia": 23.5,
+      "soporte_secundario": 21.45,
+      "resistencia_secundaria": 24.0,
+      "distancia_max_52s_pct": -5.0,
+      "distancia_min_52s_pct": 30.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 160,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Incremento en precios del petróleo",
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-04-05",
+          "descripcion": "Pago de dividendo trimestral"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "CABK",
+      "razon": "Altos shorts institucionales",
+      "shorts_pct": 1.2
+    }
+  ]
+}

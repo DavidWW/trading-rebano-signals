@@ -1,0 +1,150 @@
+{
+  "fecha": "2026-03-27",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Brent",
+        "var_dia_pct": -2.1,
+        "nuevo_precio": 68.45
+      },
+      {
+        "activo": "Oro",
+        "var_dia_pct": 1.8,
+        "nuevo_precio": 2156.7
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "DAX",
+        "var_dia_pct": -0.8
+      },
+      {
+        "indice": "Nikkei",
+        "var_dia_pct": 1.2
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 16.2,
+      "nivel": "NORMAL",
+      "cambio_significativo": false
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Utilities",
+        "var_dia_pct": 1.4,
+        "direccion": "POSITIVO"
+      },
+      {
+        "nombre": "Energia",
+        "var_dia_pct": -1.8,
+        "direccion": "NEGATIVO"
+      }
+    ],
+    "resumen_cambios": "Sesión mixta con rotación hacia defensivos por caída del petróleo"
+  },
+  "resumen": {
+    "ibex_var_pct": -0.3,
+    "valores_destacados": [
+      "IBE +1.8%",
+      "ELE +1.2%",
+      "REP -2.1%",
+      "ITX -0.8%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "REP",
+      "nivel_barrido": 24.5,
+      "recupero": false,
+      "recuperacion_pct": -1.8
+    },
+    {
+      "ticker": "BBVA",
+      "nivel_barrido": 18.0,
+      "recupero": true,
+      "recuperacion_pct": 0.7
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "precio_cierre": 19.12,
+      "soporte_obvio": 18.65,
+      "resistencia_obvia": 19.85,
+      "soporte_secundario": 18.35,
+      "resistencia_secundaria": 20.15,
+      "distancia_max_52s_pct": -8.2,
+      "distancia_min_52s_pct": 12.8,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 145,
+      "catalizador_tipo": "MACRO",
+      "razon": "Fortaleza defensiva con caída petróleo, ruptura resistencia 19.00 con volumen",
+      "eventos_proximos": [
+        {
+          "tipo": "EX_DIVIDENDO",
+          "fecha": "2026-04-15",
+          "descripcion": "Ex-dividendo 0.18€"
+        }
+      ]
+    },
+    {
+      "ticker": "ELE",
+      "nombre": "Endesa",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "precio_cierre": 34.9,
+      "soporte_obvio": 33.85,
+      "resistencia_obvia": 36.2,
+      "soporte_secundario": 33.25,
+      "resistencia_secundaria": 37.0,
+      "distancia_max_52s_pct": -5.1,
+      "distancia_min_52s_pct": 18.5,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 135,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Seguimiento utilities alcistas, consolidación sobre MM20 en 34.50",
+      "eventos_proximos": []
+    },
+    {
+      "ticker": "ACS",
+      "nombre": "ACS",
+      "sector": "Construcción",
+      "accion": "VIGILAR",
+      "precio_cierre": 102.5,
+      "soporte_obvio": 100.0,
+      "resistencia_obvia": 105.85,
+      "soporte_secundario": 98.65,
+      "resistencia_secundaria": 108.0,
+      "distancia_max_52s_pct": -3.8,
+      "distancia_min_52s_pct": 32.1,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 85,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Consolidación en máximos, esperando ruptura 105.85 para confirmación alcista",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-28",
+          "descripcion": "Resultados Q1 2026"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "REP",
+      "razon": "Debilidad con caída petróleo, ruptura soporte 24.50",
+      "shorts_pct": 0.8
+    },
+    {
+      "ticker": "TEF",
+      "razon": "Lateralidad prolongada en mínimos, volumen bajo",
+      "shorts_pct": 1.2
+    }
+  ]
+}

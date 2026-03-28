@@ -1,0 +1,86 @@
+{
+  "SAN": {
+    "nombre": "Banco Santander",
+    "precio": 10.03
+  },
+  "BBVA": {
+    "nombre": "BBVA",
+    "precio": 19.11
+  },
+  "ITX": {
+    "nombre": "Inditex",
+    "precio": 57.06
+  },
+  "IBE": {
+    "nombre": "Iberdrola",
+    "precio": 20.06
+  },
+  "TEF": {
+    "nombre": "Telefónica",
+    "precio": 3.67
+  },
+  "REP": {
+    "nombre": "Repsol",
+    "precio": 16.99
+  },
+  "CABK": {
+    "nombre": "CaixaBank",
+    "precio": 10.02
+  },
+  "FER": {
+    "nombre": "Ferrovial",
+    "precio": 61.28
+  },
+  "AMS": {
+    "nombre": "Amadeus",
+    "precio": 48.84
+  },
+  "IAG": {
+    "nombre": "IAG",
+    "precio": 4.98
+  },
+  "AENA": {
+    "nombre": "Aena",
+    "precio": 27.69
+  },
+  "ENG": {
+    "nombre": "Enagás",
+    "precio": 15.02
+  },
+  "MAP": {
+    "nombre": "Mapfre",
+    "precio": 3.82
+  },
+  "ACS": {
+    "nombre": "ACS",
+    "precio": 98.3
+  },
+  "GRF": {
+    "nombre": "Grifols",
+    "precio": 10.95
+  },
+  "SAB": {
+    "nombre": "Banco Sabadell",
+    "precio": 3.12
+  },
+  "FDR": {
+    "nombre": "Fluidra",
+    "precio": 25.38
+  },
+  "MRL": {
+    "nombre": "Merlin Properties",
+    "precio": 13.34
+  },
+  "LOG": {
+    "nombre": "Logista",
+    "precio": 33.34
+  },
+  "PUIG": {
+    "nombre": "Puig",
+    "precio": 16.62
+  },
+  "IDR": {
+    "nombre": "Indra",
+    "precio": 51.1
+  }
+}

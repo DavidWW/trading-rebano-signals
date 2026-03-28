@@ -1,0 +1,41 @@
+{
+  "version": "4.5",
+  "fecha": "2026-03-17",
+  "sesion": "tarde",
+  "hora": "18:14",
+  "alertas_shorts": [],
+  "consensos_ayer_pendientes": [],
+  "triangulacion": {
+    "consensos": [],
+    "solo_claude": [],
+    "solo_openai": [],
+    "evitar": [
+      {
+        "ticker": "REP",
+        "razon": "Debilidad sector energético, presión commodities",
+        "shorts_pct": 0.3
+      },
+      {
+        "ticker": "TEF",
+        "razon": "Zona soporte crítica, momentum negativo persistente",
+        "shorts_pct": 0.8
+      },
+      {
+        "ticker": "SAN",
+        "razon": "High short interest",
+        "shorts_pct": 1.2
+      }
+    ],
+    "sentimiento_claude": "NEUTRAL",
+    "sentimiento_openai": "NEUTRAL",
+    "radar_macro_claude": {},
+    "radar_macro_openai": {}
+  },
+  "reglas_aplicadas": {
+    "R9_delay": false,
+    "R10_shorts": false,
+    "consensos_hoy": 0,
+    "valores_evitar": 3
+  },
+  "accion_recomendada": "EVALUAR"
+}

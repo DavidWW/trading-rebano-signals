@@ -1,0 +1,150 @@
+{
+  "fecha": "2026-03-02",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Brent",
+        "var_dia_pct": -1.8,
+        "nuevo_precio": 82.45
+      },
+      {
+        "activo": "Oro",
+        "var_dia_pct": 2.3,
+        "nuevo_precio": 2365.2
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "DAX",
+        "var_dia_pct": -0.9
+      },
+      {
+        "indice": "FTSE100",
+        "var_dia_pct": 1.2
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 16.8,
+      "nivel": "NORMAL",
+      "cambio_significativo": false
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Utilities",
+        "var_dia_pct": 1.4,
+        "direccion": "POSITIVO"
+      },
+      {
+        "nombre": "Energia",
+        "var_dia_pct": -1.6,
+        "direccion": "NEGATIVO"
+      }
+    ],
+    "resumen_cambios": "Sesión mixta con rotación hacia defensivos ante debilidad del petróleo"
+  },
+  "resumen": {
+    "ibex_var_pct": 0.3,
+    "valores_destacados": [
+      "IBE +1.4%",
+      "ELE +1.1%",
+      "REP -1.8%",
+      "ACS +2.1%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "REP",
+      "nivel_barrido": 20.15,
+      "recupero": false,
+      "recuperacion_pct": -0.3
+    },
+    {
+      "ticker": "TEF",
+      "nivel_barrido": 3.75,
+      "recupero": true,
+      "recuperacion_pct": 0.8
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "precio_cierre": 19.8,
+      "soporte_obvio": 19.35,
+      "resistencia_obvia": 20.25,
+      "soporte_secundario": 19.15,
+      "resistencia_secundaria": 20.65,
+      "distancia_max_52s_pct": -8.2,
+      "distancia_min_52s_pct": 12.8,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 145,
+      "catalizador_tipo": "MACRO",
+      "razon": "Fortaleza en utilities por caída petróleo y búsqueda de defensivos",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-15",
+          "descripcion": "Resultados anuales 2025"
+        }
+      ]
+    },
+    {
+      "ticker": "ACS",
+      "nombre": "ACS Construcción",
+      "sector": "Construcción",
+      "accion": "COMPRA",
+      "precio_cierre": 109.6,
+      "soporte_obvio": 107.85,
+      "resistencia_obvia": 112.5,
+      "soporte_secundario": 106.35,
+      "resistencia_secundaria": 115.0,
+      "distancia_max_52s_pct": -5.3,
+      "distancia_min_52s_pct": 18.9,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 165,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Ruptura alcista con volumen, momentum positivo en construcción",
+      "eventos_proximos": [
+        {
+          "tipo": "EX_DIVIDENDO",
+          "fecha": "2026-03-12",
+          "descripcion": "Ex-dividendo 0.85€"
+        }
+      ]
+    },
+    {
+      "ticker": "ELE",
+      "nombre": "Endesa",
+      "sector": "Utilities",
+      "accion": "VIGILAR",
+      "precio_cierre": 34.3,
+      "soporte_obvio": 33.65,
+      "resistencia_obvia": 35.2,
+      "soporte_secundario": 33.15,
+      "resistencia_secundaria": 36.0,
+      "distancia_max_52s_pct": -6.7,
+      "distancia_min_52s_pct": 15.4,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 120,
+      "catalizador_tipo": "MACRO",
+      "razon": "En resistencia clave, beneficiaria de rotación hacia utilities",
+      "eventos_proximos": []
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "REP",
+      "razon": "Debilidad por caída petróleo, perdió soporte clave",
+      "shorts_pct": 0.3
+    },
+    {
+      "ticker": "TEF",
+      "razon": "En zona de resistencia tras recuperación, sector telecom bajo presión",
+      "shorts_pct": 0.8
+    }
+  ]
+}
