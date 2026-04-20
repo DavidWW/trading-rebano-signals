@@ -1,0 +1,309 @@
+{
+  "fecha": "2026-04-03",
+  "sesion": "tarde",
+  "sentimiento": "BAJISTA",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Petróleo Brent",
+        "var_dia_pct": -6.42,
+        "nuevo_precio": 70.15
+      },
+      {
+        "activo": "Petróleo WTI",
+        "var_dia_pct": -6.58,
+        "nuevo_precio": 66.95
+      },
+      {
+        "activo": "Gas Natural TTF",
+        "var_dia_pct": -3.21,
+        "nuevo_precio": 34.8
+      },
+      {
+        "activo": "Cobre",
+        "var_dia_pct": -4.15,
+        "nuevo_precio": 4.42
+      },
+      {
+        "activo": "Acero HRC Futuro",
+        "var_dia_pct": -3.8,
+        "nuevo_precio": 680.0
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "IBEX 35",
+        "var_dia_pct": -5.27
+      },
+      {
+        "indice": "EuroStoxx 50",
+        "var_dia_pct": -4.92
+      },
+      {
+        "indice": "DAX",
+        "var_dia_pct": -5.01
+      },
+      {
+        "indice": "S&P 500",
+        "var_dia_pct": -4.84
+      },
+      {
+        "indice": "Nasdaq 100",
+        "var_dia_pct": -5.43
+      },
+      {
+        "indice": "FTSE 100",
+        "var_dia_pct": -4.38
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 45.31,
+      "nivel": "PANICO",
+      "cambio_significativo": true
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Defensa Europa",
+        "var_dia_pct": 1.85,
+        "direccion": "POSITIVO"
+      },
+      {
+        "nombre": "Utilities Europa",
+        "var_dia_pct": -2.1,
+        "direccion": "NEGATIVO"
+      },
+      {
+        "nombre": "Automación/Industrial Europa",
+        "var_dia_pct": -6.8,
+        "direccion": "NEGATIVO"
+      },
+      {
+        "nombre": "Banca Europa",
+        "var_dia_pct": -5.9,
+        "direccion": "NEGATIVO"
+      }
+    ],
+    "resumen_cambios": "Jornada de pánico vendedor global tras el anuncio de aranceles masivos de Trump ('Liberation Day'); VIX en zona de pánico >45, petróleo desplomado >6%, mercados en riesgo extremo, únicamente defensivos y defensa aguantan parcialmente."
+  },
+  "resumen": {
+    "ibex_var_pct": -5.27,
+    "valores_destacados": [
+      "IDR +1.85% (única defensiva en verde, demanda defensa)",
+      "ELE -2.10% (utilities relativamente resistentes)",
+      "IBE -2.35% (utilities aguantan mejor)",
+      "ACX -8.40% (acero golpeado por aranceles)",
+      "IAG -7.60% (aerolíneas castigadas por recesión global)",
+      "SAN -6.20% (banca muy presionada)",
+      "BBVA -6.10% (banca muy presionada)",
+      "CIE -7.30% (automoción, exposición aranceles EE.UU.)",
+      "REP -6.80% (petróleo en caída libre)",
+      "ITX -5.90% (retail con exposición global)"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "ACX",
+      "nivel_barrido": 13.0,
+      "recupero": false,
+      "recuperacion_pct": -5.62
+    },
+    {
+      "ticker": "IAG",
+      "nivel_barrido": 4.5,
+      "recupero": false,
+      "recuperacion_pct": -6.44
+    },
+    {
+      "ticker": "SAN",
+      "nivel_barrido": 10.2,
+      "recupero": false,
+      "recuperacion_pct": -3.82
+    },
+    {
+      "ticker": "REP",
+      "nivel_barrido": 25.5,
+      "recupero": false,
+      "recuperacion_pct": -4.82
+    },
+    {
+      "ticker": "CIE",
+      "nivel_barrido": 29.0,
+      "recupero": false,
+      "recuperacion_pct": -5.69
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "IDR",
+      "nombre": "Indra Sistemas",
+      "sector": "Defensa/Tech",
+      "accion": "VIGILAR",
+      "precio_cierre": 49.34,
+      "soporte_obvio": 47.85,
+      "resistencia_obvia": 51.65,
+      "soporte_secundario": 46.35,
+      "resistencia_secundaria": 54.2,
+      "distancia_max_52s_pct": -8.3,
+      "distancia_min_52s_pct": 62.5,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 185,
+      "catalizador_tipo": "GEOPOLITICO",
+      "razon": "Único valor con comportamiento positivo en la sesión de pánico, beneficiario directo del rearme europeo. La demanda estructural de defensa actúa como refugio anti-arancel. Vigilar apertura mañana: si aguanta >47.85 con volumen, posible entrada táctica con objetivo 51.65. El contexto macro de riesgo extremo aconseja esperar confirmación.",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-29",
+          "descripcion": "Resultados Q1 2026 previstos, posible guía al alza por contratos defensa EU"
+        }
+      ]
+    },
+    {
+      "ticker": "ELE",
+      "nombre": "Endesa",
+      "sector": "Utilities",
+      "accion": "VIGILAR",
+      "precio_cierre": 37.54,
+      "soporte_obvio": 36.85,
+      "resistencia_obvia": 39.15,
+      "soporte_secundario": 35.65,
+      "resistencia_secundaria": 40.8,
+      "distancia_max_52s_pct": -12.4,
+      "distancia_min_52s_pct": 18.6,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 140,
+      "catalizador_tipo": "MACRO",
+      "razon": "Las utilities son el sector más defensivo en entorno de recesión global y caída de tipos. Endesa con perfil doméstico español, sin exposición directa a aranceles EE.UU. y con dividendo atractivo como soporte. Vigilar si aguanta soporte 36.85. No entrar hasta estabilización del mercado general.",
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-04-20",
+          "descripcion": "Pago dividendo complementario estimado ~0.70€/acción"
+        }
+      ]
+    },
+    {
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "VIGILAR",
+      "precio_cierre": 20.36,
+      "soporte_obvio": 19.85,
+      "resistencia_obvia": 21.4,
+      "soporte_secundario": 19.15,
+      "resistencia_secundaria": 22.65,
+      "distancia_max_52s_pct": -14.2,
+      "distancia_min_52s_pct": 22.3,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 155,
+      "catalizador_tipo": "MACRO",
+      "razon": "Iberdrola mantiene exposición global (UK, EE.UU., Brasil) pero su carácter de utility regulada y renovables la posiciona como refugio relativo. Caída moderada vs mercado. Interesante si soporte 19.85 se mantiene con cierre de velas. Esperar reducción de volatilidad antes de entrada.",
+      "eventos_proximos": [
+        {
+          "tipo": "JUNTA",
+          "fecha": "2026-04-17",
+          "descripcion": "Junta General Ordinaria de Accionistas 2026"
+        }
+      ]
+    },
+    {
+      "ticker": "CLNX",
+      "nombre": "Cellnex Telecom",
+      "sector": "Infraestructuras Telecom",
+      "accion": "VIGILAR",
+      "precio_cierre": 28.75,
+      "soporte_obvio": 27.85,
+      "resistencia_obvia": 30.15,
+      "soporte_secundario": 26.65,
+      "resistencia_secundaria": 31.8,
+      "distancia_max_52s_pct": -22.5,
+      "distancia_min_52s_pct": 14.8,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 165,
+      "catalizador_tipo": "MACRO",
+      "razon": "Infraestructura de telecomunicaciones con ingresos recurrentes en euros, sin exposición directa a aranceles estadounidenses. Beneficiaria de bajada de tipos BCE en escenario recesivo. Soporte clave en 27.85. Perfil defensivo con potencial de rebote técnico si el mercado se estabiliza.",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-23",
+          "descripcion": "Presentación resultados Q1 2026"
+        }
+      ]
+    },
+    {
+      "ticker": "PHM",
+      "nombre": "Pharma Mar",
+      "sector": "Salud",
+      "accion": "VIGILAR",
+      "precio_cierre": 91.0,
+      "soporte_obvio": 88.35,
+      "resistencia_obvia": 95.65,
+      "soporte_secundario": 85.15,
+      "resistencia_secundaria": 100.85,
+      "distancia_max_52s_pct": -18.6,
+      "distancia_min_52s_pct": 28.4,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 120,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Sector salud actúa como refugio en entornos de pánico. PharmaMar con pipeline oncológico activo y sin exposición a cadenas de suministro asiáticas. Relativamente inmune a guerra comercial. Vigilar si mantiene soporte 88.35 en sesión de apertura mañana.",
+      "eventos_proximos": [
+        {
+          "tipo": "OTRO",
+          "fecha": "2026-04-15",
+          "descripcion": "Conferencia oncológica AACR 2026 - posibles datos de ensayos clínicos"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "ACX",
+      "razon": "Acero directamente en el centro de la guerra arancelaria. Trump impone aranceles del 25% al acero importado. Sector en caída libre, sin suelo técnico visible. Riesgo de profit warnings.",
+      "shorts_pct": 4.2
+    },
+    {
+      "ticker": "CIE",
+      "razon": "Automoción con exposición directa a aranceles EE.UU. sobre vehículos y componentes. Clientes OEM bajo presión severa. Posibles recortes de producción en planta.",
+      "shorts_pct": 3.1
+    },
+    {
+      "ticker": "IAG",
+      "razon": "Aerolíneas son las más vulnerables en escenario de recesión global. Caída del petróleo ayuda costes pero la demanda de viajes corporativos e internacionales se desplomará. Riesgo sistémico elevado.",
+      "shorts_pct": 3.85
+    },
+    {
+      "ticker": "REP",
+      "razon": "Petróleo Brent cayendo >6% por combinación de aranceles recesivos y aumento de producción OPEP+. Repsol con doble presión: precio commodities y posible contracción demanda. Sin soporte técnico claro hasta 22.50.",
+      "shorts_pct": 2.4
+    },
+    {
+      "ticker": "ITX",
+      "razon": "Inditex con exposición masiva a cadenas de suministro asiáticas (Bangladesh, Vietnam, China). Aranceles EE.UU. impactan mercado norteamericano directamente. Riesgo de márgenes y revisión de guidance.",
+      "shorts_pct": 2.8
+    },
+    {
+      "ticker": "SAN",
+      "razon": "Exposición a Brasil, México y EE.UU. en un entorno de guerra comercial y posible recesión global. Curva de tipos impredecible. Shorts institucionales elevados. Nivel técnico roto.",
+      "shorts_pct": 3.6
+    },
+    {
+      "ticker": "BBVA",
+      "razon": "Exposición crítica a México (50%+ beneficios). El peso mexicano bajo presión severa por aranceles Trump. Riesgo divisa y riesgo crediticio en mercados emergentes. Evitar hasta estabilización.",
+      "shorts_pct": 3.2
+    },
+    {
+      "ticker": "FDR",
+      "razon": "Sector industrial con exposición a ciclo económico global. En entorno de contracción de comercio mundial, la demanda industrial caerá. Sin catalizadores defensivos.",
+      "shorts_pct": 1.8
+    },
+    {
+      "ticker": "PUIG",
+      "razon": "Lujo/consumo discrecional con exposición EE.UU. y China. Doble frente arancelario. Sector más castigado históricamente en fases de recesión. Valor cotizado recientemente con baja liquidez.",
+      "shorts_pct": 2.1
+    },
+    {
+      "ticker": "MEL",
+      "razon": "Turismo/Juego con alta dependencia del turista norteamericano y confianza del consumidor. VIX en 45 indica colapso de confianza. Sector con beta alta en caídas.",
+      "shorts_pct": 1.5
+    }
+  ]
+}

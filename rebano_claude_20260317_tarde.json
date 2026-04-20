@@ -1,0 +1,156 @@
+{
+  "fecha": "2026-03-17",
+  "sesion": "cierre",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Brent",
+        "var_dia_pct": -2.1,
+        "nuevo_precio": 72.8
+      },
+      {
+        "activo": "Gas Natural",
+        "var_dia_pct": 3.4,
+        "nuevo_precio": 28.5
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "DAX",
+        "var_dia_pct": -0.8
+      },
+      {
+        "indice": "FTSE",
+        "var_dia_pct": 1.2
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 18.5,
+      "nivel": "NORMAL",
+      "cambio_significativo": false
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Utilities",
+        "var_dia_pct": 1.8,
+        "direccion": "POSITIVO"
+      },
+      {
+        "nombre": "Energía",
+        "var_dia_pct": -1.9,
+        "direccion": "NEGATIVO"
+      }
+    ],
+    "resumen_cambios": "Rotación hacia defensivos, commodities energéticos mixtos"
+  },
+  "resumen": {
+    "ibex_var_pct": 0.3,
+    "valores_destacados": [
+      "IBE +2.1%",
+      "ELE +1.9%",
+      "REP -2.3%",
+      "SAN +0.8%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "REP",
+      "nivel_barrido": 24.5,
+      "recupero": false,
+      "recuperacion_pct": -1.3
+    },
+    {
+      "ticker": "ITX",
+      "nivel_barrido": 51.0,
+      "recupero": true,
+      "recuperacion_pct": 0.8
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "precio_cierre": 20.01,
+      "soporte_obvio": 19.65,
+      "resistencia_obvia": 20.35,
+      "soporte_secundario": 19.15,
+      "resistencia_secundaria": 20.85,
+      "distancia_max_52s_pct": -8.2,
+      "distancia_min_52s_pct": 12.4,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 165,
+      "catalizador_tipo": "MACRO",
+      "razon": "Fortaleza utilities por rotación defensiva, volumen alto confirmando breakout",
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-03-25",
+          "descripcion": "Pago dividendo 0.25€"
+        }
+      ]
+    },
+    {
+      "ticker": "ELE",
+      "nombre": "Endesa",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "precio_cierre": 35.8,
+      "soporte_obvio": 35.25,
+      "resistencia_obvia": 36.5,
+      "soporte_secundario": 34.65,
+      "resistencia_secundaria": 37.15,
+      "distancia_max_52s_pct": -5.8,
+      "distancia_min_52s_pct": 18.7,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 142,
+      "catalizador_tipo": "MACRO",
+      "razon": "Seguimiento fortaleza utilities, momentum técnico positivo",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-02",
+          "descripcion": "Presentación resultados Q1"
+        }
+      ]
+    },
+    {
+      "ticker": "SAN",
+      "nombre": "Santander",
+      "sector": "Banca",
+      "accion": "VIGILAR",
+      "precio_cierre": 9.59,
+      "soporte_obvio": 9.35,
+      "resistencia_obvia": 9.8,
+      "soporte_secundario": 9.15,
+      "resistencia_secundaria": 10.05,
+      "distancia_max_52s_pct": -12.1,
+      "distancia_min_52s_pct": 15.3,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 118,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Consolidación en rango, esperar breakout 9.80 para confirmar",
+      "eventos_proximos": [
+        {
+          "tipo": "JUNTA",
+          "fecha": "2026-03-28",
+          "descripcion": "Junta General de Accionistas"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "REP",
+      "razon": "Debilidad sector energético, presión commodities",
+      "shorts_pct": 0.3
+    },
+    {
+      "ticker": "TEF",
+      "razon": "Zona soporte crítica, momentum negativo persistente",
+      "shorts_pct": 0.8
+    }
+  ]
+}

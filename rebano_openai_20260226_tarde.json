@@ -1,0 +1,81 @@
+{
+  "fecha": "2026-02-26",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Petróleo",
+        "var_dia_pct": 2.5,
+        "nuevo_precio": 87.3
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "NASDAQ",
+        "var_dia_pct": 1.5
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 19.5,
+      "nivel": "NORMAL",
+      "cambio_significativo": true
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Tecnología",
+        "var_dia_pct": 2.0,
+        "direccion": "POSITIVO"
+      }
+    ],
+    "resumen_cambios": "Subida del petróleo y NASDAQ, VIX se mantiene normal"
+  },
+  "resumen": {
+    "ibex_var_pct": -0.2,
+    "valores_destacados": [
+      "IAG +2%",
+      "TEF -1%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "SAN",
+      "nivel_barrido": 10.5,
+      "recupero": true,
+      "recuperacion_pct": 1.5
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "IAG",
+      "nombre": "IAG",
+      "sector": "Aerolíneas",
+      "accion": "COMPRA",
+      "precio_cierre": 5.24,
+      "soporte_obvio": 5.0,
+      "resistencia_obvia": 5.5,
+      "soporte_secundario": 4.85,
+      "resistencia_secundaria": 5.65,
+      "distancia_max_52s_pct": -15.0,
+      "distancia_min_52s_pct": 30.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 150,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Ruptura alcista impulsada por volumen alto",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-15",
+          "descripcion": "Publicación de resultados anuales"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "BBVA",
+      "razon": "Shorts institucionales significativos",
+      "shorts_pct": 1.2
+    }
+  ]
+}

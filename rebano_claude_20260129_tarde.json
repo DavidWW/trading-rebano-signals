@@ -1,0 +1,54 @@
+{
+  "fecha": "2026-01-29",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "resumen": {
+    "ibex_var_pct": 0.0,
+    "valores_destacados": [
+      "Sin datos previos disponibles"
+    ]
+  },
+  "barridos": [],
+  "oportunidades_manana": [
+    {
+      "ticker": "SAN",
+      "nombre": "Santander",
+      "accion": "VIGILAR",
+      "precio_cierre": 10.63,
+      "soporte_obvio": 10.2,
+      "resistencia_obvia": 11.0,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Precio cerca de resistencia psicológica 11€, vigilar ruptura"
+    },
+    {
+      "ticker": "BBVA",
+      "nombre": "BBVA",
+      "accion": "COMPRA",
+      "precio_cierre": 21.03,
+      "soporte_obvio": 20.5,
+      "resistencia_obvia": 21.5,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Consolidación en zona alta, potencial ruptura alcista"
+    },
+    {
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "accion": "VIGILAR",
+      "precio_cierre": 54.1,
+      "soporte_obvio": 53.0,
+      "resistencia_obvia": 55.0,
+      "catalizador_tipo": "TECNICO",
+      "razon": "En rango lateral, esperar definición direccional"
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "TEF",
+      "razon": "Precio muy bajo 3.40€, alta volatilidad y riesgo"
+    },
+    {
+      "ticker": "SAB",
+      "razon": "Precio muy bajo 3.18€, posible valor en declive"
+    }
+  ]
+}

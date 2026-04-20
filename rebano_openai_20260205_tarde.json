@@ -1,0 +1,38 @@
+{
+  "fecha": "2026-02-05",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "resumen": {
+    "ibex_var_pct": 0.0,
+    "valores_destacados": [
+      "TEF +2%",
+      "BBVA -1%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "IAG",
+      "nivel_barrido": 4.8,
+      "recupero": true,
+      "recuperacion_pct": 1.0
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "accion": "COMPRA",
+      "precio_cierre": 16.15,
+      "soporte_obvio": 15.8,
+      "resistencia_obvia": 16.5,
+      "catalizador_tipo": "TECNICO",
+      "razon": "rompimiento de resistencia"
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "BBVA",
+      "razon": "perspectiva bajista"
+    }
+  ]
+}

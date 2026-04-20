@@ -1,0 +1,38 @@
+{
+  "fecha": "2026-01-27",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "resumen": {
+    "ibex_var_pct": 0.0,
+    "valores_destacados": [
+      "AMS +2%",
+      "TEF -1%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "AMS",
+      "nivel_barrido": 56.94,
+      "recupero": true,
+      "recuperacion_pct": 2.0
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "AMS",
+      "nombre": "Amadeus IT Group",
+      "accion": "COMPRA",
+      "precio_cierre": 56.94,
+      "soporte_obvio": 54.0,
+      "resistencia_obvia": 60.0,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Rompimiento alcista"
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "TEF",
+      "razon": "Tendencia bajista persistente"
+    }
+  ]
+}

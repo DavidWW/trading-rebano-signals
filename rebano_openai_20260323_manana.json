@@ -1,0 +1,305 @@
+{
+  "fecha": "2026-03-23",
+  "sesion": "manana",
+  "sentimiento": "NEUTRAL",
+  "radar_macro": {
+    "commodities": {
+      "oro": {
+        "precio_usd": 1965.3,
+        "var_semanal_pct": 1.2,
+        "var_mensual_pct": 5.8,
+        "dist_max_52s_pct": -8.3,
+        "alerta": false
+      },
+      "plata": {
+        "precio_usd": 25.35,
+        "var_semanal_pct": 2.1,
+        "var_mensual_pct": 4.6,
+        "dist_max_52s_pct": -12.5,
+        "alerta": false
+      },
+      "petroleo_brent": {
+        "precio_usd": 83.5,
+        "var_semanal_pct": 0.7,
+        "var_mensual_pct": -3.4,
+        "alerta": false
+      }
+    },
+    "indices": {
+      "sp500": {
+        "valor": 4500,
+        "var_semanal_pct": -0.4,
+        "dist_max_52s_pct": -9.1,
+        "alerta": false
+      },
+      "nasdaq100": {
+        "valor": 14500,
+        "var_semanal_pct": -1.1,
+        "dist_max_52s_pct": -15.7,
+        "alerta": false
+      },
+      "stoxx600": {
+        "valor": 460,
+        "var_semanal_pct": 0.3,
+        "dist_max_52s_pct": -6.9,
+        "alerta": false
+      },
+      "msci_em": {
+        "valor": 1050,
+        "var_semanal_pct": 0.6,
+        "dist_max_52s_pct": -12.4,
+        "alerta": false
+      },
+      "nikkei225": {
+        "valor": 29250,
+        "var_semanal_pct": 1.5,
+        "dist_max_52s_pct": -5.3,
+        "alerta": false
+      }
+    },
+    "sectores_europa": {
+      "mejor_sector": {
+        "nombre": "Tecnología",
+        "var_semanal_pct": 2.5
+      },
+      "peor_sector": {
+        "nombre": "Energía",
+        "var_semanal_pct": -3.2
+      },
+      "sector_en_correccion": {
+        "hay_correccion": false,
+        "nombre": "",
+        "caida_desde_max_pct": 0.0,
+        "causa": ""
+      }
+    },
+    "divisas": {
+      "eur_usd": {
+        "valor": 1.08,
+        "var_semanal_pct": -0.5,
+        "var_mensual_pct": 1.2
+      }
+    },
+    "vix": {
+      "valor": 19.4,
+      "nivel": "NORMAL"
+    },
+    "eventos_clave": [
+      {
+        "evento": "Publicación de PMI manufacturero (Eurozona)",
+        "hora_cet": "10:00",
+        "relevancia": "ALTA"
+      },
+      {
+        "evento": "Reunión del FOMC",
+        "hora_cet": "20:00",
+        "relevancia": "ALTA"
+      }
+    ],
+    "resumen_macro": "Risk-off prevalece con mejora en algunos sectores tecnológicos."
+  },
+  "recomendaciones": [
+    {
+      "ranking": 1,
+      "ticker": "SLR",
+      "nombre": "Solaria",
+      "sector": "Renovables",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 22.18,
+      "entrada": 22.0,
+      "stop_loss": 21.15,
+      "stop_pct": -4.7,
+      "take_profit_1": 23.5,
+      "tp1_pct": 5.9,
+      "take_profit_2": 24.2,
+      "tp2_pct": 9.1,
+      "soporte_obvio": 21.5,
+      "resistencia_obvia": 24.0,
+      "soporte_secundario": 20.75,
+      "resistencia_secundaria": 25.0,
+      "distancia_max_52s_pct": -15.0,
+      "distancia_min_52s_pct": 25.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 130,
+      "catalizador_tipo": "SECTORIAL",
+      "catalizador_desc": "Creciente inversión en energías renovables.",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.2,
+      "prob_barrido": "BAJA",
+      "riesgo": "Volatilidad sectorial.",
+      "horizonte_dias": 3,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-30",
+          "descripcion": "Presentación de resultados anuales."
+        }
+      ]
+    },
+    {
+      "ranking": 2,
+      "ticker": "FER",
+      "nombre": "Ferrovial",
+      "sector": "Infraestructuras",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 53.44,
+      "entrada": 53.3,
+      "stop_loss": 51.85,
+      "stop_pct": -2.8,
+      "take_profit_1": 55.0,
+      "tp1_pct": 2.9,
+      "take_profit_2": 56.5,
+      "tp2_pct": 5.7,
+      "soporte_obvio": 52.0,
+      "resistencia_obvia": 55.5,
+      "soporte_secundario": 50.5,
+      "resistencia_secundaria": 57.0,
+      "distancia_max_52s_pct": -8.0,
+      "distancia_min_52s_pct": 30.0,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 110,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "catalizador_desc": "Nuevos contratos en sector infraestructura.",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.3,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Riesgo de ejecución de proyectos.",
+      "horizonte_dias": 5,
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-04-15",
+          "descripcion": "Próximo ex-dividendo."
+        }
+      ]
+    },
+    {
+      "ranking": 3,
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "sector": "Retail",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 50.56,
+      "entrada": 50.5,
+      "stop_loss": 48.9,
+      "stop_pct": -3.2,
+      "take_profit_1": 52.5,
+      "tp1_pct": 3.8,
+      "take_profit_2": 54.0,
+      "tp2_pct": 6.8,
+      "soporte_obvio": 49.5,
+      "resistencia_obvia": 52.0,
+      "soporte_secundario": 48.0,
+      "resistencia_secundaria": 55.0,
+      "distancia_max_52s_pct": -4.5,
+      "distancia_min_52s_pct": 36.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 150,
+      "catalizador_tipo": "MACRO",
+      "catalizador_desc": "Mejora en ventas internacionales.",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.1,
+      "prob_barrido": "BAJA",
+      "riesgo": "Cambio en tendencias de consumo.",
+      "horizonte_dias": 3,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-29",
+          "descripcion": "Publicación de resultados trimestrales."
+        }
+      ]
+    },
+    {
+      "ranking": 4,
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "sector": "Energía",
+      "accion": "VENTA",
+      "conviccion": "MEDIA",
+      "precio_actual": 24.26,
+      "entrada": 24.2,
+      "stop_loss": 25.1,
+      "stop_pct": -3.6,
+      "take_profit_1": 23.0,
+      "tp1_pct": -5.0,
+      "take_profit_2": 22.5,
+      "tp2_pct": -7.2,
+      "soporte_obvio": 23.5,
+      "resistencia_obvia": 25.0,
+      "soporte_secundario": 22.0,
+      "resistencia_secundaria": 26.0,
+      "distancia_max_52s_pct": -12.0,
+      "distancia_min_52s_pct": 10.0,
+      "tendencia": "BAJISTA",
+      "volumen_vs_media_pct": 120,
+      "catalizador_tipo": "MACRO",
+      "catalizador_desc": "Presión por caída de precios del petróleo.",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.6,
+      "prob_barrido": "ALTA",
+      "riesgo": "Recuperación del precio del petróleo.",
+      "horizonte_dias": 4,
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-04-12",
+          "descripcion": "Anuncio de dividendo."
+        }
+      ]
+    },
+    {
+      "ranking": 5,
+      "ticker": "IAG",
+      "nombre": "IAG",
+      "sector": "Aerolíneas",
+      "accion": "VENTA",
+      "conviccion": "BAJA",
+      "precio_actual": 3.99,
+      "entrada": 3.95,
+      "stop_loss": 4.11,
+      "stop_pct": -4.1,
+      "take_profit_1": 3.75,
+      "tp1_pct": -6.0,
+      "take_profit_2": 3.6,
+      "tp2_pct": -8.8,
+      "soporte_obvio": 3.7,
+      "resistencia_obvia": 4.05,
+      "soporte_secundario": 3.5,
+      "resistencia_secundaria": 4.2,
+      "distancia_max_52s_pct": -18.0,
+      "distancia_min_52s_pct": 44.0,
+      "tendencia": "BAJISTA",
+      "volumen_vs_media_pct": 95,
+      "catalizador_tipo": "GEOPOLITICO",
+      "catalizador_desc": "Aumento de tensiones económicas y desplazamientos.",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.55,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Mejoras en el entorno económico global.",
+      "horizonte_dias": 5,
+      "eventos_proximos": [
+        {
+          "tipo": "JUNTA",
+          "fecha": "2026-04-05",
+          "descripcion": "Junta general de accionistas."
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "REP",
+      "razon": "Shorts institucionales elevados",
+      "shorts_pct": 0.6
+    },
+    {
+      "ticker": "IAG",
+      "razon": "Alta exposición a eventos geopolíticos",
+      "shorts_pct": 0.55
+    }
+  ]
+}

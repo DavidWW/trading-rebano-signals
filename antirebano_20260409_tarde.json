@@ -1,0 +1,56 @@
+{
+  "version": "4.5",
+  "fecha": "2026-04-09",
+  "sesion": "tarde",
+  "hora": "20:09",
+  "alertas_shorts": [],
+  "consensos_ayer_pendientes": [],
+  "triangulacion": {
+    "consensos": [],
+    "solo_claude": [],
+    "solo_openai": [],
+    "evitar": [
+      {
+        "ticker": "REP",
+        "razon": "Petróleo Brent cayendo -3.2% en el día hacia 63$. Repsol con doble presión: guerra comercial reduce demanda energética global y precio del crudo en tendencia bajista. Margen de refino bajo presión. Contexto técnico deteriorado.",
+        "shorts_pct": 1.8
+      },
+      {
+        "ticker": "ACX",
+        "razon": "Acero en zona de máxima presión arancelaria. Aunque hay pausa 90 días, el sector siderúrgico sigue en el ojo del huracán comercial USA-UE. Shorts institucionales elevados. Cobre cayendo -2.8% señala debilidad demanda industrial.",
+        "shorts_pct": 2.4
+      },
+      {
+        "ticker": "SLR",
+        "razon": "Solaria en tendencia bajista con presión regulatoria sobre renovables en España. No se beneficia del rebote macro de hoy. Volumen débil en el rebote indica falta de convicción compradora. Preferir otros sectores en este entorno.",
+        "shorts_pct": 1.2
+      },
+      {
+        "ticker": "GRF",
+        "razon": "Grifols con deuda elevada y pendiente de reestructuración. Shorts institucionales persistentemente altos. Cualquier deterioro macro amplifica riesgo de refinanciación. Evitar hasta visibilidad en plan de deuda.",
+        "shorts_pct": 3.8
+      },
+      {
+        "ticker": "TEF",
+        "razon": "Telefónica sin catalizadores a corto plazo, deuda estructural elevada, exposición a Latinoamérica en contexto de dólar volátil. El rebote de hoy es puramente macro sin fundamentales que lo soporten. Dividendo ya descontado.",
+        "shorts_pct": 0.9
+      },
+      {
+        "ticker": "MRL",
+        "razon": "Fuerte caída y shorts institucionales",
+        "shorts_pct": 1.2
+      }
+    ],
+    "sentimiento_claude": "ALCISTA",
+    "sentimiento_openai": "NEUTRAL",
+    "radar_macro_claude": {},
+    "radar_macro_openai": {}
+  },
+  "reglas_aplicadas": {
+    "R9_delay": false,
+    "R10_shorts": false,
+    "consensos_hoy": 0,
+    "valores_evitar": 6
+  },
+  "accion_recomendada": "EVALUAR"
+}

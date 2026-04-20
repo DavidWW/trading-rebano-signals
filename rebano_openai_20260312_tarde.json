@@ -1,0 +1,81 @@
+{
+  "fecha": "2026-03-12",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Petróleo Brent",
+        "var_dia_pct": 2.3,
+        "nuevo_precio": 85.67
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "S&P 500",
+        "var_dia_pct": -0.8
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 23.5,
+      "nivel": "ALTO",
+      "cambio_significativo": true
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Tecnología",
+        "var_dia_pct": 1.5,
+        "direccion": "POSITIVO"
+      }
+    ],
+    "resumen_cambios": "Incremento en volatilidad y precio del petróleo; tecnología destacó positivamente."
+  },
+  "resumen": {
+    "ibex_var_pct": -0.4,
+    "valores_destacados": [
+      "REP +2%",
+      "ACS -1.5%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "SAN",
+      "nivel_barrido": 9.5,
+      "recupero": true,
+      "recuperacion_pct": 1.6
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "sector": "Retail",
+      "accion": "COMPRA",
+      "precio_cierre": 52.58,
+      "soporte_obvio": 51.3,
+      "resistencia_obvia": 54.0,
+      "soporte_secundario": 50.85,
+      "resistencia_secundaria": 55.15,
+      "distancia_max_52s_pct": -3.5,
+      "distancia_min_52s_pct": 25.2,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 120,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Precio por encima de MA50 y MA200, ruptura de resistencia clave.",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-20",
+          "descripcion": "Publicación de resultados anuales"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "TEF",
+      "razon": "Alta presencia de shorts institucionales",
+      "shorts_pct": 1.1
+    }
+  ]
+}

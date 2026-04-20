@@ -1,0 +1,81 @@
+{
+  "fecha": "2026-04-06",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "nombre",
+        "var_dia_pct": 0.0,
+        "nuevo_precio": 0.0
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "nombre",
+        "var_dia_pct": 0.0
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 18.5,
+      "nivel": "NORMAL",
+      "cambio_significativo": false
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Banca",
+        "var_dia_pct": 0.5,
+        "direccion": "POSITIVO"
+      }
+    ],
+    "resumen_cambios": "Movimiento moderado en el sector bancario con VIX en nivel normal, indicando estabilidad en los mercados."
+  },
+  "resumen": {
+    "ibex_var_pct": 0.3,
+    "valores_destacados": [
+      "SAN +2%",
+      "MEL -1%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "ITX",
+      "nivel_barrido": 50.0,
+      "recupero": true,
+      "recuperacion_pct": 1.6
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "sector": "Energía",
+      "accion": "COMPRA",
+      "precio_cierre": 24.27,
+      "soporte_obvio": 23.5,
+      "resistencia_obvia": 25.0,
+      "soporte_secundario": 23.0,
+      "resistencia_secundaria": 26.0,
+      "distancia_max_52s_pct": -10.0,
+      "distancia_min_52s_pct": 15.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 110,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Rompe resistencia clave con volumen creciente",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-12",
+          "descripcion": "Presentación de resultados trimestrales"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "CLNX",
+      "razon": "Presencia de shorts >0.5%",
+      "shorts_pct": 1.2
+    }
+  ]
+}

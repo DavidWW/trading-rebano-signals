@@ -1,0 +1,150 @@
+{
+  "fecha": "2026-03-28",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Brent",
+        "var_dia_pct": -1.8,
+        "nuevo_precio": 68.45
+      },
+      {
+        "activo": "Gas Natural",
+        "var_dia_pct": 2.3,
+        "nuevo_precio": 31.2
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "DAX",
+        "var_dia_pct": -0.8
+      },
+      {
+        "indice": "CAC40",
+        "var_dia_pct": -0.6
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 16.8,
+      "nivel": "NORMAL",
+      "cambio_significativo": false
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Utilities",
+        "var_dia_pct": 1.2,
+        "direccion": "POSITIVO"
+      },
+      {
+        "nombre": "Energía",
+        "var_dia_pct": -1.5,
+        "direccion": "NEGATIVO"
+      }
+    ],
+    "resumen_cambios": "Sesión mixta con rotación hacia defensivos y presión en energía"
+  },
+  "resumen": {
+    "ibex_var_pct": -0.3,
+    "valores_destacados": [
+      "IBE +1.2%",
+      "ELE +0.9%",
+      "REP -2.1%",
+      "TEF +1.8%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "REP",
+      "nivel_barrido": 24.5,
+      "recupero": false,
+      "recuperacion_pct": -1.8
+    },
+    {
+      "ticker": "TEF",
+      "nivel_barrido": 3.6,
+      "recupero": true,
+      "recuperacion_pct": 1.9
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "precio_cierre": 19.12,
+      "soporte_obvio": 18.65,
+      "resistencia_obvia": 19.85,
+      "soporte_secundario": 18.25,
+      "resistencia_secundaria": 20.15,
+      "distancia_max_52s_pct": -8.5,
+      "distancia_min_52s_pct": 12.8,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 145,
+      "catalizador_tipo": "MACRO",
+      "razon": "Fortaleza defensive con rotación hacia utilities, volume elevated",
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-04-15",
+          "descripcion": "Propuesta dividendo 0.46€"
+        }
+      ]
+    },
+    {
+      "ticker": "TEF",
+      "nombre": "Telefónica",
+      "sector": "Telecom",
+      "accion": "COMPRA",
+      "precio_cierre": 3.67,
+      "soporte_obvio": 3.55,
+      "resistencia_obvia": 3.85,
+      "soporte_secundario": 3.45,
+      "resistencia_secundaria": 3.95,
+      "distancia_max_52s_pct": -15.2,
+      "distancia_min_52s_pct": 8.9,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 165,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Recuperación técnica desde soporte 3.60, volume breakout",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-28",
+          "descripcion": "Q1 2026 earnings"
+        }
+      ]
+    },
+    {
+      "ticker": "ELE",
+      "nombre": "Endesa",
+      "sector": "Utilities",
+      "accion": "VIGILAR",
+      "precio_cierre": 34.9,
+      "soporte_obvio": 33.85,
+      "resistencia_obvia": 36.2,
+      "soporte_secundario": 33.15,
+      "resistencia_secundaria": 37.0,
+      "distancia_max_52s_pct": -6.1,
+      "distancia_min_52s_pct": 15.4,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 125,
+      "catalizador_tipo": "MACRO",
+      "razon": "Momentum utilities positivo pero cerca de resistencia clave",
+      "eventos_proximos": []
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "REP",
+      "razon": "Debilidad energética continuada, pérdida soporte técnico",
+      "shorts_pct": 0.3
+    },
+    {
+      "ticker": "ACX",
+      "razon": "Presión sectorial acero, volumen bajista",
+      "shorts_pct": 0.8
+    }
+  ]
+}

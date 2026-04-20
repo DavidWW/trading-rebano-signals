@@ -1,0 +1,155 @@
+{
+  "fecha": "2026-03-12",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Brent",
+        "var_dia_pct": -1.8,
+        "nuevo_precio": 68.45
+      },
+      {
+        "activo": "Gas Natural",
+        "var_dia_pct": 2.3,
+        "nuevo_precio": 2.89
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "DAX",
+        "var_dia_pct": -0.8
+      },
+      {
+        "indice": "FTSE MIB",
+        "var_dia_pct": 0.6
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 16.8,
+      "nivel": "NORMAL",
+      "cambio_significativo": false
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Banca Europea",
+        "var_dia_pct": 1.2,
+        "direccion": "POSITIVO"
+      },
+      {
+        "nombre": "Utilities",
+        "var_dia_pct": -0.9,
+        "direccion": "NEGATIVO"
+      }
+    ],
+    "resumen_cambios": "Jornada mixta con rotación hacia financieras, presión en utilities por caída gas"
+  },
+  "resumen": {
+    "ibex_var_pct": 0.3,
+    "valores_destacados": [
+      "BBVA +1.8%",
+      "IBE -1.2%",
+      "REP -0.8%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "TEF",
+      "nivel_barrido": 3.5,
+      "recupero": false,
+      "recuperacion_pct": -1.4
+    },
+    {
+      "ticker": "IAG",
+      "nivel_barrido": 4.2,
+      "recupero": true,
+      "recuperacion_pct": 0.7
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "BBVA",
+      "nombre": "Banco Bilbao Vizcaya",
+      "sector": "Banca",
+      "accion": "COMPRA",
+      "precio_cierre": 18.18,
+      "soporte_obvio": 17.65,
+      "resistencia_obvia": 18.85,
+      "soporte_secundario": 17.15,
+      "resistencia_secundaria": 19.35,
+      "distancia_max_52s_pct": -8.2,
+      "distancia_min_52s_pct": 24.8,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 165,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Breakout confirmado tras resultados sólidos, sector bancario en foco por rotación",
+      "eventos_proximos": [
+        {
+          "tipo": "EX_DIVIDENDO",
+          "fecha": "2026-03-18",
+          "descripcion": "0.42€ por acción"
+        }
+      ]
+    },
+    {
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "sector": "Retail",
+      "accion": "VIGILAR",
+      "precio_cierre": 52.58,
+      "soporte_obvio": 51.15,
+      "resistencia_obvia": 54.2,
+      "soporte_secundario": 50.35,
+      "resistencia_secundaria": 55.85,
+      "distancia_max_52s_pct": -3.1,
+      "distancia_min_52s_pct": 18.9,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 95,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Consolidación previa a resultados Q4, potencial sorpresa positiva por temporada",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-20",
+          "descripcion": "Resultados Q4 2025"
+        }
+      ]
+    },
+    {
+      "ticker": "IDR",
+      "nombre": "Indra Sistemas",
+      "sector": "Defensa/Tech",
+      "accion": "COMPRA",
+      "precio_cierre": 59.95,
+      "soporte_obvio": 58.15,
+      "resistencia_obvia": 62.8,
+      "soporte_secundario": 56.85,
+      "resistencia_secundaria": 65.15,
+      "distancia_max_52s_pct": -4.8,
+      "distancia_min_52s_pct": 89.2,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 140,
+      "catalizador_tipo": "GEOPOLITICO",
+      "razon": "Tensiones geopolíticas favorecen sector defensa, backlog sólido en contratos",
+      "eventos_proximos": [
+        {
+          "tipo": "JUNTA",
+          "fecha": "2026-03-28",
+          "descripcion": "Junta General Ordinaria"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "TEF",
+      "razon": "Ruptura soporte clave, problemas estructurales persistentes",
+      "shorts_pct": 0.8
+    },
+    {
+      "ticker": "MAP",
+      "razon": "Sector seguros bajo presión por tipos interés, volumen débil",
+      "shorts_pct": 0.3
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "fecha": "2026-02-26",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Crudo Brent",
+        "var_dia_pct": -1.8,
+        "nuevo_precio": 76.2
+      },
+      {
+        "activo": "Gas Natural TTF",
+        "var_dia_pct": 2.1,
+        "nuevo_precio": 28.9
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "DAX",
+        "var_dia_pct": -0.8
+      },
+      {
+        "indice": "CAC 40",
+        "var_dia_pct": -0.6
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 16.8,
+      "nivel": "NORMAL",
+      "cambio_significativo": false
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Utilities",
+        "var_dia_pct": 1.2,
+        "direccion": "POSITIVO"
+      },
+      {
+        "nombre": "Energia",
+        "var_dia_pct": -1.5,
+        "direccion": "NEGATIVO"
+      }
+    ],
+    "resumen_cambios": "Sesión mixta con rotación sectorial hacia utilities defensivos"
+  },
+  "resumen": {
+    "ibex_var_pct": -0.3,
+    "valores_destacados": [
+      "IBE +1.2%",
+      "ELE +0.9%",
+      "REP -1.8%",
+      "TEF -2.1%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "TEF",
+      "nivel_barrido": 3.7,
+      "recupero": false,
+      "recuperacion_pct": 0.0
+    },
+    {
+      "ticker": "SAB",
+      "nivel_barrido": 3.3,
+      "recupero": true,
+      "recuperacion_pct": 0.6
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "precio_cierre": 20.05,
+      "soporte_obvio": 19.75,
+      "resistencia_obvia": 20.5,
+      "soporte_secundario": 19.35,
+      "resistencia_secundaria": 20.85,
+      "distancia_max_52s_pct": -8.2,
+      "distancia_min_52s_pct": 12.8,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 135,
+      "catalizador_tipo": "MACRO",
+      "razon": "Fortaleza en utilities defensivos, breakout de consolidación con volumen",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-15",
+          "descripcion": "Resultados Q4 2025"
+        }
+      ]
+    },
+    {
+      "ticker": "ELE",
+      "nombre": "Endesa",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "precio_cierre": 34.97,
+      "soporte_obvio": 34.15,
+      "resistencia_obvia": 36.0,
+      "soporte_secundario": 33.65,
+      "resistencia_secundaria": 37.2,
+      "distancia_max_52s_pct": -12.4,
+      "distancia_min_52s_pct": 18.6,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 142,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Momentum utilities, superación MA50 con volumen creciente",
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-03-20",
+          "descripcion": "Dividendo interim €0.70"
+        }
+      ]
+    },
+    {
+      "ticker": "BBVA",
+      "nombre": "BBVA",
+      "sector": "Banca",
+      "accion": "VIGILAR",
+      "precio_cierre": 20.1,
+      "soporte_obvio": 19.65,
+      "resistencia_obvia": 20.8,
+      "soporte_secundario": 19.15,
+      "resistencia_secundaria": 21.35,
+      "distancia_max_52s_pct": -6.8,
+      "distancia_min_52s_pct": 22.4,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 98,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Consolidación en rango, pendiente de señales Fed sobre tipos",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-12",
+          "descripcion": "Resultados Q4 y guidance 2026"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "TEF",
+      "razon": "Ruptura soporte clave 3.70, debilidad técnica persistente",
+      "shorts_pct": 2.1
+    },
+    {
+      "ticker": "REP",
+      "razon": "Presión por caída crudo, sector energía bajo presión",
+      "shorts_pct": 1.8
+    },
+    {
+      "ticker": "IAG",
+      "razon": "Sector aéreo vulnerable a volatilidad combustible",
+      "shorts_pct": 0.9
+    }
+  ]
+}

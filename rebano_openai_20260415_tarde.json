@@ -1,0 +1,64 @@
+{
+  "fecha": "2026-04-15",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [],
+    "indice_movimiento_notable": [],
+    "vix_cambio": {
+      "valor_cierre": 18.5,
+      "nivel": "NORMAL",
+      "cambio_significativo": false
+    },
+    "sector_destacado": [],
+    "resumen_cambios": ""
+  },
+  "resumen": {
+    "ibex_var_pct": 0.5,
+    "valores_destacados": [
+      "ITX +2%",
+      "REP -1%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "REP",
+      "nivel_barrido": 19.5,
+      "recupero": true,
+      "recuperacion_pct": 2.0
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "IBEX",
+      "nombre": "IBEX 35",
+      "sector": "Índice",
+      "accion": "COMPRA",
+      "precio_cierre": 9615.0,
+      "soporte_obvio": 9500.0,
+      "resistencia_obvia": 9700.0,
+      "soporte_secundario": 9450.0,
+      "resistencia_secundaria": 9750.0,
+      "distancia_max_52s_pct": -10.0,
+      "distancia_min_52s_pct": 8.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 120,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Rompimiento alcista sobre resistencia previa con volumen",
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-05-05",
+          "descripcion": "Ex-dividendo general en diversos sectores"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "BKT",
+      "razon": "Altos cortos institucionales",
+      "shorts_pct": 0.65
+    }
+  ]
+}

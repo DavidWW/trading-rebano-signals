@@ -1,0 +1,161 @@
+{
+  "fecha": "2026-03-18",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Brent",
+        "var_dia_pct": -2.3,
+        "nuevo_precio": 72.45
+      },
+      {
+        "activo": "Gas Natural",
+        "var_dia_pct": 3.1,
+        "nuevo_precio": 28.9
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "DAX",
+        "var_dia_pct": -0.8
+      },
+      {
+        "indice": "FTSE MIB",
+        "var_dia_pct": 1.2
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 18.5,
+      "nivel": "NORMAL",
+      "cambio_significativo": false
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Utilities Europeas",
+        "var_dia_pct": 1.8,
+        "direccion": "POSITIVO"
+      },
+      {
+        "nombre": "Energia Europeas",
+        "var_dia_pct": -2.1,
+        "direccion": "NEGATIVO"
+      }
+    ],
+    "resumen_cambios": "Sesión mixta con rotación sectorial, utilities destacan positivo"
+  },
+  "resumen": {
+    "ibex_var_pct": 0.3,
+    "valores_destacados": [
+      "IBE +1.8%",
+      "ELE +1.5%",
+      "REP -2.1%",
+      "SLR -1.9%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "TEF",
+      "nivel_barrido": 3.6,
+      "recupero": false,
+      "recuperacion_pct": 0.0
+    },
+    {
+      "ticker": "MAP",
+      "nivel_barrido": 3.7,
+      "recupero": true,
+      "recuperacion_pct": 0.5
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "precio_cierre": 19.68,
+      "soporte_obvio": 19.15,
+      "resistencia_obvia": 20.2,
+      "soporte_secundario": 18.85,
+      "resistencia_secundaria": 20.65,
+      "distancia_max_52s_pct": -8.5,
+      "distancia_min_52s_pct": 24.2,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 145,
+      "catalizador_tipo": "MACRO",
+      "razon": "Fortaleza sectorial utilities, ruptura resistencia 19.50, divergencia positiva con energia",
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-04-02",
+          "descripcion": "Pago dividendo a cuenta 0.168€"
+        }
+      ]
+    },
+    {
+      "ticker": "ELE",
+      "nombre": "Endesa",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "precio_cierre": 35.43,
+      "soporte_obvio": 34.8,
+      "resistencia_obvia": 36.15,
+      "soporte_secundario": 34.25,
+      "resistencia_secundaria": 36.85,
+      "distancia_max_52s_pct": -12.3,
+      "distancia_min_52s_pct": 18.9,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 135,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Bounce desde soporte 34.80, momentum utilities, RSI saliendo sobreventa",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-24",
+          "descripcion": "Resultados T1 2026"
+        }
+      ]
+    },
+    {
+      "ticker": "PUIG",
+      "nombre": "Puig",
+      "sector": "Lujo/Consumo",
+      "accion": "VIGILAR",
+      "precio_cierre": 15.86,
+      "soporte_obvio": 15.35,
+      "resistencia_obvia": 16.5,
+      "soporte_secundario": 14.95,
+      "resistencia_secundaria": 17.15,
+      "distancia_max_52s_pct": -18.2,
+      "distancia_min_52s_pct": 12.5,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 95,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Consolidacion en rango, pendiente ruptura 16.50 para continuidad alcista",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-15",
+          "descripcion": "Resultados anuales 2025"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "REP",
+      "razon": "Presion por caida petroleo, resistencia 24.80 muy fuerte",
+      "shorts_pct": 0.3
+    },
+    {
+      "ticker": "TEF",
+      "razon": "Ruptura soporte critico 3.60, sin recuperacion, debilidad tecnica",
+      "shorts_pct": 0.8
+    },
+    {
+      "ticker": "IAG",
+      "razon": "Sector aerolineas bajo presion, resistencia 4.25 rechaza",
+      "shorts_pct": 1.2
+    }
+  ]
+}

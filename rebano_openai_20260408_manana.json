@@ -1,0 +1,288 @@
+{
+  "fecha": "2026-04-08",
+  "sesion": "manana",
+  "sentimiento": "NEUTRAL",
+  "radar_macro": {
+    "commodities": {
+      "oro": {
+        "precio_usd": 1980.23,
+        "var_semanal_pct": 0.5,
+        "var_mensual_pct": -1.2,
+        "dist_max_52s_pct": -5.3,
+        "alerta": false
+      },
+      "plata": {
+        "precio_usd": 25.3,
+        "var_semanal_pct": 1.0,
+        "var_mensual_pct": 0.8,
+        "dist_max_52s_pct": -8.7,
+        "alerta": false
+      },
+      "petroleo_brent": {
+        "precio_usd": 85.45,
+        "var_semanal_pct": -2.2,
+        "var_mensual_pct": 4.4,
+        "alerta": false
+      }
+    },
+    "indices": {
+      "sp500": {
+        "valor": 4320,
+        "var_semanal_pct": 0.3,
+        "dist_max_52s_pct": -7.5,
+        "alerta": false
+      },
+      "nasdaq100": {
+        "valor": 14500,
+        "var_semanal_pct": -0.2,
+        "dist_max_52s_pct": -6.0,
+        "alerta": false
+      },
+      "stoxx600": {
+        "valor": 455,
+        "var_semanal_pct": 1.1,
+        "dist_max_52s_pct": -3.8,
+        "alerta": false
+      },
+      "msci_em": {
+        "valor": 1140,
+        "var_semanal_pct": -0.8,
+        "dist_max_52s_pct": -10.3,
+        "alerta": false
+      },
+      "nikkei225": {
+        "valor": 29540,
+        "var_semanal_pct": 0.7,
+        "dist_max_52s_pct": -4.5,
+        "alerta": false
+      }
+    },
+    "sectores_europa": {
+      "mejor_sector": {
+        "nombre": "Tecnología",
+        "var_semanal_pct": 2.5
+      },
+      "peor_sector": {
+        "nombre": "Energía",
+        "var_semanal_pct": -1.9
+      },
+      "sector_en_correccion": {
+        "hay_correccion": false,
+        "nombre": "",
+        "caida_desde_max_pct": 0.0,
+        "causa": ""
+      }
+    },
+    "divisas": {
+      "eur_usd": {
+        "valor": 1.085,
+        "var_semanal_pct": -0.3,
+        "var_mensual_pct": 0.4
+      }
+    },
+    "vix": {
+      "valor": 18.5,
+      "nivel": "NORMAL"
+    },
+    "eventos_clave": [
+      {
+        "evento": "Decisión de tipos de interés BCE",
+        "hora_cet": "13:45",
+        "relevancia": "ALTA"
+      },
+      {
+        "evento": "Datos de empleo EE.UU.",
+        "hora_cet": "14:30",
+        "relevancia": "ALTA"
+      }
+    ],
+    "resumen_macro": "Neutral con enfoque en datos de interés y empleo"
+  },
+  "recomendaciones": [
+    {
+      "ranking": 1,
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "sector": "Retail",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 50.18,
+      "entrada": 49.7,
+      "stop_loss": 48.25,
+      "stop_pct": -2.84,
+      "take_profit_1": 52.5,
+      "tp1_pct": 4.44,
+      "take_profit_2": 54.0,
+      "tp2_pct": 7.54,
+      "soporte_obvio": 49.7,
+      "resistencia_obvia": 52.5,
+      "soporte_secundario": 48.0,
+      "resistencia_secundaria": 54.0,
+      "distancia_max_52s_pct": -10.0,
+      "distancia_min_52s_pct": 15.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 110,
+      "catalizador_tipo": "SECTORIAL",
+      "catalizador_desc": "Impulso en sector retail por aumento de consumo",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.2,
+      "prob_barrido": "BAJA",
+      "riesgo": "Movimientos macro inesperados",
+      "horizonte_dias": 4,
+      "eventos_proximos": []
+    },
+    {
+      "ranking": 2,
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "sector": "Energía",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 23.95,
+      "entrada": 23.5,
+      "stop_loss": 22.95,
+      "stop_pct": -2.34,
+      "take_profit_1": 25.0,
+      "tp1_pct": 4.38,
+      "take_profit_2": 25.8,
+      "tp2_pct": 7.71,
+      "soporte_obvio": 23.5,
+      "resistencia_obvia": 25.0,
+      "soporte_secundario": 22.5,
+      "resistencia_secundaria": 25.8,
+      "distancia_max_52s_pct": -8.0,
+      "distancia_min_52s_pct": 12.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 120,
+      "catalizador_tipo": "TECNICO",
+      "catalizador_desc": "Rebote técnico desde soporte clave",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.4,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Volatilidad en precios de crudo",
+      "horizonte_dias": 3,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-28",
+          "descripcion": "Presentación de resultados trimestrales"
+        }
+      ]
+    },
+    {
+      "ranking": 3,
+      "ticker": "SAN",
+      "nombre": "Santander",
+      "sector": "Banca",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 9.72,
+      "entrada": 9.6,
+      "stop_loss": 9.25,
+      "stop_pct": -3.65,
+      "take_profit_1": 10.1,
+      "tp1_pct": 4.94,
+      "take_profit_2": 10.5,
+      "tp2_pct": 9.26,
+      "soporte_obvio": 9.6,
+      "resistencia_obvia": 10.1,
+      "soporte_secundario": 9.2,
+      "resistencia_secundaria": 10.5,
+      "distancia_max_52s_pct": -5.0,
+      "distancia_min_52s_pct": 20.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 130,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "catalizador_desc": "Incremento en beneficios por subida de tipos",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.15,
+      "prob_barrido": "BAJA",
+      "riesgo": "Cambios inesperados en política monetaria",
+      "horizonte_dias": 5,
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-04-12",
+          "descripcion": "Pago de dividendo"
+        }
+      ]
+    },
+    {
+      "ranking": 4,
+      "ticker": "ACX",
+      "nombre": "Acerinox",
+      "sector": "Acero/Industrial",
+      "accion": "VENTA",
+      "conviccion": "BAJA",
+      "precio_actual": 12.34,
+      "entrada": 12.5,
+      "stop_loss": 13.0,
+      "stop_pct": 4.0,
+      "take_profit_1": 11.8,
+      "tp1_pct": -4.32,
+      "take_profit_2": 11.4,
+      "tp2_pct": -7.62,
+      "soporte_obvio": 11.8,
+      "resistencia_obvia": 13.0,
+      "soporte_secundario": 11.4,
+      "resistencia_secundaria": 12.8,
+      "distancia_max_52s_pct": 5.0,
+      "distancia_min_52s_pct": 15.0,
+      "tendencia": "BAJISTA",
+      "volumen_vs_media_pct": 90,
+      "catalizador_tipo": "TECNICO",
+      "catalizador_desc": "Debilidad técnica por debajo del soporte",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.6,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Rebote por demanda inesperada de acero",
+      "horizonte_dias": 2,
+      "eventos_proximos": []
+    },
+    {
+      "ranking": 5,
+      "ticker": "AMS",
+      "nombre": "Amadeus",
+      "sector": "Tecnología/Turismo",
+      "accion": " COMPRA",
+      "conviccion": "BAJA",
+      "precio_actual": 48.21,
+      "entrada": 47.5,
+      "stop_loss": 46.0,
+      "stop_pct": -3.16,
+      "take_profit_1": 49.6,
+      "tp1_pct": 2.88,
+      "take_profit_2": 50.8,
+      "tp2_pct": 5.38,
+      "soporte_obvio": 47.5,
+      "resistencia_obvia": 49.6,
+      "soporte_secundario": 46.5,
+      "resistencia_secundaria": 50.8,
+      "distancia_max_52s_pct": -12.0,
+      "distancia_min_52s_pct": 18.0,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 105,
+      "catalizador_tipo": "SECTORIAL",
+      "catalizador_desc": "Recuperación en viajes internacionales",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.3,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Resurgimiento de restricciones de viaje",
+      "horizonte_dias": 4,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-24",
+          "descripcion": "Publicación de resultados trimestrales"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "ACX",
+      "razon": "Corto institucional en aumento",
+      "shorts_pct": 0.6
+    }
+  ]
+}

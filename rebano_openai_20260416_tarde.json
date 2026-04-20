@@ -1,0 +1,81 @@
+{
+  "fecha": "2026-04-16",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Petróleo",
+        "var_dia_pct": 2.1,
+        "nuevo_precio": 72.45
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "NASDAQ",
+        "var_dia_pct": -1.5
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 18.7,
+      "nivel": "NORMAL",
+      "cambio_significativo": true
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Tecnología",
+        "var_dia_pct": -1.2,
+        "direccion": "NEGATIVO"
+      }
+    ],
+    "resumen_cambios": "El petróleo sube tras tensiones en Oriente Medio mientras que las acciones tecnológicas caen."
+  },
+  "resumen": {
+    "ibex_var_pct": 0.15,
+    "valores_destacados": [
+      "CABK +2%",
+      "GRF -1%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "REP",
+      "nivel_barrido": 20.6,
+      "recupero": true,
+      "recuperacion_pct": 1.6
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "SAN",
+      "nombre": "Santander",
+      "sector": "Banca",
+      "accion": "VIGILAR",
+      "precio_cierre": 10.53,
+      "soporte_obvio": 10.4,
+      "resistencia_obvia": 10.75,
+      "soporte_secundario": 10.25,
+      "resistencia_secundaria": 10.9,
+      "distancia_max_52s_pct": -15.0,
+      "distancia_min_52s_pct": 30.5,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 110,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Próximos resultados trimestrales que podrían indicar cambio de tendencia.",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-20",
+          "descripcion": "Presentación de resultados Q1."
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "IBE",
+      "razon": "Alto interés corto",
+      "shorts_pct": 0.65
+    }
+  ]
+}

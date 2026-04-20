@@ -1,0 +1,86 @@
+{
+  "fecha": "2026-03-20",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Petróleo",
+        "var_dia_pct": 2.5,
+        "nuevo_precio": 78.5
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "S&P 500",
+        "var_dia_pct": -1.2
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 19.5,
+      "nivel": "NORMAL",
+      "cambio_significativo": true
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Tecnología",
+        "var_dia_pct": 1.3,
+        "direccion": "POSITIVO"
+      },
+      {
+        "nombre": "Energía",
+        "var_dia_pct": -0.9,
+        "direccion": "NEGATIVO"
+      }
+    ],
+    "resumen_cambios": "Risk-off después de comentarios de la Fed."
+  },
+  "resumen": {
+    "ibex_var_pct": -0.6,
+    "valores_destacados": [
+      "ITX +3%",
+      "SAN -2%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "BKT",
+      "nivel_barrido": 12.7,
+      "recupero": true,
+      "recuperacion_pct": 2.98
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "FER",
+      "nombre": "Ferrovial",
+      "sector": "Infraestructuras",
+      "accion": "COMPRA",
+      "precio_cierre": 53.44,
+      "soporte_obvio": 51.5,
+      "resistencia_obvia": 55.0,
+      "soporte_secundario": 50.85,
+      "resistencia_secundaria": 56.35,
+      "distancia_max_52s_pct": -4.5,
+      "distancia_min_52s_pct": 15.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 110,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Soporte obvio respetado con incremento de volumen",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-25",
+          "descripcion": "Publicación de resultados trimestrales"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "CABK",
+      "razon": "Shorts institucionales elevados",
+      "shorts_pct": 1.1
+    }
+  ]
+}

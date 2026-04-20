@@ -1,0 +1,66 @@
+{
+  "version": "4.5",
+  "fecha": "2026-04-01",
+  "sesion": "tarde",
+  "hora": "20:01",
+  "alertas_shorts": [],
+  "consensos_ayer_pendientes": [],
+  "triangulacion": {
+    "consensos": [],
+    "solo_claude": [],
+    "solo_openai": [],
+    "evitar": [
+      {
+        "ticker": "ACX",
+        "razon": "Acero directamente impactado por aranceles EEUU 25% sobre importaciones acero. Doble impacto: menor demanda global y sobrecapacidad china redirigida a Europa. Tendencia bajista confirmada. Riesgo de nuevos minimos.",
+        "shorts_pct": 4.2
+      },
+      {
+        "ticker": "CIE",
+        "razon": "Sector automocion en el epicentro de la guerra arancelaria. Proveedores de componentes afectados por cadenas de suministro globales disruptas. Shorts institucionales elevados. Evitar hasta clarificacion politica arancelaria.",
+        "shorts_pct": 3.1
+      },
+      {
+        "ticker": "IAG",
+        "razon": "Aerolineas vulnerables a doble impacto: caida demanda corporativa por incertidumbre economica y potencial represalia en rutas transatlanticas. Precio rompiendo soportes. Shorts en aumento.",
+        "shorts_pct": 2.8
+      },
+      {
+        "ticker": "REP",
+        "razon": "Caida del crudo Brent por encima del 3% por temores recesion global inducida por aranceles. Repsol con alta correlacion al precio del petroleo. Soporte en 23.00 amenazado. Evitar hasta estabilizacion del crudo.",
+        "shorts_pct": 1.8
+      },
+      {
+        "ticker": "PUIG",
+        "razon": "Sector lujo muy expuesto a represalias chinas sobre productos europeos de consumo premium. China es mercado clave para Puig. Ademas valor relativamente nuevo en bolsa con historial corto y volatilidad alta. Shorts incrementando.",
+        "shorts_pct": 2.3
+      },
+      {
+        "ticker": "ITX",
+        "razon": "Inditex con exposicion significativa a mercado americano y cadena de suministro global. Los aranceles reciprocos impactan margenes y logistica. Ademas el valor habia subido mucho en 2025 y tecnicamente vulnerable a correccion mayor.",
+        "shorts_pct": 1.5
+      },
+      {
+        "ticker": "FDR",
+        "razon": "Industrial con exposicion a exportaciones. Sector en plena correccion por guerra arancelaria. Volumen vendedor elevado. Sin catalizador positivo claro a corto plazo.",
+        "shorts_pct": 1.2
+      },
+      {
+        "ticker": "BBVA",
+        "razon": "Shorts institucionales altos",
+        "shorts_pct": 0.6
+      }
+    ],
+    "sentimiento_claude": "BAJISTA",
+    "sentimiento_openai": "NEUTRAL",
+    "radar_macro_claude": {},
+    "radar_macro_openai": {}
+  },
+  "reglas_aplicadas": {
+    "R9_delay": false,
+    "R10_shorts": false,
+    "consensos_hoy": 0,
+    "valores_evitar": 8
+  },
+  "accion_recomendada": "EVALUAR"
+}

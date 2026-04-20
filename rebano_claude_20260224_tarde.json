@@ -1,0 +1,63 @@
+{
+  "fecha": "2026-02-24",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "resumen": {
+    "ibex_var_pct": 0.0,
+    "valores_destacados": [
+      "FER +1.8%",
+      "ACS +1.2%",
+      "TEF -0.8%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "TEF",
+      "nivel_barrido": 3.7,
+      "recupero": false,
+      "recuperacion_pct": 0.0
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "SAN",
+      "nombre": "Santander",
+      "accion": "COMPRA",
+      "precio_cierre": 10.65,
+      "soporte_obvio": 10.4,
+      "resistencia_obvia": 11.0,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Consolidación en máximos, buen momentum bancario"
+    },
+    {
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "accion": "VIGILAR",
+      "precio_cierre": 57.54,
+      "soporte_obvio": 56.5,
+      "resistencia_obvia": 59.0,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Proximidad resultados Q4, alta volatilidad esperada"
+    },
+    {
+      "ticker": "BBVA",
+      "nombre": "BBVA",
+      "accion": "COMPRA",
+      "precio_cierre": 19.78,
+      "soporte_obvio": 19.4,
+      "resistencia_obvia": 20.5,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Ruptura alcista confirmada, sector bancario fuerte"
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "TEF",
+      "razon": "Debilidad técnica persistente, barrido de soportes"
+    },
+    {
+      "ticker": "MAP",
+      "razon": "Baja liquidez y volatilidad excesiva"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "fecha": "2026-03-23",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Brent",
+        "var_dia_pct": -2.1,
+        "nuevo_precio": 72.3
+      },
+      {
+        "activo": "Cobre",
+        "var_dia_pct": 2.3,
+        "nuevo_precio": 8540.0
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "DAX",
+        "var_dia_pct": -0.8
+      },
+      {
+        "indice": "FTSE100",
+        "var_dia_pct": 1.2
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 18.5,
+      "nivel": "NORMAL",
+      "cambio_significativo": false
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Tecnología Europea",
+        "var_dia_pct": 1.8,
+        "direccion": "POSITIVO"
+      },
+      {
+        "nombre": "Energía Europea",
+        "var_dia_pct": -2.4,
+        "direccion": "NEGATIVO"
+      }
+    ],
+    "resumen_cambios": "Jornada mixta con rotación hacia tech y presión en energía por caída del petróleo"
+  },
+  "resumen": {
+    "ibex_var_pct": -0.3,
+    "valores_destacados": [
+      "IDR +1.8%",
+      "AMS +1.5%",
+      "REP -2.1%",
+      "SLR -1.9%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "REP",
+      "nivel_barrido": 22.5,
+      "recupero": false,
+      "recuperacion_pct": -0.8
+    },
+    {
+      "ticker": "TEF",
+      "nivel_barrido": 3.6,
+      "recupero": true,
+      "recuperacion_pct": 0.4
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "IDR",
+      "nombre": "Indra Sistemas",
+      "sector": "Defensa/Tech",
+      "accion": "COMPRA",
+      "precio_cierre": 48.68,
+      "soporte_obvio": 47.15,
+      "resistencia_obvia": 50.35,
+      "soporte_secundario": 46.2,
+      "resistencia_secundaria": 51.8,
+      "distancia_max_52s_pct": -8.2,
+      "distancia_min_52s_pct": 24.1,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 165,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Beneficiado por aumento presupuestos defensa UE y digitalización. Ruptura resistencia 48.50 con volumen",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-18",
+          "descripcion": "Q1 2026 earnings"
+        }
+      ]
+    },
+    {
+      "ticker": "AMS",
+      "nombre": "Amadeus",
+      "sector": "Tecnología/Turismo",
+      "accion": "COMPRA",
+      "precio_cierre": 49.53,
+      "soporte_obvio": 48.25,
+      "resistencia_obvia": 51.9,
+      "soporte_secundario": 47.1,
+      "resistencia_secundaria": 53.4,
+      "distancia_max_52s_pct": -12.5,
+      "distancia_min_52s_pct": 31.8,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 140,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Sector tecnológico europeo fuerte. Recovery turismo continúa y transformación digital acelera",
+      "eventos_proximos": []
+    },
+    {
+      "ticker": "BBVA",
+      "nombre": "Banco Bilbao Vizcaya",
+      "sector": "Banca",
+      "accion": "VIGILAR",
+      "precio_cierre": 18.44,
+      "soporte_obvio": 17.85,
+      "resistencia_obvia": 19.15,
+      "soporte_secundario": 17.2,
+      "resistencia_secundaria": 19.8,
+      "distancia_max_52s_pct": -6.1,
+      "distancia_min_52s_pct": 18.9,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 95,
+      "catalizador_tipo": "MACRO",
+      "razon": "Consolidación pre-decisión BCE. Buena exposición LatAm si continúa fortaleza emergentes",
+      "eventos_proximos": [
+        {
+          "tipo": "EX_DIVIDENDO",
+          "fecha": "2026-04-02",
+          "descripcion": "Dividendo 0.42€"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "REP",
+      "razon": "Presión por caída petróleo y ruptura soporte clave 22.50. Tendencia bajista confirmada",
+      "shorts_pct": 0.3
+    },
+    {
+      "ticker": "SLR",
+      "razon": "Sector renovables bajo presión. Incertidumbre regulatoria y valoraciones estiradas",
+      "shorts_pct": 0.8
+    },
+    {
+      "ticker": "TEF",
+      "razon": "Debilidad estructural continúa. Alta deuda y competencia feroz en core markets",
+      "shorts_pct": 1.2
+    }
+  ]
+}

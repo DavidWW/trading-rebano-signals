@@ -1,0 +1,309 @@
+{
+  "fecha": "2026-03-06",
+  "sesion": "manana",
+  "sentimiento": "NEUTRAL",
+  "radar_macro": {
+    "commodities": {
+      "oro": {
+        "precio_usd": 2658.5,
+        "var_semanal_pct": -1.2,
+        "var_mensual_pct": 2.8,
+        "dist_max_52s_pct": -3.5,
+        "alerta": false
+      },
+      "plata": {
+        "precio_usd": 29.85,
+        "var_semanal_pct": -2.1,
+        "var_mensual_pct": 1.5,
+        "dist_max_52s_pct": -8.2,
+        "alerta": false
+      },
+      "petroleo_brent": {
+        "precio_usd": 78.45,
+        "var_semanal_pct": 1.8,
+        "var_mensual_pct": -2.3,
+        "alerta": false
+      }
+    },
+    "indices": {
+      "sp500": {
+        "valor": 5245,
+        "var_semanal_pct": -0.8,
+        "dist_max_52s_pct": -2.1,
+        "alerta": false
+      },
+      "nasdaq100": {
+        "valor": 18950,
+        "var_semanal_pct": -1.2,
+        "dist_max_52s_pct": -4.8,
+        "alerta": false
+      },
+      "stoxx600": {
+        "valor": 498,
+        "var_semanal_pct": 0.5,
+        "dist_max_52s_pct": -1.8,
+        "alerta": false
+      },
+      "msci_em": {
+        "valor": 1158,
+        "var_semanal_pct": 1.1,
+        "dist_max_52s_pct": -5.2,
+        "alerta": false
+      },
+      "nikkei225": {
+        "valor": 39250,
+        "var_semanal_pct": -0.3,
+        "dist_max_52s_pct": -1.2,
+        "alerta": false
+      }
+    },
+    "sectores_europa": {
+      "mejor_sector": {
+        "nombre": "Utilities",
+        "var_semanal_pct": 2.4
+      },
+      "peor_sector": {
+        "nombre": "Tecnologia",
+        "var_semanal_pct": -2.8
+      },
+      "sector_en_correccion": {
+        "hay_correccion": true,
+        "nombre": "Inmobiliario",
+        "caida_desde_max_pct": -12.5,
+        "causa": "tipos_interes_altos"
+      }
+    },
+    "divisas": {
+      "eur_usd": {
+        "valor": 1.0485,
+        "var_semanal_pct": -0.6,
+        "var_mensual_pct": 1.2
+      }
+    },
+    "vix": {
+      "valor": 18.5,
+      "nivel": "NORMAL"
+    },
+    "eventos_clave": [
+      {
+        "evento": "PIB_Eurozona_Final_T4",
+        "hora_cet": "11:00",
+        "relevancia": "ALTA"
+      },
+      {
+        "evento": "PMI_Servicios_Europa_Final",
+        "hora_cet": "10:00",
+        "relevancia": "MEDIA"
+      },
+      {
+        "evento": "Inventarios_Petroleo_USA",
+        "hora_cet": "16:30",
+        "relevancia": "MEDIA"
+      }
+    ],
+    "resumen_macro": "Mercados consolidando con rotación sectorial hacia defensivos"
+  },
+  "recomendaciones": [
+    {
+      "ranking": 1,
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 19.3,
+      "entrada": 19.25,
+      "stop_loss": 18.35,
+      "stop_pct": -4.7,
+      "take_profit_1": 20.15,
+      "tp1_pct": 4.7,
+      "take_profit_2": 21.25,
+      "tp2_pct": 10.4,
+      "soporte_obvio": 18.8,
+      "resistencia_obvia": 20.0,
+      "soporte_secundario": 18.25,
+      "resistencia_secundaria": 20.5,
+      "distancia_max_52s_pct": -8.5,
+      "distancia_min_52s_pct": 25.8,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 145,
+      "catalizador_tipo": "SECTORIAL",
+      "catalizador_desc": "Rotation hacia utilities por estabilidad dividendos y defensive play",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.2,
+      "prob_barrido": "BAJA",
+      "riesgo": "Cambio sentiment risk-on podria frenar momentum",
+      "horizonte_dias": 4,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-15",
+          "descripcion": "Resultados anuales 2025"
+        }
+      ]
+    },
+    {
+      "ranking": 2,
+      "ticker": "SAN",
+      "nombre": "Banco Santander",
+      "sector": "Banca",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 9.7,
+      "entrada": 9.65,
+      "stop_loss": 9.15,
+      "stop_pct": -5.2,
+      "take_profit_1": 10.25,
+      "tp1_pct": 6.2,
+      "take_profit_2": 10.85,
+      "tp2_pct": 12.4,
+      "soporte_obvio": 9.4,
+      "resistencia_obvia": 10.0,
+      "soporte_secundario": 9.15,
+      "resistencia_secundaria": 10.35,
+      "distancia_max_52s_pct": -12.8,
+      "distancia_min_52s_pct": 18.5,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 120,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "catalizador_desc": "Expectativas tipos estables favorecen margen neto interes",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.8,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Correccion inmobiliaria podria impactar provisions",
+      "horizonte_dias": 5,
+      "eventos_proximos": [
+        {
+          "tipo": "EX_DIVIDENDO",
+          "fecha": "2026-03-18",
+          "descripcion": "Dividendo interim 0.065€"
+        }
+      ]
+    },
+    {
+      "ranking": 3,
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "sector": "Energia",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 20.22,
+      "entrada": 20.15,
+      "stop_loss": 19.35,
+      "stop_pct": -4.0,
+      "take_profit_1": 21.25,
+      "tp1_pct": 5.5,
+      "take_profit_2": 22.15,
+      "tp2_pct": 10.0,
+      "soporte_obvio": 19.8,
+      "resistencia_obvia": 21.0,
+      "soporte_secundario": 19.25,
+      "resistencia_secundaria": 21.5,
+      "distancia_max_52s_pct": -6.2,
+      "distancia_min_52s_pct": 32.1,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 135,
+      "catalizador_tipo": "MACRO",
+      "catalizador_desc": "Subida petroleo Brent semanal +1.8% apoya valoraciones",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.3,
+      "prob_barrido": "BAJA",
+      "riesgo": "Volatilidad crudo por factores geopoliticos",
+      "horizonte_dias": 3,
+      "eventos_proximos": [
+        {
+          "tipo": "OTRO",
+          "fecha": "2026-03-12",
+          "descripcion": "Reunion OPEC+ politica produccion"
+        }
+      ]
+    },
+    {
+      "ranking": 4,
+      "ticker": "AENA",
+      "nombre": "AENA",
+      "sector": "Infraestructuras",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 25.48,
+      "entrada": 25.35,
+      "stop_loss": 24.15,
+      "stop_pct": -4.7,
+      "take_profit_1": 26.85,
+      "tp1_pct": 5.9,
+      "take_profit_2": 27.75,
+      "tp2_pct": 9.5,
+      "soporte_obvio": 25.0,
+      "resistencia_obvia": 26.5,
+      "soporte_secundario": 24.25,
+      "resistencia_secundaria": 27.0,
+      "distancia_max_52s_pct": -15.2,
+      "distancia_min_52s_pct": 28.5,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 110,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "catalizador_desc": "Recovery trafico aereo post-temporada baja invierno",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.4,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Dependencia ciclo turistico estacional",
+      "horizonte_dias": 4,
+      "eventos_proximos": [
+        {
+          "tipo": "OTRO",
+          "fecha": "2026-03-20",
+          "descripcion": "Datos trafico pasajeros febrero"
+        }
+      ]
+    },
+    {
+      "ranking": 5,
+      "ticker": "ELE",
+      "nombre": "Endesa",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "conviccion": "BAJA",
+      "precio_actual": 33.03,
+      "entrada": 32.85,
+      "stop_loss": 31.65,
+      "stop_pct": -3.7,
+      "take_profit_1": 34.25,
+      "tp1_pct": 4.3,
+      "take_profit_2": 35.15,
+      "tp2_pct": 7.0,
+      "soporte_obvio": 32.5,
+      "resistencia_obvia": 34.0,
+      "soporte_secundario": 31.75,
+      "resistencia_secundaria": 34.5,
+      "distancia_max_52s_pct": -5.8,
+      "distancia_min_52s_pct": 22.4,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 95,
+      "catalizador_tipo": "SECTORIAL",
+      "catalizador_desc": "Apoyo sectorial utilities pero menos momentum que IBE",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.1,
+      "prob_barrido": "BAJA",
+      "riesgo": "Menor upside que IBE en rotation defensiva",
+      "horizonte_dias": 3,
+      "eventos_proximos": []
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "MRL",
+      "razon": "Sector inmobiliario en correccion -12.5% por tipos altos",
+      "shorts_pct": 1.2
+    },
+    {
+      "ticker": "COL",
+      "razon": "Sector inmobiliario vulnerable, posible test minimos",
+      "shorts_pct": 0.9
+    },
+    {
+      "ticker": "TEF",
+      "razon": "Debilidad tecnica persistente, sin catalizadores claros",
+      "shorts_pct": 0.6
+    }
+  ]
+}

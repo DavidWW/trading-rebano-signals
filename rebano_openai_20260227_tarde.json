@@ -1,0 +1,69 @@
+{
+  "fecha": "2026-02-27",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [],
+    "indice_movimiento_notable": [],
+    "vix_cambio": {
+      "valor_cierre": 16.5,
+      "nivel": "NORMAL",
+      "cambio_significativo": false
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Energía",
+        "var_dia_pct": 1.2,
+        "direccion": "POSITIVO"
+      },
+      {
+        "nombre": "Tecnología",
+        "var_dia_pct": -1.0,
+        "direccion": "NEGATIVO"
+      }
+    ],
+    "resumen_cambios": "Fluctuaciones en Energía y Tecnología moduladas."
+  },
+  "resumen": {
+    "ibex_var_pct": -0.15,
+    "valores_destacados": [
+      "ACS +2%",
+      "AMS -1%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "ACS",
+      "nivel_barrido": 108.0,
+      "recupero": true,
+      "recuperacion_pct": 1.5
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "ACS",
+      "nombre": "ACS",
+      "sector": "Construcción",
+      "accion": "COMPRA",
+      "precio_cierre": 109.6,
+      "soporte_obvio": 107.5,
+      "resistencia_obvia": 112.0,
+      "soporte_secundario": 106.35,
+      "resistencia_secundaria": 113.85,
+      "distancia_max_52s_pct": -5.0,
+      "distancia_min_52s_pct": 25.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 125,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Rebote técnico tras barrido de soporte.",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-05",
+          "descripcion": "Presentación de resultados anuales."
+        }
+      ]
+    }
+  ],
+  "evitar": []
+}

@@ -1,0 +1,155 @@
+{
+  "fecha": "2026-03-16",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Brent",
+        "var_dia_pct": -2.3,
+        "nuevo_precio": 78.45
+      },
+      {
+        "activo": "Gas Natural",
+        "var_dia_pct": 3.1,
+        "nuevo_precio": 45.2
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "DAX",
+        "var_dia_pct": -1.4
+      },
+      {
+        "indice": "CAC40",
+        "var_dia_pct": -1.1
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 18.5,
+      "nivel": "NORMAL",
+      "cambio_significativo": false
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Utilities",
+        "var_dia_pct": 1.2,
+        "direccion": "POSITIVO"
+      },
+      {
+        "nombre": "Energía",
+        "var_dia_pct": -2.1,
+        "direccion": "NEGATIVO"
+      }
+    ],
+    "resumen_cambios": "Rotación hacia defensivos ante debilidad energética"
+  },
+  "resumen": {
+    "ibex_var_pct": -0.3,
+    "valores_destacados": [
+      "IBE +1.8%",
+      "REP -2.4%",
+      "ITX +1.1%",
+      "TEF -1.9%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "REP",
+      "nivel_barrido": 23.0,
+      "recupero": false,
+      "recuperacion_pct": -1.4
+    },
+    {
+      "ticker": "TEF",
+      "nivel_barrido": 3.6,
+      "recupero": false,
+      "recuperacion_pct": -1.1
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "precio_cierre": 19.73,
+      "soporte_obvio": 19.25,
+      "resistencia_obvia": 20.15,
+      "soporte_secundario": 18.85,
+      "resistencia_secundaria": 20.65,
+      "distancia_max_52s_pct": -8.5,
+      "distancia_min_52s_pct": 12.3,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 145,
+      "catalizador_tipo": "MACRO",
+      "razon": "Fortaleza defensiva con rotación hacia utilities, break resistencia 19.70",
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-03-28",
+          "descripcion": "Dividendo trimestral 0.18€"
+        }
+      ]
+    },
+    {
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "sector": "Retail",
+      "accion": "VIGILAR",
+      "precio_cierre": 51.46,
+      "soporte_obvio": 50.65,
+      "resistencia_obvia": 52.35,
+      "soporte_secundario": 49.85,
+      "resistencia_secundaria": 53.15,
+      "distancia_max_52s_pct": -12.4,
+      "distancia_min_52s_pct": 18.7,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 120,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Consolidación en zona clave, próximo a resistencia importante en 52.35",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-24",
+          "descripcion": "Resultados Q1 2026"
+        }
+      ]
+    },
+    {
+      "ticker": "AENA",
+      "nombre": "Aena",
+      "sector": "Infraestructuras",
+      "accion": "COMPRA",
+      "precio_cierre": 25.7,
+      "soporte_obvio": 25.15,
+      "resistencia_obvia": 26.85,
+      "soporte_secundario": 24.35,
+      "resistencia_secundaria": 27.65,
+      "distancia_max_52s_pct": -15.2,
+      "distancia_min_52s_pct": 22.1,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 135,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Recuperación tráfico aéreo sostenida, valuación atractiva vs pares europeos",
+      "eventos_proximos": []
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "REP",
+      "razon": "Presión por caída petróleo, rompió soporte clave",
+      "shorts_pct": 0.8
+    },
+    {
+      "ticker": "TEF",
+      "razon": "Debilidad sectorial telecom, alta deuda en entorno tipos altos",
+      "shorts_pct": 1.2
+    },
+    {
+      "ticker": "ACX",
+      "razon": "Sector acero bajo presión por desaceleración industrial",
+      "shorts_pct": 0.6
+    }
+  ]
+}

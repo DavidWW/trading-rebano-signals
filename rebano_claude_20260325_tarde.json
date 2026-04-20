@@ -1,0 +1,155 @@
+{
+  "fecha": "2026-03-25",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Brent",
+        "var_dia_pct": -1.8,
+        "nuevo_precio": 82.15
+      },
+      {
+        "activo": "Gas Natural",
+        "var_dia_pct": 2.3,
+        "nuevo_precio": 28.4
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "DAX",
+        "var_dia_pct": -0.8
+      },
+      {
+        "indice": "CAC40",
+        "var_dia_pct": -0.6
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 16.2,
+      "nivel": "NORMAL",
+      "cambio_significativo": false
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Utilities Europeas",
+        "var_dia_pct": 1.2,
+        "direccion": "POSITIVO"
+      },
+      {
+        "nombre": "Energia",
+        "var_dia_pct": -1.4,
+        "direccion": "NEGATIVO"
+      }
+    ],
+    "resumen_cambios": "Sesión mixta con rotación hacia defensivos ante incertidumbre geopolítica"
+  },
+  "resumen": {
+    "ibex_var_pct": -0.3,
+    "valores_destacados": [
+      "IBE +1.8%",
+      "ELE +1.4%",
+      "REP -2.1%",
+      "SLR -1.9%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "REP",
+      "nivel_barrido": 24.0,
+      "recupero": false,
+      "recuperacion_pct": -1.6
+    },
+    {
+      "ticker": "SLR",
+      "nivel_barrido": 23.5,
+      "recupero": false,
+      "recuperacion_pct": -0.7
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "precio_cierre": 19.4,
+      "soporte_obvio": 18.8,
+      "resistencia_obvia": 20.0,
+      "soporte_secundario": 18.35,
+      "resistencia_secundaria": 19.85,
+      "distancia_max_52s_pct": -12.5,
+      "distancia_min_52s_pct": 18.3,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 145,
+      "catalizador_tipo": "MACRO",
+      "razon": "Fortaleza en utilities por búsqueda de refugio, rompió resistencia 19.20",
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-04-15",
+          "descripcion": "Dividendo complementario 0.168€"
+        }
+      ]
+    },
+    {
+      "ticker": "ELE",
+      "nombre": "Endesa",
+      "sector": "Utilities",
+      "accion": "VIGILAR",
+      "precio_cierre": 34.86,
+      "soporte_obvio": 34.0,
+      "resistencia_obvia": 36.5,
+      "soporte_secundario": 33.15,
+      "resistencia_secundaria": 35.85,
+      "distancia_max_52s_pct": -8.2,
+      "distancia_min_52s_pct": 22.7,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 125,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Seguimiento del sector utilities, cerca de resistencia clave",
+      "eventos_proximos": []
+    },
+    {
+      "ticker": "PUIG",
+      "nombre": "Puig",
+      "sector": "Lujo/Consumo",
+      "accion": "COMPRA",
+      "precio_cierre": 17.35,
+      "soporte_obvio": 16.8,
+      "resistencia_obvia": 18.2,
+      "soporte_secundario": 16.25,
+      "resistencia_secundaria": 17.85,
+      "distancia_max_52s_pct": -15.8,
+      "distancia_min_52s_pct": 28.4,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 110,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Consolidación en rango, buen entry point tras corrección",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-28",
+          "descripcion": "Resultados Q1 2026"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "REP",
+      "razon": "Debilidad energética por caída del petróleo, rompió soporte 24€",
+      "shorts_pct": 0.3
+    },
+    {
+      "ticker": "SLR",
+      "razon": "Sector renovables bajo presión, volumen bajista elevado",
+      "shorts_pct": 0.8
+    },
+    {
+      "ticker": "TEF",
+      "razon": "Lateralidad crónica en mínimos, sin catalizadores",
+      "shorts_pct": 0.2
+    }
+  ]
+}

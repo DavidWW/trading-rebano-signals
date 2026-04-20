@@ -1,0 +1,161 @@
+{
+  "fecha": "2026-03-30",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Brent",
+        "var_dia_pct": -2.3,
+        "nuevo_precio": 82.45
+      },
+      {
+        "activo": "Gas Natural",
+        "var_dia_pct": 3.1,
+        "nuevo_precio": 28.9
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "CAC40",
+        "var_dia_pct": -1.4
+      },
+      {
+        "indice": "FTSE MIB",
+        "var_dia_pct": 1.2
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 18.7,
+      "nivel": "NORMAL",
+      "cambio_significativo": false
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Banca Europea",
+        "var_dia_pct": -1.8,
+        "direccion": "NEGATIVO"
+      },
+      {
+        "nombre": "Utilities",
+        "var_dia_pct": 1.5,
+        "direccion": "POSITIVO"
+      }
+    ],
+    "resumen_cambios": "Rotación sectorial con presión en banca y fortaleza en utilities por caída del petróleo"
+  },
+  "resumen": {
+    "ibex_var_pct": -0.3,
+    "valores_destacados": [
+      "PHM +1.8%",
+      "IBE +1.2%",
+      "SAN -2.1%",
+      "BBVA -1.9%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "SAN",
+      "nivel_barrido": 9.5,
+      "recupero": false,
+      "recuperacion_pct": -0.1
+    },
+    {
+      "ticker": "TEF",
+      "nivel_barrido": 3.8,
+      "recupero": false,
+      "recuperacion_pct": -0.8
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "precio_cierre": 19.72,
+      "soporte_obvio": 19.25,
+      "resistencia_obvia": 20.15,
+      "soporte_secundario": 18.85,
+      "resistencia_secundaria": 20.65,
+      "distancia_max_52s_pct": -8.2,
+      "distancia_min_52s_pct": 15.3,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 142,
+      "catalizador_tipo": "MACRO",
+      "razon": "Beneficiaria de caída del petróleo y rotación hacia utilities defensivas",
+      "eventos_proximos": [
+        {
+          "tipo": "EX_DIVIDENDO",
+          "fecha": "2026-04-15",
+          "descripcion": "Ex-dividendo 0.168€"
+        }
+      ]
+    },
+    {
+      "ticker": "PHM",
+      "nombre": "PharmaMar",
+      "sector": "Salud",
+      "accion": "COMPRA",
+      "precio_cierre": 86.45,
+      "soporte_obvio": 84.15,
+      "resistencia_obvia": 89.5,
+      "soporte_secundario": 81.35,
+      "resistencia_secundaria": 92.85,
+      "distancia_max_52s_pct": -12.5,
+      "distancia_min_52s_pct": 28.7,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 165,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Momentum alcista tras ruptura de resistencia, sector defensivo atractivo",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-28",
+          "descripcion": "Resultados Q1 2026"
+        }
+      ]
+    },
+    {
+      "ticker": "ELE",
+      "nombre": "Endesa",
+      "sector": "Utilities",
+      "accion": "VIGILAR",
+      "precio_cierre": 35.95,
+      "soporte_obvio": 35.15,
+      "resistencia_obvia": 36.85,
+      "soporte_secundario": 34.25,
+      "resistencia_secundaria": 37.65,
+      "distancia_max_52s_pct": -5.8,
+      "distancia_min_52s_pct": 22.4,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 95,
+      "catalizador_tipo": "MACRO",
+      "razon": "Consolidación previa a movimiento direccional en utilities",
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-04-10",
+          "descripcion": "Pago dividendo 0.70€"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "SAN",
+      "razon": "Presión bajista continuada, rompió soporte clave en 9.50",
+      "shorts_pct": 0.8
+    },
+    {
+      "ticker": "TEF",
+      "razon": "Debilidad técnica persistente cerca de mínimos",
+      "shorts_pct": 1.2
+    },
+    {
+      "ticker": "IAG",
+      "razon": "Sector aéreo vulnerable ante tensiones geopolíticas",
+      "shorts_pct": 0.6
+    }
+  ]
+}

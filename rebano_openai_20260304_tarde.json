@@ -1,0 +1,86 @@
+{
+  "fecha": "2026-03-04",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Petroleo",
+        "var_dia_pct": 2.1,
+        "nuevo_precio": 75.3
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "S&P 500",
+        "var_dia_pct": -1.2
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 23.5,
+      "nivel": "ALTO",
+      "cambio_significativo": true
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Tecnología",
+        "var_dia_pct": 2.5,
+        "direccion": "POSITIVO"
+      },
+      {
+        "nombre": "Energía",
+        "var_dia_pct": -1.7,
+        "direccion": "NEGATIVO"
+      }
+    ],
+    "resumen_cambios": "Riesgo general elevado con VIX aumentando fuertemente, mientras tecnología destaca positivamente."
+  },
+  "resumen": {
+    "ibex_var_pct": -0.5,
+    "valores_destacados": [
+      "ACS +2%",
+      "BBVA -1%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "SAN",
+      "nivel_barrido": 9.75,
+      "recupero": true,
+      "recuperacion_pct": 2.0
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "IBR",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "precio_cierre": 19.36,
+      "soporte_obvio": 18.5,
+      "resistencia_obvia": 20.0,
+      "soporte_secundario": 18.0,
+      "resistencia_secundaria": 20.5,
+      "distancia_max_52s_pct": -12.3,
+      "distancia_min_52s_pct": 15.4,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 120,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Rompimiento de resistencia técnica y volumen alto",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-10",
+          "descripcion": "Presentación de resultados trimestrales"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "BBVA",
+      "razon": "Shorts institucionales elevados",
+      "shorts_pct": 0.75
+    }
+  ]
+}

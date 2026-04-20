@@ -1,0 +1,155 @@
+{
+  "fecha": "2026-03-19",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Brent",
+        "var_dia_pct": -1.8,
+        "nuevo_precio": 82.45
+      },
+      {
+        "activo": "Gas Natural",
+        "var_dia_pct": 3.2,
+        "nuevo_precio": 2.68
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "DAX",
+        "var_dia_pct": -0.8
+      },
+      {
+        "indice": "FTSE 100",
+        "var_dia_pct": 0.6
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 16.8,
+      "nivel": "NORMAL",
+      "cambio_significativo": false
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Utilities Europeo",
+        "var_dia_pct": 1.4,
+        "direccion": "POSITIVO"
+      },
+      {
+        "nombre": "Energía Europeo",
+        "var_dia_pct": -2.1,
+        "direccion": "NEGATIVO"
+      }
+    ],
+    "resumen_cambios": "Sesión mixta con rotación hacia defensivos ante volatilidad energética"
+  },
+  "resumen": {
+    "ibex_var_pct": -0.3,
+    "valores_destacados": [
+      "IBE +1.8%",
+      "REP -2.4%",
+      "PHM +1.2%",
+      "TEF -1.9%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "REP",
+      "nivel_barrido": 25.15,
+      "recupero": false,
+      "recuperacion_pct": 0.0
+    },
+    {
+      "ticker": "TEF",
+      "nivel_barrido": 3.7,
+      "recupero": true,
+      "recuperacion_pct": 1.4
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "precio_cierre": 19.56,
+      "soporte_obvio": 19.15,
+      "resistencia_obvia": 20.25,
+      "soporte_secundario": 18.85,
+      "resistencia_secundaria": 20.65,
+      "distancia_max_52s_pct": -12.4,
+      "distancia_min_52s_pct": 18.7,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 165,
+      "catalizador_tipo": "MACRO",
+      "razon": "Fortaleza defensiva con alta rotación institucional hacia utilities. Rompe resistencia 19.50",
+      "eventos_proximos": [
+        {
+          "tipo": "EX_DIVIDENDO",
+          "fecha": "2026-03-28",
+          "descripcion": "0.23€ por acción"
+        }
+      ]
+    },
+    {
+      "ticker": "PUIG",
+      "nombre": "Puig Brands",
+      "sector": "Lujo/Consumo",
+      "accion": "VIGILAR",
+      "precio_cierre": 15.23,
+      "soporte_obvio": 14.85,
+      "resistencia_obvia": 15.75,
+      "soporte_secundario": 14.35,
+      "resistencia_secundaria": 16.15,
+      "distancia_max_52s_pct": -8.9,
+      "distancia_min_52s_pct": 22.3,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 140,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Consolidación en rango. Vigilar rotura 15.75 para continuidad alcista",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-25",
+          "descripcion": "Q4 2025"
+        }
+      ]
+    },
+    {
+      "ticker": "PHM",
+      "nombre": "PharmaMar",
+      "sector": "Salud",
+      "accion": "COMPRA",
+      "precio_cierre": 85.5,
+      "soporte_obvio": 82.65,
+      "resistencia_obvia": 89.25,
+      "soporte_secundario": 79.85,
+      "resistencia_secundaria": 92.15,
+      "distancia_max_52s_pct": -15.8,
+      "distancia_min_52s_pct": 35.4,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 185,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Biotech con momentum. Posible catalizador regulatorio próximo",
+      "eventos_proximos": []
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "REP",
+      "razon": "Presión por caída petróleo. Rompió soporte clave 25.15",
+      "shorts_pct": 0.8
+    },
+    {
+      "ticker": "TEF",
+      "razon": "Debilidad técnica persistente. Máximos decrecientes",
+      "shorts_pct": 1.2
+    },
+    {
+      "ticker": "MAP",
+      "razon": "Sector seguros bajo presión tipos. Volumen bajista",
+      "shorts_pct": 0.6
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "fecha": "2026-03-03",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Brent",
+        "var_dia_pct": -1.8,
+        "nuevo_precio": 82.45
+      },
+      {
+        "activo": "Gas Natural",
+        "var_dia_pct": 2.3,
+        "nuevo_precio": 28.9
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "DAX",
+        "var_dia_pct": -0.8
+      },
+      {
+        "indice": "FTSE",
+        "var_dia_pct": 0.6
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 18.2,
+      "nivel": "NORMAL",
+      "cambio_significativo": false
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Utilities Europeas",
+        "var_dia_pct": 1.2,
+        "direccion": "POSITIVO"
+      },
+      {
+        "nombre": "Energía",
+        "var_dia_pct": -1.5,
+        "direccion": "NEGATIVO"
+      }
+    ],
+    "resumen_cambios": "Sesión mixta con rotación hacia defensivas ante incertidumbre geopolítica"
+  },
+  "resumen": {
+    "ibex_var_pct": -0.3,
+    "valores_destacados": [
+      "IBE +1.2%",
+      "ELE +0.9%",
+      "REP -1.8%",
+      "ANE -1.4%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "TEF",
+      "nivel_barrido": 3.55,
+      "recupero": false,
+      "recuperacion_pct": 0.0
+    },
+    {
+      "ticker": "CABK",
+      "nivel_barrido": 10.0,
+      "recupero": true,
+      "recuperacion_pct": -0.2
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "precio_cierre": 19.07,
+      "soporte_obvio": 18.65,
+      "resistencia_obvia": 19.5,
+      "soporte_secundario": 18.35,
+      "resistencia_secundaria": 19.85,
+      "distancia_max_52s_pct": -8.2,
+      "distancia_min_52s_pct": 14.7,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 145,
+      "catalizador_tipo": "MACRO",
+      "razon": "Fortaleza utilities ante tensiones geopolíticas, rompe resistencia 19.00 con volumen",
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-03-15",
+          "descripcion": "0.168€ bruto"
+        }
+      ]
+    },
+    {
+      "ticker": "ELE",
+      "nombre": "Endesa",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "precio_cierre": 32.62,
+      "soporte_obvio": 31.85,
+      "resistencia_obvia": 33.5,
+      "soporte_secundario": 31.15,
+      "resistencia_secundaria": 34.2,
+      "distancia_max_52s_pct": -6.8,
+      "distancia_min_52s_pct": 18.3,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 132,
+      "catalizador_tipo": "MACRO",
+      "razon": "Beneficiaria de la fortaleza del sector utilities, sólida en máximos relativos",
+      "eventos_proximos": []
+    },
+    {
+      "ticker": "ROVI",
+      "nombre": "Laboratorios Rovi",
+      "sector": "Salud",
+      "accion": "VIGILAR",
+      "precio_cierre": 81.5,
+      "soporte_obvio": 78.5,
+      "resistencia_obvia": 85.0,
+      "soporte_secundario": 76.15,
+      "resistencia_secundaria": 87.5,
+      "distancia_max_52s_pct": -3.2,
+      "distancia_min_52s_pct": 42.8,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 98,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Consolidando cerca de máximos, pendiente de ruptura resistencia 85.00",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-28",
+          "descripcion": "Resultados anuales 2025"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "REP",
+      "razon": "Debilidad por caída petróleo, rompe soporte 21.00",
+      "shorts_pct": 0.8
+    },
+    {
+      "ticker": "TEF",
+      "razon": "Barrido de soporte 3.55 sin recuperación, tendencia bajista",
+      "shorts_pct": 1.2
+    },
+    {
+      "ticker": "ANE",
+      "razon": "Sector renovables bajo presión, alta volatilidad",
+      "shorts_pct": 0.6
+    }
+  ]
+}

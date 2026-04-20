@@ -1,0 +1,331 @@
+{
+  "fecha": "2026-04-07",
+  "sesion": "tarde",
+  "sentimiento": "BAJISTA",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Petróleo Brent",
+        "var_dia_pct": -4.2,
+        "nuevo_precio": 68.45
+      },
+      {
+        "activo": "Petróleo WTI",
+        "var_dia_pct": -4.5,
+        "nuevo_precio": 65.12
+      },
+      {
+        "activo": "Cobre",
+        "var_dia_pct": -3.8,
+        "nuevo_precio": 4.21
+      },
+      {
+        "activo": "Acero HRC",
+        "var_dia_pct": -2.9,
+        "nuevo_precio": 498.0
+      },
+      {
+        "activo": "Oro",
+        "var_dia_pct": 1.8,
+        "nuevo_precio": 3045.0
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "IBEX 35",
+        "var_dia_pct": -5.1
+      },
+      {
+        "indice": "EuroStoxx 50",
+        "var_dia_pct": -4.8
+      },
+      {
+        "indice": "DAX",
+        "var_dia_pct": -4.6
+      },
+      {
+        "indice": "CAC 40",
+        "var_dia_pct": -4.9
+      },
+      {
+        "indice": "S&P 500",
+        "var_dia_pct": -4.2
+      },
+      {
+        "indice": "Nasdaq 100",
+        "var_dia_pct": -5.1
+      },
+      {
+        "indice": "Nikkei 225",
+        "var_dia_pct": -7.8
+      },
+      {
+        "indice": "Hang Seng",
+        "var_dia_pct": -9.4
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 42.5,
+      "nivel": "PANICO",
+      "cambio_significativo": true
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Defensa Europa",
+        "var_dia_pct": 1.2,
+        "direccion": "POSITIVO"
+      },
+      {
+        "nombre": "Banca Europa",
+        "var_dia_pct": -6.8,
+        "direccion": "NEGATIVO"
+      },
+      {
+        "nombre": "Automóvil Europa",
+        "var_dia_pct": -7.2,
+        "direccion": "NEGATIVO"
+      },
+      {
+        "nombre": "Acero/Industrial Europa",
+        "var_dia_pct": -6.1,
+        "direccion": "NEGATIVO"
+      }
+    ],
+    "resumen_cambios": "Jornada de ventas masivas en modo RISK-OFF extremo por escalada de guerra arancelaria Trump; VIX en zona de pánico, commodities industriales desplomados y fuga hacia oro y bonos soberanos"
+  },
+  "resumen": {
+    "ibex_var_pct": -5.1,
+    "valores_destacados": [
+      "ACX -8.3% (acero penalizado por aranceles)",
+      "IAG -7.1% (aerolíneas bajo presión macro)",
+      "BBVA -6.9% (banca lidera caídas)",
+      "SAN -6.5% (banca expuesta a emergentes)",
+      "CIE -6.8% (automoción impacto aranceles)",
+      "IDR +1.8% (defensa refugio relativo)",
+      "ELE -2.1% (utilities relativo mejor comportamiento)",
+      "IBE -2.4% (utilities defensivas)"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "ACX",
+      "nivel_barrido": 12.0,
+      "recupero": false,
+      "recuperacion_pct": -2.8
+    },
+    {
+      "ticker": "IAG",
+      "nivel_barrido": 4.2,
+      "recupero": false,
+      "recuperacion_pct": -1.7
+    },
+    {
+      "ticker": "BBVA",
+      "nivel_barrido": 19.0,
+      "recupero": false,
+      "recuperacion_pct": -0.6
+    },
+    {
+      "ticker": "CIE",
+      "nivel_barrido": 27.0,
+      "recupero": false,
+      "recuperacion_pct": -0.4
+    },
+    {
+      "ticker": "SAN",
+      "nivel_barrido": 10.0,
+      "recupero": false,
+      "recuperacion_pct": -2.8
+    },
+    {
+      "ticker": "GRF",
+      "nivel_barrido": 9.5,
+      "recupero": false,
+      "recuperacion_pct": -4.7
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "IDR",
+      "nombre": "Indra Sistemas",
+      "sector": "Defensa/Tech",
+      "accion": "COMPRA",
+      "precio_cierre": 48.97,
+      "soporte_obvio": 47.35,
+      "resistencia_obvia": 51.85,
+      "soporte_secundario": 45.65,
+      "resistencia_secundaria": 54.15,
+      "distancia_max_52s_pct": -8.5,
+      "distancia_min_52s_pct": 42.3,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 185,
+      "catalizador_tipo": "GEOPOLITICO",
+      "razon": "Único valor del IBEX con comportamiento relativo positivo en jornada de pánico; sector Defensa europeo actúa como refugio ante escalada arancelaria y tensión geopolítica. Mantiene estructura alcista por encima de MA50 y MA200. El contexto de rearme europeo sigue siendo catalizador fundamental de largo plazo. Entrada en zona de soporte con volumen alto confirma interés comprador institucional.",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-28",
+          "descripcion": "Resultados Q1 2026 estimados"
+        },
+        {
+          "tipo": "JUNTA",
+          "fecha": "2026-06-15",
+          "descripcion": "Junta General de Accionistas ordinaria estimada"
+        }
+      ]
+    },
+    {
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "VIGILAR",
+      "precio_cierre": 20.26,
+      "soporte_obvio": 19.65,
+      "resistencia_obvia": 21.35,
+      "soporte_secundario": 18.85,
+      "resistencia_secundaria": 22.15,
+      "distancia_max_52s_pct": -12.4,
+      "distancia_min_52s_pct": 28.6,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 142,
+      "catalizador_tipo": "MACRO",
+      "razon": "Las utilities actúan como sector defensivo relativo en entornos risk-off. Iberdrola mantiene flujos de caja recurrentes y exposición a renovables con contratos regulados. Vigilar apertura: si defiende 19.65 con volumen moderado, puede ser entrada para rebote técnico de 2-3 días. Pendiente de confirmación estabilización macro.",
+      "eventos_proximos": [
+        {
+          "tipo": "EX_DIVIDENDO",
+          "fecha": "2026-04-14",
+          "descripcion": "Dividendo a cuenta estimado 0.21€/acción"
+        },
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-30",
+          "descripcion": "Resultados Q1 2026 estimados"
+        }
+      ]
+    },
+    {
+      "ticker": "ELE",
+      "nombre": "Endesa",
+      "sector": "Utilities",
+      "accion": "VIGILAR",
+      "precio_cierre": 37.63,
+      "soporte_obvio": 36.85,
+      "resistencia_obvia": 38.95,
+      "soporte_secundario": 35.65,
+      "resistencia_secundaria": 40.15,
+      "distancia_max_52s_pct": -9.8,
+      "distancia_min_52s_pct": 18.4,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 128,
+      "catalizador_tipo": "MACRO",
+      "razon": "Endesa presenta menor caída relativa que el IBEX en la jornada. La combinación de alta rentabilidad por dividendo (>6% estimado) y negocio regulado la posiciona como valor refugio en mercados turbulentos. Esperar confirmación de suelo en apertura y que el soporte 36.85 aguante con cierre diario. No entrar en gap bajista.",
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-04-22",
+          "descripcion": "Pago dividendo complementario estimado 0.90€/acción"
+        },
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-05-06",
+          "descripcion": "Resultados Q1 2026 estimados"
+        }
+      ]
+    },
+    {
+      "ticker": "ROVI",
+      "nombre": "Laboratorios Rovi",
+      "sector": "Salud",
+      "accion": "VIGILAR",
+      "precio_cierre": 80.85,
+      "soporte_obvio": 78.35,
+      "resistencia_obvia": 84.65,
+      "soporte_secundario": 75.85,
+      "resistencia_secundaria": 88.15,
+      "distancia_max_52s_pct": -18.6,
+      "distancia_min_52s_pct": 22.1,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 118,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Farmacéutica española con escasa exposición a aranceles sobre manufacturas físicas; negocio principalmente europeo. El sector salud actúa históricamente como defensivo en correcciones de mercado. Rovi mantiene cartera de contratos de fabricación para Moderna robusta. Vigilar si aguanta zona 78-79 para posible entrada con stop bajo 75.85.",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-05-07",
+          "descripcion": "Resultados Q1 2026 estimados"
+        }
+      ]
+    },
+    {
+      "ticker": "PHM",
+      "nombre": "Pharma Mar",
+      "sector": "Salud",
+      "accion": "VIGILAR",
+      "precio_cierre": 85.6,
+      "soporte_obvio": 82.85,
+      "resistencia_obvia": 89.35,
+      "soporte_secundario": 79.65,
+      "resistencia_secundaria": 93.15,
+      "distancia_max_52s_pct": -22.3,
+      "distancia_min_52s_pct": 31.5,
+      "tendencia": "BAJISTA",
+      "volumen_vs_media_pct": 135,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Sector salud defensivo en entornos de alta volatilidad. Pharma Mar tiene pipeline oncológico con varios catalizadores clínicos pendientes en H1 2026. Negocio sin exposición directa a aranceles industriales. Riesgo: tendencia bajista de medio plazo requiere confirmación de suelo. Solo entrar si defiende 82.85 en apertura.",
+      "eventos_proximos": [
+        {
+          "tipo": "OTRO",
+          "fecha": "2026-04-25",
+          "descripcion": "Congreso AACR 2026 - posibles datos clínicos lurbinectedin"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "ACX",
+      "razon": "Acerinox directamente impactada por aranceles del 25% de Trump sobre acero y aluminio importado en EEUU; mercado USA representa ~30% de ventas. Ruptura de soporte clave en 12.00. Tendencia bajista acelerada con volumen alto de distribución. Riesgo de profit warnings inminentes.",
+      "shorts_pct": 4.2
+    },
+    {
+      "ticker": "IAG",
+      "razon": "Aerolíneas penalizadas por caída del petróleo (positivo costes) pero dominado por colapso de demanda corporativa y turística ante guerra comercial. Además exposición a rutas transatlánticas vulnerables a represalias arancelarias UE-USA. Estructura técnica rota.",
+      "shorts_pct": 3.8
+    },
+    {
+      "ticker": "CIE",
+      "razon": "CIE Automotive con exposición directa a cadena de suministro automovilística global. Los aranceles del 25% sobre autos importados en EEUU paralizan producción en Europa. Clientes principales (VW, Stellantis) en zona de máximo estrés. Evitar hasta clarificación macro.",
+      "shorts_pct": 2.9
+    },
+    {
+      "ticker": "SAN",
+      "razon": "Santander con alta exposición a Brasil y mercados emergentes latinoamericanos que sufren doble impacto: fortaleza dólar y caída de materias primas. Además exposición a UK y EEUU en momento de máxima incertidumbre regulatoria. Shorts institucionales elevados.",
+      "shorts_pct": 3.5
+    },
+    {
+      "ticker": "BBVA",
+      "razon": "BBVA con exposición máxima a México, donde los aranceles USA sobre exportaciones mexicanas pueden impactar fuertemente el PIB y la calidad crediticia. Riesgo de deterioro cartera préstamos en mercado mexicano. Pendiente OPA sobre Sabadell añade incertidumbre corporativa.",
+      "shorts_pct": 2.8
+    },
+    {
+      "ticker": "REP",
+      "razon": "Repsol penalizada por desplome del petróleo Brent por debajo de 70$ ante recesión global inducida por aranceles. Cada -10$ en Brent impacta ~500M€ en EBITDA. Modelo de integración vertical no protege suficientemente en este escenario. Evitar sector energético fósil.",
+      "shorts_pct": 2.1
+    },
+    {
+      "ticker": "ITX",
+      "razon": "Inditex con cadena de suministro global expuesta a aranceles; fabricación en Asia, Bangladesh y Marruecos con ventas importantes en EEUU (~20% del negocio). Además riesgo de contracción del consumo discrecional en escenario recesivo. Múltiplos todavía exigentes.",
+      "shorts_pct": 1.8
+    },
+    {
+      "ticker": "GRF",
+      "razon": "Grifols en mínimos históricos con deuda elevada y en proceso de refinanciación crítica. El entorno de volatilidad extrema encarece el coste de refinanciación. Múltiples shorts institucionales activos. Ruptura de soporte psicológico en 9.50 con volumen. Valor trampa en entorno bajista.",
+      "shorts_pct": 8.6
+    },
+    {
+      "ticker": "PUIG",
+      "razon": "PUIG expuesta a aranceles sobre productos de lujo/cosmética importados en EEUU. Mercado americano representa ~25% de ventas. Además el stock ha perdido soportes clave desde su reciente salida a bolsa. Valoración premium difícilmente justificable en entorno macro deteriorado.",
+      "shorts_pct": 1.4
+    }
+  ]
+}

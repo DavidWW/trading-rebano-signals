@@ -1,0 +1,66 @@
+{
+  "version": "4.5",
+  "fecha": "2026-04-08",
+  "sesion": "tarde",
+  "hora": "20:35",
+  "alertas_shorts": [],
+  "consensos_ayer_pendientes": [],
+  "triangulacion": {
+    "consensos": [],
+    "solo_claude": [],
+    "solo_openai": [],
+    "evitar": [
+      {
+        "ticker": "IAG",
+        "razon": "Mayor caida del IBEX en la sesion (-8.2%). Sector aerolineas directamente impactado por aranceles y caida del petroleo que no compensa ante colapso de demanda de viajes corporativos. VIX en panico desincentiva viajes. Shorts institucionales elevados.",
+        "shorts_pct": 4.8
+      },
+      {
+        "ticker": "SAN",
+        "razon": "Banca en zona de alta presion vendedora. Exposicion a mercados emergentes (Brasil, Mexico, Polonia) amplia impacto de guerra comercial. Curva de tipos puede aplanarse si BCE recorta ante recesion. Stop natural muy lejano dado gap bajista.",
+        "shorts_pct": 2.1
+      },
+      {
+        "ticker": "BBVA",
+        "razon": "Shorts institucionales por encima del 0.5%",
+        "shorts_pct": 0.7
+      },
+      {
+        "ticker": "ACX",
+        "razon": "Acero directamente en el centro de la guerra arancelaria. Aranceles de Trump al acero europeo del 25% impactan directamente margen operativo. Sobreoferta china redirecciona exportaciones a Europa deprimiendo precios. Evitar hasta clarificacion politica comercial.",
+        "shorts_pct": 2.9
+      },
+      {
+        "ticker": "CIE",
+        "razon": "Sector automocion bajo presion maxima por aranceles al sector. Clientes principales (VW, Stellantis, BMW) con caidas del 6-8% en Europa. Cadena de suministro global en riesgo de disrupcion. Alta correlacion con ciclo industrial global en contraccion.",
+        "shorts_pct": 1.8
+      },
+      {
+        "ticker": "REP",
+        "razon": "Petroleo en caida libre por temores de recesion global inducida por aranceles. Brent por debajo de 65 dolares comprime margen upstream. Refineria afectada por caida crack spread. Evitar hasta estabilizacion del crudo.",
+        "shorts_pct": 1.4
+      },
+      {
+        "ticker": "PUIG",
+        "razon": "Lujo y consumo discrecional entre los mas penalizados en guerras comerciales. Exposicion a mercado USA y China. Valor reciente en bolsa con historico limitado para evaluar soporte tecnico solido. Sector lujo europeo en lista negra arancelaria USA.",
+        "shorts_pct": 0.9
+      },
+      {
+        "ticker": "MEL",
+        "razon": "Turismo impactado por caida confianza consumidora global y posible reduccion viajes internacionales. Exposicion a turistas norteamericanos y caida del dolar penaliza ingresos. Sector en watchlist bajista institucional.",
+        "shorts_pct": 1.1
+      }
+    ],
+    "sentimiento_claude": "BAJISTA",
+    "sentimiento_openai": "NEUTRAL",
+    "radar_macro_claude": {},
+    "radar_macro_openai": {}
+  },
+  "reglas_aplicadas": {
+    "R9_delay": false,
+    "R10_shorts": false,
+    "consensos_hoy": 0,
+    "valores_evitar": 8
+  },
+  "accion_recomendada": "EVALUAR"
+}

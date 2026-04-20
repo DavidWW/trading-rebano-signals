@@ -1,0 +1,46 @@
+{
+  "version": "4.5",
+  "fecha": "2026-03-31",
+  "sesion": "tarde",
+  "hora": "18:36",
+  "alertas_shorts": [],
+  "consensos_ayer_pendientes": [],
+  "triangulacion": {
+    "consensos": [],
+    "solo_claude": [],
+    "solo_openai": [],
+    "evitar": [
+      {
+        "ticker": "REP",
+        "razon": "Presión por caída del crudo, perdió soporte 25.00",
+        "shorts_pct": 0.3
+      },
+      {
+        "ticker": "SLR",
+        "razon": "Sector renovables bajo presión, volumen bajista elevado",
+        "shorts_pct": 0.8
+      },
+      {
+        "ticker": "TEF",
+        "razon": "Continúa en mínimos, sin catalizadores positivos",
+        "shorts_pct": 1.2
+      },
+      {
+        "ticker": "UNI",
+        "razon": "shorts institucionales elevados",
+        "shorts_pct": 1.2
+      }
+    ],
+    "sentimiento_claude": "NEUTRAL",
+    "sentimiento_openai": "NEUTRAL",
+    "radar_macro_claude": {},
+    "radar_macro_openai": {}
+  },
+  "reglas_aplicadas": {
+    "R9_delay": false,
+    "R10_shorts": false,
+    "consensos_hoy": 0,
+    "valores_evitar": 4
+  },
+  "accion_recomendada": "EVALUAR"
+}

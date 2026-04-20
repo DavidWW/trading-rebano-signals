@@ -1,0 +1,38 @@
+{
+  "fecha": "2026-02-03",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "resumen": {
+    "ibex_var_pct": 0.0,
+    "valores_destacados": [
+      "ACS +3%",
+      "TEF -2%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "SAN",
+      "nivel_barrido": 10.8,
+      "recupero": true,
+      "recuperacion_pct": 2.68
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "accion": "COMPRA",
+      "precio_cierre": 54.76,
+      "soporte_obvio": 53.0,
+      "resistencia_obvia": 56.0,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Rebote técnico en soporte"
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "TEF",
+      "razon": "Caída sostenida mayor al 1%"
+    }
+  ]
+}

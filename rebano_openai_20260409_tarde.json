@@ -1,0 +1,99 @@
+{
+  "fecha": "2026-04-09",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [],
+    "indice_movimiento_notable": [],
+    "vix_cambio": {
+      "valor_cierre": 18.2,
+      "nivel": "NORMAL",
+      "cambio_significativo": false
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Energía",
+        "var_dia_pct": 0.7,
+        "direccion": "POSITIVO"
+      },
+      {
+        "nombre": "Inmobiliario",
+        "var_dia_pct": -0.8,
+        "direccion": "NEGATIVO"
+      }
+    ],
+    "resumen_cambios": "Estabilidad en commodities e índices, foco en Energía e Inmobiliario."
+  },
+  "resumen": {
+    "ibex_var_pct": 0.1,
+    "valores_destacados": [
+      "REP +2%",
+      "MRL -3%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "MAP",
+      "nivel_barrido": 4.0,
+      "recupero": true,
+      "recuperacion_pct": 1.5
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "sector": "Energía",
+      "accion": "COMPRA",
+      "precio_cierre": 22.92,
+      "soporte_obvio": 21.5,
+      "resistencia_obvia": 24.0,
+      "soporte_secundario": 21.0,
+      "resistencia_secundaria": 25.0,
+      "distancia_max_52s_pct": -10.0,
+      "distancia_min_52s_pct": 30.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 120,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Volumen alto y tendencia alcista",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-20",
+          "descripcion": "Resultados trimestrales"
+        }
+      ]
+    },
+    {
+      "ticker": "SAN",
+      "nombre": "Santander",
+      "sector": "Banca",
+      "accion": "VIGILAR",
+      "precio_cierre": 10.35,
+      "soporte_obvio": 10.0,
+      "resistencia_obvia": 11.0,
+      "soporte_secundario": 9.8,
+      "resistencia_secundaria": 11.5,
+      "distancia_max_52s_pct": -20.0,
+      "distancia_min_52s_pct": 15.0,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 105,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Esperando resultados de próximos eventos.",
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-04-15",
+          "descripcion": "Pago de dividendo"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "MRL",
+      "razon": "Fuerte caída y shorts institucionales",
+      "shorts_pct": 1.2
+    }
+  ]
+}

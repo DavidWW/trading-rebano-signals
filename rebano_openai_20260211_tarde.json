@@ -1,0 +1,38 @@
+{
+  "fecha": "2026-02-11",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "resumen": {
+    "ibex_var_pct": 0.0,
+    "valores_destacados": [
+      "SAN +2%",
+      "REP -1%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "REP",
+      "nivel_barrido": 17.0,
+      "recupero": true,
+      "recuperacion_pct": 0.65
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "SAN",
+      "nombre": "Banco Santander",
+      "accion": "COMPRA",
+      "precio_cierre": 10.45,
+      "soporte_obvio": 10.0,
+      "resistencia_obvia": 11.0,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Soporte técnico en 10.00 con sentimiento alcista"
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "REP",
+      "razon": "Posible corrección tras caída inicial"
+    }
+  ]
+}

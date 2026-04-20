@@ -1,0 +1,62 @@
+{
+  "fecha": "2026-01-27",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "resumen": {
+    "ibex_var_pct": 0.0,
+    "valores_destacados": [
+      "ACS niveles altos",
+      "TEF consolidando mínimos"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "TEF",
+      "nivel_barrido": 3.3,
+      "recupero": true,
+      "recuperacion_pct": 1.2
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "SAN",
+      "nombre": "Santander",
+      "accion": "COMPRA",
+      "precio_cierre": 10.77,
+      "soporte_obvio": 10.5,
+      "resistencia_obvia": 11.2,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Rebote desde soporte clave, volumen creciente"
+    },
+    {
+      "ticker": "BBVA",
+      "nombre": "BBVA",
+      "accion": "VIGILAR",
+      "precio_cierre": 21.7,
+      "soporte_obvio": 21.2,
+      "resistencia_obvia": 22.5,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Consolidación en rango, esperando ruptura"
+    },
+    {
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "accion": "COMPRA",
+      "precio_cierre": 15.84,
+      "soporte_obvio": 15.4,
+      "resistencia_obvia": 16.5,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Petróleo estabilizado, dividendo atractivo"
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "ACS",
+      "razon": "Precio muy elevado, riesgo corrección"
+    },
+    {
+      "ticker": "SAB",
+      "razon": "Debilidad técnica persistente"
+    }
+  ]
+}

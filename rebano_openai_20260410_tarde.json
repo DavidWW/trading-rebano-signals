@@ -1,0 +1,57 @@
+{
+  "fecha": "2026-04-10",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [],
+    "indice_movimiento_notable": [],
+    "vix_cambio": {
+      "valor_cierre": 18.0,
+      "nivel": "NORMAL",
+      "cambio_significativo": false
+    },
+    "sector_destacado": [],
+    "resumen_cambios": "Condiciones macro neutras con volatilidad en niveles normales"
+  },
+  "resumen": {
+    "ibex_var_pct": 0.2,
+    "valores_destacados": [
+      "ITX +2%",
+      "AENA -1%"
+    ]
+  },
+  "barridos": [],
+  "oportunidades_manana": [
+    {
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "sector": "Energía",
+      "accion": "COMPRA",
+      "precio_cierre": 21.6,
+      "soporte_obvio": 20.0,
+      "resistencia_obvia": 22.5,
+      "soporte_secundario": 20.5,
+      "resistencia_secundaria": 23.0,
+      "distancia_max_52s_pct": -5.0,
+      "distancia_min_52s_pct": 8.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 120,
+      "catalizador_tipo": "TECNICO",
+      "razon": "tendencia alcista sostenida con aumento en volumen",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-25",
+          "descripcion": "Publicación de resultados trimestrales"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "SAB",
+      "razon": "presencia de shorts institucionales superiores al 0.5%",
+      "shorts_pct": 0.8
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "fecha": "2026-04-15",
+  "sesion": "manana",
+  "sentimiento": "NEUTRAL",
+  "radar_macro": {
+    "commodities": {
+      "oro": {
+        "precio_usd": 2030.0,
+        "var_semanal_pct": 1.2,
+        "var_mensual_pct": 3.1,
+        "dist_max_52s_pct": -5.2,
+        "alerta": false
+      },
+      "plata": {
+        "precio_usd": 26.5,
+        "var_semanal_pct": 0.8,
+        "var_mensual_pct": 2.5,
+        "dist_max_52s_pct": -7.3,
+        "alerta": false
+      },
+      "petroleo_brent": {
+        "precio_usd": 85.3,
+        "var_semanal_pct": -0.5,
+        "var_mensual_pct": 6.0,
+        "alerta": false
+      }
+    },
+    "indices": {
+      "sp500": {
+        "valor": 4330,
+        "var_semanal_pct": 0.4,
+        "dist_max_52s_pct": -8.2,
+        "alerta": false
+      },
+      "nasdaq100": {
+        "valor": 14450,
+        "var_semanal_pct": 0.6,
+        "dist_max_52s_pct": -9.5,
+        "alerta": false
+      },
+      "stoxx600": {
+        "valor": 460,
+        "var_semanal_pct": 0.2,
+        "dist_max_52s_pct": -4.0,
+        "alerta": false
+      },
+      "msci_em": {
+        "valor": 1030,
+        "var_semanal_pct": 0.1,
+        "dist_max_52s_pct": -10.5,
+        "alerta": false
+      },
+      "nikkei225": {
+        "valor": 28400,
+        "var_semanal_pct": 0.7,
+        "dist_max_52s_pct": -6.3,
+        "alerta": false
+      }
+    },
+    "sectores_europa": {
+      "mejor_sector": {
+        "nombre": "Energía",
+        "var_semanal_pct": 1.6
+      },
+      "peor_sector": {
+        "nombre": "Retail",
+        "var_semanal_pct": -0.9
+      },
+      "sector_en_correccion": {
+        "hay_correccion": false,
+        "nombre": "",
+        "caida_desde_max_pct": 0.0,
+        "causa": ""
+      }
+    },
+    "divisas": {
+      "eur_usd": {
+        "valor": 1.094,
+        "var_semanal_pct": -0.1,
+        "var_mensual_pct": 0.5
+      }
+    },
+    "vix": {
+      "valor": 19.5,
+      "nivel": "NORMAL"
+    },
+    "eventos_clave": [
+      {
+        "evento": "Reunión del BCE",
+        "hora_cet": "14:30",
+        "relevancia": "ALTA"
+      }
+    ],
+    "resumen_macro": "Sentimiento neutral con un entorno macroeconómico estable."
+  },
+  "recomendaciones": [
+    {
+      "ranking": 1,
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "sector": "Energía",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 21.1,
+      "entrada": 21.05,
+      "stop_loss": 20.4,
+      "stop_pct": -3.08,
+      "take_profit_1": 22.0,
+      "tp1_pct": 4.51,
+      "take_profit_2": 23.0,
+      "tp2_pct": 9.0,
+      "soporte_obvio": 20.5,
+      "resistencia_obvia": 22.5,
+      "soporte_secundario": 20.0,
+      "resistencia_secundaria": 23.0,
+      "distancia_max_52s_pct": -12.5,
+      "distancia_min_52s_pct": 18.7,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 160,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "catalizador_desc": "Incremento en los precios del petróleo",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.2,
+      "prob_barrido": "BAJA",
+      "riesgo": "Cambio en los precios del petróleo",
+      "horizonte_dias": 3,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-20",
+          "descripcion": "Publicación de resultados trimestrales"
+        }
+      ]
+    },
+    {
+      "ranking": 2,
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "sector": "Retail",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 53.06,
+      "entrada": 52.75,
+      "stop_loss": 51.15,
+      "stop_pct": -3.12,
+      "take_profit_1": 54.5,
+      "tp1_pct": 2.71,
+      "take_profit_2": 56.0,
+      "tp2_pct": 5.54,
+      "soporte_obvio": 52.0,
+      "resistencia_obvia": 55.0,
+      "soporte_secundario": 51.0,
+      "resistencia_secundaria": 56.5,
+      "distancia_max_52s_pct": -2.9,
+      "distancia_min_52s_pct": 10.0,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 110,
+      "catalizador_tipo": "SECTORIAL",
+      "catalizador_desc": "Mejora en ventas de temporada",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.6,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Reducción de consumo en Europa",
+      "horizonte_dias": 5,
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-04-25",
+          "descripcion": "Entrega de dividendo"
+        }
+      ]
+    },
+    {
+      "ranking": 3,
+      "ticker": "AMS",
+      "nombre": "Amadeus",
+      "sector": "Tecnología/Turismo",
+      "accion": "VENTA",
+      "conviccion": "MEDIA",
+      "precio_actual": 49.82,
+      "entrada": 49.7,
+      "stop_loss": 51.45,
+      "stop_pct": -3.52,
+      "take_profit_1": 47.5,
+      "tp1_pct": -4.66,
+      "take_profit_2": 46.5,
+      "tp2_pct": -6.66,
+      "soporte_obvio": 47.0,
+      "resistencia_obvia": 50.5,
+      "soporte_secundario": 46.0,
+      "resistencia_secundaria": 51.0,
+      "distancia_max_52s_pct": -13.6,
+      "distancia_min_52s_pct": 5.8,
+      "tendencia": "BAJISTA",
+      "volumen_vs_media_pct": 95,
+      "catalizador_tipo": "TECNICO",
+      "catalizador_desc": "Ruptura de soporte técnico",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.7,
+      "prob_barrido": "ALTA",
+      "riesgo": "Posible rebote técnico",
+      "horizonte_dias": 4,
+      "eventos_proximos": []
+    },
+    {
+      "ranking": 4,
+      "ticker": "IAG",
+      "nombre": "International Airlines Group",
+      "sector": "Aerolíneas",
+      "accion": "VENTA",
+      "conviccion": "ALTA",
+      "precio_actual": 4.54,
+      "entrada": 4.5,
+      "stop_loss": 4.7,
+      "stop_pct": -4.44,
+      "take_profit_1": 4.2,
+      "tp1_pct": -7.49,
+      "take_profit_2": 4.0,
+      "tp2_pct": -11.88,
+      "soporte_obvio": 4.3,
+      "resistencia_obvia": 4.8,
+      "soporte_secundario": 4.0,
+      "resistencia_secundaria": 5.0,
+      "distancia_max_52s_pct": -25.9,
+      "distancia_min_52s_pct": 2.5,
+      "tendencia": "BAJISTA",
+      "volumen_vs_media_pct": 130,
+      "catalizador_tipo": "SECTORIAL",
+      "catalizador_desc": "Incremento de precios de combustible",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.8,
+      "prob_barrido": "BAJA",
+      "riesgo": "Recuperación del tráfico aéreo",
+      "horizonte_dias": 5,
+      "eventos_proximos": []
+    },
+    {
+      "ranking": 5,
+      "ticker": "PHM",
+      "nombre": "PharmaMar",
+      "sector": "Salud",
+      "accion": "COMPRA",
+      "conviccion": "BAJA",
+      "precio_actual": 95.35,
+      "entrada": 95.0,
+      "stop_loss": 92.35,
+      "stop_pct": -3.08,
+      "take_profit_1": 99.5,
+      "tp1_pct": 4.35,
+      "take_profit_2": 102.0,
+      "tp2_pct": 6.97,
+      "soporte_obvio": 94.0,
+      "resistencia_obvia": 98.5,
+      "soporte_secundario": 91.0,
+      "resistencia_secundaria": 100.0,
+      "distancia_max_52s_pct": -7.8,
+      "distancia_min_52s_pct": 15.9,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 120,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "catalizador_desc": "Posible aprobación de nuevo fármaco",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.4,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Retrasos regulatorios",
+      "horizonte_dias": 2,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-22",
+          "descripcion": "Resultados trimestrales"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "TEF",
+      "razon": "Shorts institucionales elevados",
+      "shorts_pct": 1.2
+    },
+    {
+      "ticker": "ACS",
+      "razon": "Shorts institucionales elevados",
+      "shorts_pct": 0.9
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "version": "4.5",
+  "fecha": "2026-04-07",
+  "sesion": "tarde",
+  "hora": "20:08",
+  "alertas_shorts": [],
+  "consensos_ayer_pendientes": [],
+  "triangulacion": {
+    "consensos": [],
+    "solo_claude": [],
+    "solo_openai": [],
+    "evitar": [
+      {
+        "ticker": "ACX",
+        "razon": "Acerinox directamente impactada por aranceles del 25% de Trump sobre acero y aluminio importado en EEUU; mercado USA representa ~30% de ventas. Ruptura de soporte clave en 12.00. Tendencia bajista acelerada con volumen alto de distribución. Riesgo de profit warnings inminentes.",
+        "shorts_pct": 4.2
+      },
+      {
+        "ticker": "IAG",
+        "razon": "Aerolíneas penalizadas por caída del petróleo (positivo costes) pero dominado por colapso de demanda corporativa y turística ante guerra comercial. Además exposición a rutas transatlánticas vulnerables a represalias arancelarias UE-USA. Estructura técnica rota.",
+        "shorts_pct": 3.8
+      },
+      {
+        "ticker": "CIE",
+        "razon": "CIE Automotive con exposición directa a cadena de suministro automovilística global. Los aranceles del 25% sobre autos importados en EEUU paralizan producción en Europa. Clientes principales (VW, Stellantis) en zona de máximo estrés. Evitar hasta clarificación macro.",
+        "shorts_pct": 2.9
+      },
+      {
+        "ticker": "SAN",
+        "razon": "Santander con alta exposición a Brasil y mercados emergentes latinoamericanos que sufren doble impacto: fortaleza dólar y caída de materias primas. Además exposición a UK y EEUU en momento de máxima incertidumbre regulatoria. Shorts institucionales elevados.",
+        "shorts_pct": 3.5
+      },
+      {
+        "ticker": "BBVA",
+        "razon": "BBVA con exposición máxima a México, donde los aranceles USA sobre exportaciones mexicanas pueden impactar fuertemente el PIB y la calidad crediticia. Riesgo de deterioro cartera préstamos en mercado mexicano. Pendiente OPA sobre Sabadell añade incertidumbre corporativa.",
+        "shorts_pct": 2.8
+      },
+      {
+        "ticker": "REP",
+        "razon": "Repsol penalizada por desplome del petróleo Brent por debajo de 70$ ante recesión global inducida por aranceles. Cada -10$ en Brent impacta ~500M€ en EBITDA. Modelo de integración vertical no protege suficientemente en este escenario. Evitar sector energético fósil.",
+        "shorts_pct": 2.1
+      },
+      {
+        "ticker": "ITX",
+        "razon": "Inditex con cadena de suministro global expuesta a aranceles; fabricación en Asia, Bangladesh y Marruecos con ventas importantes en EEUU (~20% del negocio). Además riesgo de contracción del consumo discrecional en escenario recesivo. Múltiplos todavía exigentes.",
+        "shorts_pct": 1.8
+      },
+      {
+        "ticker": "GRF",
+        "razon": "Grifols en mínimos históricos con deuda elevada y en proceso de refinanciación crítica. El entorno de volatilidad extrema encarece el coste de refinanciación. Múltiples shorts institucionales activos. Ruptura de soporte psicológico en 9.50 con volumen. Valor trampa en entorno bajista.",
+        "shorts_pct": 8.6
+      },
+      {
+        "ticker": "PUIG",
+        "razon": "PUIG expuesta a aranceles sobre productos de lujo/cosmética importados en EEUU. Mercado americano representa ~25% de ventas. Además el stock ha perdido soportes clave desde su reciente salida a bolsa. Valoración premium difícilmente justificable en entorno macro deteriorado.",
+        "shorts_pct": 1.4
+      }
+    ],
+    "sentimiento_claude": "BAJISTA",
+    "sentimiento_openai": "NEUTRAL",
+    "radar_macro_claude": {},
+    "radar_macro_openai": {}
+  },
+  "reglas_aplicadas": {
+    "R9_delay": false,
+    "R10_shorts": false,
+    "consensos_hoy": 0,
+    "valores_evitar": 9
+  },
+  "accion_recomendada": "EVALUAR"
+}

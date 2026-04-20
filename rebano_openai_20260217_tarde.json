@@ -1,0 +1,31 @@
+{
+  "fecha": "2026-02-17",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "resumen": {
+    "ibex_var_pct": 0.0,
+    "valores_destacados": [
+      "ACS +2%",
+      "TEF -1%"
+    ]
+  },
+  "barridos": [],
+  "oportunidades_manana": [
+    {
+      "ticker": "ACS",
+      "nombre": "ACS Actividades de Construcción y Servicios",
+      "accion": "COMPRA",
+      "precio_cierre": 101.8,
+      "soporte_obvio": 98.0,
+      "resistencia_obvia": 105.0,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Rompimiento de resistencia con volumen"
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "TEF",
+      "razon": "Tendencia bajista continua"
+    }
+  ]
+}

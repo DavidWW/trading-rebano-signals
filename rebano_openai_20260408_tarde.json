@@ -1,0 +1,76 @@
+{
+  "fecha": "2026-04-08",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Crudo Brent",
+        "var_dia_pct": 2.5,
+        "nuevo_precio": 84.7
+      }
+    ],
+    "indice_movimiento_notable": [],
+    "vix_cambio": {
+      "valor_cierre": 17.8,
+      "nivel": "NORMAL",
+      "cambio_significativo": true
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Tecnología",
+        "var_dia_pct": 1.5,
+        "direccion": "POSITIVO"
+      }
+    ],
+    "resumen_cambios": "Aumento del VIX a nivel normal, crudo Brent subió un 2.5%."
+  },
+  "resumen": {
+    "ibex_var_pct": 0.5,
+    "valores_destacados": [
+      "AMS +2.3%",
+      "TEF -1.2%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "REP",
+      "nivel_barrido": 22.55,
+      "recupero": true,
+      "recuperacion_pct": 1.0
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "AMS",
+      "nombre": "Amadeus IT Group",
+      "sector": "Tecnología/Turismo",
+      "accion": "COMPRA",
+      "precio_cierre": 50.5,
+      "soporte_obvio": 49.5,
+      "resistencia_obvia": 51.5,
+      "soporte_secundario": 48.8,
+      "resistencia_secundaria": 52.5,
+      "distancia_max_52s_pct": -3.0,
+      "distancia_min_52s_pct": 10.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 160,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Ruptura de resistencia con volumen alto",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-20",
+          "descripcion": "Publicación de resultados trimestrales"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "BBVA",
+      "razon": "Shorts institucionales por encima del 0.5%",
+      "shorts_pct": 0.7
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "fecha": "2026-01-30",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "resumen": {
+    "ibex_var_pct": 0.0,
+    "valores_destacados": [
+      "ACS +2%",
+      "TEF -1%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "ACS",
+      "nivel_barrido": 95.5,
+      "recupero": false,
+      "recuperacion_pct": 0.0
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "FER",
+      "nombre": "Ferrovial",
+      "accion": "COMPRA",
+      "precio_cierre": 57.02,
+      "soporte_obvio": 55.0,
+      "resistencia_obvia": 60.0,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Nueva ruptura de resistencia técnica"
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "TEF",
+      "razon": "Conflicto en la junta directiva"
+    }
+  ]
+}
