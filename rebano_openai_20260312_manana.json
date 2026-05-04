@@ -1,0 +1,288 @@
+{
+  "fecha": "2026-03-12",
+  "sesion": "manana",
+  "sentimiento": "NEUTRAL",
+  "radar_macro": {
+    "commodities": {
+      "oro": {
+        "precio_usd": 1985.0,
+        "var_semanal_pct": -1.5,
+        "var_mensual_pct": 2.3,
+        "dist_max_52s_pct": -12.0,
+        "alerta": false
+      },
+      "plata": {
+        "precio_usd": 24.5,
+        "var_semanal_pct": 3.2,
+        "var_mensual_pct": 5.8,
+        "dist_max_52s_pct": -7.5,
+        "alerta": false
+      },
+      "petroleo_brent": {
+        "precio_usd": 76.3,
+        "var_semanal_pct": -2.2,
+        "var_mensual_pct": -0.5,
+        "alerta": false
+      }
+    },
+    "indices": {
+      "sp500": {
+        "valor": 4450,
+        "var_semanal_pct": -0.8,
+        "dist_max_52s_pct": -10.0,
+        "alerta": false
+      },
+      "nasdaq100": {
+        "valor": 15500,
+        "var_semanal_pct": 0.5,
+        "dist_max_52s_pct": -8.3,
+        "alerta": false
+      },
+      "stoxx600": {
+        "valor": 465,
+        "var_semanal_pct": 0.1,
+        "dist_max_52s_pct": -9.9,
+        "alerta": false
+      },
+      "msci_em": {
+        "valor": 1300,
+        "var_semanal_pct": -1.1,
+        "dist_max_52s_pct": -15.0,
+        "alerta": false
+      },
+      "nikkei225": {
+        "valor": 28200,
+        "var_semanal_pct": 2.0,
+        "dist_max_52s_pct": -5.0,
+        "alerta": false
+      }
+    },
+    "sectores_europa": {
+      "mejor_sector": {
+        "nombre": "Tecnología",
+        "var_semanal_pct": 1.8
+      },
+      "peor_sector": {
+        "nombre": "Energía",
+        "var_semanal_pct": -2.5
+      },
+      "sector_en_correccion": {
+        "hay_correccion": true,
+        "nombre": "Finanzas",
+        "caida_desde_max_pct": 12.0,
+        "causa": "aumento de tasas de interés"
+      }
+    },
+    "divisas": {
+      "eur_usd": {
+        "valor": 1.105,
+        "var_semanal_pct": 0.3,
+        "var_mensual_pct": 1.0
+      }
+    },
+    "vix": {
+      "valor": 18.5,
+      "nivel": "NORMAL"
+    },
+    "eventos_clave": [
+      {
+        "evento": "Anuncio de política monetaria del BCE",
+        "hora_cet": "14:30",
+        "relevancia": "ALTA"
+      },
+      {
+        "evento": "Informe de empleo en EE.UU.",
+        "hora_cet": "13:30",
+        "relevancia": "ALTA"
+      }
+    ],
+    "resumen_macro": "Sentimiento neutral con eventos macro importantes por delante."
+  },
+  "recomendaciones": [
+    {
+      "ranking": 1,
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "sector": "Retail",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 52.74,
+      "entrada": 52.5,
+      "stop_loss": 50.95,
+      "stop_pct": -3.7,
+      "take_profit_1": 55.0,
+      "tp1_pct": 4.3,
+      "take_profit_2": 56.5,
+      "tp2_pct": 7.1,
+      "soporte_obvio": 51.0,
+      "resistencia_obvia": 54.5,
+      "soporte_secundario": 50.5,
+      "resistencia_secundaria": 57.0,
+      "distancia_max_52s_pct": -10.5,
+      "distancia_min_52s_pct": 22.5,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 130,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "catalizador_desc": "Reciente aumento en ventas online",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.0,
+      "prob_barrido": "BAJA",
+      "riesgo": "Posible impacto de política monetaria",
+      "horizonte_dias": 3,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-15",
+          "descripcion": "Informe de resultados Q1"
+        }
+      ]
+    },
+    {
+      "ranking": 2,
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "sector": "Energía",
+      "accion": "VENTA",
+      "conviccion": "MEDIA",
+      "precio_actual": 21.7,
+      "entrada": 21.8,
+      "stop_loss": 22.59,
+      "stop_pct": -3.5,
+      "take_profit_1": 20.5,
+      "tp1_pct": -5.5,
+      "take_profit_2": 19.75,
+      "tp2_pct": -9.0,
+      "soporte_obvio": 20.2,
+      "resistencia_obvia": 23.0,
+      "soporte_secundario": 19.5,
+      "resistencia_secundaria": 24.0,
+      "distancia_max_52s_pct": -15.0,
+      "distancia_min_52s_pct": 10.0,
+      "tendencia": "BAJISTA",
+      "volumen_vs_media_pct": 120,
+      "catalizador_tipo": "MACRO",
+      "catalizador_desc": "Caída en precios del petróleo",
+      "catalizador_reversible": true,
+      "shorts_pct": 1.2,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Riesgo de rebote en precios de petróleo",
+      "horizonte_dias": 4,
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-03-20",
+          "descripcion": "Pago de dividendo"
+        }
+      ]
+    },
+    {
+      "ranking": 3,
+      "ticker": "ACS",
+      "nombre": "ACS",
+      "sector": "Construcción",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 107.1,
+      "entrada": 106.5,
+      "stop_loss": 103.17,
+      "stop_pct": -4.0,
+      "take_profit_1": 111.0,
+      "tp1_pct": 3.6,
+      "take_profit_2": 114.0,
+      "tp2_pct": 6.4,
+      "soporte_obvio": 105.0,
+      "resistencia_obvia": 110.0,
+      "soporte_secundario": 102.5,
+      "resistencia_secundaria": 115.0,
+      "distancia_max_52s_pct": -7.0,
+      "distancia_min_52s_pct": 25.0,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 105,
+      "catalizador_tipo": "SECTORIAL",
+      "catalizador_desc": "Aumento de presupuesto en infraestructuras en la UE",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.3,
+      "prob_barrido": "BAJA",
+      "riesgo": "Volatilidad macroeconómica",
+      "horizonte_dias": 5,
+      "eventos_proximos": []
+    },
+    {
+      "ranking": 4,
+      "ticker": "MEL",
+      "nombre": "Meliá Hotels",
+      "sector": "Turismo",
+      "accion": "VENTA",
+      "conviccion": "BAJA",
+      "precio_actual": 8.42,
+      "entrada": 8.4,
+      "stop_loss": 8.68,
+      "stop_pct": -3.3,
+      "take_profit_1": 8.0,
+      "tp1_pct": -5.0,
+      "take_profit_2": 7.5,
+      "tp2_pct": -10.9,
+      "soporte_obvio": 8.1,
+      "resistencia_obvia": 8.7,
+      "soporte_secundario": 7.8,
+      "resistencia_secundaria": 9.0,
+      "distancia_max_52s_pct": -20.0,
+      "distancia_min_52s_pct": 5.0,
+      "tendencia": "BAJISTA",
+      "volumen_vs_media_pct": 110,
+      "catalizador_tipo": "MACRO",
+      "catalizador_desc": "Temores de desaceleración económica",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.7,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Mejoras en perspectiva del turismo",
+      "horizonte_dias": 5,
+      "eventos_proximos": [
+        {
+          "tipo": "JUNTA",
+          "fecha": "2026-03-22",
+          "descripcion": "Junta de accionistas"
+        }
+      ]
+    },
+    {
+      "ranking": 5,
+      "ticker": "BBVA",
+      "nombre": "Banco Bilbao Vizcaya Argentaria",
+      "sector": "Banca",
+      "accion": "COMPRA",
+      "conviccion": "BAJA",
+      "precio_actual": 18.85,
+      "entrada": 19.0,
+      "stop_loss": 18.36,
+      "stop_pct": -3.4,
+      "take_profit_1": 19.8,
+      "tp1_pct": 5.0,
+      "take_profit_2": 20.3,
+      "tp2_pct": 7.7,
+      "soporte_obvio": 18.5,
+      "resistencia_obvia": 19.5,
+      "soporte_secundario": 18.0,
+      "resistencia_secundaria": 20.5,
+      "distancia_max_52s_pct": -14.0,
+      "distancia_min_52s_pct": 18.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 95,
+      "catalizador_tipo": "MACRO",
+      "catalizador_desc": "Perspectiva positiva tras aumentos de tasas de interés",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.4,
+      "prob_barrido": "ALTA",
+      "riesgo": "Alta exposición a mercados emergentes",
+      "horizonte_dias": 3,
+      "eventos_proximos": []
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "REP",
+      "razon": "Altos niveles de shorts institucionales",
+      "shorts_pct": 1.2
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "fecha": "2026-03-02",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Brent Crude",
+        "var_dia_pct": 2.1,
+        "nuevo_precio": 85.3
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "Dow Jones",
+        "var_dia_pct": -1.2
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 18.5,
+      "nivel": "NORMAL",
+      "cambio_significativo": true
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Tecnología",
+        "var_dia_pct": 1.5,
+        "direccion": "POSITIVO"
+      }
+    ],
+    "resumen_cambios": "Movimiento mixto con volatilidad creciente."
+  },
+  "resumen": {
+    "ibex_var_pct": 0.5,
+    "valores_destacados": [
+      "ACS +2.3%",
+      "TEF -1.8%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "SAN",
+      "nivel_barrido": 10.0,
+      "recupero": true,
+      "recuperacion_pct": 0.7
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "precio_cierre": 19.8,
+      "soporte_obvio": 19.5,
+      "resistencia_obvia": 20.5,
+      "soporte_secundario": 19.2,
+      "resistencia_secundaria": 20.8,
+      "distancia_max_52s_pct": -5.0,
+      "distancia_min_52s_pct": 8.5,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 120,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Fuerza relativa y patrones alcistas.",
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-03-15",
+          "descripcion": "Pago de dividendo trimestral."
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "TEF",
+      "razon": "Presión de ventas por shorts elevados.",
+      "shorts_pct": 0.7
+    }
+  ]
+}

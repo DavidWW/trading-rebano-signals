@@ -1,0 +1,31 @@
+{
+  "version": "4.5",
+  "fecha": "2026-04-13",
+  "sesion": "tarde",
+  "hora": "20:16",
+  "alertas_shorts": [],
+  "consensos_ayer_pendientes": [],
+  "triangulacion": {
+    "consensos": [],
+    "solo_claude": [],
+    "solo_openai": [],
+    "evitar": [
+      {
+        "ticker": "CABK",
+        "razon": "Alta exposición a shorts institucionales",
+        "shorts_pct": 0.75
+      }
+    ],
+    "sentimiento_claude": "NEUTRAL",
+    "sentimiento_openai": "NEUTRAL",
+    "radar_macro_claude": {},
+    "radar_macro_openai": {}
+  },
+  "reglas_aplicadas": {
+    "R9_delay": false,
+    "R10_shorts": false,
+    "consensos_hoy": 0,
+    "valores_evitar": 1
+  },
+  "accion_recomendada": "EVALUAR"
+}

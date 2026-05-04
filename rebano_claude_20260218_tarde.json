@@ -1,0 +1,63 @@
+{
+  "fecha": "2026-02-18",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "resumen": {
+    "ibex_var_pct": 0.0,
+    "valores_destacados": [
+      "ACS 106.0",
+      "ITX 57.76",
+      "PUIG 16.58"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "ACS",
+      "nivel_barrido": 105.5,
+      "recupero": true,
+      "recuperacion_pct": 0.5
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "BBVA",
+      "nombre": "Banco Bilbao Vizcaya",
+      "accion": "COMPRA",
+      "precio_cierre": 20.0,
+      "soporte_obvio": 19.5,
+      "resistencia_obvia": 20.8,
+      "catalizador_tipo": "TECNICO",
+      "razon": "precio psicológico 20€, potencial rebote técnico"
+    },
+    {
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "accion": "VIGILAR",
+      "precio_cierre": 57.76,
+      "soporte_obvio": 56.0,
+      "resistencia_obvia": 59.0,
+      "catalizador_tipo": "TECNICO",
+      "razon": "consolidación en máximos, esperando breakout"
+    },
+    {
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "accion": "COMPRA",
+      "precio_cierre": 17.64,
+      "soporte_obvio": 17.0,
+      "resistencia_obvia": 18.5,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "sector energético estable, dividendo atractivo"
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "TEF",
+      "razon": "debilidad estructural, múltiples rechazos"
+    },
+    {
+      "ticker": "IAG",
+      "razon": "volatilidad alta sector aerolíneas"
+    }
+  ]
+}

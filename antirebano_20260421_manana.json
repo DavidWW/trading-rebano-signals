@@ -1,0 +1,304 @@
+{
+  "version": "4.5",
+  "fecha": "2026-04-21",
+  "sesion": "manana",
+  "hora": "10:07",
+  "alertas_shorts": [],
+  "consensos_ayer_pendientes": [],
+  "triangulacion": {
+    "consensos": [],
+    "solo_claude": [],
+    "solo_openai": [
+      {
+        "ranking": 1,
+        "ticker": "ITX",
+        "nombre": "Inditex",
+        "sector": "Retail",
+        "accion": "COMPRA",
+        "conviccion": "ALTA",
+        "precio_actual": 54.7,
+        "entrada": 54.8,
+        "stop_loss": 53.15,
+        "stop_pct": -3.0,
+        "take_profit_1": 56.5,
+        "tp1_pct": 3.1,
+        "take_profit_2": 58.0,
+        "tp2_pct": 6.0,
+        "soporte_obvio": 54.0,
+        "resistencia_obvia": 55.5,
+        "soporte_secundario": 53.0,
+        "resistencia_secundaria": 57.0,
+        "distancia_max_52s_pct": -5.0,
+        "distancia_min_52s_pct": 20.0,
+        "tendencia": "ALCISTA",
+        "volumen_vs_media_pct": 110,
+        "catalizador_tipo": "TECNICO",
+        "catalizador_desc": "Cruzando resistencia técnica importante",
+        "catalizador_reversible": false,
+        "shorts_pct": 0.7,
+        "prob_barrido": "MEDIA",
+        "riesgo": "Riesgo de corrección general del mercado",
+        "horizonte_dias": 3,
+        "eventos_proximos": [
+          {
+            "tipo": "RESULTADOS",
+            "fecha": "2026-04-25",
+            "descripcion": "Resultados trimestrales"
+          }
+        ]
+      },
+      {
+        "ranking": 2,
+        "ticker": "SLR",
+        "nombre": "Solaria",
+        "sector": "Renovables",
+        "accion": "COMPRA",
+        "conviccion": "MEDIA",
+        "precio_actual": 23.75,
+        "entrada": 23.8,
+        "stop_loss": 22.95,
+        "stop_pct": -3.6,
+        "take_profit_1": 25.2,
+        "tp1_pct": 6.1,
+        "take_profit_2": 26.0,
+        "tp2_pct": 9.5,
+        "soporte_obvio": 23.0,
+        "resistencia_obvia": 24.5,
+        "soporte_secundario": 22.5,
+        "resistencia_secundaria": 25.5,
+        "distancia_max_52s_pct": -12.0,
+        "distancia_min_52s_pct": 30.0,
+        "tendencia": "ALCISTA",
+        "volumen_vs_media_pct": 130,
+        "catalizador_tipo": "SECTORIAL",
+        "catalizador_desc": "Incentivos renovables por nuevas regulaciones de la UE",
+        "catalizador_reversible": false,
+        "shorts_pct": 0.4,
+        "prob_barrido": "BAJA",
+        "riesgo": "Volatilidad del mercado renovable",
+        "horizonte_dias": 4,
+        "eventos_proximos": []
+      },
+      {
+        "ranking": 3,
+        "ticker": "REP",
+        "nombre": "Repsol",
+        "sector": "Energía",
+        "accion": "VENTA",
+        "conviccion": "MEDIA",
+        "precio_actual": 20.22,
+        "entrada": 20.1,
+        "stop_loss": 20.85,
+        "stop_pct": -3.7,
+        "take_profit_1": 19.0,
+        "tp1_pct": -5.6,
+        "take_profit_2": 18.2,
+        "tp2_pct": -9.5,
+        "soporte_obvio": 19.5,
+        "resistencia_obvia": 21.0,
+        "soporte_secundario": 18.5,
+        "resistencia_secundaria": 21.5,
+        "distancia_max_52s_pct": -15.0,
+        "distancia_min_52s_pct": 5.0,
+        "tendencia": "BAJISTA",
+        "volumen_vs_media_pct": 95,
+        "catalizador_tipo": "MACRO",
+        "catalizador_desc": "Caída sostenida en los precios del petróleo",
+        "catalizador_reversible": true,
+        "shorts_pct": 0.6,
+        "prob_barrido": "MEDIA",
+        "riesgo": "Recuperación rápida del petróleo",
+        "horizonte_dias": 4,
+        "eventos_proximos": []
+      },
+      {
+        "ranking": 4,
+        "ticker": "ACS",
+        "nombre": "ACS",
+        "sector": "Construcción",
+        "accion": "COMPRA",
+        "conviccion": "ALTA",
+        "precio_actual": 122.7,
+        "entrada": 123.0,
+        "stop_loss": 119.65,
+        "stop_pct": -3.6,
+        "take_profit_1": 128.0,
+        "tp1_pct": 4.4,
+        "take_profit_2": 132.5,
+        "tp2_pct": 8.0,
+        "soporte_obvio": 120.5,
+        "resistencia_obvia": 125.0,
+        "soporte_secundario": 118.0,
+        "resistencia_secundaria": 130.0,
+        "distancia_max_52s_pct": -4.0,
+        "distancia_min_52s_pct": 28.0,
+        "tendencia": "ALCISTA",
+        "volumen_vs_media_pct": 120,
+        "catalizador_tipo": "FUNDAMENTAL",
+        "catalizador_desc": "Nuevas adjudicaciones de proyectos internacionales",
+        "catalizador_reversible": false,
+        "shorts_pct": 0.5,
+        "prob_barrido": "BAJA",
+        "riesgo": "Retraso en ejecución de proyectos",
+        "horizonte_dias": 3,
+        "eventos_proximos": [
+          {
+            "tipo": "RESULTADOS",
+            "fecha": "2026-04-29",
+            "descripcion": "Resultados de primer trimestre"
+          }
+        ]
+      },
+      {
+        "ranking": 5,
+        "ticker": "CIE",
+        "nombre": "CIE Automotive",
+        "sector": "Automoción",
+        "accion": "VENTA",
+        "conviccion": "BAJA",
+        "precio_actual": 29.15,
+        "entrada": 29.0,
+        "stop_loss": 30.1,
+        "stop_pct": -3.8,
+        "take_profit_1": 27.5,
+        "tp1_pct": -5.6,
+        "take_profit_2": 26.5,
+        "tp2_pct": -9.1,
+        "soporte_obvio": 28.0,
+        "resistencia_obvia": 30.0,
+        "soporte_secundario": 27.0,
+        "resistencia_secundaria": 31.0,
+        "distancia_max_52s_pct": -18.0,
+        "distancia_min_52s_pct": 12.0,
+        "tendencia": "BAJISTA",
+        "volumen_vs_media_pct": 105,
+        "catalizador_tipo": "MACRO",
+        "catalizador_desc": "Reducción en la demanda de automóviles europeos",
+        "catalizador_reversible": true,
+        "shorts_pct": 0.4,
+        "prob_barrido": "ALTA",
+        "riesgo": "Recuperación de la demanda automotriz",
+        "horizonte_dias": 5,
+        "eventos_proximos": []
+      }
+    ],
+    "evitar": [
+      {
+        "ticker": "SAN",
+        "razon": "Shorts institucionales elevados",
+        "shorts_pct": 0.8
+      },
+      {
+        "ticker": "BBVA",
+        "razon": "Vulnerable a cambios en política monetaria",
+        "shorts_pct": 0.7
+      }
+    ],
+    "sentimiento_claude": "NEUTRAL",
+    "sentimiento_openai": "NEUTRAL",
+    "radar_macro_claude": {},
+    "radar_macro_openai": {
+      "commodities": {
+        "oro": {
+          "precio_usd": 1950.0,
+          "var_semanal_pct": 0.5,
+          "var_mensual_pct": 1.2,
+          "dist_max_52s_pct": -10.3,
+          "alerta": false
+        },
+        "plata": {
+          "precio_usd": 23.8,
+          "var_semanal_pct": 1.0,
+          "var_mensual_pct": 0.7,
+          "dist_max_52s_pct": -8.5,
+          "alerta": false
+        },
+        "petroleo_brent": {
+          "precio_usd": 85.5,
+          "var_semanal_pct": -0.3,
+          "var_mensual_pct": -2.1,
+          "alerta": false
+        }
+      },
+      "indices": {
+        "sp500": {
+          "valor": 4550,
+          "var_semanal_pct": 0.2,
+          "dist_max_52s_pct": -5.0,
+          "alerta": false
+        },
+        "nasdaq100": {
+          "valor": 15300,
+          "var_semanal_pct": 0.8,
+          "dist_max_52s_pct": -7.2,
+          "alerta": false
+        },
+        "stoxx600": {
+          "valor": 495,
+          "var_semanal_pct": 0.1,
+          "dist_max_52s_pct": -4.5,
+          "alerta": false
+        },
+        "msci_em": {
+          "valor": 1200,
+          "var_semanal_pct": -0.5,
+          "dist_max_52s_pct": -10.0,
+          "alerta": false
+        },
+        "nikkei225": {
+          "valor": 28500,
+          "var_semanal_pct": 0.6,
+          "dist_max_52s_pct": -6.8,
+          "alerta": false
+        }
+      },
+      "sectores_europa": {
+        "mejor_sector": {
+          "nombre": "Tecnología",
+          "var_semanal_pct": 1.5
+        },
+        "peor_sector": {
+          "nombre": "Energía",
+          "var_semanal_pct": -1.2
+        },
+        "sector_en_correccion": {
+          "hay_correccion": false,
+          "nombre": "",
+          "caida_desde_max_pct": 0.0,
+          "causa": ""
+        }
+      },
+      "divisas": {
+        "eur_usd": {
+          "valor": 1.095,
+          "var_semanal_pct": 0.3,
+          "var_mensual_pct": 1.0
+        }
+      },
+      "vix": {
+        "valor": 18.5,
+        "nivel": "NORMAL"
+      },
+      "eventos_clave": [
+        {
+          "evento": "Reunión BCE",
+          "hora_cet": "14:45",
+          "relevancia": "ALTA"
+        },
+        {
+          "evento": "Informe de Empleo EEUU",
+          "hora_cet": "14:30",
+          "relevancia": "ALTA"
+        }
+      ],
+      "resumen_macro": "Neutral con ligera inclinación a risk-on debido a rendimiento positivo en tecnología."
+    }
+  },
+  "reglas_aplicadas": {
+    "R9_delay": false,
+    "R10_shorts": false,
+    "consensos_hoy": 0,
+    "valores_evitar": 2
+  },
+  "accion_recomendada": "EVALUAR"
+}

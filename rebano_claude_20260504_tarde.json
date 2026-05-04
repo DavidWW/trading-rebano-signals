@@ -1,0 +1,314 @@
+{
+  "fecha": "2026-05-04",
+  "sesion": "tarde",
+  "sentimiento": "ALCISTA",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Petróleo Brent",
+        "var_dia_pct": -2.35,
+        "nuevo_precio": 61.45
+      },
+      {
+        "activo": "Gas Natural TTF",
+        "var_dia_pct": 2.18,
+        "nuevo_precio": 34.72
+      },
+      {
+        "activo": "Oro",
+        "var_dia_pct": 1.15,
+        "nuevo_precio": 3312.4
+      },
+      {
+        "activo": "Cobre",
+        "var_dia_pct": -1.85,
+        "nuevo_precio": 9418.0
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "IBEX 35",
+        "var_dia_pct": 1.42
+      },
+      {
+        "indice": "EuroStoxx 50",
+        "var_dia_pct": 1.18
+      },
+      {
+        "indice": "S&P 500",
+        "var_dia_pct": 1.65
+      },
+      {
+        "indice": "DAX",
+        "var_dia_pct": 1.31
+      },
+      {
+        "indice": "Nasdaq 100",
+        "var_dia_pct": 2.03
+      },
+      {
+        "indice": "FTSE 100",
+        "var_dia_pct": 0.87
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 22.4,
+      "nivel": "ALTO",
+      "cambio_significativo": true
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Defensa Europa",
+        "var_dia_pct": 3.12,
+        "direccion": "POSITIVO"
+      },
+      {
+        "nombre": "Tecnología Europa",
+        "var_dia_pct": 2.45,
+        "direccion": "POSITIVO"
+      },
+      {
+        "nombre": "Energía Europa (Oil)",
+        "var_dia_pct": -1.95,
+        "direccion": "NEGATIVO"
+      }
+    ],
+    "resumen_cambios": "Sesión risk-on moderado: rebote amplio en renta variable global tras datos de empleo USA mixtos y pausa arancelaria EEUU-UE; VIX sigue elevado sugiriendo cautela estructural; petróleo bajo presión por perspectivas demanda China débil."
+  },
+  "resumen": {
+    "ibex_var_pct": 1.42,
+    "valores_destacados": [
+      "IDR +4.8%",
+      "IAG +3.2%",
+      "BBVA +2.7%",
+      "SAN +2.4%",
+      "GRF +2.1%",
+      "REP -1.9%",
+      "SLR -0.8%",
+      "ANE -0.6%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "GRF",
+      "nivel_barrido": 8.85,
+      "recupero": true,
+      "recuperacion_pct": 2.82
+    },
+    {
+      "ticker": "REP",
+      "nivel_barrido": 23.15,
+      "recupero": false,
+      "recuperacion_pct": -1.51
+    },
+    {
+      "ticker": "TEF",
+      "nivel_barrido": 3.78,
+      "recupero": true,
+      "recuperacion_pct": 1.32
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "IDR",
+      "nombre": "Indra Sistemas",
+      "sector": "Defensa/Tech",
+      "accion": "COMPRA",
+      "precio_cierre": 49.94,
+      "soporte_obvio": 47.65,
+      "resistencia_obvia": 52.3,
+      "soporte_secundario": 45.85,
+      "resistencia_secundaria": 55.4,
+      "distancia_max_52s_pct": -4.2,
+      "distancia_min_52s_pct": 68.5,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 218,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Sector defensa europeo líder semanal con +3.1%. Indra acelera pedidos OTAN/PESCO. Ruptura de zona 49.50 con volumen excepcional x2.2 sobre media. Precio > MA50 > MA200 en tendencia estructural alcista. Objetivo 52.30 resistencia histórica. Stop ajustado bajo soporte 47.65.",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-05-14",
+          "descripcion": "Resultados 1T 2026 previstos - esperan crecimiento ventas defensa +18% YoY"
+        },
+        {
+          "tipo": "OTRO",
+          "fecha": "2026-05-20",
+          "descripcion": "Feria FEINDEF 2026 Madrid - catalizador visibilidad contratos"
+        }
+      ]
+    },
+    {
+      "ticker": "IAG",
+      "nombre": "International Airlines Group",
+      "sector": "Aerolíneas",
+      "accion": "COMPRA",
+      "precio_cierre": 4.18,
+      "soporte_obvio": 3.98,
+      "resistencia_obvia": 4.38,
+      "soporte_secundario": 3.82,
+      "resistencia_secundaria": 4.65,
+      "distancia_max_52s_pct": -8.7,
+      "distancia_min_52s_pct": 42.3,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 165,
+      "catalizador_tipo": "MACRO",
+      "razon": "Rebote de +3.2% en sesión con volumen 65% sobre media. Beneficiaria de petróleo Brent cayendo (-2.35%) que reduce costes de combustible. Avance hacia resistencia 4.38; ruptura abriría camino a 4.65. Temporada verano 2026 con reservas anticipadas récord en Iberia y British. Stop bajo 3.98.",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-05-08",
+          "descripcion": "Resultados 1T 2026 IAG - estimaciones consenso optimistas por temporada alta"
+        },
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-06-15",
+          "descripcion": "Posible anuncio política dividendo tras resultados"
+        }
+      ]
+    },
+    {
+      "ticker": "BBVA",
+      "nombre": "BBVA",
+      "sector": "Banca",
+      "accion": "COMPRA",
+      "precio_cierre": 17.9,
+      "soporte_obvio": 17.15,
+      "resistencia_obvia": 18.65,
+      "soporte_secundario": 16.72,
+      "resistencia_secundaria": 19.4,
+      "distancia_max_52s_pct": -5.8,
+      "distancia_min_52s_pct": 38.6,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 145,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Sector bancario español líder en jornada. BBVA consolida por encima de MA50 tras pullback desde máximos. Tipos BCE altos favorecen margen de intereses. Proceso OPA sobre Sabadell en fase final aporta catalizador corporativo. Relación riesgo/beneficio atractiva hacia 18.65 con stop en 17.15.",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-05-06",
+          "descripcion": "Resultados 1T 2026 BBVA - previsión BPA 0.47€ vs 0.41€ año anterior"
+        },
+        {
+          "tipo": "JUNTA",
+          "fecha": "2026-06-12",
+          "descripcion": "Junta General Accionistas - decisión sobre dividendo complementario"
+        }
+      ]
+    },
+    {
+      "ticker": "GRF",
+      "nombre": "Grifols",
+      "sector": "Salud",
+      "accion": "VIGILAR",
+      "precio_cierre": 9.11,
+      "soporte_obvio": 8.82,
+      "resistencia_obvia": 9.55,
+      "soporte_secundario": 8.45,
+      "resistencia_secundaria": 10.2,
+      "distancia_max_52s_pct": -42.5,
+      "distancia_min_52s_pct": 8.2,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 178,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Barrido y recuperación del soporte 8.85 con cierre en 9.11 (+2.82%). Señal de capitulación bajista posible. Sin embargo, tendencia estructural sigue deteriorada y distancia al máximo 52s es -42.5%. Vigilar: solo entrar si confirma cierre sobre 9.55 mañana con volumen. Riesgo alto por deuda y escrutinio regulatorio.",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-05-13",
+          "descripcion": "Resultados 1T 2026 Grifols - mercado pendiente de evolución deuda neta y guidance plasma"
+        },
+        {
+          "tipo": "OTRO",
+          "fecha": "2026-05-21",
+          "descripcion": "Posible actualización restructuración deuda con acreedores"
+        }
+      ]
+    },
+    {
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "sector": "Retail",
+      "accion": "COMPRA",
+      "precio_cierre": 49.39,
+      "soporte_obvio": 48.15,
+      "resistencia_obvia": 51.2,
+      "soporte_secundario": 46.85,
+      "resistencia_secundaria": 53.4,
+      "distancia_max_52s_pct": -6.3,
+      "distancia_min_52s_pct": 22.8,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 112,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Consolidación saludable en zona 48-50€. Precio por encima de MA50 y MA200. Consumo europeo resistente y euro estable favorecen márgenes. Patrón técnico de bandera alcista con proyección hacia 51.20. Bajo riesgo relativo dentro del IBEX. Stop bajo 48.15.",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-06-11",
+          "descripcion": "Resultados FY 2025/2026 1T - habitualmente catalizador positivo"
+        },
+        {
+          "tipo": "EX_DIVIDENDO",
+          "fecha": "2026-07-02",
+          "descripcion": "Ex-dividendo ordinario estimado ~0.74€/acción"
+        }
+      ]
+    },
+    {
+      "ticker": "ACS",
+      "nombre": "ACS Actividades Construcción",
+      "sector": "Construcción",
+      "accion": "VIGILAR",
+      "precio_cierre": 121.8,
+      "soporte_obvio": 118.65,
+      "resistencia_obvia": 124.5,
+      "soporte_secundario": 115.4,
+      "resistencia_secundaria": 128.85,
+      "distancia_max_52s_pct": -2.1,
+      "distancia_min_52s_pct": 45.2,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 98,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "ACS cerca de máximos anuales. Beneficiaria directa del plan de inversión en infraestructuras UE y EEUU. Cartera de pedidos récord. Vigilar apertura mañana: si abre con gap al alza sobre 122.50 con volumen, entrar en seguimiento de tendencia hacia 124.50. Soporte clave en 118.65.",
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-05-16",
+          "descripcion": "Pago dividendo a cuenta anunciado 1.05€/acción"
+        },
+        {
+          "tipo": "JUNTA",
+          "fecha": "2026-05-28",
+          "descripcion": "Junta General Ordinaria de Accionistas"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "REP",
+      "razon": "Presión estructural por caída del Brent -2.35% en sesión. No recuperó el nivel de soporte 23.15. Tendencia correctiva con petróleo en zona de 61€. Riesgo de continuación bajista mientras Brent no estabilice sobre 63€. Shorts institucionales activos.",
+      "shorts_pct": 1.85
+    },
+    {
+      "ticker": "GRF",
+      "razon": "A pesar del rebote técnico, Grifols mantiene shorts institucionales elevados y tendencia estructural bajista. Solo como vigilancia; no operar hasta confirmación de ruptura con volumen sobre 9.55€. Riesgo de noticia negativa sobre deuda muy alto.",
+      "shorts_pct": 4.2
+    },
+    {
+      "ticker": "PUIG",
+      "razon": "Acción lateral sin catalizador claro. Sector lujo bajo presión por desaceleración consumo discrecional China. Volumen bajo y sin dirección técnica definida. Esperar rango más claro.",
+      "shorts_pct": 0.65
+    },
+    {
+      "ticker": "TEF",
+      "razon": "Telecom estructuralmente débil. Alta deuda y competencia intensa. Aunque recuperó 3.78 intradía, el upside es limitado y el sector no lidera. Shorts institucionales moderados y rating de analistas mayoritariamente neutral.",
+      "shorts_pct": 0.72
+    },
+    {
+      "ticker": "ACX",
+      "razon": "Acero bajo presión por aranceles globales y demanda China débil. Precio cerca de mínimos anuales. Sector industrial europeo rezagado. Evitar exposición mientras no haya claridad arancelaria EEUU-UE.",
+      "shorts_pct": 2.15
+    }
+  ]
+}

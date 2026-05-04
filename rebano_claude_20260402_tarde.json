@@ -1,0 +1,292 @@
+{
+  "fecha": "2026-04-02",
+  "sesion": "tarde",
+  "sentimiento": "BAJISTA",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Petróleo Brent",
+        "var_dia_pct": -3.85,
+        "nuevo_precio": 71.45
+      },
+      {
+        "activo": "Petróleo WTI",
+        "var_dia_pct": -4.12,
+        "nuevo_precio": 67.82
+      },
+      {
+        "activo": "Gas Natural TTF",
+        "var_dia_pct": -2.35,
+        "nuevo_precio": 38.65
+      },
+      {
+        "activo": "Cobre",
+        "var_dia_pct": -3.21,
+        "nuevo_precio": 8745.0
+      },
+      {
+        "activo": "Aluminio",
+        "var_dia_pct": -2.78,
+        "nuevo_precio": 2312.0
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "IBEX 35",
+        "var_dia_pct": -3.47
+      },
+      {
+        "indice": "S&P 500",
+        "var_dia_pct": -4.15
+      },
+      {
+        "indice": "NASDAQ 100",
+        "var_dia_pct": -5.22
+      },
+      {
+        "indice": "DAX",
+        "var_dia_pct": -3.82
+      },
+      {
+        "indice": "EuroStoxx 50",
+        "var_dia_pct": -3.65
+      },
+      {
+        "indice": "FTSE 100",
+        "var_dia_pct": -2.98
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 28.75,
+      "nivel": "ALTO",
+      "cambio_significativo": true
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Defensa/Aeroespacial EU",
+        "var_dia_pct": -1.45,
+        "direccion": "NEGATIVO"
+      },
+      {
+        "nombre": "Energía/Petróleo EU",
+        "var_dia_pct": -4.85,
+        "direccion": "NEGATIVO"
+      },
+      {
+        "nombre": "Automoción EU",
+        "var_dia_pct": -6.12,
+        "direccion": "NEGATIVO"
+      },
+      {
+        "nombre": "Utilities EU",
+        "var_dia_pct": -0.85,
+        "direccion": "NEGATIVO"
+      }
+    ],
+    "resumen_cambios": "Jornada de fuerte risk-off global tras el anuncio de aranceles recíprocos por parte de EE.UU. el 2 de abril: caídas generalizadas en bolsas, materias primas industriales y divisas emergentes, con el dólar debilitándose paradójicamente y el oro aguantando como refugio."
+  },
+  "resumen": {
+    "ibex_var_pct": -3.47,
+    "valores_destacados": [
+      "CIE -6.8% impacto aranceles automoción",
+      "REP -5.2% caída crudo",
+      "ACX -5.6% acero/aranceles industriales",
+      "IAG -4.9% risk-off aerolíneas",
+      "ITX -4.3% exposición USA retail",
+      "IDR +0.8% defensa resiste caída",
+      "ELE -1.1% utilities relativa fortaleza",
+      "IBE -1.3% utilities relativa fortaleza"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "CIE",
+      "nivel_barrido": 28.0,
+      "recupero": false,
+      "recuperacion_pct": 0.0
+    },
+    {
+      "ticker": "ACX",
+      "nivel_barrido": 13.0,
+      "recupero": false,
+      "recuperacion_pct": 0.0
+    },
+    {
+      "ticker": "REP",
+      "nivel_barrido": 25.0,
+      "recupero": false,
+      "recuperacion_pct": 0.0
+    },
+    {
+      "ticker": "IAG",
+      "nivel_barrido": 4.5,
+      "recupero": false,
+      "recuperacion_pct": 0.0
+    },
+    {
+      "ticker": "ITX",
+      "nivel_barrido": 52.0,
+      "recupero": false,
+      "recuperacion_pct": 0.0
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "IDR",
+      "nombre": "Indra Sistemas",
+      "sector": "Defensa/Tech",
+      "accion": "COMPRA",
+      "precio_cierre": 49.34,
+      "soporte_obvio": 47.85,
+      "resistencia_obvia": 51.65,
+      "soporte_secundario": 46.35,
+      "resistencia_secundaria": 54.15,
+      "distancia_max_52s_pct": -4.2,
+      "distancia_min_52s_pct": 62.5,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 145,
+      "catalizador_tipo": "GEOPOLITICO",
+      "razon": "Indra es el valor refugio doméstico ante escalada arancelaria: la tensión comercial USA-UE refuerza el gasto en defensa europeo. Resistió la caída global con pérdidas mínimas, demostrando fortaleza relativa excepcional. Tendencia alcista intacta con precio muy por encima de MA50 y MA200. El presupuesto de defensa español y europeo sigue en expansión acelerada. Entrada en retroceso al soporte 47.85 con stops ajustados.",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-28",
+          "descripcion": "Resultados Q1 2026 previstos fin de abril"
+        }
+      ]
+    },
+    {
+      "ticker": "ELE",
+      "nombre": "Endesa",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "precio_cierre": 37.54,
+      "soporte_obvio": 36.65,
+      "resistencia_obvia": 38.85,
+      "soporte_secundario": 35.35,
+      "resistencia_secundaria": 40.15,
+      "distancia_max_52s_pct": -8.5,
+      "distancia_min_52s_pct": 18.3,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 112,
+      "catalizador_tipo": "MACRO",
+      "razon": "Las utilities son el refugio clásico en entornos risk-off con VIX elevado. Endesa mostró resistencia notable frente al mercado (-1.1% vs IBEX -3.47%). Con yield de dividendo superior al 6% actúa como bono proxy en contexto de aversión al riesgo. El negocio regulado peninsular está aislado de la guerra arancelaria. Soporte clave en 36.65 ofrece entrada con relación riesgo/beneficio favorable para swing 2-3 días.",
+      "eventos_proximos": [
+        {
+          "tipo": "EX_DIVIDENDO",
+          "fecha": "2026-04-08",
+          "descripcion": "Ex-dividendo complementario estimado ~0.55€ por acción"
+        }
+      ]
+    },
+    {
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "VIGILAR",
+      "precio_cierre": 20.36,
+      "soporte_obvio": 19.85,
+      "resistencia_obvia": 21.15,
+      "soporte_secundario": 19.15,
+      "resistencia_secundaria": 22.35,
+      "distancia_max_52s_pct": -6.8,
+      "distancia_min_52s_pct": 32.5,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 125,
+      "catalizador_tipo": "MACRO",
+      "razon": "Iberdrola mantiene tendencia alcista estructural y resiste caídas sistémicas gracias a su perfil defensivo y diversificación geográfica. Vigilar confirmación de rebote en soporte 19.85 antes de entrar: si el mercado continúa cayendo mañana podría ofrecer entrada más atractiva. Exposición significativa a Reino Unido y EEUU limita ligeramente el carácter puramente defensivo en contexto arancelario.",
+      "eventos_proximos": [
+        {
+          "tipo": "JUNTA",
+          "fecha": "2026-04-15",
+          "descripcion": "Junta General de Accionistas ordinaria"
+        }
+      ]
+    },
+    {
+      "ticker": "SAN",
+      "nombre": "Banco Santander",
+      "sector": "Banca",
+      "accion": "VIGILAR",
+      "precio_cierre": 9.81,
+      "soporte_obvio": 9.35,
+      "resistencia_obvia": 10.25,
+      "soporte_secundario": 8.85,
+      "resistencia_secundaria": 10.85,
+      "distancia_max_52s_pct": -12.4,
+      "distancia_min_52s_pct": 28.5,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 168,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Santander ha corregido significativamente desde máximos y se aproxima a zona de soporte relevante 9.35. Volumen elevado en la caída sugiere capitulación potencial. La banca española tiene alta exposición a Latinoamérica que puede verse afectada por guerra comercial, por lo que se recomienda vigilar y solo entrar con confirmación de rebote en soporte con vela de reversión. El entorno de tipos sigue siendo favorable para el margen de intereses.",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-29",
+          "descripcion": "Resultados Q1 2026"
+        }
+      ]
+    },
+    {
+      "ticker": "MAP",
+      "nombre": "Mapfre",
+      "sector": "Seguros",
+      "accion": "COMPRA",
+      "precio_cierre": 3.91,
+      "soporte_obvio": 3.75,
+      "resistencia_obvia": 4.05,
+      "soporte_secundario": 3.55,
+      "resistencia_secundaria": 4.25,
+      "distancia_max_52s_pct": -5.3,
+      "distancia_min_52s_pct": 22.8,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 98,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Mapfre es un valor defensivo con negocio asegurador muy diversificado geográficamente y escasa exposición directa a aranceles industriales. Dividendo yield superior al 7% actúa de soporte fundamental. Tendencia alcista con precio por encima de medias. En entorno de alta volatilidad, los seguros diversificados suelen atraer flujo refugio. Volumen normal sugiere ausencia de ventas forzadas, señal positiva.",
+      "eventos_proximos": [
+        {
+          "tipo": "EX_DIVIDENDO",
+          "fecha": "2026-04-20",
+          "descripcion": "Ex-dividendo complementario estimado ~0.085€"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "CIE",
+      "razon": "Automoción directamente en el ojo del huracán arancelario USA-EU. Los aranceles del 25% sobre automóviles importados impactan de lleno en la cadena de suministro de componentes. Caída >6% con volumen alto, sin soporte técnico claro hasta niveles mucho más bajos.",
+      "shorts_pct": 2.85
+    },
+    {
+      "ticker": "ACX",
+      "razon": "Acerinox en sector acero directamente afectado por aranceles del 25% sobre el acero. Trump reactivó restricciones sectoriales. Ruptura de soporte técnico relevante con volumen alto. Alta probabilidad de continuación bajista.",
+      "shorts_pct": 3.12
+    },
+    {
+      "ticker": "REP",
+      "razon": "Repsol sufre doble impacto: caída del crudo Brent >4% por temor recesión global inducida por aranceles, y exposición directa a EEUU. El petróleo podría continuar cayendo si se confirma desaceleración económica global.",
+      "shorts_pct": 1.45
+    },
+    {
+      "ticker": "IAG",
+      "razon": "Las aerolíneas son extremadamente sensibles a recesiones económicas y disrupciones del comercio global. IAG tiene alta exposición transatlántica. La guerra arancelaria reduce flujos de negocio y turismo corporativo. VIX alto penaliza especialmente al sector.",
+      "shorts_pct": 1.85
+    },
+    {
+      "ticker": "ITX",
+      "razon": "Inditex tiene exposición manufacturera y de ventas relevante en EEUU. Los aranceles sobre textiles asiáticos encarecen su cadena de producción. Riesgo de impacto en márgenes. Ruptura del nivel 52€ es técnicamente negativa.",
+      "shorts_pct": 0.95
+    },
+    {
+      "ticker": "PUIG",
+      "razon": "El sector lujo/consumo premium es muy vulnerable a guerra comercial: aranceles sobre productos europeos en EEUU (perfumería, cosmética) impactan directamente a Puig. Posición técnica debilitada y valor cotiza cerca de mínimos históricos desde OPV.",
+      "shorts_pct": 0.65
+    },
+    {
+      "ticker": "FDR",
+      "razon": "Sector industrial con exposición a cadenas de suministro globales. En entorno de escalada arancelaria y potencial recesión industrial global, el sector enfrenta revisión a la baja de estimaciones. Mejor esperar estabilización macro.",
+      "shorts_pct": 0.55
+    }
+  ]
+}

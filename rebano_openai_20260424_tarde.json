@@ -1,0 +1,81 @@
+{
+  "fecha": "2026-04-24",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Petróleo Brent",
+        "var_dia_pct": 2.5,
+        "nuevo_precio": 95.3
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "S&P 500",
+        "var_dia_pct": -1.2
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 24.5,
+      "nivel": "ALTO",
+      "cambio_significativo": true
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Defensa/Tech",
+        "var_dia_pct": 1.5,
+        "direccion": "POSITIVO"
+      }
+    ],
+    "resumen_cambios": "Defensa/Tech lidera ganancias, nerviosismo en índices globales."
+  },
+  "resumen": {
+    "ibex_var_pct": 0.0,
+    "valores_destacados": [
+      "IDR +2.5%",
+      "TEF -1.8%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "TEF",
+      "nivel_barrido": 3.7,
+      "recupero": true,
+      "recuperacion_pct": 4.9
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "sector": "Retail",
+      "accion": "COMPRA",
+      "precio_cierre": 52.56,
+      "soporte_obvio": 50.0,
+      "resistencia_obvia": 55.0,
+      "soporte_secundario": 48.25,
+      "resistencia_secundaria": 56.85,
+      "distancia_max_52s_pct": -5.3,
+      "distancia_min_52s_pct": 28.4,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 120,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Recuperación en ventas globales y próximos resultados.",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-28",
+          "descripcion": "Presentación de resultados trimestrales"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "TEF",
+      "razon": "Presión de shorts y tendencia bajista",
+      "shorts_pct": 0.8
+    }
+  ]
+}

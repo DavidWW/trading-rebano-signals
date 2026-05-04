@@ -1,0 +1,172 @@
+{
+  "SAN": {
+    "nombre": "Banco Santander",
+    "precio": 11.1,
+    "sector": "Banca"
+  },
+  "BBVA": {
+    "nombre": "BBVA",
+    "precio": 20.1,
+    "sector": "Banca"
+  },
+  "CABK": {
+    "nombre": "CaixaBank",
+    "precio": 10.65,
+    "sector": "Banca"
+  },
+  "SAB": {
+    "nombre": "Banco Sabadell",
+    "precio": 3.28,
+    "sector": "Banca"
+  },
+  "BKT": {
+    "nombre": "Bankinter",
+    "precio": 14.4,
+    "sector": "Banca"
+  },
+  "UNI": {
+    "nombre": "Unicaja",
+    "precio": 2.73,
+    "sector": "Banca"
+  },
+  "IBE": {
+    "nombre": "Iberdrola",
+    "precio": 20.05,
+    "sector": "Utilities"
+  },
+  "REP": {
+    "nombre": "Repsol",
+    "precio": 18.98,
+    "sector": "Energía"
+  },
+  "ENG": {
+    "nombre": "Enagás",
+    "precio": 15.1,
+    "sector": "Utilities"
+  },
+  "ELE": {
+    "nombre": "Endesa",
+    "precio": 34.97,
+    "sector": "Utilities"
+  },
+  "SLR": {
+    "nombre": "Solaria",
+    "precio": 21.23,
+    "sector": "Renovables"
+  },
+  "ANE": {
+    "nombre": "Acciona Energía",
+    "precio": 21.44,
+    "sector": "Renovables"
+  },
+  "ITX": {
+    "nombre": "Inditex",
+    "precio": 57.44,
+    "sector": "Retail"
+  },
+  "PUIG": {
+    "nombre": "Puig",
+    "precio": 16.47,
+    "sector": "Lujo/Consumo"
+  },
+  "FER": {
+    "nombre": "Ferrovial",
+    "precio": 62.78,
+    "sector": "Infraestructuras"
+  },
+  "ACS": {
+    "nombre": "ACS",
+    "precio": 109.9,
+    "sector": "Construcción"
+  },
+  "ACX": {
+    "nombre": "Acerinox",
+    "precio": 13.2,
+    "sector": "Acero/Industrial"
+  },
+  "FDR": {
+    "nombre": "Fluidra",
+    "precio": 22.6,
+    "sector": "Industrial"
+  },
+  "TEF": {
+    "nombre": "Telefónica",
+    "precio": 3.65,
+    "sector": "Telecom"
+  },
+  "IAG": {
+    "nombre": "IAG",
+    "precio": 5.24,
+    "sector": "Aerolíneas"
+  },
+  "AENA": {
+    "nombre": "Aena",
+    "precio": 26.92,
+    "sector": "Infraestructuras"
+  },
+  "MEL": {
+    "nombre": "Meliá Hotels",
+    "precio": 8.5,
+    "sector": "Turismo"
+  },
+  "AMS": {
+    "nombre": "Amadeus",
+    "precio": 51.36,
+    "sector": "Tecnología/Turismo"
+  },
+  "IDR": {
+    "nombre": "Indra",
+    "precio": 62.75,
+    "sector": "Defensa/Tech"
+  },
+  "MAP": {
+    "nombre": "Mapfre",
+    "precio": 3.98,
+    "sector": "Seguros"
+  },
+  "GRF": {
+    "nombre": "Grifols",
+    "precio": 11.07,
+    "sector": "Salud"
+  },
+  "MRL": {
+    "nombre": "Merlin Properties",
+    "precio": 14.29,
+    "sector": "Inmobiliario"
+  },
+  "COL": {
+    "nombre": "Colonial",
+    "precio": 5.51,
+    "sector": "Inmobiliario"
+  },
+  "LOG": {
+    "nombre": "Logista",
+    "precio": 32.0,
+    "sector": "Distribución"
+  },
+  "CLNX": {
+    "nombre": "Cellnex",
+    "precio": 31.1,
+    "sector": "Infraestructuras Telecom"
+  },
+  "SCYR": {
+    "nombre": "Sacyr",
+    "precio": 4.51,
+    "sector": "Construcción"
+  },
+  "PHM": {
+    "nombre": "Pharma Mar",
+    "precio": 79.05,
+    "sector": "Salud"
+  },
+  "ROVI": {
+    "nombre": "Laboratorios Rovi",
+    "precio": 84.6,
+    "sector": "Salud"
+  },
+  "CIE": {
+    "nombre": "CIE Automotive",
+    "precio": 30.95,
+    "sector": "Automoción"
+  }
+}

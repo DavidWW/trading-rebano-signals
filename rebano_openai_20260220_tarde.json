@@ -1,0 +1,38 @@
+{
+  "fecha": "2026-02-20",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "resumen": {
+    "ibex_var_pct": 0.0,
+    "valores_destacados": [
+      "BBVA +1.2%",
+      "IAG -1.5%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "IAG",
+      "nivel_barrido": 4.92,
+      "recupero": true,
+      "recuperacion_pct": 1.8
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "SAN",
+      "nombre": "Banco Santander",
+      "accion": "COMPRA",
+      "precio_cierre": 10.76,
+      "soporte_obvio": 10.5,
+      "resistencia_obvia": 11.0,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Rebote técnico desde soporte"
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "IAG",
+      "razon": "Volatilidad alta después de barrido"
+    }
+  ]
+}

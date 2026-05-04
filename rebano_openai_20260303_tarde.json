@@ -1,0 +1,86 @@
+{
+  "fecha": "2026-03-03",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Petróleo",
+        "var_dia_pct": 2.5,
+        "nuevo_precio": 85.0
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "S&P 500",
+        "var_dia_pct": 1.2
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 18.5,
+      "nivel": "NORMAL",
+      "cambio_significativo": true
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Tecnología",
+        "var_dia_pct": 1.5,
+        "direccion": "POSITIVO"
+      },
+      {
+        "nombre": "Energía",
+        "var_dia_pct": -1.0,
+        "direccion": "NEGATIVO"
+      }
+    ],
+    "resumen_cambios": "Día mixto con subidas en tecnología y caídas en energía."
+  },
+  "resumen": {
+    "ibex_var_pct": 0.2,
+    "valores_destacados": [
+      "ACS +2%",
+      "REP -1.5%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "IBE",
+      "nivel_barrido": 18.5,
+      "recupero": true,
+      "recuperacion_pct": 3.1
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "sector": "Retail",
+      "accion": "COMPRA",
+      "precio_cierre": 51.7,
+      "soporte_obvio": 50.5,
+      "resistencia_obvia": 53.0,
+      "soporte_secundario": 49.85,
+      "resistencia_secundaria": 54.2,
+      "distancia_max_52s_pct": -5.0,
+      "distancia_min_52s_pct": 15.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 130,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Ruptura alcista del canal ascendente.",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-10",
+          "descripcion": "Presentación de resultados trimestrales."
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "BBVA",
+      "razon": "Elevado nivel de shorts institucionales",
+      "shorts_pct": 0.7
+    }
+  ]
+}

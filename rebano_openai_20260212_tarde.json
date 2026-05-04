@@ -1,0 +1,38 @@
+{
+  "fecha": "2026-02-12",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "resumen": {
+    "ibex_var_pct": 0.0,
+    "valores_destacados": [
+      "SAN +2%",
+      "TEF -1%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "SAN",
+      "nivel_barrido": 10.0,
+      "recupero": true,
+      "recuperacion_pct": 3.0
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "accion": "VIGILAR",
+      "precio_cierre": 57.46,
+      "soporte_obvio": 55.0,
+      "resistencia_obvia": 60.0,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Posible ruptura de resistencia"
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "TEF",
+      "razon": "Tendencia bajista mayor al 1%"
+    }
+  ]
+}

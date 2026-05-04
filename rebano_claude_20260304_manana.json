@@ -1,0 +1,315 @@
+{
+  "fecha": "2026-03-04",
+  "sesion": "manana",
+  "sentimiento": "NEUTRAL",
+  "radar_macro": {
+    "commodities": {
+      "oro": {
+        "precio_usd": 2685.5,
+        "var_semanal_pct": -1.2,
+        "var_mensual_pct": 2.8,
+        "dist_max_52s_pct": -4.2,
+        "alerta": false
+      },
+      "plata": {
+        "precio_usd": 30.85,
+        "var_semanal_pct": -2.1,
+        "var_mensual_pct": 1.5,
+        "dist_max_52s_pct": -8.5,
+        "alerta": false
+      },
+      "petroleo_brent": {
+        "precio_usd": 82.45,
+        "var_semanal_pct": 1.8,
+        "var_mensual_pct": 3.2,
+        "alerta": false
+      }
+    },
+    "indices": {
+      "sp500": {
+        "valor": 6150,
+        "var_semanal_pct": -0.5,
+        "dist_max_52s_pct": -2.1,
+        "alerta": false
+      },
+      "nasdaq100": {
+        "valor": 21250,
+        "var_semanal_pct": -1.2,
+        "dist_max_52s_pct": -4.8,
+        "alerta": false
+      },
+      "stoxx600": {
+        "valor": 525,
+        "var_semanal_pct": 0.8,
+        "dist_max_52s_pct": -1.5,
+        "alerta": false
+      },
+      "msci_em": {
+        "valor": 1125,
+        "var_semanal_pct": 2.1,
+        "dist_max_52s_pct": 3.2,
+        "alerta": false
+      },
+      "nikkei225": {
+        "valor": 42500,
+        "var_semanal_pct": 1.5,
+        "dist_max_52s_pct": -2.8,
+        "alerta": false
+      }
+    },
+    "sectores_europa": {
+      "mejor_sector": {
+        "nombre": "Utilities",
+        "var_semanal_pct": 3.2
+      },
+      "peor_sector": {
+        "nombre": "Tecnología",
+        "var_semanal_pct": -2.8
+      },
+      "sector_en_correccion": {
+        "hay_correccion": true,
+        "nombre": "Renovables",
+        "caida_desde_max_pct": -12.5,
+        "causa": "Presión regulatoria"
+      }
+    },
+    "divisas": {
+      "eur_usd": {
+        "valor": 1.0845,
+        "var_semanal_pct": 0.6,
+        "var_mensual_pct": -1.2
+      }
+    },
+    "vix": {
+      "valor": 16.8,
+      "nivel": "NORMAL"
+    },
+    "eventos_clave": [
+      {
+        "evento": "BCE - Reunión política monetaria",
+        "hora_cet": "14:00",
+        "relevancia": "ALTA"
+      },
+      {
+        "evento": "PMI Servicios España",
+        "hora_cet": "09:30",
+        "relevancia": "MEDIA"
+      },
+      {
+        "evento": "Inventarios petróleo EIA",
+        "hora_cet": "16:30",
+        "relevancia": "MEDIA"
+      }
+    ],
+    "resumen_macro": "Cautela previa BCE con rotación sectorial hacia defensivos"
+  },
+  "recomendaciones": [
+    {
+      "ranking": 1,
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 19.07,
+      "entrada": 19.15,
+      "stop_loss": 18.35,
+      "stop_pct": -4.2,
+      "take_profit_1": 19.85,
+      "tp1_pct": 3.7,
+      "take_profit_2": 20.45,
+      "tp2_pct": 6.8,
+      "soporte_obvio": 18.5,
+      "resistencia_obvia": 19.8,
+      "soporte_secundario": 18.15,
+      "resistencia_secundaria": 20.2,
+      "distancia_max_52s_pct": -8.2,
+      "distancia_min_52s_pct": 24.5,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 145,
+      "catalizador_tipo": "SECTORIAL",
+      "catalizador_desc": "Rotación hacia utilities defensivos ante incertidumbre BCE",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.2,
+      "prob_barrido": "BAJA",
+      "riesgo": "Reversión si BCE mantiene tono hawkish",
+      "horizonte_dias": 4,
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-03-15",
+          "descripcion": "Propuesta dividendo 0.46€"
+        }
+      ]
+    },
+    {
+      "ranking": 2,
+      "ticker": "ELE",
+      "nombre": "Endesa",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 32.62,
+      "entrada": 32.85,
+      "stop_loss": 31.25,
+      "stop_pct": -4.9,
+      "take_profit_1": 34.15,
+      "tp1_pct": 4.0,
+      "take_profit_2": 35.2,
+      "tp2_pct": 7.2,
+      "soporte_obvio": 31.8,
+      "resistencia_obvia": 34.0,
+      "soporte_secundario": 31.15,
+      "resistencia_secundaria": 34.85,
+      "distancia_max_52s_pct": -12.8,
+      "distancia_min_52s_pct": 28.5,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 135,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "catalizador_desc": "Beneficios por altos precios energía y renovación tarifaria",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.1,
+      "prob_barrido": "BAJA",
+      "riesgo": "Presión regulatoria sobre tarifas eléctricas",
+      "horizonte_dias": 3,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-12",
+          "descripcion": "Q4 2025 y guidance 2026"
+        }
+      ]
+    },
+    {
+      "ranking": 3,
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "sector": "Energía",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 20.7,
+      "entrada": 20.85,
+      "stop_loss": 19.85,
+      "stop_pct": -4.8,
+      "take_profit_1": 21.65,
+      "tp1_pct": 3.8,
+      "take_profit_2": 22.35,
+      "tp2_pct": 7.2,
+      "soporte_obvio": 20.2,
+      "resistencia_obvia": 21.5,
+      "soporte_secundario": 19.75,
+      "resistencia_secundaria": 22.15,
+      "distancia_max_52s_pct": -6.8,
+      "distancia_min_52s_pct": 18.2,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 125,
+      "catalizador_tipo": "MACRO",
+      "catalizador_desc": "Tensiones geopolíticas sostienen precios petróleo",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.3,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Volatilidad por factores geopolíticos externos",
+      "horizonte_dias": 5,
+      "eventos_proximos": [
+        {
+          "tipo": "EX_DIVIDENDO",
+          "fecha": "2026-03-20",
+          "descripcion": "Ex-dividendo 0.35€"
+        }
+      ]
+    },
+    {
+      "ranking": 4,
+      "ticker": "TEF",
+      "nombre": "Telefónica",
+      "sector": "Telecom",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 3.56,
+      "entrada": 3.65,
+      "stop_loss": 3.35,
+      "stop_pct": -5.6,
+      "take_profit_1": 3.85,
+      "tp1_pct": 5.5,
+      "take_profit_2": 4.05,
+      "tp2_pct": 10.9,
+      "soporte_obvio": 3.45,
+      "resistencia_obvia": 3.8,
+      "soporte_secundario": 3.25,
+      "resistencia_secundaria": 3.95,
+      "distancia_max_52s_pct": -18.5,
+      "distancia_min_52s_pct": 22.8,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 160,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "catalizador_desc": "Rumores desinversión Brasil y reducción deuda",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.8,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Alto endeudamiento y competencia sector",
+      "horizonte_dias": 4,
+      "eventos_proximos": [
+        {
+          "tipo": "OTRO",
+          "fecha": "2026-03-18",
+          "descripcion": "Investor Day - Plan estratégico 2026-2028"
+        }
+      ]
+    },
+    {
+      "ranking": 5,
+      "ticker": "BBVA",
+      "nombre": "BBVA",
+      "sector": "Banca",
+      "accion": "COMPRA",
+      "conviccion": "BAJA",
+      "precio_actual": 18.07,
+      "entrada": 18.25,
+      "stop_loss": 17.15,
+      "stop_pct": -6.0,
+      "take_profit_1": 18.85,
+      "tp1_pct": 3.3,
+      "take_profit_2": 19.35,
+      "tp2_pct": 6.0,
+      "soporte_obvio": 17.5,
+      "resistencia_obvia": 18.75,
+      "soporte_secundario": 17.05,
+      "resistencia_secundaria": 19.15,
+      "distancia_max_52s_pct": -8.5,
+      "distancia_min_52s_pct": 35.2,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 118,
+      "catalizador_tipo": "MACRO",
+      "catalizador_desc": "Expectativas tipos interés sostenidos benefician margen",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.4,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Sensible a decisiones BCE y calidad activos",
+      "horizonte_dias": 3,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-28",
+          "descripcion": "Q4 2025 y outlook México/Turquía"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "ANE",
+      "razon": "Sector renovables en corrección por presión regulatoria",
+      "shorts_pct": 1.2
+    },
+    {
+      "ticker": "SLR",
+      "razon": "Mismo sector que ANE con alta volatilidad",
+      "shorts_pct": 0.9
+    },
+    {
+      "ticker": "ITX",
+      "razon": "Vulnerable a BCE hawkish por sector consumo discrecional",
+      "shorts_pct": 0.6
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "fecha": "2026-04-10",
+  "sesion": "manana",
+  "sentimiento": "NEUTRAL",
+  "radar_macro": {
+    "commodities": {
+      "oro": {
+        "precio_usd": 3165.4,
+        "var_semanal_pct": 2.8,
+        "var_mensual_pct": 7.4,
+        "dist_max_52s_pct": -1.2,
+        "alerta": true
+      },
+      "plata": {
+        "precio_usd": 31.85,
+        "var_semanal_pct": 1.4,
+        "var_mensual_pct": 4.2,
+        "dist_max_52s_pct": -8.6,
+        "alerta": false
+      },
+      "petroleo_brent": {
+        "precio_usd": 63.45,
+        "var_semanal_pct": -4.8,
+        "var_mensual_pct": -11.3,
+        "alerta": true
+      }
+    },
+    "indices": {
+      "sp500": {
+        "valor": 5031,
+        "var_semanal_pct": -3.9,
+        "dist_max_52s_pct": -14.8,
+        "alerta": true
+      },
+      "nasdaq100": {
+        "valor": 17210,
+        "var_semanal_pct": -5.2,
+        "dist_max_52s_pct": -19.4,
+        "alerta": true
+      },
+      "stoxx600": {
+        "valor": 494,
+        "var_semanal_pct": -2.6,
+        "dist_max_52s_pct": -13.1,
+        "alerta": true
+      },
+      "msci_em": {
+        "valor": 1018,
+        "var_semanal_pct": -3.1,
+        "dist_max_52s_pct": -12.4,
+        "alerta": true
+      },
+      "nikkei225": {
+        "valor": 33420,
+        "var_semanal_pct": -4.7,
+        "dist_max_52s_pct": -17.9,
+        "alerta": true
+      }
+    },
+    "sectores_europa": {
+      "mejor_sector": {
+        "nombre": "Defensa",
+        "var_semanal_pct": 2.1
+      },
+      "peor_sector": {
+        "nombre": "Energía/Petróleo",
+        "var_semanal_pct": -6.4
+      },
+      "sector_en_correccion": {
+        "hay_correccion": true,
+        "nombre": "Tecnología",
+        "caida_desde_max_pct": -21.3,
+        "causa": "Aranceles Trump y reducción múltiplos crecimiento en entorno risk-off global"
+      }
+    },
+    "divisas": {
+      "eur_usd": {
+        "valor": 1.1045,
+        "var_semanal_pct": 1.8,
+        "var_mensual_pct": 4.2
+      }
+    },
+    "vix": {
+      "valor": 42.6,
+      "nivel": "PANICO"
+    },
+    "eventos_clave": [
+      {
+        "evento": "IPC EEUU marzo (dato crítico inflación post-aranceles)",
+        "hora_cet": "14:30",
+        "relevancia": "ALTA"
+      },
+      {
+        "evento": "Actas Fed - publicación de minutas reunión marzo",
+        "hora_cet": "20:00",
+        "relevancia": "ALTA"
+      },
+      {
+        "evento": "BCE: discurso Lagarde en foro económico Ámsterdam",
+        "hora_cet": "10:00",
+        "relevancia": "ALTA"
+      },
+      {
+        "evento": "Subasta bonos España 10 años (Tesoro)",
+        "hora_cet": "10:30",
+        "relevancia": "MEDIA"
+      },
+      {
+        "evento": "Producción industrial Alemania febrero",
+        "hora_cet": "08:00",
+        "relevancia": "MEDIA"
+      }
+    ],
+    "resumen_macro": "Entorno marcadamente risk-off con VIX en zona pánico por escalada arancelaria EEUU-China; oro cerca de máximos históricos como refugio, petróleo en caída libre por recesión anticipada, EUR/USD fuerte por debilidad del dólar, el dato IPC de hoy EEUU será el driver clave de sesión."
+  },
+  "recomendaciones": [
+    {
+      "ranking": 1,
+      "ticker": "IDR",
+      "nombre": "Indra Sistemas",
+      "sector": "Defensa/Tech",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 52.24,
+      "entrada": 52.35,
+      "stop_loss": 49.85,
+      "stop_pct": -4.8,
+      "take_profit_1": 55.6,
+      "tp1_pct": 6.2,
+      "take_profit_2": 58.45,
+      "tp2_pct": 11.7,
+      "soporte_obvio": 50.2,
+      "resistencia_obvia": 55.8,
+      "soporte_secundario": 48.65,
+      "resistencia_secundaria": 60.15,
+      "distancia_max_52s_pct": -4.3,
+      "distancia_min_52s_pct": 52.8,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 168,
+      "catalizador_tipo": "SECTORIAL",
+      "catalizador_desc": "Sector defensa europeo es el único en verde semanal (+2.1%). Incremento presupuestos defensa OTAN y UE acelera contratación. IDR como proveedor clave sistemas C4ISR y ciberseguridad para FFAA españolas y europeas recibe flujos institucionales de rotación desde tech/energía. Resistente a aranceles por contratos gubernamentales en euros.",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.8,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Shorts institucionales del 0.8% pueden presionar en rebotes. Volatilidad sistémica VIX >40 puede arrastrar incluso a defensivos en ventas masivas de cartera.",
+      "horizonte_dias": 4,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-28",
+          "descripcion": "Resultados Q1 2026 previstos fin de abril"
+        }
+      ]
+    },
+    {
+      "ranking": 2,
+      "ticker": "ACS",
+      "nombre": "ACS Actividades de Construcción",
+      "sector": "Construcción/Infraestructuras",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 120.5,
+      "entrada": 120.85,
+      "stop_loss": 114.65,
+      "stop_pct": -5.1,
+      "take_profit_1": 128.4,
+      "tp1_pct": 6.3,
+      "take_profit_2": 134.75,
+      "tp2_pct": 11.5,
+      "soporte_obvio": 116.8,
+      "resistencia_obvia": 128.5,
+      "soporte_secundario": 112.3,
+      "resistencia_secundaria": 138.2,
+      "distancia_max_52s_pct": -6.8,
+      "distancia_min_52s_pct": 38.4,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 142,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "catalizador_desc": "ACS cotiza con fuerte descuento respecto a NAV ante corrección de mercado injustificada por fundamentales. Cartera de pedidos en máximos históricos con fuerte exposición a infraestructura en EEUU (HOCHTIEF/Turner) y Australia. Los aranceles afectan menos a constructoras que ejecutan proyectos localmente. EUR/USD fuerte añade riesgo divisa pero sus flujos de caja en USD son naturalmente cubiertos.",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.4,
+      "prob_barrido": "BAJA",
+      "riesgo": "Exposición indirecta a desaceleración en EEUU si aranceles generan recesión. Tipo de cambio EUR/USD en 1.10 reduce competitividad de filiales americanas en términos de consolidación.",
+      "horizonte_dias": 3,
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-04-28",
+          "descripcion": "Dividendo complementario estimado 1.40€/acción aprobación junta"
+        },
+        {
+          "tipo": "JUNTA",
+          "fecha": "2026-04-28",
+          "descripcion": "Junta General de Accionistas 2026"
+        }
+      ]
+    },
+    {
+      "ranking": 3,
+      "ticker": "ELE",
+      "nombre": "Endesa",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 38.43,
+      "entrada": 38.55,
+      "stop_loss": 36.75,
+      "stop_pct": -4.7,
+      "take_profit_1": 40.85,
+      "tp1_pct": 5.9,
+      "take_profit_2": 42.9,
+      "tp2_pct": 11.2,
+      "soporte_obvio": 37.2,
+      "resistencia_obvia": 41.0,
+      "soporte_secundario": 35.85,
+      "resistencia_secundaria": 44.15,
+      "distancia_max_52s_pct": -5.1,
+      "distancia_min_52s_pct": 22.7,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 125,
+      "catalizador_tipo": "MACRO",
+      "catalizador_desc": "En entorno VIX pánico los inversores rotan agresivamente hacia utilities defensivas con alta rentabilidad por dividendo (ELE ~7.2% yield). Petróleo en caída reduce costes de generación. Regulación energética española estable. Caída de tipos en Europa (BCE dovish) beneficia directamente a utilities endeudadas. Resistente a guerra comercial por ingresos 100% domésticos/europeos.",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.3,
+      "prob_barrido": "BAJA",
+      "riesgo": "Riesgo regulatorio intervencionista en precios energía. Si IPC EEUU sale muy alto hoy podría retrasarse bajadas de tipos Fed y contagiar a BCE, penalizando utilities.",
+      "horizonte_dias": 4,
+      "eventos_proximos": [
+        {
+          "tipo": "EX_DIVIDENDO",
+          "fecha": "2026-04-14",
+          "descripcion": "Ex-dividendo complementario estimado 0.53€/acción (dividendo cargo 2025)"
+        },
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-23",
+          "descripcion": "Resultados Q1 2026"
+        }
+      ]
+    },
+    {
+      "ranking": 4,
+      "ticker": "GRF",
+      "nombre": "Grifols",
+      "sector": "Salud",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 8.88,
+      "entrada": 8.95,
+      "stop_loss": 8.45,
+      "stop_pct": -5.6,
+      "take_profit_1": 9.65,
+      "tp1_pct": 7.8,
+      "take_profit_2": 10.35,
+      "tp2_pct": 15.6,
+      "soporte_obvio": 8.5,
+      "resistencia_obvia": 9.7,
+      "soporte_secundario": 7.95,
+      "resistencia_secundaria": 10.8,
+      "distancia_max_52s_pct": -38.4,
+      "distancia_min_52s_pct": 8.2,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 185,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "catalizador_desc": "GRF ha completado proceso de desapalancamiento con venta activos y refinanciación deuda completada en Q1 2026. Volumen extraordinariamente alto (185% media) sugiere acumulación institucional en zona de soporte crítico 8.50. Sector salud actúa como refugio en risk-off. Los derivados de plasma (hemoderivados) están excluidos de aranceles por razones sanitarias. Recuperación de márgenes operativos en marcha.",
+      "catalizador_reversible": true,
+      "shorts_pct": 4.2,
+      "prob_barrido": "ALTA",
+      "riesgo": "ALTO: shorts institucionales del 4.2% muy elevados. Historia reciente de problemas de governance y dudas sobre cifras contables. Stop estricto obligatorio. Cualquier noticia negativa puede generar squeeze bajista violento.",
+      "horizonte_dias": 3,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-30",
+          "descripcion": "Resultados Q1 2026 y actualización guidance anual"
+        }
+      ]
+    },
+    {
+      "ranking": 5,
+      "ticker": "MAP",
+      "nombre": "Mapfre",
+      "sector": "Seguros",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 4.06,
+      "entrada": 4.08,
+      "stop_loss": 3.85,
+      "stop_pct": -5.6,
+      "take_profit_1": 4.35,
+      "tp1_pct": 6.6,
+      "take_profit_2": 4.58,
+      "tp2_pct": 12.3,
+      "soporte_obvio": 3.9,
+      "resistencia_obvia": 4.38,
+      "soporte_secundario": 3.72,
+      "resistencia_secundaria": 4.65,
+      "distancia_max_52s_pct": -9.8,
+      "distancia_min_52s_pct": 18.4,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 118,
+      "catalizador_tipo": "SECTORIAL",
+      "catalizador_desc": "Seguros europeos son refugio defensivo clásico en mercados turbulentos. MAP con rentabilidad por dividendo ~7.5% y PER ~8x actúa como valor bono-proxy en entorno de bajada de tipos BCE. Cartera de inversión beneficiada por tipos altos actuales en la renta fija española. Negocio asegurador ajeno a guerra comercial arancelaria. Flujos de rotación sectorial desde energía hacia defensivos favorecen.",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.2,
+      "prob_barrido": "BAJA",
+      "riesgo": "Exposición a mercados emergentes (Brasil, LATAM) con riesgo divisa amplificado por fortaleza EUR. Si mercados globales caen más, el valor de la cartera de inversiones puede deteriorarse.",
+      "horizonte_dias": 4,
+      "eventos_proximos": [
+        {
+          "tipo": "EX_DIVIDENDO",
+          "fecha": "2026-04-22",
+          "descripcion": "Ex-dividendo complementario cargo 2025 estimado 0.085€/acción"
+        },
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-05-06",
+          "descripcion": "Resultados Q1 2026"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "REP",
+      "razon": "Petróleo Brent en caída libre (-4.8% semanal, -11.3% mensual). Repsol altamente correlacionada con precio del crudo. Riesgo de revisión a la baja de guidance y dividendo si el crudo se mantiene en 63$.",
+      "shorts_pct": 1.8
+    },
+    {
+      "ticker": "ACX",
+      "razon": "Acerinox en sector acero directamente impactado por aranceles Trump al acero/aluminio. Máxima exposición a guerra comercial. Riesgo de dumping chino adicional en mercados europeos ante desvío exportaciones asiáticas.",
+      "shorts_pct": 3.1
+    },
+    {
+      "ticker": "CIE",
+      "razon": "CIE Automotive expuesta a sector automoción europeo en máxima presión por aranceles 25% EEUU a coches importados. Cadena de suministro disrumpida. Clientes OEM recortando producción.",
+      "shorts_pct": 2.4
+    },
+    {
+      "ticker": "PUIG",
+      "razon": "Sector lujo/consumo discrecional sufre en entorno recesivo. PUIG con alta exposición a mercado americano y asiático donde la demanda premium cae primero. Shorts del 1.6% activos.",
+      "shorts_pct": 1.6
+    },
+    {
+      "ticker": "IAG",
+      "razon": "Aerolíneas sufren doble impacto: caída demanda corporativa y turismo en recesión anticipada + alerta de profit warning por reducción slots transatlánticos ante guerra comercial. VIX >40 genera cancelaciones masivas de reservas.",
+      "shorts_pct": 2.9
+    },
+    {
+      "ticker": "SLR",
+      "razon": "Solaria en corrección técnica prolongada. Renovables españolas bajo presión por reforma regulatoria retribución. Alto endeudamiento penalizado si tipos no bajan tan rápido como esperado.",
+      "shorts_pct": 1.1
+    }
+  ]
+}

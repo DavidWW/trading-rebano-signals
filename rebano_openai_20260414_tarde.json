@@ -1,0 +1,70 @@
+{
+  "fecha": "2026-04-14",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [],
+    "indice_movimiento_notable": [],
+    "vix_cambio": {
+      "valor_cierre": 16.3,
+      "nivel": "NORMAL",
+      "cambio_significativo": false
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Tecnología",
+        "var_dia_pct": 2.3,
+        "direccion": "POSITIVO"
+      }
+    ],
+    "resumen_cambios": "Mercado estable con un enfoque neutral a la espera de datos económicos importantes."
+  },
+  "resumen": {
+    "ibex_var_pct": 0.5,
+    "valores_destacados": [
+      "ACS +2%",
+      "TEF -1%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "IBE",
+      "nivel_barrido": 19.85,
+      "recupero": true,
+      "recuperacion_pct": 0.7
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "ACS",
+      "nombre": "ACS",
+      "sector": "Construcción",
+      "accion": "COMPRA",
+      "precio_cierre": 124.6,
+      "soporte_obvio": 121.5,
+      "resistencia_obvia": 128.3,
+      "soporte_secundario": 119.25,
+      "resistencia_secundaria": 130.45,
+      "distancia_max_52s_pct": -8.0,
+      "distancia_min_52s_pct": 35.4,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 155,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Ruptura de resistencia en tendencia alcista con alto volumen",
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-04-20",
+          "descripcion": "Pago de dividendo próximo."
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "FDR",
+      "razon": "Alta posición de shorts institucionales",
+      "shorts_pct": 1.2
+    }
+  ]
+}

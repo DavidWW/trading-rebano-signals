@@ -1,0 +1,155 @@
+{
+  "fecha": "2026-03-20",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Petróleo Brent",
+        "var_dia_pct": -2.3,
+        "nuevo_precio": 78.45
+      },
+      {
+        "activo": "Gas Natural",
+        "var_dia_pct": 3.1,
+        "nuevo_precio": 2.87
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "DAX",
+        "var_dia_pct": -1.2
+      },
+      {
+        "indice": "FTSE 100",
+        "var_dia_pct": 0.8
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 16.2,
+      "nivel": "NORMAL",
+      "cambio_significativo": false
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Utilities Europeas",
+        "var_dia_pct": 1.4,
+        "direccion": "POSITIVO"
+      },
+      {
+        "nombre": "Energía Europea",
+        "var_dia_pct": -2.1,
+        "direccion": "NEGATIVO"
+      }
+    ],
+    "resumen_cambios": "Sesión mixta con rotación desde energía hacia utilities por caída del petróleo"
+  },
+  "resumen": {
+    "ibex_var_pct": -0.3,
+    "valores_destacados": [
+      "PHM +1.8%",
+      "ROVI +1.5%",
+      "REP -2.1%",
+      "SLR -1.9%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "TEF",
+      "nivel_barrido": 3.55,
+      "recupero": false,
+      "recuperacion_pct": 0.0
+    },
+    {
+      "ticker": "IAG",
+      "nivel_barrido": 4.0,
+      "recupero": true,
+      "recuperacion_pct": 1.2
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "PHM",
+      "nombre": "PharmaMar",
+      "sector": "Salud",
+      "accion": "COMPRA",
+      "precio_cierre": 83.25,
+      "soporte_obvio": 80.15,
+      "resistencia_obvia": 87.35,
+      "soporte_secundario": 78.65,
+      "resistencia_secundaria": 85.25,
+      "distancia_max_52s_pct": -12.4,
+      "distancia_min_52s_pct": 28.7,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 145,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Ruptura de resistencia 82€ con volumen, sector salud defensivo ante volatilidad macro",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-28",
+          "descripcion": "Q1 2026 resultados preliminares"
+        }
+      ]
+    },
+    {
+      "ticker": "ELE",
+      "nombre": "Endesa",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "precio_cierre": 34.7,
+      "soporte_obvio": 33.85,
+      "resistencia_obvia": 36.15,
+      "soporte_secundario": 32.95,
+      "resistencia_secundaria": 35.45,
+      "distancia_max_52s_pct": -8.9,
+      "distancia_min_52s_pct": 22.1,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 120,
+      "catalizador_tipo": "MACRO",
+      "razon": "Sector utilities liderando por rotación defensiva, soporte técnico sólido en 34€",
+      "eventos_proximos": [
+        {
+          "tipo": "EX_DIVIDENDO",
+          "fecha": "2026-04-02",
+          "descripcion": "Ex-dividendo 0.70€"
+        }
+      ]
+    },
+    {
+      "ticker": "LOG",
+      "nombre": "Logista",
+      "sector": "Distribución",
+      "accion": "VIGILAR",
+      "precio_cierre": 30.92,
+      "soporte_obvio": 29.85,
+      "resistencia_obvia": 32.25,
+      "soporte_secundario": 28.75,
+      "resistencia_secundaria": 31.65,
+      "distancia_max_52s_pct": -5.2,
+      "distancia_min_52s_pct": 18.9,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 95,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Consolidación en rango, esperar ruptura 32.25€ con volumen para entrada",
+      "eventos_proximos": []
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "REP",
+      "razon": "Caída petróleo impacta sector energético, probable continuación bajista",
+      "shorts_pct": 0.0
+    },
+    {
+      "ticker": "SLR",
+      "razon": "Sector renovables bajo presión por cambios regulatorios, evitar hasta claridad",
+      "shorts_pct": 0.0
+    },
+    {
+      "ticker": "TEF",
+      "razon": "Ruptura soporte 3.55€ sin recuperación, momentum bajista confirmado",
+      "shorts_pct": 0.0
+    }
+  ]
+}

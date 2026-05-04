@@ -1,0 +1,62 @@
+{
+  "fecha": "2026-02-12",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "resumen": {
+    "ibex_var_pct": 0.0,
+    "valores_destacados": [
+      "ACS estable 97.9",
+      "FER mantiene 62.16"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "TEF",
+      "nivel_barrido": 3.7,
+      "recupero": false,
+      "recuperacion_pct": 0.0
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "SAN",
+      "nombre": "Santander",
+      "accion": "COMPRA",
+      "precio_cierre": 10.3,
+      "soporte_obvio": 10.0,
+      "resistencia_obvia": 10.8,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Rebote desde soporte psicológico 10€, banking sector recovery"
+    },
+    {
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "accion": "VIGILAR",
+      "precio_cierre": 57.46,
+      "soporte_obvio": 56.5,
+      "resistencia_obvia": 59.0,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Consolidación en rango, esperando ruptura direccional"
+    },
+    {
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "accion": "COMPRA",
+      "precio_cierre": 16.67,
+      "soporte_obvio": 16.2,
+      "resistencia_obvia": 17.5,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Oil sector momentum, dividend yield atractivo"
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "TEF",
+      "razon": "Debilidad técnica persistente, sin catalizadores claros"
+    },
+    {
+      "ticker": "SAB",
+      "razon": "Banking de segundo nivel, menor liquidez"
+    }
+  ]
+}

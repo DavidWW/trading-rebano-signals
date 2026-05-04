@@ -1,0 +1,81 @@
+{
+  "fecha": "2026-04-03",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Brent",
+        "var_dia_pct": 2.3,
+        "nuevo_precio": 96.5
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "NASDAQ",
+        "var_dia_pct": -1.5
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 22.5,
+      "nivel": "ALTO",
+      "cambio_significativo": true
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Energía",
+        "var_dia_pct": 3.0,
+        "direccion": "POSITIVO"
+      }
+    ],
+    "resumen_cambios": "Commodities al alza, volatilidad en aumento."
+  },
+  "resumen": {
+    "ibex_var_pct": -0.3,
+    "valores_destacados": [
+      "REP +2.5%",
+      "TEF -2.0%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "SAN",
+      "nivel_barrido": 9.5,
+      "recupero": true,
+      "recuperacion_pct": 3.3
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "sector": "Energía",
+      "accion": "COMPRA",
+      "precio_cierre": 24.27,
+      "soporte_obvio": 23.5,
+      "resistencia_obvia": 25.0,
+      "soporte_secundario": 23.15,
+      "resistencia_secundaria": 25.35,
+      "distancia_max_52s_pct": -5.6,
+      "distancia_min_52s_pct": 25.3,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 160,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Ruptura de resistencia con alto volumen",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-10",
+          "descripcion": "Publicación de resultados del primer trimestre"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "TEF",
+      "razon": "Shorts institucionales elevados",
+      "shorts_pct": 0.65
+    }
+  ]
+}

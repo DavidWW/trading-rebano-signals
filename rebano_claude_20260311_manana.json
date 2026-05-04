@@ -1,0 +1,310 @@
+{
+  "fecha": "2026-03-11",
+  "sesion": "manana",
+  "sentimiento": "NEUTRAL",
+  "radar_macro": {
+    "commodities": {
+      "oro": {
+        "precio_usd": 2685.4,
+        "var_semanal_pct": -1.2,
+        "var_mensual_pct": 2.8,
+        "dist_max_52s_pct": -3.5,
+        "alerta": false
+      },
+      "plata": {
+        "precio_usd": 30.85,
+        "var_semanal_pct": -2.1,
+        "var_mensual_pct": 4.2,
+        "dist_max_52s_pct": -8.7,
+        "alerta": false
+      },
+      "petroleo_brent": {
+        "precio_usd": 82.15,
+        "var_semanal_pct": 1.8,
+        "var_mensual_pct": 3.5,
+        "alerta": false
+      }
+    },
+    "indices": {
+      "sp500": {
+        "valor": 6180,
+        "var_semanal_pct": 0.3,
+        "dist_max_52s_pct": -2.1,
+        "alerta": false
+      },
+      "nasdaq100": {
+        "valor": 21850,
+        "var_semanal_pct": -0.7,
+        "dist_max_52s_pct": -4.2,
+        "alerta": false
+      },
+      "stoxx600": {
+        "valor": 525,
+        "var_semanal_pct": 1.1,
+        "dist_max_52s_pct": -1.8,
+        "alerta": false
+      },
+      "msci_em": {
+        "valor": 1085,
+        "var_semanal_pct": 2.3,
+        "dist_max_52s_pct": -5.2,
+        "alerta": false
+      },
+      "nikkei225": {
+        "valor": 42150,
+        "var_semanal_pct": -1.5,
+        "dist_max_52s_pct": -6.8,
+        "alerta": false
+      }
+    },
+    "sectores_europa": {
+      "mejor_sector": {
+        "nombre": "Utilities",
+        "var_semanal_pct": 3.2
+      },
+      "peor_sector": {
+        "nombre": "Technology",
+        "var_semanal_pct": -2.8
+      },
+      "sector_en_correccion": {
+        "hay_correccion": true,
+        "nombre": "Real Estate",
+        "caida_desde_max_pct": -12.5,
+        "causa": "Subida tipos interes BCE"
+      }
+    },
+    "divisas": {
+      "eur_usd": {
+        "valor": 1.0845,
+        "var_semanal_pct": -0.5,
+        "var_mensual_pct": 1.2
+      }
+    },
+    "vix": {
+      "valor": 16.8,
+      "nivel": "NORMAL"
+    },
+    "eventos_clave": [
+      {
+        "evento": "IPC EEUU Febrero",
+        "hora_cet": "14:30",
+        "relevancia": "ALTA"
+      },
+      {
+        "evento": "Decision BCE tipos interes",
+        "hora_cet": "14:15",
+        "relevancia": "ALTA"
+      },
+      {
+        "evento": "Ventas minoristas Eurozona",
+        "hora_cet": "11:00",
+        "relevancia": "MEDIA"
+      }
+    ],
+    "resumen_macro": "Mercados en pausa antes de datos inflacion EEUU y decision BCE"
+  },
+  "recomendaciones": [
+    {
+      "ranking": 1,
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 19.42,
+      "entrada": 19.35,
+      "stop_loss": 18.65,
+      "stop_pct": -3.6,
+      "take_profit_1": 20.15,
+      "tp1_pct": 4.1,
+      "take_profit_2": 20.85,
+      "tp2_pct": 7.7,
+      "soporte_obvio": 19.0,
+      "resistencia_obvia": 20.2,
+      "soporte_secundario": 18.7,
+      "resistencia_secundaria": 20.6,
+      "distancia_max_52s_pct": -6.8,
+      "distancia_min_52s_pct": 12.5,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 145,
+      "catalizador_tipo": "SECTORIAL",
+      "catalizador_desc": "Sector utilities liderando mercado por estabilidad defensiva ante volatilidad macro",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.3,
+      "prob_barrido": "BAJA",
+      "riesgo": "Decision BCE podria afectar negativamente a utilities si sorprende al alza",
+      "horizonte_dias": 4,
+      "eventos_proximos": [
+        {
+          "tipo": "EX_DIVIDENDO",
+          "fecha": "2026-03-28",
+          "descripcion": "Ex-dividendo 0.21 EUR"
+        }
+      ]
+    },
+    {
+      "ranking": 2,
+      "ticker": "ELE",
+      "nombre": "Endesa",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 34.16,
+      "entrada": 34.0,
+      "stop_loss": 32.85,
+      "stop_pct": -3.4,
+      "take_profit_1": 35.3,
+      "tp1_pct": 3.8,
+      "take_profit_2": 36.15,
+      "tp2_pct": 5.8,
+      "soporte_obvio": 33.5,
+      "resistencia_obvia": 35.5,
+      "soporte_secundario": 32.8,
+      "resistencia_secundaria": 36.0,
+      "distancia_max_52s_pct": -4.2,
+      "distancia_min_52s_pct": 18.3,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 135,
+      "catalizador_tipo": "SECTORIAL",
+      "catalizador_desc": "Rally utilities continua con rotacion defensiva y expectativas dividendo",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.2,
+      "prob_barrido": "BAJA",
+      "riesgo": "Alto beta a tipos interes podria generar volatilidad",
+      "horizonte_dias": 3,
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-04-02",
+          "descripcion": "Pago dividendo trimestral"
+        }
+      ]
+    },
+    {
+      "ranking": 3,
+      "ticker": "BBVA",
+      "nombre": "Banco Bilbao Vizcaya",
+      "sector": "Banca",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 19.09,
+      "entrada": 19.0,
+      "stop_loss": 18.35,
+      "stop_pct": -3.4,
+      "take_profit_1": 19.75,
+      "tp1_pct": 3.9,
+      "take_profit_2": 20.25,
+      "tp2_pct": 6.5,
+      "soporte_obvio": 18.5,
+      "resistencia_obvia": 19.8,
+      "soporte_secundario": 18.15,
+      "resistencia_secundaria": 20.15,
+      "distancia_max_52s_pct": -8.5,
+      "distancia_min_52s_pct": 15.2,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 125,
+      "catalizador_tipo": "MACRO",
+      "catalizador_desc": "Expectativa tipos altos BCE beneficia margen neto interes bancos",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.4,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Decision BCE clave - si baja tipos mas agresivo podria presionar",
+      "horizonte_dias": 3,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-28",
+          "descripcion": "Resultados Q1 2026"
+        }
+      ]
+    },
+    {
+      "ranking": 4,
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "sector": "Retail",
+      "accion": "VENTA",
+      "conviccion": "MEDIA",
+      "precio_actual": 52.46,
+      "entrada": 52.55,
+      "stop_loss": 54.15,
+      "stop_pct": -3.1,
+      "take_profit_1": 50.85,
+      "tp1_pct": 3.2,
+      "take_profit_2": 49.75,
+      "tp2_pct": 5.3,
+      "soporte_obvio": 51.0,
+      "resistencia_obvia": 54.0,
+      "soporte_secundario": 50.35,
+      "resistencia_secundaria": 54.85,
+      "distancia_max_52s_pct": -3.8,
+      "distancia_min_52s_pct": 28.5,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 115,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "catalizador_desc": "Presion consumo europeo y fortaleza EUR reduce competitividad exportaciones",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.8,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Posible bounce tecnico en soporte 51.00 podria frustrar cortos",
+      "horizonte_dias": 4,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-18",
+          "descripcion": "Ventas Q4 2025 y actualizacion guidance"
+        }
+      ]
+    },
+    {
+      "ranking": 5,
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "sector": "Energía",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 20.75,
+      "entrada": 20.65,
+      "stop_loss": 19.85,
+      "stop_pct": -3.9,
+      "take_profit_1": 21.45,
+      "tp1_pct": 3.9,
+      "take_profit_2": 22.15,
+      "tp2_pct": 7.3,
+      "soporte_obvio": 20.0,
+      "resistencia_obvia": 21.5,
+      "soporte_secundario": 19.65,
+      "resistencia_secundaria": 22.0,
+      "distancia_max_52s_pct": -12.8,
+      "distancia_min_52s_pct": 18.7,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 110,
+      "catalizador_tipo": "MACRO",
+      "catalizador_desc": "Petroleo Brent subiendo y posible tension geopolitica Medio Oriente",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.6,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Sector energy volatil a cambios macro y geopoliticos",
+      "horizonte_dias": 5,
+      "eventos_proximos": [
+        {
+          "tipo": "EX_DIVIDENDO",
+          "fecha": "2026-04-15",
+          "descripcion": "Ex-dividendo trimestral"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "TEF",
+      "razon": "Sector telecom presionado por alta deuda y competencia",
+      "shorts_pct": 1.2
+    },
+    {
+      "ticker": "MRL",
+      "razon": "Sector inmobiliario en correccion por tipos altos",
+      "shorts_pct": 0.7
+    }
+  ]
+}

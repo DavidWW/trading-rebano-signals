@@ -1,0 +1,91 @@
+{
+  "fecha": "2026-02-25",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Petróleo",
+        "var_dia_pct": 2.3,
+        "nuevo_precio": 88.5
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "S&P 500",
+        "var_dia_pct": -1.1
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 22.5,
+      "nivel": "ALTO",
+      "cambio_significativo": true
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Energía",
+        "var_dia_pct": 1.8,
+        "direccion": "POSITIVO"
+      },
+      {
+        "nombre": "Tecnología",
+        "var_dia_pct": -1.5,
+        "direccion": "NEGATIVO"
+      }
+    ],
+    "resumen_cambios": "Incremento en commodities con volatilidad elevada"
+  },
+  "resumen": {
+    "ibex_var_pct": 0.2,
+    "valores_destacados": [
+      "REP +2.3%",
+      "ITX -1.1%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "SAN",
+      "nivel_barrido": 10.8,
+      "recupero": true,
+      "recuperacion_pct": 3.3
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "sector": "Energía",
+      "accion": "COMPRA",
+      "precio_cierre": 18.84,
+      "soporte_obvio": 18.5,
+      "resistencia_obvia": 19.5,
+      "soporte_secundario": 18.0,
+      "resistencia_secundaria": 20.0,
+      "distancia_max_52s_pct": -5.0,
+      "distancia_min_52s_pct": 8.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 140,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Rompimiento de resistencia con volumen",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-01",
+          "descripcion": "Publicación de resultados trimestrales"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "IBERDROLA",
+      "razon": "Shorts institucionales",
+      "shorts_pct": 0.6
+    },
+    {
+      "ticker": "BBVA",
+      "razon": "Shorts institucionales",
+      "shorts_pct": 0.7
+    }
+  ]
+}

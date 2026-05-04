@@ -1,0 +1,81 @@
+{
+  "fecha": "2026-03-27",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "WTI Crude Oil",
+        "var_dia_pct": 2.5,
+        "nuevo_precio": 74.5
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "S&P 500",
+        "var_dia_pct": 1.3
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 16.8,
+      "nivel": "NORMAL",
+      "cambio_significativo": true
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Energía",
+        "var_dia_pct": 2.1,
+        "direccion": "POSITIVO"
+      }
+    ],
+    "resumen_cambios": "Subida en sector Energía por alza en petróleo; mejora en VIX a nivel normal."
+  },
+  "resumen": {
+    "ibex_var_pct": 0.4,
+    "valores_destacados": [
+      "REP +2%",
+      "AMS -1%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "SAB",
+      "nivel_barrido": 2.98,
+      "recupero": true,
+      "recuperacion_pct": 1.3
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "sector": "Energía",
+      "accion": "COMPRA",
+      "precio_cierre": 24.07,
+      "soporte_obvio": 23.5,
+      "resistencia_obvia": 25.0,
+      "soporte_secundario": 23.25,
+      "resistencia_secundaria": 24.75,
+      "distancia_max_52s_pct": -8.0,
+      "distancia_min_52s_pct": 34.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 160,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Alza en petróleo, soporte técnico fuerte.",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-15",
+          "descripcion": "Presentación resultados trimestrales"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "UNI",
+      "razon": "Shorts institucionales elevados",
+      "shorts_pct": 1.2
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "fecha": "2026-02-16",
+  "sesion": "tarde",
+  "sentimiento": "ALCISTA",
+  "resumen": {
+    "ibex_var_pct": 0.0,
+    "valores_destacados": [
+      "ENG +3%",
+      "TEF -2%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "TEF",
+      "nivel_barrido": 3.5,
+      "recupero": false,
+      "recuperacion_pct": 0.0
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "ENG",
+      "nombre": "Enagás",
+      "accion": "COMPRA",
+      "precio_cierre": 15.07,
+      "soporte_obvio": 14.5,
+      "resistencia_obvia": 15.5,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Ruptura de resistencia con volumen"
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "TEF",
+      "razon": "Posible continuación bajista tras barrido negativo sin recuperación"
+    }
+  ]
+}

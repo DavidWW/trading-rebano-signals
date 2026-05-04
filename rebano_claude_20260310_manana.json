@@ -1,0 +1,309 @@
+{
+  "fecha": "2026-03-10",
+  "sesion": "manana",
+  "sentimiento": "NEUTRAL",
+  "radar_macro": {
+    "commodities": {
+      "oro": {
+        "precio_usd": 2687.5,
+        "var_semanal_pct": -0.8,
+        "var_mensual_pct": 1.2,
+        "dist_max_52s_pct": -2.1,
+        "alerta": false
+      },
+      "plata": {
+        "precio_usd": 31.45,
+        "var_semanal_pct": -1.2,
+        "var_mensual_pct": 0.9,
+        "dist_max_52s_pct": -4.3,
+        "alerta": false
+      },
+      "petroleo_brent": {
+        "precio_usd": 74.2,
+        "var_semanal_pct": 2.1,
+        "var_mensual_pct": 3.8,
+        "alerta": false
+      }
+    },
+    "indices": {
+      "sp500": {
+        "valor": 5912,
+        "var_semanal_pct": 1.3,
+        "dist_max_52s_pct": -1.8,
+        "alerta": false
+      },
+      "nasdaq100": {
+        "valor": 20456,
+        "var_semanal_pct": 2.1,
+        "dist_max_52s_pct": -0.9,
+        "alerta": false
+      },
+      "stoxx600": {
+        "valor": 523.4,
+        "var_semanal_pct": 0.7,
+        "dist_max_52s_pct": -3.2,
+        "alerta": false
+      },
+      "msci_em": {
+        "valor": 1089,
+        "var_semanal_pct": -0.4,
+        "dist_max_52s_pct": -5.1,
+        "alerta": false
+      },
+      "nikkei225": {
+        "valor": 40123,
+        "var_semanal_pct": -0.8,
+        "dist_max_52s_pct": -2.7,
+        "alerta": false
+      }
+    },
+    "sectores_europa": {
+      "mejor_sector": {
+        "nombre": "Energía",
+        "var_semanal_pct": 3.4
+      },
+      "peor_sector": {
+        "nombre": "Inmobiliario",
+        "var_semanal_pct": -2.1
+      },
+      "sector_en_correccion": {
+        "hay_correccion": true,
+        "nombre": "Tecnología China",
+        "caida_desde_max_pct": -12.8,
+        "causa": "tensiones_geopoliticas"
+      }
+    },
+    "divisas": {
+      "eur_usd": {
+        "valor": 1.0812,
+        "var_semanal_pct": -0.3,
+        "var_mensual_pct": 0.8
+      }
+    },
+    "vix": {
+      "valor": 16.8,
+      "nivel": "NORMAL"
+    },
+    "eventos_clave": [
+      {
+        "evento": "IPC USA febrero",
+        "hora_cet": "14:30",
+        "relevancia": "ALTA"
+      },
+      {
+        "evento": "Decisión BCE tipos",
+        "hora_cet": "14:15",
+        "relevancia": "ALTA"
+      },
+      {
+        "evento": "Inventarios petróleo EIA",
+        "hora_cet": "16:30",
+        "relevancia": "MEDIA"
+      }
+    ],
+    "resumen_macro": "Ambiente neutral con cautela antes de decisiones BCE e IPC USA"
+  },
+  "recomendaciones": [
+    {
+      "ranking": 1,
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "sector": "Energía",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 20.97,
+      "entrada": 20.85,
+      "stop_loss": 19.65,
+      "stop_pct": -5.8,
+      "take_profit_1": 22.15,
+      "tp1_pct": 6.2,
+      "take_profit_2": 23.45,
+      "tp2_pct": 12.5,
+      "soporte_obvio": 20.5,
+      "resistencia_obvia": 21.8,
+      "soporte_secundario": 19.9,
+      "resistencia_secundaria": 22.3,
+      "distancia_max_52s_pct": -4.2,
+      "distancia_min_52s_pct": 18.7,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 145,
+      "catalizador_tipo": "SECTORIAL",
+      "catalizador_desc": "Rally energético con Brent subiendo y sector mejor de Europa",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.3,
+      "prob_barrido": "BAJA",
+      "riesgo": "Volatilidad del crudo por eventos geopolíticos",
+      "horizonte_dias": 4,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-28",
+          "descripcion": "Resultados Q1 2026"
+        }
+      ]
+    },
+    {
+      "ranking": 2,
+      "ticker": "BBVA",
+      "nombre": "BBVA",
+      "sector": "Banca",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 18.22,
+      "entrada": 18.15,
+      "stop_loss": 17.15,
+      "stop_pct": -5.9,
+      "take_profit_1": 19.25,
+      "tp1_pct": 6.1,
+      "take_profit_2": 20.1,
+      "tp2_pct": 10.7,
+      "soporte_obvio": 17.8,
+      "resistencia_obvia": 18.9,
+      "soporte_secundario": 17.3,
+      "resistencia_secundaria": 19.4,
+      "distancia_max_52s_pct": -6.1,
+      "distancia_min_52s_pct": 22.8,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 125,
+      "catalizador_tipo": "MACRO",
+      "catalizador_desc": "Expectativas alza tipos BCE próximas reuniones",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.4,
+      "prob_barrido": "BAJA",
+      "riesgo": "Decisión BCE hoy podría decepcionar expectativas hawkish",
+      "horizonte_dias": 5,
+      "eventos_proximos": [
+        {
+          "tipo": "EX_DIVIDENDO",
+          "fecha": "2026-03-18",
+          "descripcion": "Ex-dividendo 0.42€"
+        }
+      ]
+    },
+    {
+      "ranking": 3,
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "sector": "Retail",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 50.8,
+      "entrada": 50.65,
+      "stop_loss": 48.35,
+      "stop_pct": -4.5,
+      "take_profit_1": 52.8,
+      "tp1_pct": 4.2,
+      "take_profit_2": 54.2,
+      "tp2_pct": 7.0,
+      "soporte_obvio": 49.5,
+      "resistencia_obvia": 52.0,
+      "soporte_secundario": 48.8,
+      "resistencia_secundaria": 53.5,
+      "distancia_max_52s_pct": -8.3,
+      "distancia_min_52s_pct": 31.2,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 110,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "catalizador_desc": "Ventas marzo fuertes esperadas, inicio temporada primavera",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.2,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Consumo europeo débil puede afectar guidance",
+      "horizonte_dias": 4,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-20",
+          "descripcion": "Presentación ventas Q1"
+        }
+      ]
+    },
+    {
+      "ranking": 4,
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "VENTA",
+      "conviccion": "MEDIA",
+      "precio_actual": 19.12,
+      "entrada": 19.25,
+      "stop_loss": 20.15,
+      "stop_pct": -4.7,
+      "take_profit_1": 18.15,
+      "tp1_pct": 5.1,
+      "take_profit_2": 17.45,
+      "tp2_pct": 8.7,
+      "soporte_obvio": 18.5,
+      "resistencia_obvia": 19.8,
+      "soporte_secundario": 17.9,
+      "resistencia_secundaria": 20.3,
+      "distancia_max_52s_pct": -12.8,
+      "distancia_min_52s_pct": 15.3,
+      "tendencia": "BAJISTA",
+      "volumen_vs_media_pct": 135,
+      "catalizador_tipo": "SECTORIAL",
+      "catalizador_desc": "Rotación desde utilities defensivas hacia cíclicas energéticas",
+      "catalizador_reversible": true,
+      "shorts_pct": 1.2,
+      "prob_barrido": "ALTA",
+      "riesgo": "Stop muy ajustado por alta probabilidad barrido institucional",
+      "horizonte_dias": 3,
+      "eventos_proximos": [
+        {
+          "tipo": "JUNTA",
+          "fecha": "2026-03-25",
+          "descripcion": "Junta General Accionistas"
+        }
+      ]
+    },
+    {
+      "ranking": 5,
+      "ticker": "ACS",
+      "nombre": "ACS",
+      "sector": "Construcción",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 103.5,
+      "entrada": 103.15,
+      "stop_loss": 98.65,
+      "stop_pct": -4.4,
+      "take_profit_1": 107.8,
+      "tp1_pct": 4.5,
+      "take_profit_2": 111.2,
+      "tp2_pct": 7.8,
+      "soporte_obvio": 101.0,
+      "resistencia_obvia": 106.5,
+      "soporte_secundario": 99.2,
+      "resistencia_secundaria": 108.8,
+      "distancia_max_52s_pct": -2.8,
+      "distancia_min_52s_pct": 28.5,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 95,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "catalizador_desc": "Pipeline infraestructuras USA robusto, cartera récord",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.1,
+      "prob_barrido": "BAJA",
+      "riesgo": "Exposición dólar fuerte puede generar volatilidad",
+      "horizonte_dias": 5,
+      "eventos_proximos": []
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "IBE",
+      "razon": "Shorts institucionales elevados 1.2%, alta probabilidad barrido",
+      "shorts_pct": 1.2
+    },
+    {
+      "ticker": "TEF",
+      "razon": "Tendencia bajista confirmada, sin catalizadores positivos",
+      "shorts_pct": 0.8
+    },
+    {
+      "ticker": "COL",
+      "razon": "Sector inmobiliario peor de Europa esta semana",
+      "shorts_pct": 0.3
+    }
+  ]
+}

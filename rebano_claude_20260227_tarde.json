@@ -1,0 +1,161 @@
+{
+  "fecha": "2026-02-27",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Brent",
+        "var_dia_pct": -1.8,
+        "nuevo_precio": 74.2
+      },
+      {
+        "activo": "Gas Natural",
+        "var_dia_pct": 2.4,
+        "nuevo_precio": 28.5
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "DAX",
+        "var_dia_pct": -0.8
+      },
+      {
+        "indice": "FTSE",
+        "var_dia_pct": 0.6
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 17.2,
+      "nivel": "NORMAL",
+      "cambio_significativo": false
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Salud",
+        "var_dia_pct": 1.8,
+        "direccion": "POSITIVO"
+      },
+      {
+        "nombre": "Energía",
+        "var_dia_pct": -1.5,
+        "direccion": "NEGATIVO"
+      }
+    ],
+    "resumen_cambios": "Sesión mixta con rotación hacia defensivos por tensiones geopolíticas"
+  },
+  "resumen": {
+    "ibex_var_pct": -0.3,
+    "valores_destacados": [
+      "ROVI +2.1%",
+      "PHM +1.8%",
+      "REP -1.9%",
+      "SLR -1.6%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "TEF",
+      "nivel_barrido": 3.8,
+      "recupero": false,
+      "recuperacion_pct": 0.0
+    },
+    {
+      "ticker": "MAP",
+      "nivel_barrido": 4.0,
+      "recupero": true,
+      "recuperacion_pct": 1.3
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "ROVI",
+      "nombre": "Laboratorios Rovi",
+      "sector": "Salud",
+      "accion": "COMPRA",
+      "precio_cierre": 84.75,
+      "soporte_obvio": 82.15,
+      "resistencia_obvia": 88.5,
+      "soporte_secundario": 79.65,
+      "resistencia_secundaria": 91.25,
+      "distancia_max_52s_pct": -8.5,
+      "distancia_min_52s_pct": 24.7,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 165,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Sector salud atrae flujos defensivos, ruptura resistencia 84.00 con volumen",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-05",
+          "descripcion": "Resultados anuales 2025"
+        }
+      ]
+    },
+    {
+      "ticker": "BBVA",
+      "nombre": "Banco Bilbao Vizcaya",
+      "sector": "Banca",
+      "accion": "VIGILAR",
+      "precio_cierre": 19.75,
+      "soporte_obvio": 19.25,
+      "resistencia_obvia": 20.5,
+      "soporte_secundario": 18.85,
+      "resistencia_secundaria": 21.15,
+      "distancia_max_52s_pct": -12.3,
+      "distancia_min_52s_pct": 18.9,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 95,
+      "catalizador_tipo": "MACRO",
+      "razon": "Consolidación en rango, pendiente de datos macro para dirección",
+      "eventos_proximos": [
+        {
+          "tipo": "EX_DIVIDENDO",
+          "fecha": "2026-03-08",
+          "descripcion": "Ex-dividendo 0.42€"
+        }
+      ]
+    },
+    {
+      "ticker": "ACS",
+      "nombre": "ACS Actividades",
+      "sector": "Construcción",
+      "accion": "COMPRA",
+      "precio_cierre": 109.6,
+      "soporte_obvio": 106.35,
+      "resistencia_obvia": 115.8,
+      "soporte_secundario": 103.25,
+      "resistencia_secundaria": 119.45,
+      "distancia_max_52s_pct": -5.2,
+      "distancia_min_52s_pct": 31.8,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 140,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Beneficiario de plan infraestructuras UE, momentum alcista intacto",
+      "eventos_proximos": [
+        {
+          "tipo": "JUNTA",
+          "fecha": "2026-03-12",
+          "descripcion": "Junta General Ordinaria"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "REP",
+      "razon": "Presión por caída del Brent, resistencia en 19.50",
+      "shorts_pct": 0.8
+    },
+    {
+      "ticker": "TEF",
+      "razon": "Ruptura soporte clave 3.80, debilidad técnica",
+      "shorts_pct": 1.2
+    },
+    {
+      "ticker": "IAG",
+      "razon": "Sector aéreo vulnerable a volatilidad combustible",
+      "shorts_pct": 0.6
+    }
+  ]
+}

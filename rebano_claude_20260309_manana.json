@@ -1,0 +1,315 @@
+{
+  "fecha": "2026-03-09",
+  "sesion": "manana",
+  "sentimiento": "NEUTRAL",
+  "radar_macro": {
+    "commodities": {
+      "oro": {
+        "precio_usd": 2018.5,
+        "var_semanal_pct": -1.2,
+        "var_mensual_pct": 2.3,
+        "dist_max_52s_pct": -4.5,
+        "alerta": false
+      },
+      "plata": {
+        "precio_usd": 23.45,
+        "var_semanal_pct": -2.1,
+        "var_mensual_pct": 1.8,
+        "dist_max_52s_pct": -8.2,
+        "alerta": false
+      },
+      "petroleo_brent": {
+        "precio_usd": 82.15,
+        "var_semanal_pct": 1.6,
+        "var_mensual_pct": 3.4,
+        "alerta": false
+      }
+    },
+    "indices": {
+      "sp500": {
+        "valor": 5845,
+        "var_semanal_pct": 0.8,
+        "dist_max_52s_pct": -2.1,
+        "alerta": false
+      },
+      "nasdaq100": {
+        "valor": 20125,
+        "var_semanal_pct": 1.2,
+        "dist_max_52s_pct": -3.5,
+        "alerta": false
+      },
+      "stoxx600": {
+        "valor": 512.3,
+        "var_semanal_pct": -0.3,
+        "dist_max_52s_pct": -5.8,
+        "alerta": false
+      },
+      "msci_em": {
+        "valor": 1089,
+        "var_semanal_pct": -1.1,
+        "dist_max_52s_pct": -8.7,
+        "alerta": true
+      },
+      "nikkei225": {
+        "valor": 38950,
+        "var_semanal_pct": 0.5,
+        "dist_max_52s_pct": -1.2,
+        "alerta": false
+      }
+    },
+    "sectores_europa": {
+      "mejor_sector": {
+        "nombre": "Tecnología",
+        "var_semanal_pct": 2.4
+      },
+      "peor_sector": {
+        "nombre": "Utilities",
+        "var_semanal_pct": -2.8
+      },
+      "sector_en_correccion": {
+        "hay_correccion": true,
+        "nombre": "Inmobiliario",
+        "caida_desde_max_pct": -12.3,
+        "causa": "tipos_altos"
+      }
+    },
+    "divisas": {
+      "eur_usd": {
+        "valor": 1.0785,
+        "var_semanal_pct": 0.4,
+        "var_mensual_pct": -1.2
+      }
+    },
+    "vix": {
+      "valor": 16.8,
+      "nivel": "NORMAL"
+    },
+    "eventos_clave": [
+      {
+        "evento": "IPC España (febrero)",
+        "hora_cet": "09:00",
+        "relevancia": "MEDIA"
+      },
+      {
+        "evento": "Producción industrial Alemania",
+        "hora_cet": "11:00",
+        "relevancia": "MEDIA"
+      },
+      {
+        "evento": "Inventarios petróleo EIA",
+        "hora_cet": "16:30",
+        "relevancia": "BAJA"
+      }
+    ],
+    "resumen_macro": "Sesión neutral con divergencias sectoriales, emergentes bajo presión"
+  },
+  "recomendaciones": [
+    {
+      "ranking": 1,
+      "ticker": "IDR",
+      "nombre": "Indra Sistemas",
+      "sector": "Defensa/Tech",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 59.95,
+      "entrada": 60.15,
+      "stop_loss": 57.65,
+      "stop_pct": -4.2,
+      "take_profit_1": 63.85,
+      "tp1_pct": 6.2,
+      "take_profit_2": 66.5,
+      "tp2_pct": 10.6,
+      "soporte_obvio": 58.0,
+      "resistencia_obvia": 62.0,
+      "soporte_secundario": 56.25,
+      "resistencia_secundaria": 64.75,
+      "distancia_max_52s_pct": -3.2,
+      "distancia_min_52s_pct": 28.5,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 145,
+      "catalizador_tipo": "SECTORIAL",
+      "catalizador_desc": "Sector defensa europeo en máximos por tensiones geopolíticas",
+      "catalizador_reversible": false,
+      "shorts_pct": 1.8,
+      "prob_barrido": "BAJA",
+      "riesgo": "Corrección técnica tras subidas recientes",
+      "horizonte_dias": 4,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-25",
+          "descripcion": "Q4 2025 earnings"
+        }
+      ]
+    },
+    {
+      "ranking": 2,
+      "ticker": "AMS",
+      "nombre": "Amadeus",
+      "sector": "Tecnología/Turismo",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 54.62,
+      "entrada": 54.85,
+      "stop_loss": 52.35,
+      "stop_pct": -4.6,
+      "take_profit_1": 57.25,
+      "tp1_pct": 4.4,
+      "take_profit_2": 59.5,
+      "tp2_pct": 8.5,
+      "soporte_obvio": 53.0,
+      "resistencia_obvia": 56.5,
+      "soporte_secundario": 51.15,
+      "resistencia_secundaria": 58.75,
+      "distancia_max_52s_pct": -8.7,
+      "distancia_min_52s_pct": 22.3,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 120,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "catalizador_desc": "Temporada alta reservas verano 2026 iniciando",
+      "catalizador_reversible": true,
+      "shorts_pct": 2.1,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Dependencia del turismo y tipos de cambio",
+      "horizonte_dias": 5,
+      "eventos_proximos": [
+        {
+          "tipo": "EX_DIVIDENDO",
+          "fecha": "2026-03-20",
+          "descripcion": "0.85€ por acción"
+        }
+      ]
+    },
+    {
+      "ranking": 3,
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "sector": "Energía",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 20.76,
+      "entrada": 20.85,
+      "stop_loss": 19.95,
+      "stop_pct": -4.3,
+      "take_profit_1": 21.85,
+      "tp1_pct": 4.8,
+      "take_profit_2": 22.75,
+      "tp2_pct": 9.1,
+      "soporte_obvio": 20.0,
+      "resistencia_obvia": 21.5,
+      "soporte_secundario": 19.25,
+      "resistencia_secundaria": 22.25,
+      "distancia_max_52s_pct": -12.5,
+      "distancia_min_52s_pct": 15.8,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 110,
+      "catalizador_tipo": "MACRO",
+      "catalizador_desc": "Brent recuperando niveles, refinado mejorando márgenes",
+      "catalizador_reversible": true,
+      "shorts_pct": 3.2,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Volatilidad commodities y presión regulatoria ESG",
+      "horizonte_dias": 4,
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-03-28",
+          "descripcion": "Dividendo trimestral 0.32€"
+        }
+      ]
+    },
+    {
+      "ranking": 4,
+      "ticker": "BBVA",
+      "nombre": "Banco Bilbao Vizcaya",
+      "sector": "Banca",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 18.37,
+      "entrada": 18.45,
+      "stop_loss": 17.65,
+      "stop_pct": -4.3,
+      "take_profit_1": 19.25,
+      "tp1_pct": 4.3,
+      "take_profit_2": 20.15,
+      "tp2_pct": 9.2,
+      "soporte_obvio": 18.0,
+      "resistencia_obvia": 19.0,
+      "soporte_secundario": 17.25,
+      "resistencia_secundaria": 19.85,
+      "distancia_max_52s_pct": -6.8,
+      "distancia_min_52s_pct": 18.7,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 95,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "catalizador_desc": "Márgenes estables, México sólido, buyback activo",
+      "catalizador_reversible": false,
+      "shorts_pct": 1.4,
+      "prob_barrido": "BAJA",
+      "riesgo": "Riesgo regulatorio en banca y tipos bajando",
+      "horizonte_dias": 5,
+      "eventos_proximos": [
+        {
+          "tipo": "JUNTA",
+          "fecha": "2026-03-18",
+          "descripcion": "Junta General Ordinaria"
+        }
+      ]
+    },
+    {
+      "ranking": 5,
+      "ticker": "PHM",
+      "nombre": "Pharma Mar",
+      "sector": "Salud",
+      "accion": "VENTA",
+      "conviccion": "ALTA",
+      "precio_actual": 80.4,
+      "entrada": 80.15,
+      "stop_loss": 83.85,
+      "stop_pct": -4.6,
+      "take_profit_1": 76.25,
+      "tp1_pct": 4.9,
+      "take_profit_2": 72.5,
+      "tp2_pct": 9.6,
+      "soporte_obvio": 78.0,
+      "resistencia_obvia": 82.5,
+      "soporte_secundario": 75.15,
+      "resistencia_secundaria": 85.25,
+      "distancia_max_52s_pct": -8.9,
+      "distancia_min_52s_pct": 45.2,
+      "tendencia": "BAJISTA",
+      "volumen_vs_media_pct": 160,
+      "catalizador_tipo": "TECNICO",
+      "catalizador_desc": "Ruptura soporte clave, volumen vendedor institucional",
+      "catalizador_reversible": true,
+      "shorts_pct": 4.8,
+      "prob_barrido": "ALTA",
+      "riesgo": "Rebote técnico en biotech por noticias pipeline",
+      "horizonte_dias": 3,
+      "eventos_proximos": [
+        {
+          "tipo": "OTRO",
+          "fecha": "2026-03-15",
+          "descripcion": "Conferencia oncología ASCO-GI"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "TEF",
+      "razon": "Sector telecom bajo presión regulatoria",
+      "shorts_pct": 3.8
+    },
+    {
+      "ticker": "COL",
+      "razon": "Inmobiliario en corrección por tipos altos",
+      "shorts_pct": 6.2
+    },
+    {
+      "ticker": "MRL",
+      "razon": "Sector inmobiliario débil, alta presión bajista",
+      "shorts_pct": 5.1
+    }
+  ]
+}

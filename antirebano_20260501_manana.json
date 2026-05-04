@@ -1,0 +1,317 @@
+{
+  "version": "4.5",
+  "fecha": "2026-05-01",
+  "sesion": "manana",
+  "hora": "10:24",
+  "alertas_shorts": [],
+  "consensos_ayer_pendientes": [],
+  "triangulacion": {
+    "consensos": [],
+    "solo_claude": [],
+    "solo_openai": [
+      {
+        "ranking": 1,
+        "ticker": "ITX",
+        "nombre": "Inditex",
+        "sector": "Retail",
+        "accion": "COMPRA",
+        "conviccion": "ALTA",
+        "precio_actual": 50.58,
+        "entrada": 50.6,
+        "stop_loss": 48.99,
+        "stop_pct": -3.1,
+        "take_profit_1": 52.5,
+        "tp1_pct": 3.8,
+        "take_profit_2": 54.5,
+        "tp2_pct": 7.7,
+        "soporte_obvio": 49.0,
+        "resistencia_obvia": 52.0,
+        "soporte_secundario": 48.5,
+        "resistencia_secundaria": 55.0,
+        "distancia_max_52s_pct": -1.0,
+        "distancia_min_52s_pct": 25.0,
+        "tendencia": "ALCISTA",
+        "volumen_vs_media_pct": 120,
+        "catalizador_tipo": "SECTORIAL",
+        "catalizador_desc": "Crecimiento sólido en ventas debido a expansión online",
+        "catalizador_reversible": false,
+        "shorts_pct": 0.3,
+        "prob_barrido": "BAJA",
+        "riesgo": "Variabilidad en la demanda de consumo",
+        "horizonte_dias": 4,
+        "eventos_proximos": [
+          {
+            "tipo": "RESULTADOS",
+            "fecha": "2026-05-10",
+            "descripcion": "Resultados del Q1"
+          }
+        ]
+      },
+      {
+        "ranking": 2,
+        "ticker": "TEF",
+        "nombre": "Telefónica",
+        "sector": "Telecom",
+        "accion": "VENTA",
+        "conviccion": "MEDIA",
+        "precio_actual": 3.86,
+        "entrada": 3.85,
+        "stop_loss": 4.0,
+        "stop_pct": -3.9,
+        "take_profit_1": 3.7,
+        "tp1_pct": -4.2,
+        "take_profit_2": 3.55,
+        "tp2_pct": -8.0,
+        "soporte_obvio": 3.6,
+        "resistencia_obvia": 4.0,
+        "soporte_secundario": 3.5,
+        "resistencia_secundaria": 4.1,
+        "distancia_max_52s_pct": -25.0,
+        "distancia_min_52s_pct": 5.0,
+        "tendencia": "LATERAL",
+        "volumen_vs_media_pct": 100,
+        "catalizador_tipo": "MACRO",
+        "catalizador_desc": "Preocupaciones sobre deuda y márgenes en sectores de telecomunicaciones",
+        "catalizador_reversible": true,
+        "shorts_pct": 1.2,
+        "prob_barrido": "MEDIA",
+        "riesgo": "Posible rebote técnico",
+        "horizonte_dias": 2,
+        "eventos_proximos": [
+          {
+            "tipo": "JUNTA",
+            "fecha": "2026-05-15",
+            "descripcion": "Junta de accionistas"
+          }
+        ]
+      },
+      {
+        "ranking": 3,
+        "ticker": "REP",
+        "nombre": "Repsol",
+        "sector": "Energía",
+        "accion": "COMPRA",
+        "conviccion": "MEDIA",
+        "precio_actual": 22.78,
+        "entrada": 22.8,
+        "stop_loss": 21.95,
+        "stop_pct": -3.7,
+        "take_profit_1": 23.85,
+        "tp1_pct": 4.6,
+        "take_profit_2": 24.5,
+        "tp2_pct": 7.5,
+        "soporte_obvio": 22.0,
+        "resistencia_obvia": 23.5,
+        "soporte_secundario": 21.0,
+        "resistencia_secundaria": 25.0,
+        "distancia_max_52s_pct": -10.0,
+        "distancia_min_52s_pct": 20.0,
+        "tendencia": "LATERAL",
+        "volumen_vs_media_pct": 105,
+        "catalizador_tipo": "TECNICO",
+        "catalizador_desc": "Recuperación técnica tras retroceso en precios del crudo",
+        "catalizador_reversible": true,
+        "shorts_pct": 0.6,
+        "prob_barrido": "BAJA",
+        "riesgo": "Fluctuaciones en precios del petróleo",
+        "horizonte_dias": 3,
+        "eventos_proximos": [
+          {
+            "tipo": "DIVIDENDO",
+            "fecha": "2026-05-20",
+            "descripcion": "Pago de dividendo"
+          }
+        ]
+      },
+      {
+        "ranking": 4,
+        "ticker": "MAP",
+        "nombre": "Mapfre",
+        "sector": "Seguros",
+        "accion": "VENTA",
+        "conviccion": "BAJA",
+        "precio_actual": 4.17,
+        "entrada": 4.15,
+        "stop_loss": 4.3,
+        "stop_pct": -3.5,
+        "take_profit_1": 4.0,
+        "tp1_pct": -4.1,
+        "take_profit_2": 3.85,
+        "tp2_pct": -7.7,
+        "soporte_obvio": 3.9,
+        "resistencia_obvia": 4.3,
+        "soporte_secundario": 3.8,
+        "resistencia_secundaria": 4.4,
+        "distancia_max_52s_pct": -30.0,
+        "distancia_min_52s_pct": 10.0,
+        "tendencia": "BAJISTA",
+        "volumen_vs_media_pct": 90,
+        "catalizador_tipo": "FUNDAMENTAL",
+        "catalizador_desc": "Resultados decepcionantes proyectan incertidumbre",
+        "catalizador_reversible": true,
+        "shorts_pct": 0.8,
+        "prob_barrido": "BAJA",
+        "riesgo": "Mejora en resultados del siguiente trimestre",
+        "horizonte_dias": 4,
+        "eventos_proximos": [
+          {
+            "tipo": "RESULTADOS",
+            "fecha": "2026-05-18",
+            "descripcion": "Presentación de resultados Q1"
+          }
+        ]
+      },
+      {
+        "ranking": 5,
+        "ticker": "AMS",
+        "nombre": "Amadeus",
+        "sector": "Tecnología/Turismo",
+        "accion": "COMPRA",
+        "conviccion": "MEDIA",
+        "precio_actual": 49.0,
+        "entrada": 49.2,
+        "stop_loss": 47.65,
+        "stop_pct": -3.1,
+        "take_profit_1": 51.5,
+        "tp1_pct": 4.7,
+        "take_profit_2": 53.0,
+        "tp2_pct": 8.2,
+        "soporte_obvio": 48.0,
+        "resistencia_obvia": 50.0,
+        "soporte_secundario": 46.0,
+        "resistencia_secundaria": 55.0,
+        "distancia_max_52s_pct": -8.0,
+        "distancia_min_52s_pct": 20.0,
+        "tendencia": "ALCISTA",
+        "volumen_vs_media_pct": 115,
+        "catalizador_tipo": "SECTORIAL",
+        "catalizador_desc": "Aumento de reservas de viaje tras recuperación del turismo",
+        "catalizador_reversible": false,
+        "shorts_pct": 0.4,
+        "prob_barrido": "MEDIA",
+        "riesgo": "Brote de nueva variante COVID que afecte turismo",
+        "horizonte_dias": 3,
+        "eventos_proximos": [
+          {
+            "tipo": "RESULTADOS",
+            "fecha": "2026-05-12",
+            "descripcion": "Anuncio de resultados del Q1"
+          }
+        ]
+      }
+    ],
+    "evitar": [
+      {
+        "ticker": "TEF",
+        "razon": "Alto nivel de shorts institucionales",
+        "shorts_pct": 1.2
+      }
+    ],
+    "sentimiento_claude": "NEUTRAL",
+    "sentimiento_openai": "NEUTRAL",
+    "radar_macro_claude": {},
+    "radar_macro_openai": {
+      "commodities": {
+        "oro": {
+          "precio_usd": 1860.0,
+          "var_semanal_pct": 0.5,
+          "var_mensual_pct": -1.2,
+          "dist_max_52s_pct": -15.0,
+          "alerta": false
+        },
+        "plata": {
+          "precio_usd": 25.3,
+          "var_semanal_pct": 1.0,
+          "var_mensual_pct": 0.8,
+          "dist_max_52s_pct": -10.5,
+          "alerta": false
+        },
+        "petroleo_brent": {
+          "precio_usd": 72.5,
+          "var_semanal_pct": -1.8,
+          "var_mensual_pct": -5.0,
+          "alerta": false
+        }
+      },
+      "indices": {
+        "sp500": {
+          "valor": 4300,
+          "var_semanal_pct": 0.2,
+          "dist_max_52s_pct": -4.0,
+          "alerta": false
+        },
+        "nasdaq100": {
+          "valor": 14200,
+          "var_semanal_pct": 1.0,
+          "dist_max_52s_pct": -7.0,
+          "alerta": false
+        },
+        "stoxx600": {
+          "valor": 460,
+          "var_semanal_pct": 0.3,
+          "dist_max_52s_pct": -3.5,
+          "alerta": false
+        },
+        "msci_em": {
+          "valor": 1100,
+          "var_semanal_pct": -0.5,
+          "dist_max_52s_pct": -10.0,
+          "alerta": false
+        },
+        "nikkei225": {
+          "valor": 29000,
+          "var_semanal_pct": -0.7,
+          "dist_max_52s_pct": -8.0,
+          "alerta": false
+        }
+      },
+      "sectores_europa": {
+        "mejor_sector": {
+          "nombre": "Tecnología",
+          "var_semanal_pct": 1.5
+        },
+        "peor_sector": {
+          "nombre": "Energía",
+          "var_semanal_pct": -1.2
+        },
+        "sector_en_correccion": {
+          "hay_correccion": true,
+          "nombre": "Consumo Discrecional",
+          "caida_desde_max_pct": 12.0,
+          "causa": "Bajas expectativas de consumo"
+        }
+      },
+      "divisas": {
+        "eur_usd": {
+          "valor": 1.1,
+          "var_semanal_pct": 0.2,
+          "var_mensual_pct": 1.0
+        }
+      },
+      "vix": {
+        "valor": 18.0,
+        "nivel": "NORMAL"
+      },
+      "eventos_clave": [
+        {
+          "evento": "Decisión de tipos de interés del BCE",
+          "hora_cet": "13:30",
+          "relevancia": "ALTA"
+        },
+        {
+          "evento": "Datos de empleo EE.UU.",
+          "hora_cet": "14:30",
+          "relevancia": "ALTA"
+        }
+      ],
+      "resumen_macro": "Mercados en modo neutral con atención en los bancos centrales y datos de empleo"
+    }
+  },
+  "reglas_aplicadas": {
+    "R9_delay": false,
+    "R10_shorts": false,
+    "consensos_hoy": 0,
+    "valores_evitar": 1
+  },
+  "accion_recomendada": "EVALUAR"
+}

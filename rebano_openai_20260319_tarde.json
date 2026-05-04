@@ -1,0 +1,81 @@
+{
+  "fecha": "2026-03-19",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Crudo Brent",
+        "var_dia_pct": 2.5,
+        "nuevo_precio": 85.3
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "S&P 500",
+        "var_dia_pct": -1.2
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 24.5,
+      "nivel": "ALTO",
+      "cambio_significativo": true
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Tecnología",
+        "var_dia_pct": 1.6,
+        "direccion": "POSITIVO"
+      }
+    ],
+    "resumen_cambios": "Aumento en commodities energéticos; volatilidad en alza."
+  },
+  "resumen": {
+    "ibex_var_pct": 0.2,
+    "valores_destacados": [
+      "IBE +2%",
+      "BBVA -1%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "BBVA",
+      "nivel_barrido": 17.8,
+      "recupero": true,
+      "recuperacion_pct": 0.7
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "precio_cierre": 19.56,
+      "soporte_obvio": 18.9,
+      "resistencia_obvia": 20.5,
+      "soporte_secundario": 18.6,
+      "resistencia_secundaria": 21.0,
+      "distancia_max_52s_pct": -5.2,
+      "distancia_min_52s_pct": 20.3,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 145,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Rompe resistencia con alto volumen",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-25",
+          "descripcion": "Resultados trimestrales"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "CABK",
+      "razon": "Shorts institucionales elevados",
+      "shorts_pct": 0.9
+    }
+  ]
+}

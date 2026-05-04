@@ -1,0 +1,38 @@
+{
+  "fecha": "2026-02-04",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "resumen": {
+    "ibex_var_pct": 0.0,
+    "valores_destacados": [
+      "ACS +1%",
+      "MAP -1%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "ACS",
+      "nivel_barrido": 92.0,
+      "recupero": true,
+      "recuperacion_pct": 1.0
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "BBVA",
+      "nombre": "Banco Bilbao Vizcaya Argentaria",
+      "accion": "VIGILAR",
+      "precio_cierre": 21.91,
+      "soporte_obvio": 21.0,
+      "resistencia_obvia": 22.5,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Actividad inusual en volumen"
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "SAN",
+      "razon": "Shorts por encima de 1%"
+    }
+  ]
+}

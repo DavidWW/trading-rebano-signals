@@ -1,0 +1,565 @@
+{
+  "version": "4.5",
+  "fecha": "2026-04-02",
+  "sesion": "manana",
+  "hora": "08:52",
+  "alertas_shorts": [],
+  "consensos_ayer_pendientes": [],
+  "triangulacion": {
+    "consensos": [
+      {
+        "ticker": "ACS",
+        "nombre": "ACS Actividades Construcción",
+        "sector": "Construcción",
+        "accion": "COMPRA",
+        "tipo": "TOTAL",
+        "conviccion_claude": "ALTA",
+        "conviccion_openai": "BAJA",
+        "stop_claude": 107.15,
+        "stop_openai": 108.8,
+        "target_claude": 117.8,
+        "target_openai": 116.0,
+        "soporte_obvio_claude": 109.5,
+        "soporte_obvio_openai": 109.5,
+        "soporte_sec_claude": 106.85,
+        "soporte_sec_openai": 106.0,
+        "resistencia_obvia_claude": 118.0,
+        "resistencia_obvia_openai": 115.0,
+        "catalizador_claude": "FUNDAMENTAL",
+        "catalizador_openai": "FUNDAMENTAL",
+        "prob_barrido_claude": "BAJA",
+        "prob_barrido_openai": "BAJA",
+        "tendencia_claude": "ALCISTA",
+        "tendencia_openai": "ALCISTA",
+        "dist_max_52s_claude": -6.1,
+        "dist_max_52s_openai": -9.0,
+        "dist_min_52s_claude": 42.5,
+        "dist_min_52s_openai": 15.0,
+        "volumen_claude": 118,
+        "volumen_openai": 105,
+        "shorts_claude": 0.3,
+        "shorts_openai": 0.3,
+        "eventos_claude": [
+          {
+            "tipo": "DIVIDENDO",
+            "fecha": "2026-04-22",
+            "descripcion": "Pago dividendo complementario estimado 1.85€/acción"
+          }
+        ],
+        "eventos_openai": [
+          {
+            "tipo": "OTRO",
+            "fecha": "2026-04-18",
+            "descripcion": "Anuncio de nuevos proyectos"
+          }
+        ],
+        "precio_actual": 112.2
+      },
+      {
+        "ticker": "IBE",
+        "nombre": "Iberdrola",
+        "sector": "Utilities",
+        "accion": "COMPRA",
+        "tipo": "TOTAL",
+        "conviccion_claude": "MEDIA",
+        "conviccion_openai": "MEDIA",
+        "stop_claude": 19.25,
+        "stop_openai": 19.3,
+        "target_claude": 21.1,
+        "target_openai": 21.0,
+        "soporte_obvio_claude": 19.6,
+        "soporte_obvio_openai": 19.5,
+        "soporte_sec_claude": 18.85,
+        "soporte_sec_openai": 18.9,
+        "resistencia_obvia_claude": 21.15,
+        "resistencia_obvia_openai": 20.8,
+        "catalizador_claude": "MACRO",
+        "catalizador_openai": "MACRO",
+        "prob_barrido_claude": "BAJA",
+        "prob_barrido_openai": "BAJA",
+        "tendencia_claude": "ALCISTA",
+        "tendencia_openai": "ALCISTA",
+        "dist_max_52s_claude": -3.8,
+        "dist_max_52s_openai": -14.2,
+        "dist_min_52s_claude": 38.7,
+        "dist_min_52s_openai": 20.8,
+        "volumen_claude": 108,
+        "volumen_openai": 110,
+        "shorts_claude": 0.2,
+        "shorts_openai": 0.4,
+        "eventos_claude": [
+          {
+            "tipo": "EX_DIVIDENDO",
+            "fecha": "2026-04-09",
+            "descripcion": "Ex-dividendo estimado 0.21€/acción, dividendo a cuenta"
+          }
+        ],
+        "eventos_openai": [
+          {
+            "tipo": "EX_DIVIDENDO",
+            "fecha": "2026-04-12",
+            "descripcion": "Fecha ex-dividendo"
+          }
+        ],
+        "precio_actual": 20.07
+      },
+      {
+        "ticker": "SAN",
+        "nombre": "Banco Santander",
+        "sector": "Banca",
+        "accion": "COMPRA",
+        "tipo": "TOTAL",
+        "conviccion_claude": "MEDIA",
+        "conviccion_openai": "MEDIA",
+        "stop_claude": 9.57,
+        "stop_openai": 9.45,
+        "target_claude": 10.55,
+        "target_openai": 10.5,
+        "soporte_obvio_claude": 9.7,
+        "soporte_obvio_openai": 9.5,
+        "soporte_sec_claude": 9.35,
+        "soporte_sec_openai": 9.0,
+        "resistencia_obvia_claude": 10.6,
+        "resistencia_obvia_openai": 10.5,
+        "catalizador_claude": "FUNDAMENTAL",
+        "catalizador_openai": "FUNDAMENTAL",
+        "prob_barrido_claude": "MEDIA",
+        "prob_barrido_openai": "MEDIA",
+        "tendencia_claude": "ALCISTA",
+        "tendencia_openai": "ALCISTA",
+        "dist_max_52s_claude": -5.4,
+        "dist_max_52s_openai": -12.0,
+        "dist_min_52s_claude": 51.2,
+        "dist_min_52s_openai": 18.5,
+        "volumen_claude": 124,
+        "volumen_openai": 130,
+        "shorts_claude": 1.1,
+        "shorts_openai": 0.4,
+        "eventos_claude": [
+          {
+            "tipo": "RESULTADOS",
+            "fecha": "2026-04-29",
+            "descripcion": "Resultados primer trimestre 2026, BPA estimado 0.38€"
+          }
+        ],
+        "eventos_openai": [
+          {
+            "tipo": "DIVIDENDO",
+            "fecha": "2026-04-15",
+            "descripcion": "Anuncio de dividendo"
+          }
+        ],
+        "precio_actual": 9.99
+      }
+    ],
+    "solo_claude": [
+      {
+        "ranking": 1,
+        "ticker": "IDR",
+        "nombre": "Indra Sistemas",
+        "sector": "Defensa/Tech",
+        "accion": "COMPRA",
+        "conviccion": "ALTA",
+        "precio_actual": 48.72,
+        "entrada": 48.85,
+        "stop_loss": 46.65,
+        "stop_pct": -4.5,
+        "take_profit_1": 51.35,
+        "tp1_pct": 5.1,
+        "take_profit_2": 53.8,
+        "tp2_pct": 10.1,
+        "soporte_obvio": 47.2,
+        "resistencia_obvia": 51.4,
+        "soporte_secundario": 45.85,
+        "resistencia_secundaria": 54.15,
+        "distancia_max_52s_pct": -4.2,
+        "distancia_min_52s_pct": 68.3,
+        "tendencia": "ALCISTA",
+        "volumen_vs_media_pct": 142,
+        "catalizador_tipo": "SECTORIAL",
+        "catalizador_desc": "Sector defensa europeo lidera ganancias semanales (+2.8%). Rearmament europeo acelera contratos OTAN; Indra beneficiaria directa de presupuestos defensa España y Europa. Flujos rotativos desde tech hacia defensivo/defensa.",
+        "catalizador_reversible": false,
+        "shorts_pct": 0.8,
+        "prob_barrido": "MEDIA",
+        "riesgo": "Shorts institucionales al 0.8% pueden amplificar movimientos bajistas; posible volatilidad por anuncio arancelario EEUU tarde hoy",
+        "horizonte_dias": 4,
+        "eventos_proximos": [
+          {
+            "tipo": "OTRO",
+            "fecha": "2026-04-15",
+            "descripcion": "Presentación contrato simuladores militares OTAN pendiente adjudicación"
+          }
+        ]
+      },
+      {
+        "ranking": 5,
+        "ticker": "AENA",
+        "nombre": "AENA Aeropuertos",
+        "sector": "Infraestructuras",
+        "accion": "COMPRA",
+        "conviccion": "MEDIA",
+        "precio_actual": 26.0,
+        "entrada": 26.15,
+        "stop_loss": 24.85,
+        "stop_pct": -5.0,
+        "take_profit_1": 27.45,
+        "tp1_pct": 5.0,
+        "take_profit_2": 28.65,
+        "tp2_pct": 9.6,
+        "soporte_obvio": 25.2,
+        "resistencia_obvia": 27.5,
+        "soporte_secundario": 24.35,
+        "resistencia_secundaria": 29.1,
+        "distancia_max_52s_pct": -8.7,
+        "distancia_min_52s_pct": 22.4,
+        "tendencia": "LATERAL",
+        "volumen_vs_media_pct": 96,
+        "catalizador_tipo": "SECTORIAL",
+        "catalizador_desc": "Turismo europeo en 2026 mantiene récords con temporada primavera-verano. AENA con tráfico de pasajeros creciendo YoY +6.8%. Valor defensivo de infraestructura regulada con dividendo atractivo y baja correlación con aranceles.",
+        "catalizador_reversible": false,
+        "shorts_pct": 0.4,
+        "prob_barrido": "BAJA",
+        "riesgo": "Tendencia lateral requiere catalizador para ruptura; si datos viajes aéreos globales se deterioran por guerra comercial, expectativas revisarían a la baja",
+        "horizonte_dias": 4,
+        "eventos_proximos": [
+          {
+            "tipo": "OTRO",
+            "fecha": "2026-04-10",
+            "descripcion": "Publicación datos tráfico pasajeros marzo 2026"
+          }
+        ]
+      }
+    ],
+    "solo_openai": [
+      {
+        "ranking": 1,
+        "ticker": "ITX",
+        "nombre": "Inditex",
+        "sector": "Retail",
+        "accion": "COMPRA",
+        "conviccion": "ALTA",
+        "precio_actual": 51.36,
+        "entrada": 51.5,
+        "stop_loss": 49.85,
+        "stop_pct": -3.2,
+        "take_profit_1": 54.25,
+        "tp1_pct": 5.4,
+        "take_profit_2": 56.0,
+        "tp2_pct": 9.0,
+        "soporte_obvio": 50.0,
+        "resistencia_obvia": 53.0,
+        "soporte_secundario": 48.5,
+        "resistencia_secundaria": 55.0,
+        "distancia_max_52s_pct": -10.5,
+        "distancia_min_52s_pct": 22.3,
+        "tendencia": "ALCISTA",
+        "volumen_vs_media_pct": 120,
+        "catalizador_tipo": "TECNICO",
+        "catalizador_desc": "Rebote técnico con soporte en MA50",
+        "catalizador_reversible": false,
+        "shorts_pct": 0.3,
+        "prob_barrido": "BAJA",
+        "riesgo": "Correlación alta con sector retail global",
+        "horizonte_dias": 4,
+        "eventos_proximos": [
+          {
+            "tipo": "RESULTADOS",
+            "fecha": "2026-04-10",
+            "descripcion": "Resultados trimestrales"
+          }
+        ]
+      },
+      {
+        "ranking": 3,
+        "ticker": "REP",
+        "nombre": "Repsol",
+        "sector": "Energía",
+        "accion": "COMPRA",
+        "conviccion": "MEDIA",
+        "precio_actual": 23.36,
+        "entrada": 23.5,
+        "stop_loss": 22.75,
+        "stop_pct": -2.8,
+        "take_profit_1": 24.5,
+        "tp1_pct": 4.9,
+        "take_profit_2": 25.3,
+        "tp2_pct": 8.3,
+        "soporte_obvio": 22.8,
+        "resistencia_obvia": 24.2,
+        "soporte_secundario": 21.5,
+        "resistencia_secundaria": 25.0,
+        "distancia_max_52s_pct": -8.5,
+        "distancia_min_52s_pct": 19.4,
+        "tendencia": "ALCISTA",
+        "volumen_vs_media_pct": 115,
+        "catalizador_tipo": "SECTORIAL",
+        "catalizador_desc": "Incremento en precios del crudo",
+        "catalizador_reversible": false,
+        "shorts_pct": 0.6,
+        "prob_barrido": "MEDIA",
+        "riesgo": "Volatilidad del precio del petróleo",
+        "horizonte_dias": 3,
+        "eventos_proximos": [
+          {
+            "tipo": "JUNTA",
+            "fecha": "2026-04-20",
+            "descripcion": "Junta de accionistas"
+          }
+        ]
+      }
+    ],
+    "evitar": [
+      {
+        "ticker": "GRF",
+        "razon": "Tendencia bajista estructural, múltiples alertas de gobernanza, shorts institucionales elevados y sector salud bajo presión regulatoria en EEUU",
+        "shorts_pct": 3.8
+      },
+      {
+        "ticker": "PUIG",
+        "razon": "Sector lujo/consumo discrecional vulnerable a aranceles EEUU sobre productos europeos (Liberation Day hoy). Shorts elevados y cotización bajo presión desde OPV",
+        "shorts_pct": 2.9
+      },
+      {
+        "ticker": "CIE",
+        "razon": "Sector automoción europeo en corrección por aranceles sobre vehículos. Demanda débil en Europa y exposición a cadena suministro global bajo riesgo",
+        "shorts_pct": 1.7
+      },
+      {
+        "ticker": "ACX",
+        "razon": "Acero bajo presión directa por aranceles de EEUU al acero europeo (25%). Márgenes comprimidos y demanda industrial europea débil",
+        "shorts_pct": 1.3
+      },
+      {
+        "ticker": "TEF",
+        "razon": "Tendencia lateral bajista de largo plazo, deuda elevada, sin catalizador claro a corto plazo. EUR/USD desfavorable para repatriación de beneficios Latam",
+        "shorts_pct": 0.9
+      },
+      {
+        "ticker": "UNI",
+        "razon": "Shorts institucionales superiores al 0.5%",
+        "shorts_pct": 0.7
+      },
+      {
+        "ticker": "BKT",
+        "razon": "Shorts institucionales superiores al 0.5%",
+        "shorts_pct": 0.6
+      },
+      {
+        "ticker": "SLR",
+        "razon": "Shorts institucionales superiores al 0.5%",
+        "shorts_pct": 0.55
+      }
+    ],
+    "sentimiento_claude": "NEUTRAL",
+    "sentimiento_openai": "ALCISTA",
+    "radar_macro_claude": {
+      "commodities": {
+        "oro": {
+          "precio_usd": 3115.4,
+          "var_semanal_pct": 1.8,
+          "var_mensual_pct": 6.2,
+          "dist_max_52s_pct": -1.2,
+          "alerta": true
+        },
+        "plata": {
+          "precio_usd": 34.15,
+          "var_semanal_pct": 0.9,
+          "var_mensual_pct": 4.1,
+          "dist_max_52s_pct": -8.5,
+          "alerta": false
+        },
+        "petroleo_brent": {
+          "precio_usd": 74.85,
+          "var_semanal_pct": -1.4,
+          "var_mensual_pct": -3.8,
+          "alerta": false
+        }
+      },
+      "indices": {
+        "sp500": {
+          "valor": 5611,
+          "var_semanal_pct": -1.2,
+          "dist_max_52s_pct": -7.8,
+          "alerta": false
+        },
+        "nasdaq100": {
+          "valor": 19420,
+          "var_semanal_pct": -1.8,
+          "dist_max_52s_pct": -12.4,
+          "alerta": true
+        },
+        "stoxx600": {
+          "valor": 518,
+          "var_semanal_pct": -0.6,
+          "dist_max_52s_pct": -5.1,
+          "alerta": false
+        },
+        "msci_em": {
+          "valor": 1082,
+          "var_semanal_pct": 0.4,
+          "dist_max_52s_pct": -9.3,
+          "alerta": false
+        },
+        "nikkei225": {
+          "valor": 35480,
+          "var_semanal_pct": -1.9,
+          "dist_max_52s_pct": -17.6,
+          "alerta": true
+        }
+      },
+      "sectores_europa": {
+        "mejor_sector": {
+          "nombre": "Defensa/Aeroespacial",
+          "var_semanal_pct": 2.8
+        },
+        "peor_sector": {
+          "nombre": "Tecnología",
+          "var_semanal_pct": -2.4
+        },
+        "sector_en_correccion": {
+          "hay_correccion": true,
+          "nombre": "Tecnología",
+          "caida_desde_max_pct": -14.5,
+          "causa": "Presión aranceles EEUU sobre semiconductores y equipamiento tech europeo"
+        }
+      },
+      "divisas": {
+        "eur_usd": {
+          "valor": 1.0815,
+          "var_semanal_pct": 0.6,
+          "var_mensual_pct": 1.4
+        }
+      },
+      "vix": {
+        "valor": 22.4,
+        "nivel": "ALTO"
+      },
+      "eventos_clave": [
+        {
+          "evento": "Anuncio aranceles recíprocos EEUU (Liberation Day)",
+          "hora_cet": "20:00",
+          "relevancia": "ALTA"
+        },
+        {
+          "evento": "PMI Manufacturas Eurozona (final marzo)",
+          "hora_cet": "10:00",
+          "relevancia": "MEDIA"
+        },
+        {
+          "evento": "Empleo ADP EEUU (marzo)",
+          "hora_cet": "14:15",
+          "relevancia": "ALTA"
+        },
+        {
+          "evento": "Actas BCE publicación",
+          "hora_cet": "13:30",
+          "relevancia": "MEDIA"
+        },
+        {
+          "evento": "ISM Manufacturas EEUU (marzo)",
+          "hora_cet": "16:00",
+          "relevancia": "ALTA"
+        }
+      ],
+      "resumen_macro": "Entorno risk-off moderado con VIX elevado por incertidumbre arancelaria de EEUU; refugio en oro y defensivos europeos frente a ventas en tech y cíclicos globales"
+    },
+    "radar_macro_openai": {
+      "commodities": {
+        "oro": {
+          "precio_usd": 1945.0,
+          "var_semanal_pct": 1.0,
+          "var_mensual_pct": 3.5,
+          "dist_max_52s_pct": -5.2,
+          "alerta": false
+        },
+        "plata": {
+          "precio_usd": 24.3,
+          "var_semanal_pct": -0.5,
+          "var_mensual_pct": 2.0,
+          "dist_max_52s_pct": -10.0,
+          "alerta": false
+        },
+        "petroleo_brent": {
+          "precio_usd": 82.3,
+          "var_semanal_pct": -3.0,
+          "var_mensual_pct": 5.0,
+          "alerta": false
+        }
+      },
+      "indices": {
+        "sp500": {
+          "valor": 4521,
+          "var_semanal_pct": 2.0,
+          "dist_max_52s_pct": -2.5,
+          "alerta": false
+        },
+        "nasdaq100": {
+          "valor": 14815,
+          "var_semanal_pct": 2.5,
+          "dist_max_52s_pct": -3.0,
+          "alerta": false
+        },
+        "stoxx600": {
+          "valor": 460,
+          "var_semanal_pct": 1.5,
+          "dist_max_52s_pct": -4.0,
+          "alerta": false
+        },
+        "msci_em": {
+          "valor": 1120,
+          "var_semanal_pct": 1.7,
+          "dist_max_52s_pct": -6.0,
+          "alerta": false
+        },
+        "nikkei225": {
+          "valor": 29520,
+          "var_semanal_pct": 1.8,
+          "dist_max_52s_pct": -5.5,
+          "alerta": false
+        }
+      },
+      "sectores_europa": {
+        "mejor_sector": {
+          "nombre": "Tecnología",
+          "var_semanal_pct": 3.0
+        },
+        "peor_sector": {
+          "nombre": "Energía",
+          "var_semanal_pct": -1.5
+        },
+        "sector_en_correccion": {
+          "hay_correccion": false,
+          "nombre": "",
+          "caida_desde_max_pct": 0.0,
+          "causa": ""
+        }
+      },
+      "divisas": {
+        "eur_usd": {
+          "valor": 1.095,
+          "var_semanal_pct": 0.5,
+          "var_mensual_pct": 1.2
+        }
+      },
+      "vix": {
+        "valor": 16.5,
+        "nivel": "NORMAL"
+      },
+      "eventos_clave": [
+        {
+          "evento": "Datos de empleo EE.UU.",
+          "hora_cet": "14:30",
+          "relevancia": "ALTA"
+        }
+      ],
+      "resumen_macro": "Risk-on con momentum positivo en tecnología"
+    }
+  },
+  "reglas_aplicadas": {
+    "R9_delay": true,
+    "R10_shorts": false,
+    "consensos_hoy": 3,
+    "valores_evitar": 8
+  },
+  "accion_recomendada": "OBSERVAR"
+}

@@ -1,0 +1,81 @@
+{
+  "fecha": "2026-03-16",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Petróleo",
+        "var_dia_pct": 2.5,
+        "nuevo_precio": 85.0
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "Nasdaq",
+        "var_dia_pct": -1.5
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 22.5,
+      "nivel": "ALTO",
+      "cambio_significativo": true
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Energía",
+        "var_dia_pct": 1.8,
+        "direccion": "POSITIVO"
+      }
+    ],
+    "resumen_cambios": "Mercados volátiles con presión sobre tecnología y aumento en commodities."
+  },
+  "resumen": {
+    "ibex_var_pct": 0.3,
+    "valores_destacados": [
+      "ENG +2.3%",
+      "TEF -1.2%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "TEF",
+      "nivel_barrido": 3.5,
+      "recupero": true,
+      "recuperacion_pct": 1.7
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "ENG",
+      "nombre": "Enagas",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "precio_cierre": 15.06,
+      "soporte_obvio": 14.7,
+      "resistencia_obvia": 15.4,
+      "soporte_secundario": 14.5,
+      "resistencia_secundaria": 15.65,
+      "distancia_max_52s_pct": -5.0,
+      "distancia_min_52s_pct": 12.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 160,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Ruptura de resistencia con volumen alto.",
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-03-18",
+          "descripcion": "Próximo dividendo de ENAGAS."
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "SAN",
+      "razon": "Alta exposición a shorts por encima de 0.5%",
+      "shorts_pct": 0.75
+    }
+  ]
+}

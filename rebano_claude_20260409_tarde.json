@@ -1,0 +1,285 @@
+{
+  "fecha": "2026-04-09",
+  "sesion": "tarde",
+  "sentimiento": "ALCISTA",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Petróleo Brent",
+        "var_dia_pct": -3.2,
+        "nuevo_precio": 63.45
+      },
+      {
+        "activo": "Gas Natural TTF",
+        "var_dia_pct": -2.1,
+        "nuevo_precio": 34.12
+      },
+      {
+        "activo": "Oro",
+        "var_dia_pct": 1.8,
+        "nuevo_precio": 3218.5
+      },
+      {
+        "activo": "Cobre",
+        "var_dia_pct": -2.8,
+        "nuevo_precio": 8921.0
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "IBEX 35",
+        "var_dia_pct": 4.1
+      },
+      {
+        "indice": "EuroStoxx 50",
+        "var_dia_pct": 3.8
+      },
+      {
+        "indice": "DAX",
+        "var_dia_pct": 4.2
+      },
+      {
+        "indice": "CAC 40",
+        "var_dia_pct": 3.6
+      },
+      {
+        "indice": "S&P 500",
+        "var_dia_pct": 9.5
+      },
+      {
+        "indice": "Nasdaq 100",
+        "var_dia_pct": 11.2
+      },
+      {
+        "indice": "FTSE 100",
+        "var_dia_pct": 3.1
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 33.62,
+      "nivel": "PANICO",
+      "cambio_significativo": true
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Tecnología Europa",
+        "var_dia_pct": 5.8,
+        "direccion": "POSITIVO"
+      },
+      {
+        "nombre": "Banca Europa",
+        "var_dia_pct": 4.9,
+        "direccion": "POSITIVO"
+      },
+      {
+        "nombre": "Energía Europa",
+        "var_dia_pct": -1.2,
+        "direccion": "NEGATIVO"
+      }
+    ],
+    "resumen_cambios": "Rebote técnico violento tras pausa arancelaria 90 días anunciada por Trump; risk-on agresivo con S&P +9.5% y IBEX +4.1%, pero VIX en zona pánico indica volatilidad estructural elevada y el rebote puede ser trampa alcista en contexto de guerra comercial activa."
+  },
+  "resumen": {
+    "ibex_var_pct": 4.1,
+    "valores_destacados": [
+      "IAG +8.2%",
+      "IDR +7.5%",
+      "SAN +5.8%",
+      "BBVA +5.3%",
+      "ITX +4.9%",
+      "REP -1.1%",
+      "SLR -0.8%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "IAG",
+      "nivel_barrido": 4.1,
+      "recupero": true,
+      "recuperacion_pct": 8.5
+    },
+    {
+      "ticker": "SAN",
+      "nivel_barrido": 9.85,
+      "recupero": true,
+      "recuperacion_pct": 5.1
+    },
+    {
+      "ticker": "BBVA",
+      "nivel_barrido": 18.2,
+      "recupero": true,
+      "recuperacion_pct": 5.6
+    },
+    {
+      "ticker": "IDR",
+      "nivel_barrido": 48.5,
+      "recupero": true,
+      "recuperacion_pct": 7.8
+    },
+    {
+      "ticker": "ITX",
+      "nivel_barrido": 50.8,
+      "recupero": true,
+      "recuperacion_pct": 5.1
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "IAG",
+      "nombre": "International Airlines Group",
+      "sector": "Aerolíneas",
+      "accion": "COMPRA",
+      "precio_cierre": 4.45,
+      "soporte_obvio": 4.22,
+      "resistencia_obvia": 4.68,
+      "soporte_secundario": 4.05,
+      "resistencia_secundaria": 4.95,
+      "distancia_max_52s_pct": -28.4,
+      "distancia_min_52s_pct": 18.7,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 245,
+      "catalizador_tipo": "MACRO",
+      "razon": "Rebote técnico explosivo tras pausa arancelaria 90 días. IAG fue de los más castigados en la caída y recupera con fuerza. El sector aerolíneas se beneficia directamente de menor tensión comercial y caída del precio del petróleo. Volumen excepcional confirma interés institucional. Entrada en apertura con stop ajustado bajo soporte 4.22.",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-05-07",
+          "descripcion": "Resultados Q1 2026 previstos primera semana mayo"
+        }
+      ]
+    },
+    {
+      "ticker": "IDR",
+      "nombre": "Indra Sistemas",
+      "sector": "Defensa/Tech",
+      "accion": "COMPRA",
+      "precio_cierre": 52.24,
+      "soporte_obvio": 49.85,
+      "resistencia_obvia": 54.5,
+      "soporte_secundario": 47.65,
+      "resistencia_secundaria": 57.2,
+      "distancia_max_52s_pct": -12.3,
+      "distancia_min_52s_pct": 42.8,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 198,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Indra en tendencia alcista estructural apoyada en gasto en defensa europeo creciente y contratos tech gubernamentales. Rebota con fuerza desde soportes clave. El sector defensa es refugio en contexto geopolítico tenso independientemente de aranceles. Buena relación riesgo/beneficio hacia resistencia 54.50.",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-28",
+          "descripcion": "Resultados Q1 2026 estimados última semana de abril"
+        }
+      ]
+    },
+    {
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "sector": "Retail",
+      "accion": "COMPRA",
+      "precio_cierre": 53.38,
+      "soporte_obvio": 51.45,
+      "resistencia_obvia": 55.8,
+      "soporte_secundario": 49.85,
+      "resistencia_secundaria": 58.3,
+      "distancia_max_52s_pct": -18.6,
+      "distancia_min_52s_pct": 12.4,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 212,
+      "catalizador_tipo": "MACRO",
+      "razon": "Inditex rebota con fuerza desde zona de soporte relevante. La pausa arancelaria alivia presión sobre cadena de suministro global. Inditex tiene exposición diversificada y pricing power demostrado. El volumen alto en el rebote sugiere acumulación institucional. Objetivo resistencia 55.80 en 2-3 días.",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-06-10",
+          "descripcion": "Presentación resultados anuales FY2025/26 estimada junio"
+        }
+      ]
+    },
+    {
+      "ticker": "SAN",
+      "nombre": "Banco Santander",
+      "sector": "Banca",
+      "accion": "VIGILAR",
+      "precio_cierre": 10.35,
+      "soporte_obvio": 9.88,
+      "resistencia_obvia": 10.75,
+      "soporte_secundario": 9.42,
+      "resistencia_secundaria": 11.2,
+      "distancia_max_52s_pct": -22.1,
+      "distancia_min_52s_pct": 31.5,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 228,
+      "catalizador_tipo": "MACRO",
+      "razon": "Rebote potente desde zona crítica pero VIX en pánico y contexto macro incierto invita a vigilar confirmación en apertura antes de entrar. Si supera 10.55 con volumen en apertura, entrada válida hacia 10.75. Sector bancario europeo sigue bajo presión de márgenes y riesgo crediticio en desaceleración.",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-30",
+          "descripcion": "Resultados Q1 2026 previstos finales de abril"
+        },
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-05-02",
+          "descripcion": "Dividendo complementario estimado 0.10€/acción"
+        }
+      ]
+    },
+    {
+      "ticker": "AENA",
+      "nombre": "AENA",
+      "sector": "Infraestructuras",
+      "accion": "COMPRA",
+      "precio_cierre": 27.04,
+      "soporte_obvio": 265.5,
+      "resistencia_obvia": 285.0,
+      "soporte_secundario": 258.2,
+      "resistencia_secundaria": 295.0,
+      "distancia_max_52s_pct": -8.2,
+      "distancia_min_52s_pct": 15.6,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 165,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "AENA opera como monopolio regulado con ingresos cuasi-garantizados. Beneficia de caída del petróleo (mayor tráfico aéreo), temporada turística récord esperada en España y rebote del sector aerolíneas. Tendencia alcista intacta. Menor sensibilidad a aranceles que industria manufacturera.",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-05-12",
+          "descripcion": "Resultados Q1 2026 estimados mayo"
+        },
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-04-25",
+          "descripcion": "Pago dividendo estimado 7.50€/acción"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "REP",
+      "razon": "Petróleo Brent cayendo -3.2% en el día hacia 63$. Repsol con doble presión: guerra comercial reduce demanda energética global y precio del crudo en tendencia bajista. Margen de refino bajo presión. Contexto técnico deteriorado.",
+      "shorts_pct": 1.8
+    },
+    {
+      "ticker": "ACX",
+      "razon": "Acero en zona de máxima presión arancelaria. Aunque hay pausa 90 días, el sector siderúrgico sigue en el ojo del huracán comercial USA-UE. Shorts institucionales elevados. Cobre cayendo -2.8% señala debilidad demanda industrial.",
+      "shorts_pct": 2.4
+    },
+    {
+      "ticker": "SLR",
+      "razon": "Solaria en tendencia bajista con presión regulatoria sobre renovables en España. No se beneficia del rebote macro de hoy. Volumen débil en el rebote indica falta de convicción compradora. Preferir otros sectores en este entorno.",
+      "shorts_pct": 1.2
+    },
+    {
+      "ticker": "GRF",
+      "razon": "Grifols con deuda elevada y pendiente de reestructuración. Shorts institucionales persistentemente altos. Cualquier deterioro macro amplifica riesgo de refinanciación. Evitar hasta visibilidad en plan de deuda.",
+      "shorts_pct": 3.8
+    },
+    {
+      "ticker": "TEF",
+      "razon": "Telefónica sin catalizadores a corto plazo, deuda estructural elevada, exposición a Latinoamérica en contexto de dólar volátil. El rebote de hoy es puramente macro sin fundamentales que lo soporten. Dividendo ya descontado.",
+      "shorts_pct": 0.9
+    }
+  ]
+}

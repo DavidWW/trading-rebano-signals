@@ -1,0 +1,38 @@
+{
+  "fecha": "2026-02-23",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "resumen": {
+    "ibex_var_pct": 0.0,
+    "valores_destacados": [
+      "SAN +2%",
+      "ACS -1%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "SAN",
+      "nivel_barrido": 10.6,
+      "recupero": true,
+      "recuperacion_pct": 3.11
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "accion": "VIGILAR",
+      "precio_cierre": 57.44,
+      "soporte_obvio": 55.0,
+      "resistencia_obvia": 60.0,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Posible ruptura de resistencia"
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "BBVA",
+      "razon": "Short en aumento probable"
+    }
+  ]
+}

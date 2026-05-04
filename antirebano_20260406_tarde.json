@@ -1,0 +1,76 @@
+{
+  "version": "4.5",
+  "fecha": "2026-04-06",
+  "sesion": "tarde",
+  "hora": "16:16",
+  "alertas_shorts": [],
+  "consensos_ayer_pendientes": [],
+  "triangulacion": {
+    "consensos": [],
+    "solo_claude": [],
+    "solo_openai": [],
+    "evitar": [
+      {
+        "ticker": "ACX",
+        "razon": "Ya listado pero reforzar: posibles gap bajistas adicionales el lunes si China anuncia contramedidas adicionales. Sector acero en bear market técnico confirmado.",
+        "shorts_pct": 4.2
+      },
+      {
+        "ticker": "REP",
+        "razon": "Crudo Brent rompiendo soporte 70 dólares con caída del 4.2%. Repsol muy correlacionado con precio del petróleo. Riesgo de continuación bajista si datos macro confirman recesión. Sin catalizador técnico de rebote visible.",
+        "shorts_pct": 2.8
+      },
+      {
+        "ticker": "IAG",
+        "razon": "Aerolíneas doblemente penalizadas: riesgo de caída de demanda por recesión y guerra comercial, más presión en costes operativos. Ruptura técnica bajista. Posibles restricciones de viajes en escalada arancelaria. Shorts institucionales elevados.",
+        "shorts_pct": 3.6
+      },
+      {
+        "ticker": "SAN",
+        "razon": "Banca muy expuesta a desaceleración económica global y potencial aumento de morosidad. Alta correlación con ciclo económico. Exposición a mercados emergentes (Brasil, México) penalizados por fortaleza dólar y aranceles. Shorts creciendo.",
+        "shorts_pct": 1.9
+      },
+      {
+        "ticker": "BBVA",
+        "razon": "Exposición elevada a Turquía y México, mercados muy penalizados en entorno risk-off extremo. Guerra comercial impacta emergentes con fuerza. Ruptura de soporte técnico relevante en 19.50. Shorts institucionales incrementándose.",
+        "shorts_pct": 2.3
+      },
+      {
+        "ticker": "MEL",
+        "razon": "Turismo muy expuesto a caída de confianza del consumidor y posible reducción de viajes internacionales si guerra comercial escala. Sector muy cíclico penalizado en entornos de pánico. Sin soporte técnico sólido cercano.",
+        "shorts_pct": 1.4
+      },
+      {
+        "ticker": "CIE",
+        "razon": "Automoción en el epicentro de la guerra arancelaria. Aranceles del 25% sobre automóviles europeos anunciados. CIE como proveedor de componentes sufre doble impacto: volumen y márgenes. Sector en tendencia bajista confirmada.",
+        "shorts_pct": 2.1
+      },
+      {
+        "ticker": "ITX",
+        "razon": "Inditex con exposición directa a EEUU y China como mercados clave. Guerra comercial amenaza cadena de suministro y márgenes. Ruptura del soporte técnico en 52 euros. Riesgo de profit warning si escalada continúa.",
+        "shorts_pct": 1.6
+      },
+      {
+        "ticker": "PUIG",
+        "razon": "Sector lujo europeo muy penalizado por aranceles EEUU. PUIG con reciente salida a bolsa aún buscando suelo técnico. Exposición elevada al consumidor americano premium. Riesgo asimétrico a la baja en este entorno.",
+        "shorts_pct": 0.8
+      },
+      {
+        "ticker": "CLNX",
+        "razon": "Presencia de shorts >0.5%",
+        "shorts_pct": 1.2
+      }
+    ],
+    "sentimiento_claude": "BAJISTA",
+    "sentimiento_openai": "NEUTRAL",
+    "radar_macro_claude": {},
+    "radar_macro_openai": {}
+  },
+  "reglas_aplicadas": {
+    "R9_delay": false,
+    "R10_shorts": false,
+    "consensos_hoy": 0,
+    "valores_evitar": 10
+  },
+  "accion_recomendada": "EVALUAR"
+}

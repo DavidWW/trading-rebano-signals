@@ -1,0 +1,81 @@
+{
+  "fecha": "2026-04-22",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Petróleo",
+        "var_dia_pct": 2.2,
+        "nuevo_precio": 82.5
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "S&P 500",
+        "var_dia_pct": 1.7
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 19.5,
+      "nivel": "NORMAL",
+      "cambio_significativo": true
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Energía",
+        "var_dia_pct": 2.5,
+        "direccion": "POSITIVO"
+      }
+    ],
+    "resumen_cambios": "Subidas en Energía impulsadas por alzas en el petróleo, volatilidad dentro de rangos normales."
+  },
+  "resumen": {
+    "ibex_var_pct": 0.8,
+    "valores_destacados": [
+      "REP +3.1%",
+      "IAG -1.2%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "SAN",
+      "nivel_barrido": 10.3,
+      "recupero": true,
+      "recuperacion_pct": 2.4
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "sector": "Energía",
+      "accion": "COMPRA",
+      "precio_cierre": 21.23,
+      "soporte_obvio": 20.5,
+      "resistencia_obvia": 22.0,
+      "soporte_secundario": 19.85,
+      "resistencia_secundaria": 22.35,
+      "distancia_max_52s_pct": -8.0,
+      "distancia_min_52s_pct": 45.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 160,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Volumen alto y proximidad a resistencia clave.",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-28",
+          "descripcion": "Presentación de resultados trimestrales."
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "IAG",
+      "razon": "Altos shorts institucionales",
+      "shorts_pct": 1.2
+    }
+  ]
+}

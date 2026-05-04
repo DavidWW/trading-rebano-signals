@@ -1,0 +1,316 @@
+{
+  "version": "4.5",
+  "fecha": "2026-04-22",
+  "sesion": "manana",
+  "hora": "10:04",
+  "alertas_shorts": [],
+  "consensos_ayer_pendientes": [],
+  "triangulacion": {
+    "consensos": [],
+    "solo_claude": [],
+    "solo_openai": [
+      {
+        "ranking": 1,
+        "ticker": "ENG",
+        "nombre": "Endesa",
+        "sector": "Utilities",
+        "accion": "COMPRA",
+        "conviccion": "MEDIA",
+        "precio_actual": 16.81,
+        "entrada": 16.9,
+        "stop_loss": 16.35,
+        "stop_pct": -3.3,
+        "take_profit_1": 17.5,
+        "tp1_pct": 3.5,
+        "take_profit_2": 18.2,
+        "tp2_pct": 8.3,
+        "soporte_obvio": 16.0,
+        "resistencia_obvia": 17.0,
+        "soporte_secundario": 15.75,
+        "resistencia_secundaria": 18.0,
+        "distancia_max_52s_pct": -15.0,
+        "distancia_min_52s_pct": 10.0,
+        "tendencia": "ALCISTA",
+        "volumen_vs_media_pct": 120,
+        "catalizador_tipo": "TECNICO",
+        "catalizador_desc": "Rebote técnico desde soporte crítico",
+        "catalizador_reversible": false,
+        "shorts_pct": 0.3,
+        "prob_barrido": "BAJA",
+        "riesgo": "Correcciones técnicas menores",
+        "horizonte_dias": 4,
+        "eventos_proximos": [
+          {
+            "tipo": "RESULTADOS",
+            "fecha": "2026-04-30",
+            "descripcion": "Presentación de resultados Q1"
+          }
+        ]
+      },
+      {
+        "ranking": 2,
+        "ticker": "ITX",
+        "nombre": "Inditex",
+        "sector": "Retail",
+        "accion": "COMPRA",
+        "conviccion": "ALTA",
+        "precio_actual": 53.44,
+        "entrada": 53.5,
+        "stop_loss": 51.85,
+        "stop_pct": -3.1,
+        "take_profit_1": 55.5,
+        "tp1_pct": 3.8,
+        "take_profit_2": 57.0,
+        "tp2_pct": 6.7,
+        "soporte_obvio": 52.0,
+        "resistencia_obvia": 54.0,
+        "soporte_secundario": 50.5,
+        "resistencia_secundaria": 56.5,
+        "distancia_max_52s_pct": -5.0,
+        "distancia_min_52s_pct": 25.0,
+        "tendencia": "ALCISTA",
+        "volumen_vs_media_pct": 150,
+        "catalizador_tipo": "FUNDAMENTAL",
+        "catalizador_desc": "Buen performance en ventas trimestrales",
+        "catalizador_reversible": false,
+        "shorts_pct": 0.7,
+        "prob_barrido": "MEDIA",
+        "riesgo": "Movimientos de corrección",
+        "horizonte_dias": 5,
+        "eventos_proximos": [
+          {
+            "tipo": "DIVIDENDO",
+            "fecha": "2026-05-05",
+            "descripcion": "Anuncio de dividendo"
+          }
+        ]
+      },
+      {
+        "ranking": 3,
+        "ticker": "REP",
+        "nombre": "Repsol",
+        "sector": "Energía",
+        "accion": "VENTA",
+        "conviccion": "MEDIA",
+        "precio_actual": 20.82,
+        "entrada": 20.5,
+        "stop_loss": 21.65,
+        "stop_pct": -4.6,
+        "take_profit_1": 19.8,
+        "tp1_pct": -3.4,
+        "take_profit_2": 19.0,
+        "tp2_pct": -8.7,
+        "soporte_obvio": 20.0,
+        "resistencia_obvia": 21.5,
+        "soporte_secundario": 19.5,
+        "resistencia_secundaria": 22.0,
+        "distancia_max_52s_pct": -20.0,
+        "distancia_min_52s_pct": 5.0,
+        "tendencia": "BAJISTA",
+        "volumen_vs_media_pct": 130,
+        "catalizador_tipo": "MACRO",
+        "catalizador_desc": "Caída reciente en precios del petróleo",
+        "catalizador_reversible": false,
+        "shorts_pct": 1.0,
+        "prob_barrido": "BAJA",
+        "riesgo": "Fuerza del precio del crudo",
+        "horizonte_dias": 3,
+        "eventos_proximos": [
+          {
+            "tipo": "OTRO",
+            "fecha": "2026-05-02",
+            "descripcion": "Análisis de impacto de acuerdo OPEP"
+          }
+        ]
+      },
+      {
+        "ranking": 4,
+        "ticker": "TEF",
+        "nombre": "Telefónica",
+        "sector": "Telecom",
+        "accion": "COMPRA",
+        "conviccion": "BAJA",
+        "precio_actual": 3.91,
+        "entrada": 3.95,
+        "stop_loss": 3.8,
+        "stop_pct": -2.9,
+        "take_profit_1": 4.1,
+        "tp1_pct": 4.8,
+        "take_profit_2": 4.25,
+        "tp2_pct": 8.7,
+        "soporte_obvio": 3.85,
+        "resistencia_obvia": 4.0,
+        "soporte_secundario": 3.75,
+        "resistencia_secundaria": 4.2,
+        "distancia_max_52s_pct": -20.0,
+        "distancia_min_52s_pct": 15.0,
+        "tendencia": "LATERAL",
+        "volumen_vs_media_pct": 95,
+        "catalizador_tipo": "SECTORIAL",
+        "catalizador_desc": "Tendencia positiva en telecomunicaciones",
+        "catalizador_reversible": true,
+        "shorts_pct": 0.9,
+        "prob_barrido": "MEDIA",
+        "riesgo": "Alta volatilidad intradía",
+        "horizonte_dias": 2,
+        "eventos_proximos": []
+      },
+      {
+        "ranking": 5,
+        "ticker": "IAG",
+        "nombre": "IAG",
+        "sector": "Aerolíneas",
+        "accion": "COMPRA",
+        "conviccion": "BAJA",
+        "precio_actual": 4.45,
+        "entrada": 4.5,
+        "stop_loss": 4.3,
+        "stop_pct": -3.6,
+        "take_profit_1": 4.75,
+        "tp1_pct": 6.7,
+        "take_profit_2": 5.0,
+        "tp2_pct": 12.4,
+        "soporte_obvio": 4.4,
+        "resistencia_obvia": 4.6,
+        "soporte_secundario": 4.2,
+        "resistencia_secundaria": 4.9,
+        "distancia_max_52s_pct": -30.0,
+        "distancia_min_52s_pct": 20.0,
+        "tendencia": "ALCISTA",
+        "volumen_vs_media_pct": 105,
+        "catalizador_tipo": "FUNDAMENTAL",
+        "catalizador_desc": "Mejora de perspectivas en la industria aérea",
+        "catalizador_reversible": true,
+        "shorts_pct": 0.4,
+        "prob_barrido": "BAJA",
+        "riesgo": "Cambios en regulaciones de viaje",
+        "horizonte_dias": 3,
+        "eventos_proximos": [
+          {
+            "tipo": "RESULTADOS",
+            "fecha": "2026-04-28",
+            "descripcion": "Publicación de resultados trimestrales"
+          }
+        ]
+      }
+    ],
+    "evitar": [
+      {
+        "ticker": "SAN",
+        "razon": "Presencia de más del 0.5% de shorts institucionales",
+        "shorts_pct": 1.2
+      },
+      {
+        "ticker": "BBVA",
+        "razon": "Presencia de más del 0.5% de shorts institucionales",
+        "shorts_pct": 0.8
+      }
+    ],
+    "sentimiento_claude": "NEUTRAL",
+    "sentimiento_openai": "NEUTRAL",
+    "radar_macro_claude": {},
+    "radar_macro_openai": {
+      "commodities": {
+        "oro": {
+          "precio_usd": 1920.0,
+          "var_semanal_pct": -0.5,
+          "var_mensual_pct": 1.2,
+          "dist_max_52s_pct": -10.0,
+          "alerta": false
+        },
+        "plata": {
+          "precio_usd": 25.0,
+          "var_semanal_pct": 0.3,
+          "var_mensual_pct": 2.5,
+          "dist_max_52s_pct": -8.0,
+          "alerta": false
+        },
+        "petroleo_brent": {
+          "precio_usd": 85.0,
+          "var_semanal_pct": -1.2,
+          "var_mensual_pct": -3.0,
+          "alerta": false
+        }
+      },
+      "indices": {
+        "sp500": {
+          "valor": 4500,
+          "var_semanal_pct": 0.8,
+          "dist_max_52s_pct": -5.0,
+          "alerta": false
+        },
+        "nasdaq100": {
+          "valor": 14500,
+          "var_semanal_pct": 1.0,
+          "dist_max_52s_pct": -3.0,
+          "alerta": false
+        },
+        "stoxx600": {
+          "valor": 440,
+          "var_semanal_pct": 0.5,
+          "dist_max_52s_pct": -6.0,
+          "alerta": false
+        },
+        "msci_em": {
+          "valor": 1050,
+          "var_semanal_pct": -0.2,
+          "dist_max_52s_pct": -12.0,
+          "alerta": false
+        },
+        "nikkei225": {
+          "valor": 28500,
+          "var_semanal_pct": -0.7,
+          "dist_max_52s_pct": -8.0,
+          "alerta": false
+        }
+      },
+      "sectores_europa": {
+        "mejor_sector": {
+          "nombre": "Tecnología",
+          "var_semanal_pct": 1.5
+        },
+        "peor_sector": {
+          "nombre": "Materias Primas",
+          "var_semanal_pct": -1.2
+        },
+        "sector_en_correccion": {
+          "hay_correccion": true,
+          "nombre": "Energía",
+          "caida_desde_max_pct": 15.0,
+          "causa": "Precio de petróleo decreciente"
+        }
+      },
+      "divisas": {
+        "eur_usd": {
+          "valor": 1.12,
+          "var_semanal_pct": 0.3,
+          "var_mensual_pct": 1.1
+        }
+      },
+      "vix": {
+        "valor": 18.5,
+        "nivel": "NORMAL"
+      },
+      "eventos_clave": [
+        {
+          "evento": "Reunión BCE",
+          "hora_cet": "14:45",
+          "relevancia": "ALTA"
+        },
+        {
+          "evento": "Datos PMI Manofacturero EU",
+          "hora_cet": "10:00",
+          "relevancia": "MEDIA"
+        }
+      ],
+      "resumen_macro": "Entorno neutral con ligera inclinación a risk-on; estabilidad relativa en commodities y divisas."
+    }
+  },
+  "reglas_aplicadas": {
+    "R9_delay": false,
+    "R10_shorts": false,
+    "consensos_hoy": 0,
+    "valores_evitar": 2
+  },
+  "accion_recomendada": "EVALUAR"
+}

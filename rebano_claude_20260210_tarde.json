@@ -1,0 +1,63 @@
+{
+  "fecha": "2026-02-10",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "resumen": {
+    "ibex_var_pct": 0.2,
+    "valores_destacados": [
+      "FER +1.8%",
+      "PUIG +1.5%",
+      "TEF -0.8%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "SAN",
+      "nivel_barrido": 10.5,
+      "recupero": true,
+      "recuperacion_pct": 2.1
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "BBVA",
+      "nombre": "Banco Bilbao Vizcaya Argentaria",
+      "accion": "COMPRA",
+      "precio_cierre": 20.6,
+      "soporte_obvio": 19.8,
+      "resistencia_obvia": 21.5,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Consolidación sobre soporte clave, momentum alcista en bancarios"
+    },
+    {
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "accion": "VIGILAR",
+      "precio_cierre": 56.94,
+      "soporte_obvio": 55.0,
+      "resistencia_obvia": 59.0,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Pendiente resultados Q4, resistencia técnica importante"
+    },
+    {
+      "ticker": "IAG",
+      "nombre": "International Airlines Group",
+      "accion": "COMPRA",
+      "precio_cierre": 5.01,
+      "soporte_obvio": 4.8,
+      "resistencia_obvia": 5.4,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Ruptura alcista confirmada, sector aéreo mejorando"
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "TEF",
+      "razon": "Debilidad técnica persistente, volúmenes bajos"
+    },
+    {
+      "ticker": "MAP",
+      "razon": "Lateral sin dirección clara, baja volatilidad"
+    }
+  ]
+}

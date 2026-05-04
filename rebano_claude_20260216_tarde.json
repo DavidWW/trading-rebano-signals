@@ -1,0 +1,62 @@
+{
+  "fecha": "2026-02-16",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "resumen": {
+    "ibex_var_pct": 0.0,
+    "valores_destacados": [
+      "ACS +1.2%",
+      "TEF -0.8%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "TEF",
+      "nivel_barrido": 3.65,
+      "recupero": false,
+      "recuperacion_pct": 0.0
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "BBVA",
+      "nombre": "Banco Bilbao Vizcaya",
+      "accion": "COMPRA",
+      "precio_cierre": 19.51,
+      "soporte_obvio": 19.2,
+      "resistencia_obvia": 20.0,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Rebote desde soporte clave tras consolidación"
+    },
+    {
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "accion": "VIGILAR",
+      "precio_cierre": 20.07,
+      "soporte_obvio": 19.8,
+      "resistencia_obvia": 20.5,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Proximidad a resistencia importante"
+    },
+    {
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "accion": "COMPRA",
+      "precio_cierre": 56.8,
+      "soporte_obvio": 56.0,
+      "resistencia_obvia": 58.5,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Ruptura alcista tras patrón de consolidación"
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "TEF",
+      "razon": "Debilidad técnica persistente bajo soportes clave"
+    },
+    {
+      "ticker": "MAP",
+      "razon": "Baja liquidez y volatilidad excesiva"
+    }
+  ]
+}

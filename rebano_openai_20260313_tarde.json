@@ -1,0 +1,81 @@
+{
+  "fecha": "2026-03-13",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Petróleo",
+        "var_dia_pct": 2.3,
+        "nuevo_precio": 85.5
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "S&P 500",
+        "var_dia_pct": 1.2
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 18.7,
+      "nivel": "NORMAL",
+      "cambio_significativo": false
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Energía",
+        "var_dia_pct": 2.0,
+        "direccion": "POSITIVO"
+      }
+    ],
+    "resumen_cambios": "El mercado refleja un sentimiento neutral con movimientos positivos en energía."
+  },
+  "resumen": {
+    "ibex_var_pct": 0.3,
+    "valores_destacados": [
+      "REP +3%",
+      "CABK -1%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "CABK",
+      "nivel_barrido": 9.75,
+      "recupero": true,
+      "recuperacion_pct": 0.6
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "sector": "Energía",
+      "accion": "COMPRA",
+      "precio_cierre": 23.0,
+      "soporte_obvio": 22.5,
+      "resistencia_obvia": 24.0,
+      "soporte_secundario": 22.15,
+      "resistencia_secundaria": 24.35,
+      "distancia_max_52s_pct": 1.5,
+      "distancia_min_52s_pct": 15.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 160,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Aumento del precio del petróleo",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-20",
+          "descripcion": "Presentación de resultados trimestrales"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "IAG",
+      "razon": "Altos niveles de shorts institucionales",
+      "shorts_pct": 1.2
+    }
+  ]
+}

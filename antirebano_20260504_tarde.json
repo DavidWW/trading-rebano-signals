@@ -1,0 +1,56 @@
+{
+  "version": "4.5",
+  "fecha": "2026-05-04",
+  "sesion": "tarde",
+  "hora": "20:53",
+  "alertas_shorts": [],
+  "consensos_ayer_pendientes": [],
+  "triangulacion": {
+    "consensos": [],
+    "solo_claude": [],
+    "solo_openai": [],
+    "evitar": [
+      {
+        "ticker": "REP",
+        "razon": "Presión estructural por caída del Brent -2.35% en sesión. No recuperó el nivel de soporte 23.15. Tendencia correctiva con petróleo en zona de 61€. Riesgo de continuación bajista mientras Brent no estabilice sobre 63€. Shorts institucionales activos.",
+        "shorts_pct": 1.85
+      },
+      {
+        "ticker": "GRF",
+        "razon": "A pesar del rebote técnico, Grifols mantiene shorts institucionales elevados y tendencia estructural bajista. Solo como vigilancia; no operar hasta confirmación de ruptura con volumen sobre 9.55€. Riesgo de noticia negativa sobre deuda muy alto.",
+        "shorts_pct": 4.2
+      },
+      {
+        "ticker": "PUIG",
+        "razon": "Acción lateral sin catalizador claro. Sector lujo bajo presión por desaceleración consumo discrecional China. Volumen bajo y sin dirección técnica definida. Esperar rango más claro.",
+        "shorts_pct": 0.65
+      },
+      {
+        "ticker": "TEF",
+        "razon": "Telecom estructuralmente débil. Alta deuda y competencia intensa. Aunque recuperó 3.78 intradía, el upside es limitado y el sector no lidera. Shorts institucionales moderados y rating de analistas mayoritariamente neutral.",
+        "shorts_pct": 0.72
+      },
+      {
+        "ticker": "ACX",
+        "razon": "Acero bajo presión por aranceles globales y demanda China débil. Precio cerca de mínimos anuales. Sector industrial europeo rezagado. Evitar exposición mientras no haya claridad arancelaria EEUU-UE.",
+        "shorts_pct": 2.15
+      },
+      {
+        "ticker": "BBVA",
+        "razon": "Shorts institucionales elevados",
+        "shorts_pct": 0.6
+      }
+    ],
+    "sentimiento_claude": "ALCISTA",
+    "sentimiento_openai": "NEUTRAL",
+    "radar_macro_claude": {},
+    "radar_macro_openai": {}
+  },
+  "reglas_aplicadas": {
+    "R9_delay": false,
+    "R10_shorts": false,
+    "consensos_hoy": 0,
+    "valores_evitar": 6
+  },
+  "accion_recomendada": "EVALUAR"
+}

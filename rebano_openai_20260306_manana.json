@@ -1,0 +1,294 @@
+{
+  "fecha": "2026-03-06",
+  "sesion": "manana",
+  "sentimiento": "NEUTRAL",
+  "radar_macro": {
+    "commodities": {
+      "oro": {
+        "precio_usd": 1825.0,
+        "var_semanal_pct": 1.5,
+        "var_mensual_pct": -0.8,
+        "dist_max_52s_pct": -5.2,
+        "alerta": false
+      },
+      "plata": {
+        "precio_usd": 22.35,
+        "var_semanal_pct": -0.3,
+        "var_mensual_pct": -2.5,
+        "dist_max_52s_pct": -9.8,
+        "alerta": false
+      },
+      "petroleo_brent": {
+        "precio_usd": 78.5,
+        "var_semanal_pct": 2.0,
+        "var_mensual_pct": 4.5,
+        "alerta": true
+      }
+    },
+    "indices": {
+      "sp500": {
+        "valor": 3960,
+        "var_semanal_pct": -0.4,
+        "dist_max_52s_pct": -12.0,
+        "alerta": false
+      },
+      "nasdaq100": {
+        "valor": 12230,
+        "var_semanal_pct": -1.2,
+        "dist_max_52s_pct": -15.3,
+        "alerta": true
+      },
+      "stoxx600": {
+        "valor": 440,
+        "var_semanal_pct": 0.5,
+        "dist_max_52s_pct": -8.0,
+        "alerta": false
+      },
+      "msci_em": {
+        "valor": 1000,
+        "var_semanal_pct": 0.8,
+        "dist_max_52s_pct": -14.2,
+        "alerta": false
+      },
+      "nikkei225": {
+        "valor": 27900,
+        "var_semanal_pct": 1.0,
+        "dist_max_52s_pct": -3.5,
+        "alerta": false
+      }
+    },
+    "sectores_europa": {
+      "mejor_sector": {
+        "nombre": "Energía",
+        "var_semanal_pct": 2.3
+      },
+      "peor_sector": {
+        "nombre": "Tecnología",
+        "var_semanal_pct": -1.5
+      },
+      "sector_en_correccion": {
+        "hay_correccion": false,
+        "nombre": "",
+        "caida_desde_max_pct": 0.0,
+        "causa": ""
+      }
+    },
+    "divisas": {
+      "eur_usd": {
+        "valor": 1.085,
+        "var_semanal_pct": 0.2,
+        "var_mensual_pct": -0.5
+      }
+    },
+    "vix": {
+      "valor": 20.3,
+      "nivel": "ALTO"
+    },
+    "eventos_clave": [
+      {
+        "evento": "Decisión de tipos de interés del BCE",
+        "hora_cet": "14:30",
+        "relevancia": "ALTA"
+      }
+    ],
+    "resumen_macro": "Riesgo moderado con incertidumbres macroeconómicas."
+  },
+  "recomendaciones": [
+    {
+      "ranking": 1,
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 19.3,
+      "entrada": 19.2,
+      "stop_loss": 18.59,
+      "stop_pct": -3.2,
+      "take_profit_1": 20.15,
+      "tp1_pct": 4.9,
+      "take_profit_2": 20.85,
+      "tp2_pct": 8.0,
+      "soporte_obvio": 18.7,
+      "resistencia_obvia": 19.95,
+      "soporte_secundario": 18.5,
+      "resistencia_secundaria": 20.3,
+      "distancia_max_52s_pct": -6.0,
+      "distancia_min_52s_pct": 18.5,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 105,
+      "catalizador_tipo": "TECNICO",
+      "catalizador_desc": "Mejor performance técnica en un entorno de riesgo controlado.",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.45,
+      "prob_barrido": "BAJA",
+      "riesgo": "Exposición a cambio regulatorio en sector.",
+      "horizonte_dias": 4,
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-03-22",
+          "descripcion": "Pago de dividendo."
+        }
+      ]
+    },
+    {
+      "ranking": 2,
+      "ticker": "FDR",
+      "nombre": "Ferrovial",
+      "sector": "Infraestructuras",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 21.88,
+      "entrada": 21.75,
+      "stop_loss": 21.1,
+      "stop_pct": -3.0,
+      "take_profit_1": 22.6,
+      "tp1_pct": 3.3,
+      "take_profit_2": 23.4,
+      "tp2_pct": 7.0,
+      "soporte_obvio": 21.3,
+      "resistencia_obvia": 22.5,
+      "soporte_secundario": 21.0,
+      "resistencia_secundaria": 23.0,
+      "distancia_max_52s_pct": -10.3,
+      "distancia_min_52s_pct": 22.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 110,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "catalizador_desc": "Expectativas de crecimiento por nuevos contratos.",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.35,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Impacto de cambios en contratos gubernamentales.",
+      "horizonte_dias": 3,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-20",
+          "descripcion": "Presentación de resultados trimestrales."
+        }
+      ]
+    },
+    {
+      "ranking": 3,
+      "ticker": "SLR",
+      "nombre": "Solaria",
+      "sector": "Renovables",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 19.58,
+      "entrada": 19.5,
+      "stop_loss": 18.91,
+      "stop_pct": -3.0,
+      "take_profit_1": 20.6,
+      "tp1_pct": 5.2,
+      "take_profit_2": 21.3,
+      "tp2_pct": 8.8,
+      "soporte_obvio": 19.0,
+      "resistencia_obvia": 20.1,
+      "soporte_secundario": 18.5,
+      "resistencia_secundaria": 21.0,
+      "distancia_max_52s_pct": -8.0,
+      "distancia_min_52s_pct": 20.0,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 120,
+      "catalizador_tipo": "SECTORIAL",
+      "catalizador_desc": "Auge en sector renovable con favorables políticas gubernamentales.",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.55,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Volatilidad inherente al sector renovable.",
+      "horizonte_dias": 5,
+      "eventos_proximos": [
+        {
+          "tipo": "JUNTA",
+          "fecha": "2026-03-12",
+          "descripcion": "Junta General de Accionistas."
+        }
+      ]
+    },
+    {
+      "ranking": 4,
+      "ticker": "SAB",
+      "nombre": "Banco Sabadell",
+      "sector": "Banca",
+      "accion": "COMPRA",
+      "conviccion": "BAJA",
+      "precio_actual": 3.01,
+      "entrada": 2.98,
+      "stop_loss": 2.89,
+      "stop_pct": -4.1,
+      "take_profit_1": 3.18,
+      "tp1_pct": 5.6,
+      "take_profit_2": 3.28,
+      "tp2_pct": 9.0,
+      "soporte_obvio": 2.9,
+      "resistencia_obvia": 3.1,
+      "soporte_secundario": 2.8,
+      "resistencia_secundaria": 3.25,
+      "distancia_max_52s_pct": -12.5,
+      "distancia_min_52s_pct": 15.7,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 95,
+      "catalizador_tipo": "MACRO",
+      "catalizador_desc": "Expectativa de subida de tipos de interés favoreciendo margen financiero.",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.4,
+      "prob_barrido": "ALTA",
+      "riesgo": "Exposición a cambios de política monetaria.",
+      "horizonte_dias": 4,
+      "eventos_proximos": []
+    },
+    {
+      "ranking": 5,
+      "ticker": "ACX",
+      "nombre": "Acerinox",
+      "sector": "Acero/Industrial",
+      "accion": "VENTA",
+      "conviccion": "ALTA",
+      "precio_actual": 12.62,
+      "entrada": 12.65,
+      "stop_loss": 13.0,
+      "stop_pct": -3.5,
+      "take_profit_1": 12.0,
+      "tp1_pct": -4.9,
+      "take_profit_2": 11.5,
+      "tp2_pct": -8.9,
+      "soporte_obvio": 11.8,
+      "resistencia_obvia": 12.9,
+      "soporte_secundario": 11.5,
+      "resistencia_secundaria": 13.2,
+      "distancia_max_52s_pct": -16.0,
+      "distancia_min_52s_pct": 18.0,
+      "tendencia": "BAJISTA",
+      "volumen_vs_media_pct": 130,
+      "catalizador_tipo": "MACRO",
+      "catalizador_desc": "Presión por reducción en demanda global de acero.",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.65,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Fluctuaciones en materias primas.",
+      "horizonte_dias": 3,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-16",
+          "descripcion": "Presentación de resultados trimestrales."
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "REP",
+      "razon": "Altos shorts institucionales.",
+      "shorts_pct": 0.75
+    },
+    {
+      "ticker": "ITX",
+      "razon": "Alta probabilidad de corrección post-resultados.",
+      "shorts_pct": 0.5
+    }
+  ]
+}

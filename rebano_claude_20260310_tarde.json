@@ -1,0 +1,161 @@
+{
+  "fecha": "2026-03-10",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Petróleo Brent",
+        "var_dia_pct": -2.1,
+        "nuevo_precio": 82.45
+      },
+      {
+        "activo": "Gas Natural TTF",
+        "var_dia_pct": 3.2,
+        "nuevo_precio": 28.9
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "STOXX Banks",
+        "var_dia_pct": -1.8
+      },
+      {
+        "indice": "STOXX Utilities",
+        "var_dia_pct": 1.4
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 18.2,
+      "nivel": "NORMAL",
+      "cambio_significativo": false
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Utilities europeas",
+        "var_dia_pct": 1.4,
+        "direccion": "POSITIVO"
+      },
+      {
+        "nombre": "Banca europea",
+        "var_dia_pct": -1.8,
+        "direccion": "NEGATIVO"
+      }
+    ],
+    "resumen_cambios": "Rotación defensiva con fortaleza en utilities y debilidad en banca por presión energética"
+  },
+  "resumen": {
+    "ibex_var_pct": -0.6,
+    "valores_destacados": [
+      "IBE +1.2%",
+      "ELE +0.8%",
+      "SAN -2.1%",
+      "BBVA -1.7%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "SAN",
+      "nivel_barrido": 10.0,
+      "recupero": true,
+      "recuperacion_pct": 0.1
+    },
+    {
+      "ticker": "CABK",
+      "nivel_barrido": 10.25,
+      "recupero": false,
+      "recuperacion_pct": -0.1
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "precio_cierre": 19.42,
+      "soporte_obvio": 19.15,
+      "resistencia_obvia": 19.85,
+      "soporte_secundario": 18.85,
+      "resistencia_secundaria": 20.15,
+      "distancia_max_52s_pct": -8.2,
+      "distancia_min_52s_pct": 22.1,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 145,
+      "catalizador_tipo": "MACRO",
+      "razon": "Fortaleza defensiva con rotación hacia utilities por volatilidad energética",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-20",
+          "descripcion": "Q1 2026 earnings"
+        }
+      ]
+    },
+    {
+      "ticker": "ELE",
+      "nombre": "Endesa",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "precio_cierre": 34.16,
+      "soporte_obvio": 33.65,
+      "resistencia_obvia": 34.85,
+      "soporte_secundario": 33.15,
+      "resistencia_secundaria": 35.35,
+      "distancia_max_52s_pct": -4.1,
+      "distancia_min_52s_pct": 18.7,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 130,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Breakout alcista en máximos recientes con soporte institucional",
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-03-25",
+          "descripcion": "Dividend payment 0.85€"
+        }
+      ]
+    },
+    {
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "sector": "Retail",
+      "accion": "VIGILAR",
+      "precio_cierre": 52.46,
+      "soporte_obvio": 51.85,
+      "resistencia_obvia": 53.15,
+      "soporte_secundario": 51.15,
+      "resistencia_secundaria": 53.85,
+      "distancia_max_52s_pct": -2.8,
+      "distancia_min_52s_pct": 35.2,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 95,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Consolidación en máximos antes de resultados, esperar confirmación direccional",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-18",
+          "descripcion": "Q4 2025 results"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "SAN",
+      "razon": "Presión sectorial en banca por tensiones energéticas y posible deterioro margen",
+      "shorts_pct": 0.8
+    },
+    {
+      "ticker": "TEF",
+      "razon": "Debilidad técnica persistente en mínimos anuales sin catalizadores",
+      "shorts_pct": 0.3
+    },
+    {
+      "ticker": "IAG",
+      "razon": "Sector aéreo vulnerable a volatilidad combustible y demanda estacional",
+      "shorts_pct": 0.6
+    }
+  ]
+}

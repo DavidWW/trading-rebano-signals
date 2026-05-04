@@ -1,0 +1,295 @@
+{
+  "fecha": "2026-04-13",
+  "sesion": "manana",
+  "sentimiento": "NEUTRAL",
+  "radar_macro": {
+    "commodities": {
+      "oro": {
+        "precio_usd": 1980.0,
+        "var_semanal_pct": -0.8,
+        "var_mensual_pct": 1.5,
+        "dist_max_52s_pct": -4.0,
+        "alerta": false
+      },
+      "plata": {
+        "precio_usd": 24.5,
+        "var_semanal_pct": -1.2,
+        "var_mensual_pct": 2.0,
+        "dist_max_52s_pct": -7.0,
+        "alerta": false
+      },
+      "petroleo_brent": {
+        "precio_usd": 84.0,
+        "var_semanal_pct": 3.0,
+        "var_mensual_pct": -4.0,
+        "alerta": false
+      }
+    },
+    "indices": {
+      "sp500": {
+        "valor": 4200,
+        "var_semanal_pct": 0.5,
+        "dist_max_52s_pct": -10.0,
+        "alerta": false
+      },
+      "nasdaq100": {
+        "valor": 14200,
+        "var_semanal_pct": 1.0,
+        "dist_max_52s_pct": -12.0,
+        "alerta": false
+      },
+      "stoxx600": {
+        "valor": 450,
+        "var_semanal_pct": -0.5,
+        "dist_max_52s_pct": -6.0,
+        "alerta": false
+      },
+      "msci_em": {
+        "valor": 1020,
+        "var_semanal_pct": 0.2,
+        "dist_max_52s_pct": -15.0,
+        "alerta": false
+      },
+      "nikkei225": {
+        "valor": 28500,
+        "var_semanal_pct": 1.2,
+        "dist_max_52s_pct": -8.0,
+        "alerta": false
+      }
+    },
+    "sectores_europa": {
+      "mejor_sector": {
+        "nombre": "Tecnología",
+        "var_semanal_pct": 2.0
+      },
+      "peor_sector": {
+        "nombre": "Energía",
+        "var_semanal_pct": -1.5
+      },
+      "sector_en_correccion": {
+        "hay_correccion": false,
+        "nombre": "",
+        "caida_desde_max_pct": 0.0,
+        "causa": ""
+      }
+    },
+    "divisas": {
+      "eur_usd": {
+        "valor": 1.085,
+        "var_semanal_pct": -0.2,
+        "var_mensual_pct": 0.5
+      }
+    },
+    "vix": {
+      "valor": 18.0,
+      "nivel": "NORMAL"
+    },
+    "eventos_clave": [
+      {
+        "evento": "CPI USA",
+        "hora_cet": "14:30",
+        "relevancia": "ALTA"
+      }
+    ],
+    "resumen_macro": "Neutral con una ligera inclinación a risk-on gracias a los buenos rendimientos en tecnología."
+  },
+  "recomendaciones": [
+    {
+      "ranking": 1,
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "sector": "Retail",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 53.34,
+      "entrada": 53.4,
+      "stop_loss": 51.74,
+      "stop_pct": -3.1,
+      "take_profit_1": 55.8,
+      "tp1_pct": 4.6,
+      "take_profit_2": 57.1,
+      "tp2_pct": 7.0,
+      "soporte_obvio": 52.9,
+      "resistencia_obvia": 54.9,
+      "soporte_secundario": 52.0,
+      "resistencia_secundaria": 56.0,
+      "distancia_max_52s_pct": -8.0,
+      "distancia_min_52s_pct": 25.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 120,
+      "catalizador_tipo": "TECNICO",
+      "catalizador_desc": "Ruptura de resistencia técnica con volumen superior a la media.",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.2,
+      "prob_barrido": "BAJA",
+      "riesgo": "Pérdida de momentum técnico.",
+      "horizonte_dias": 3,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-20",
+          "descripcion": "Presentación de resultados trimestrales."
+        }
+      ]
+    },
+    {
+      "ranking": 2,
+      "ticker": "BBVA",
+      "nombre": "BBVA",
+      "sector": "Banca",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 19.42,
+      "entrada": 19.45,
+      "stop_loss": 18.79,
+      "stop_pct": -3.4,
+      "take_profit_1": 20.3,
+      "tp1_pct": 4.5,
+      "take_profit_2": 20.8,
+      "tp2_pct": 7.1,
+      "soporte_obvio": 19.0,
+      "resistencia_obvia": 20.0,
+      "soporte_secundario": 18.5,
+      "resistencia_secundaria": 21.0,
+      "distancia_max_52s_pct": -10.0,
+      "distancia_min_52s_pct": 15.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 105,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "catalizador_desc": "Expectativas de expansión en mercados emergentes.",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.3,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Cambio en políticas monetarias.",
+      "horizonte_dias": 4,
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-04-25",
+          "descripcion": "Descubierto del dividendo."
+        }
+      ]
+    },
+    {
+      "ranking": 3,
+      "ticker": "ACS",
+      "nombre": "ACS",
+      "sector": "Construcción",
+      "accion": "VENTA",
+      "conviccion": "ALTA",
+      "precio_actual": 119.2,
+      "entrada": 119.0,
+      "stop_loss": 123.55,
+      "stop_pct": -3.8,
+      "take_profit_1": 114.5,
+      "tp1_pct": -3.9,
+      "take_profit_2": 110.0,
+      "tp2_pct": -7.7,
+      "soporte_obvio": 116.0,
+      "resistencia_obvia": 124.0,
+      "soporte_secundario": 112.0,
+      "resistencia_secundaria": 125.0,
+      "distancia_max_52s_pct": -2.0,
+      "distancia_min_52s_pct": 30.0,
+      "tendencia": "BAJISTA",
+      "volumen_vs_media_pct": 160,
+      "catalizador_tipo": "TECNICO",
+      "catalizador_desc": "Rechazo en resistencia clave con volumen elevado.",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.6,
+      "prob_barrido": "BAJA",
+      "riesgo": "Rebote técnico desde niveles de soporte.",
+      "horizonte_dias": 3,
+      "eventos_proximos": [
+        {
+          "tipo": "JUNTA",
+          "fecha": "2026-04-30",
+          "descripcion": "Junta General de Accionistas."
+        }
+      ]
+    },
+    {
+      "ranking": 4,
+      "ticker": "IAG",
+      "nombre": "International Airlines Group",
+      "sector": "Aerolíneas",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 4.35,
+      "entrada": 4.37,
+      "stop_loss": 4.21,
+      "stop_pct": -3.7,
+      "take_profit_1": 4.6,
+      "tp1_pct": 5.7,
+      "take_profit_2": 4.75,
+      "tp2_pct": 9.2,
+      "soporte_obvio": 4.25,
+      "resistencia_obvia": 4.5,
+      "soporte_secundario": 4.15,
+      "resistencia_secundaria": 4.8,
+      "distancia_max_52s_pct": -15.0,
+      "distancia_min_52s_pct": 10.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 110,
+      "catalizador_tipo": "SECTORIAL",
+      "catalizador_desc": "Recuperación del tráfico aéreo post-pandemia.",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.2,
+      "prob_barrido": "BAJA",
+      "riesgo": "Fluctuaciones en precios de combustible.",
+      "horizonte_dias": 5,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-18",
+          "descripcion": "Informe de ingresos trimestral."
+        }
+      ]
+    },
+    {
+      "ranking": 5,
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "sector": "Energía",
+      "accion": "VENTA",
+      "conviccion": "MEDIA",
+      "precio_actual": 21.88,
+      "entrada": 21.85,
+      "stop_loss": 22.57,
+      "stop_pct": -3.3,
+      "take_profit_1": 20.9,
+      "tp1_pct": -4.5,
+      "take_profit_2": 20.3,
+      "tp2_pct": -7.2,
+      "soporte_obvio": 21.4,
+      "resistencia_obvia": 22.4,
+      "soporte_secundario": 20.8,
+      "resistencia_secundaria": 23.0,
+      "distancia_max_52s_pct": -5.0,
+      "distancia_min_52s_pct": 15.0,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 90,
+      "catalizador_tipo": "MACRO",
+      "catalizador_desc": "Fuerte caída en los precios del petróleo.",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.1,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Rebote en precio del petróleo.",
+      "horizonte_dias": 4,
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-04-23",
+          "descripcion": "Pago de dividendo semestral."
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "ACX",
+      "razon": "Short institucional superior al 0.5%",
+      "shorts_pct": 0.8
+    }
+  ]
+}

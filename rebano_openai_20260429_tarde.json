@@ -1,0 +1,81 @@
+{
+  "fecha": "2026-04-29",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Petróleo",
+        "var_dia_pct": 2.4,
+        "nuevo_precio": 85.3
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "NASDAQ",
+        "var_dia_pct": 1.2
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 18.5,
+      "nivel": "NORMAL",
+      "cambio_significativo": false
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Servicios Públicos",
+        "var_dia_pct": -1.5,
+        "direccion": "NEGATIVO"
+      }
+    ],
+    "resumen_cambios": "Hubo un movimiento notable en el petróleo, mientras que el VIX se mantiene en nivel normal."
+  },
+  "resumen": {
+    "ibex_var_pct": 0.2,
+    "valores_destacados": [
+      "REP +2.3%",
+      "IBE -1.5%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "IBI",
+      "nivel_barrido": 19.5,
+      "recupero": true,
+      "recuperacion_pct": 2.0
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "sector": "Energía",
+      "accion": "COMPRA",
+      "precio_cierre": 21.98,
+      "soporte_obvio": 20.0,
+      "resistencia_obvia": 22.5,
+      "soporte_secundario": 19.65,
+      "resistencia_secundaria": 23.15,
+      "distancia_max_52s_pct": -7.5,
+      "distancia_min_52s_pct": 35.3,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 160,
+      "catalizador_tipo": "MACRO",
+      "razon": "Impulso por el aumento en el precio del petróleo.",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-05-10",
+          "descripcion": "Presentación de resultados trimestrales"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "TEF",
+      "razon": "Creciente ventas institucionales",
+      "shorts_pct": 0.6
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "fecha": "2026-04-14",
+  "sesion": "manana",
+  "sentimiento": "NEUTRAL",
+  "radar_macro": {
+    "commodities": {
+      "oro": {
+        "precio_usd": 1950.0,
+        "var_semanal_pct": 1.2,
+        "var_mensual_pct": 2.5,
+        "dist_max_52s_pct": -5.0,
+        "alerta": false
+      },
+      "plata": {
+        "precio_usd": 25.5,
+        "var_semanal_pct": 0.8,
+        "var_mensual_pct": 3.0,
+        "dist_max_52s_pct": -7.0,
+        "alerta": false
+      },
+      "petroleo_brent": {
+        "precio_usd": 85.0,
+        "var_semanal_pct": 1.0,
+        "var_mensual_pct": -2.5,
+        "alerta": false
+      }
+    },
+    "indices": {
+      "sp500": {
+        "valor": 4250,
+        "var_semanal_pct": -0.5,
+        "dist_max_52s_pct": -10.0,
+        "alerta": false
+      },
+      "nasdaq100": {
+        "valor": 14250,
+        "var_semanal_pct": 0.3,
+        "dist_max_52s_pct": -8.0,
+        "alerta": false
+      },
+      "stoxx600": {
+        "valor": 460,
+        "var_semanal_pct": 0.0,
+        "dist_max_52s_pct": -12.0,
+        "alerta": false
+      },
+      "msci_em": {
+        "valor": 1250,
+        "var_semanal_pct": 0.5,
+        "dist_max_52s_pct": -15.0,
+        "alerta": false
+      },
+      "nikkei225": {
+        "valor": 28750,
+        "var_semanal_pct": 0.7,
+        "dist_max_52s_pct": -6.0,
+        "alerta": false
+      }
+    },
+    "sectores_europa": {
+      "mejor_sector": {
+        "nombre": "Tecnología",
+        "var_semanal_pct": 2.3
+      },
+      "peor_sector": {
+        "nombre": "Energía",
+        "var_semanal_pct": -1.5
+      },
+      "sector_en_correccion": {
+        "hay_correccion": false,
+        "nombre": "",
+        "caida_desde_max_pct": 0.0,
+        "causa": ""
+      }
+    },
+    "divisas": {
+      "eur_usd": {
+        "valor": 1.09,
+        "var_semanal_pct": -0.3,
+        "var_mensual_pct": 0.5
+      }
+    },
+    "vix": {
+      "valor": 18.0,
+      "nivel": "NORMAL"
+    },
+    "eventos_clave": [
+      {
+        "evento": "Inflación US",
+        "hora_cet": "14:30",
+        "relevancia": "ALTA"
+      },
+      {
+        "evento": "Producción Industrial EU",
+        "hora_cet": "11:00",
+        "relevancia": "MEDIA"
+      }
+    ],
+    "resumen_macro": "Sesión neutral con eventos de inflación como foco."
+  },
+  "recomendaciones": [
+    {
+      "ranking": 1,
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "sector": "Retail",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 52.92,
+      "entrada": 52.7,
+      "stop_loss": 50.92,
+      "stop_pct": -3.39,
+      "take_profit_1": 54.5,
+      "tp1_pct": 2.99,
+      "take_profit_2": 55.75,
+      "tp2_pct": 5.36,
+      "soporte_obvio": 52.1,
+      "resistencia_obvia": 54.0,
+      "soporte_secundario": 51.35,
+      "resistencia_secundaria": 55.0,
+      "distancia_max_52s_pct": -12.0,
+      "distancia_min_52s_pct": 45.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 125,
+      "catalizador_tipo": "SECTORIAL",
+      "catalizador_desc": "Mejora en el sector retail global.",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.3,
+      "prob_barrido": "BAJA",
+      "riesgo": "Alta exposición a cambios en consumo.",
+      "horizonte_dias": 3,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-28",
+          "descripcion": "Resultados trimestrales"
+        }
+      ]
+    },
+    {
+      "ranking": 2,
+      "ticker": "ACX",
+      "nombre": "Acerinox",
+      "sector": "Acero/Industrial",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 13.22,
+      "entrada": 13.15,
+      "stop_loss": 12.65,
+      "stop_pct": -3.78,
+      "take_profit_1": 13.85,
+      "tp1_pct": 4.89,
+      "take_profit_2": 14.25,
+      "tp2_pct": 7.79,
+      "soporte_obvio": 13.0,
+      "resistencia_obvia": 13.75,
+      "soporte_secundario": 12.8,
+      "resistencia_secundaria": 14.0,
+      "distancia_max_52s_pct": -10.0,
+      "distancia_min_52s_pct": 58.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 130,
+      "catalizador_tipo": "TECNICO",
+      "catalizador_desc": "Cruce positivo de medias móviles.",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.6,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Volatilidad en precios de materias primas.",
+      "horizonte_dias": 4,
+      "eventos_proximos": []
+    },
+    {
+      "ranking": 3,
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "sector": "Energía",
+      "accion": "VENTA",
+      "conviccion": "ALTA",
+      "precio_actual": 21.67,
+      "entrada": 21.7,
+      "stop_loss": 22.5,
+      "stop_pct": -3.69,
+      "take_profit_1": 20.85,
+      "tp1_pct": -3.78,
+      "take_profit_2": 20.1,
+      "tp2_pct": -7.25,
+      "soporte_obvio": 20.5,
+      "resistencia_obvia": 22.0,
+      "soporte_secundario": 19.75,
+      "resistencia_secundaria": 23.0,
+      "distancia_max_52s_pct": 3.0,
+      "distancia_min_52s_pct": 15.0,
+      "tendencia": "BAJISTA",
+      "volumen_vs_media_pct": 140,
+      "catalizador_tipo": "MACRO",
+      "catalizador_desc": "Presión sobre precios del petróleo.",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.8,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Impacto de regulaciones ambientales.",
+      "horizonte_dias": 5,
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-05-01",
+          "descripcion": "Anuncio de dividendos"
+        }
+      ]
+    },
+    {
+      "ranking": 4,
+      "ticker": "IAG",
+      "nombre": "International Airlines Group",
+      "sector": "Aerolíneas",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 4.41,
+      "entrada": 4.4,
+      "stop_loss": 4.2,
+      "stop_pct": -4.54,
+      "take_profit_1": 4.7,
+      "tp1_pct": 6.58,
+      "take_profit_2": 4.9,
+      "tp2_pct": 11.11,
+      "soporte_obvio": 4.3,
+      "resistencia_obvia": 4.6,
+      "soporte_secundario": 4.15,
+      "resistencia_secundaria": 4.8,
+      "distancia_max_52s_pct": -8.0,
+      "distancia_min_52s_pct": 35.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 115,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "catalizador_desc": "Aumento de reservas anticipadas para temporada alta.",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.4,
+      "prob_barrido": "BAJA",
+      "riesgo": "Posibles huelgas en verano.",
+      "horizonte_dias": 4,
+      "eventos_proximos": [
+        {
+          "tipo": "JUNTA",
+          "fecha": "2026-04-25",
+          "descripcion": "Junta General de Accionistas"
+        }
+      ]
+    },
+    {
+      "ranking": 5,
+      "ticker": "IDR",
+      "nombre": "Indra",
+      "sector": "Defensa/Tech",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 50.28,
+      "entrada": 50.0,
+      "stop_loss": 48.35,
+      "stop_pct": -3.3,
+      "take_profit_1": 52.0,
+      "tp1_pct": 3.42,
+      "take_profit_2": 53.5,
+      "tp2_pct": 6.41,
+      "soporte_obvio": 49.5,
+      "resistencia_obvia": 51.7,
+      "soporte_secundario": 48.0,
+      "resistencia_secundaria": 53.0,
+      "distancia_max_52s_pct": -4.0,
+      "distancia_min_52s_pct": 65.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 150,
+      "catalizador_tipo": "GEOPOLITICO",
+      "catalizador_desc": "Incremento en presupuesto de defensa europeo.",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.5,
+      "prob_barrido": "BAJA",
+      "riesgo": "Dependencia de contratos públicos.",
+      "horizonte_dias": 3,
+      "eventos_proximos": []
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "SAB",
+      "razon": "Elevado porcentaje de cortos institucionales",
+      "shorts_pct": 2.5
+    },
+    {
+      "ticker": "SAN",
+      "razon": "Incertidumbre en regulación bancaria",
+      "shorts_pct": 0.7
+    }
+  ]
+}

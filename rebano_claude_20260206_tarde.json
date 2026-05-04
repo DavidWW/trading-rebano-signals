@@ -1,0 +1,62 @@
+{
+  "fecha": "2026-02-06",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "resumen": {
+    "ibex_var_pct": 0.0,
+    "valores_destacados": [
+      "ACS estable en 96.9",
+      "FER consolida en 59.98"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "TEF",
+      "nivel_barrido": 3.6,
+      "recupero": false,
+      "recuperacion_pct": 0.0
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "SAN",
+      "nombre": "Santander",
+      "accion": "COMPRA",
+      "precio_cierre": 10.66,
+      "soporte_obvio": 10.4,
+      "resistencia_obvia": 11.0,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Consolidación en zona de soporte, buen momentum sectorial"
+    },
+    {
+      "ticker": "BBVA",
+      "nombre": "BBVA",
+      "accion": "VIGILAR",
+      "precio_cierre": 20.19,
+      "soporte_obvio": 19.8,
+      "resistencia_obvia": 20.5,
+      "catalizador_tipo": "TECNICO",
+      "razon": "En rango lateral, esperar ruptura para confirmar dirección"
+    },
+    {
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "accion": "COMPRA",
+      "precio_cierre": 57.14,
+      "soporte_obvio": 56.0,
+      "resistencia_obvia": 59.0,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Sector retail recuperándose, buenos fundamentos"
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "TEF",
+      "razon": "Debilidad técnica persistente, sin catalizadores positivos"
+    },
+    {
+      "ticker": "SAB",
+      "razon": "Precio muy bajo sugiere problemas estructurales"
+    }
+  ]
+}

@@ -1,0 +1,300 @@
+{
+  "fecha": "2026-03-26",
+  "sesion": "manana",
+  "sentimiento": "NEUTRAL",
+  "radar_macro": {
+    "commodities": {
+      "oro": {
+        "precio_usd": 1975.5,
+        "var_semanal_pct": 1.2,
+        "var_mensual_pct": 0.5,
+        "dist_max_52s_pct": -3.0,
+        "alerta": false
+      },
+      "plata": {
+        "precio_usd": 25.7,
+        "var_semanal_pct": 0.8,
+        "var_mensual_pct": -1.4,
+        "dist_max_52s_pct": -5.5,
+        "alerta": false
+      },
+      "petroleo_brent": {
+        "precio_usd": 82.3,
+        "var_semanal_pct": -0.6,
+        "var_mensual_pct": 2.3,
+        "alerta": false
+      }
+    },
+    "indices": {
+      "sp500": {
+        "valor": 4265,
+        "var_semanal_pct": -0.4,
+        "dist_max_52s_pct": -6.5,
+        "alerta": false
+      },
+      "nasdaq100": {
+        "valor": 13247,
+        "var_semanal_pct": 0.5,
+        "dist_max_52s_pct": -8.1,
+        "alerta": false
+      },
+      "stoxx600": {
+        "valor": 467,
+        "var_semanal_pct": 0.2,
+        "dist_max_52s_pct": -4.3,
+        "alerta": false
+      },
+      "msci_em": {
+        "valor": 1325,
+        "var_semanal_pct": -0.7,
+        "dist_max_52s_pct": -11.9,
+        "alerta": false
+      },
+      "nikkei225": {
+        "valor": 28345,
+        "var_semanal_pct": 1.0,
+        "dist_max_52s_pct": -2.9,
+        "alerta": false
+      }
+    },
+    "sectores_europa": {
+      "mejor_sector": {
+        "nombre": "Tecnología",
+        "var_semanal_pct": 1.3
+      },
+      "peor_sector": {
+        "nombre": "Turismo",
+        "var_semanal_pct": -2.1
+      },
+      "sector_en_correccion": {
+        "hay_correccion": false,
+        "nombre": "",
+        "caida_desde_max_pct": 0.0,
+        "causa": ""
+      }
+    },
+    "divisas": {
+      "eur_usd": {
+        "valor": 1.085,
+        "var_semanal_pct": 0.2,
+        "var_mensual_pct": -0.8
+      }
+    },
+    "vix": {
+      "valor": 18.5,
+      "nivel": "NORMAL"
+    },
+    "eventos_clave": [
+      {
+        "evento": "Reunión BCE",
+        "hora_cet": "14:30",
+        "relevancia": "ALTA"
+      },
+      {
+        "evento": "Informe de empleo en EE.UU.",
+        "hora_cet": "16:00",
+        "relevancia": "ALTA"
+      }
+    ],
+    "resumen_macro": "Neutral con ligera inclinación hacia risk-off"
+  },
+  "recomendaciones": [
+    {
+      "ranking": 1,
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 19.4,
+      "entrada": 19.15,
+      "stop_loss": 18.85,
+      "stop_pct": -1.3,
+      "take_profit_1": 20.5,
+      "tp1_pct": 5.7,
+      "take_profit_2": 21.2,
+      "tp2_pct": 9.3,
+      "soporte_obvio": 18.7,
+      "resistencia_obvia": 20.0,
+      "soporte_secundario": 18.5,
+      "resistencia_secundaria": 20.5,
+      "distancia_max_52s_pct": -2.0,
+      "distancia_min_52s_pct": 15.4,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 165,
+      "catalizador_tipo": "SECTORIAL",
+      "catalizador_desc": "Mejores perspectivas en el sector energético renovable",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.2,
+      "prob_barrido": "BAJA",
+      "riesgo": "Posible volatilidad sectorial",
+      "horizonte_dias": 4,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-30",
+          "descripcion": "Presentación de resultados Q1"
+        }
+      ]
+    },
+    {
+      "ranking": 2,
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "sector": "Retail",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 50.4,
+      "entrada": 49.8,
+      "stop_loss": 48.35,
+      "stop_pct": -3.0,
+      "take_profit_1": 52.5,
+      "tp1_pct": 4.2,
+      "take_profit_2": 53.7,
+      "tp2_pct": 6.6,
+      "soporte_obvio": 49.0,
+      "resistencia_obvia": 51.5,
+      "soporte_secundario": 48.5,
+      "resistencia_secundaria": 52.5,
+      "distancia_max_52s_pct": -5.0,
+      "distancia_min_52s_pct": 22.1,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 120,
+      "catalizador_tipo": "TECNICO",
+      "catalizador_desc": "Rebote técnico desde soporte clave",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.4,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Rotura fallida de resistencia cercana",
+      "horizonte_dias": 3,
+      "eventos_proximos": [
+        {
+          "tipo": "JUNTA",
+          "fecha": "2026-03-28",
+          "descripcion": "Junta de accionistas"
+        }
+      ]
+    },
+    {
+      "ranking": 3,
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "sector": "Energía",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 23.62,
+      "entrada": 23.5,
+      "stop_loss": 22.85,
+      "stop_pct": -2.8,
+      "take_profit_1": 25.0,
+      "tp1_pct": 5.8,
+      "take_profit_2": 25.8,
+      "tp2_pct": 9.2,
+      "soporte_obvio": 23.1,
+      "resistencia_obvia": 24.8,
+      "soporte_secundario": 22.75,
+      "resistencia_secundaria": 25.2,
+      "distancia_max_52s_pct": -4.5,
+      "distancia_min_52s_pct": 19.6,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 112,
+      "catalizador_tipo": "MACRO",
+      "catalizador_desc": "Recuperación en precios del petróleo",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.6,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Volatilidad en precios de crudo",
+      "horizonte_dias": 4,
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-04-05",
+          "descripcion": "Fecha ex-dividendo"
+        }
+      ]
+    },
+    {
+      "ranking": 4,
+      "ticker": "GRF",
+      "nombre": "Grifols",
+      "sector": "Salud",
+      "accion": "VENTA",
+      "conviccion": "ALTA",
+      "precio_actual": 8.96,
+      "entrada": 9.1,
+      "stop_loss": 9.42,
+      "stop_pct": 3.5,
+      "take_profit_1": 8.4,
+      "tp1_pct": -6.3,
+      "take_profit_2": 8.0,
+      "tp2_pct": -10.7,
+      "soporte_obvio": 8.5,
+      "resistencia_obvia": 9.3,
+      "soporte_secundario": 8.0,
+      "resistencia_secundaria": 9.6,
+      "distancia_max_52s_pct": -15.3,
+      "distancia_min_52s_pct": 5.7,
+      "tendencia": "BAJISTA",
+      "volumen_vs_media_pct": 175,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "catalizador_desc": "Aumento en costos de producción inesperado",
+      "catalizador_reversible": false,
+      "shorts_pct": 1.2,
+      "prob_barrido": "ALTA",
+      "riesgo": "Continua debilidad en márgenes",
+      "horizonte_dias": 5,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-31",
+          "descripcion": "Reporte trimestral Q1"
+        }
+      ]
+    },
+    {
+      "ranking": 5,
+      "ticker": "ACS",
+      "nombre": "ACS",
+      "sector": "Construcción",
+      "accion": "COMPRA",
+      "conviccion": "BAJA",
+      "precio_actual": 107.0,
+      "entrada": 106.5,
+      "stop_loss": 103.9,
+      "stop_pct": -2.4,
+      "take_profit_1": 110.5,
+      "tp1_pct": 3.3,
+      "take_profit_2": 112.8,
+      "tp2_pct": 5.4,
+      "soporte_obvio": 105.0,
+      "resistencia_obvia": 109.5,
+      "soporte_secundario": 102.5,
+      "resistencia_secundaria": 113.0,
+      "distancia_max_52s_pct": -6.0,
+      "distancia_min_52s_pct": 18.7,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 98,
+      "catalizador_tipo": "TECNICO",
+      "catalizador_desc": "Ruptura por análisis técnico de patrón de consolidación",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.7,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Falsa ruptura por baja convicción general",
+      "horizonte_dias": 3,
+      "eventos_proximos": [
+        {
+          "tipo": "OTRO",
+          "fecha": "2026-04-02",
+          "descripcion": "Adjudicación de nuevo contrato internacional"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "GRF",
+      "razon": "Aumento en costos de producción inesperado",
+      "shorts_pct": 1.2
+    }
+  ]
+}

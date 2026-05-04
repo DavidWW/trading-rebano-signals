@@ -1,0 +1,298 @@
+{
+  "fecha": "2026-03-02",
+  "sesion": "manana",
+  "sentimiento": "NEUTRAL",
+  "radar_macro": {
+    "commodities": {
+      "oro": {
+        "precio_usd": 2685.5,
+        "var_semanal_pct": -1.2,
+        "var_mensual_pct": 2.8,
+        "dist_max_52s_pct": -3.4,
+        "alerta": false
+      },
+      "plata": {
+        "precio_usd": 31.45,
+        "var_semanal_pct": -0.8,
+        "var_mensual_pct": 4.2,
+        "dist_max_52s_pct": -8.1,
+        "alerta": false
+      },
+      "petroleo_brent": {
+        "precio_usd": 78.9,
+        "var_semanal_pct": 1.6,
+        "var_mensual_pct": -2.1,
+        "alerta": false
+      }
+    },
+    "indices": {
+      "sp500": {
+        "valor": 5892,
+        "var_semanal_pct": 0.4,
+        "dist_max_52s_pct": -2.1,
+        "alerta": false
+      },
+      "nasdaq100": {
+        "valor": 20145,
+        "var_semanal_pct": -0.2,
+        "dist_max_52s_pct": -4.8,
+        "alerta": false
+      },
+      "stoxx600": {
+        "valor": 521.8,
+        "var_semanal_pct": 0.8,
+        "dist_max_52s_pct": -1.9,
+        "alerta": false
+      },
+      "msci_em": {
+        "valor": 1089,
+        "var_semanal_pct": -1.1,
+        "dist_max_52s_pct": -6.2,
+        "alerta": false
+      },
+      "nikkei225": {
+        "valor": 40250,
+        "var_semanal_pct": 2.1,
+        "dist_max_52s_pct": -1.5,
+        "alerta": false
+      }
+    },
+    "sectores_europa": {
+      "mejor_sector": {
+        "nombre": "Tecnología",
+        "var_semanal_pct": 2.3
+      },
+      "peor_sector": {
+        "nombre": "Inmobiliario",
+        "var_semanal_pct": -2.8
+      },
+      "sector_en_correccion": {
+        "hay_correccion": true,
+        "nombre": "Banca",
+        "caida_desde_max_pct": -8.5,
+        "causa": "Presión regulatoria y curva de tipos"
+      }
+    },
+    "divisas": {
+      "eur_usd": {
+        "valor": 1.0485,
+        "var_semanal_pct": -0.3,
+        "var_mensual_pct": 1.1
+      }
+    },
+    "vix": {
+      "valor": 16.8,
+      "nivel": "NORMAL"
+    },
+    "eventos_clave": [
+      {
+        "evento": "PMI Manufacturas Eurozona",
+        "hora_cet": "10:00",
+        "relevancia": "ALTA"
+      },
+      {
+        "evento": "Decisión tipos BCE (preliminar)",
+        "hora_cet": "14:15",
+        "relevancia": "MEDIA"
+      }
+    ],
+    "resumen_macro": "Mercados en pausa técnica con rotación sectorial hacia defensivos"
+  },
+  "recomendaciones": [
+    {
+      "ranking": 1,
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 20.05,
+      "entrada": 20.15,
+      "stop_loss": 19.35,
+      "stop_pct": -3.8,
+      "take_profit_1": 21.25,
+      "tp1_pct": 5.5,
+      "take_profit_2": 22.1,
+      "tp2_pct": 9.7,
+      "soporte_obvio": 19.8,
+      "resistencia_obvia": 20.5,
+      "soporte_secundario": 19.25,
+      "resistencia_secundaria": 21.0,
+      "distancia_max_52s_pct": -12.8,
+      "distancia_min_52s_pct": 18.5,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 135,
+      "catalizador_tipo": "SECTORIAL",
+      "catalizador_desc": "Rotación defensiva y fortaleza renovables post-caída banca",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.2,
+      "prob_barrido": "BAJA",
+      "riesgo": "Corrección general mercado utilities por subida tipos",
+      "horizonte_dias": 4,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-18",
+          "descripcion": "Resultados T4 2025"
+        }
+      ]
+    },
+    {
+      "ranking": 2,
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "sector": "Retail",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 56.82,
+      "entrada": 57.15,
+      "stop_loss": 54.85,
+      "stop_pct": -4.2,
+      "take_profit_1": 59.8,
+      "tp1_pct": 4.6,
+      "take_profit_2": 61.25,
+      "tp2_pct": 7.2,
+      "soporte_obvio": 56.0,
+      "resistencia_obvia": 58.5,
+      "soporte_secundario": 55.2,
+      "resistencia_secundaria": 59.0,
+      "distancia_max_52s_pct": -6.1,
+      "distancia_min_52s_pct": 24.8,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 118,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "catalizador_desc": "Expectativas ventas primavera y menor presión costes logísticos",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.4,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Debilidad consumo europeo y fortaleza euro",
+      "horizonte_dias": 5,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-12",
+          "descripcion": "Resultados anuales 2025"
+        }
+      ]
+    },
+    {
+      "ranking": 3,
+      "ticker": "ROVI",
+      "nombre": "Laboratorios Farmacéuticos Rovi",
+      "sector": "Salud",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 84.75,
+      "entrada": 85.35,
+      "stop_loss": 81.65,
+      "stop_pct": -4.5,
+      "take_profit_1": 89.2,
+      "tp1_pct": 4.5,
+      "take_profit_2": 92.8,
+      "tp2_pct": 8.4,
+      "soporte_obvio": 83.5,
+      "resistencia_obvia": 87.0,
+      "soporte_secundario": 81.2,
+      "resistencia_secundaria": 89.5,
+      "distancia_max_52s_pct": -8.9,
+      "distancia_min_52s_pct": 42.1,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 145,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "catalizador_desc": "Pipeline robusto y sector defensivo en contexto incertidumbre",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.1,
+      "prob_barrido": "BAJA",
+      "riesgo": "Valoraciones elevadas sector salud",
+      "horizonte_dias": 4,
+      "eventos_proximos": []
+    },
+    {
+      "ranking": 4,
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "sector": "Energía",
+      "accion": "VENTA",
+      "conviccion": "MEDIA",
+      "precio_actual": 19.01,
+      "entrada": 18.85,
+      "stop_loss": 19.65,
+      "stop_pct": -4.1,
+      "take_profit_1": 17.85,
+      "tp1_pct": 5.3,
+      "take_profit_2": 17.15,
+      "tp2_pct": 9.0,
+      "soporte_obvio": 18.2,
+      "resistencia_obvia": 19.5,
+      "soporte_secundario": 17.8,
+      "resistencia_secundaria": 19.85,
+      "distancia_max_52s_pct": -15.2,
+      "distancia_min_52s_pct": 8.9,
+      "tendencia": "BAJISTA",
+      "volumen_vs_media_pct": 125,
+      "catalizador_tipo": "MACRO",
+      "catalizador_desc": "Presión regulatoria europea y debilidad margen refino",
+      "catalizador_reversible": true,
+      "shorts_pct": 1.2,
+      "prob_barrido": "ALTA",
+      "riesgo": "Repunte petróleo por tensiones geopolíticas",
+      "horizonte_dias": 3,
+      "eventos_proximos": [
+        {
+          "tipo": "EX_DIVIDENDO",
+          "fecha": "2026-03-15",
+          "descripcion": "Dividendo complementario 0.35€"
+        }
+      ]
+    },
+    {
+      "ranking": 5,
+      "ticker": "AMS",
+      "nombre": "Amadeus",
+      "sector": "Tecnología/Turismo",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 52.74,
+      "entrada": 53.15,
+      "stop_loss": 50.85,
+      "stop_pct": -4.5,
+      "take_profit_1": 55.8,
+      "tp1_pct": 5.0,
+      "take_profit_2": 57.5,
+      "tp2_pct": 8.2,
+      "soporte_obvio": 51.5,
+      "resistencia_obvia": 54.2,
+      "soporte_secundario": 50.2,
+      "resistencia_secundaria": 55.5,
+      "distancia_max_52s_pct": -18.4,
+      "distancia_min_52s_pct": 28.6,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 110,
+      "catalizador_tipo": "SECTORIAL",
+      "catalizador_desc": "Recuperación turismo y digitalización aerolíneas",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.8,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Ralentización crecimiento viajes corporativos",
+      "horizonte_dias": 5,
+      "eventos_proximos": []
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "SAN",
+      "razon": "Sector bancario bajo presión regulatoria y shorts elevados",
+      "shorts_pct": 1.8
+    },
+    {
+      "ticker": "BBVA",
+      "razon": "Incertidumbre operación Sabadell y presión sectorial",
+      "shorts_pct": 1.4
+    },
+    {
+      "ticker": "TEF",
+      "razon": "Debilidad fundamentales y alta competencia",
+      "shorts_pct": 0.9
+    }
+  ]
+}

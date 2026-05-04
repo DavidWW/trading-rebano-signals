@@ -1,0 +1,282 @@
+{
+  "fecha": "2026-03-02",
+  "sesion": "manana",
+  "sentimiento": "NEUTRAL",
+  "radar_macro": {
+    "commodities": {
+      "oro": {
+        "precio_usd": 1875.45,
+        "var_semanal_pct": 0.5,
+        "var_mensual_pct": -1.2,
+        "dist_max_52s_pct": -10.0,
+        "alerta": false
+      },
+      "plata": {
+        "precio_usd": 22.15,
+        "var_semanal_pct": -0.3,
+        "var_mensual_pct": -2.5,
+        "dist_max_52s_pct": -15.0,
+        "alerta": false
+      },
+      "petroleo_brent": {
+        "precio_usd": 70.35,
+        "var_semanal_pct": 1.5,
+        "var_mensual_pct": 3.0,
+        "alerta": true
+      }
+    },
+    "indices": {
+      "sp500": {
+        "valor": 4335,
+        "var_semanal_pct": -1.0,
+        "dist_max_52s_pct": -5.0,
+        "alerta": false
+      },
+      "nasdaq100": {
+        "valor": 13750,
+        "var_semanal_pct": 0.2,
+        "dist_max_52s_pct": -3.0,
+        "alerta": false
+      },
+      "stoxx600": {
+        "valor": 455,
+        "var_semanal_pct": 0.5,
+        "dist_max_52s_pct": -4.0,
+        "alerta": false
+      },
+      "msci_em": {
+        "valor": 1100,
+        "var_semanal_pct": -1.5,
+        "dist_max_52s_pct": -7.0,
+        "alerta": false
+      },
+      "nikkei225": {
+        "valor": 27000,
+        "var_semanal_pct": 2.0,
+        "dist_max_52s_pct": -8.0,
+        "alerta": false
+      }
+    },
+    "sectores_europa": {
+      "mejor_sector": {
+        "nombre": "Tecnología",
+        "var_semanal_pct": 2.8
+      },
+      "peor_sector": {
+        "nombre": "Energía",
+        "var_semanal_pct": -2.3
+      },
+      "sector_en_correccion": {
+        "hay_correccion": false,
+        "nombre": "",
+        "caida_desde_max_pct": 0.0,
+        "causa": ""
+      }
+    },
+    "divisas": {
+      "eur_usd": {
+        "valor": 1.085,
+        "var_semanal_pct": 0.2,
+        "var_mensual_pct": -1.0
+      }
+    },
+    "vix": {
+      "valor": 14.8,
+      "nivel": "BAJO"
+    },
+    "eventos_clave": [
+      {
+        "evento": "Datos de empleo en EE.UU.",
+        "hora_cet": "14:30",
+        "relevancia": "ALTA"
+      }
+    ],
+    "resumen_macro": "Mercados en tono neutral con ligero sesgo a risk-on."
+  },
+  "recomendaciones": [
+    {
+      "ranking": 1,
+      "ticker": "FER",
+      "nombre": "Ferrovial",
+      "sector": "Infraestructuras",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 63.16,
+      "entrada": 62.0,
+      "stop_loss": 59.85,
+      "stop_pct": -5.0,
+      "take_profit_1": 66.0,
+      "tp1_pct": 4.5,
+      "take_profit_2": 68.5,
+      "tp2_pct": 8.4,
+      "soporte_obvio": 61.5,
+      "resistencia_obvia": 65.0,
+      "soporte_secundario": 60.0,
+      "resistencia_secundaria": 67.0,
+      "distancia_max_52s_pct": -12.0,
+      "distancia_min_52s_pct": 25.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 140,
+      "catalizador_tipo": "TECNICO",
+      "catalizador_desc": "Ruptura resistencia clave",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.4,
+      "prob_barrido": "BAJA",
+      "riesgo": "Alta exposición a mercados internacionales",
+      "horizonte_dias": 3,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-10",
+          "descripcion": "Publicación resultados anuales"
+        }
+      ]
+    },
+    {
+      "ranking": 2,
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "sector": "Retail",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 56.82,
+      "entrada": 56.5,
+      "stop_loss": 54.85,
+      "stop_pct": -3.5,
+      "take_profit_1": 59.5,
+      "tp1_pct": 4.7,
+      "take_profit_2": 61.0,
+      "tp2_pct": 7.4,
+      "soporte_obvio": 55.5,
+      "resistencia_obvia": 58.3,
+      "soporte_secundario": 54.5,
+      "resistencia_secundaria": 60.0,
+      "distancia_max_52s_pct": -8.0,
+      "distancia_min_52s_pct": 30.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 110,
+      "catalizador_tipo": "TECNICO",
+      "catalizador_desc": "Patrón de reversión alcista en formación",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.6,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Sensibilidad a cambios en el consumo global",
+      "horizonte_dias": 4,
+      "eventos_proximos": []
+    },
+    {
+      "ranking": 3,
+      "ticker": "PHM",
+      "nombre": "PharmaMar",
+      "sector": "Salud",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 80.25,
+      "entrada": 79.0,
+      "stop_loss": 76.25,
+      "stop_pct": -3.5,
+      "take_profit_1": 84.0,
+      "tp1_pct": 4.7,
+      "take_profit_2": 86.5,
+      "tp2_pct": 7.8,
+      "soporte_obvio": 77.5,
+      "resistencia_obvia": 82.5,
+      "soporte_secundario": 75.0,
+      "resistencia_secundaria": 85.0,
+      "distancia_max_52s_pct": -15.0,
+      "distancia_min_52s_pct": 40.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 150,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "catalizador_desc": "Resultados exitosos de ensayo clínico",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.3,
+      "prob_barrido": "BAJA",
+      "riesgo": "Dependencia de aprobación regulatoria",
+      "horizonte_dias": 3,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-15",
+          "descripcion": "Anuncio de resultados del trimestre"
+        }
+      ]
+    },
+    {
+      "ranking": 4,
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "VENTA",
+      "conviccion": "MEDIA",
+      "precio_actual": 20.05,
+      "entrada": 20.2,
+      "stop_loss": 21.3,
+      "stop_pct": 5.4,
+      "take_profit_1": 18.9,
+      "tp1_pct": -5.7,
+      "take_profit_2": 18.5,
+      "tp2_pct": -7.7,
+      "soporte_obvio": 18.75,
+      "resistencia_obvia": 20.5,
+      "soporte_secundario": 18.2,
+      "resistencia_secundaria": 21.0,
+      "distancia_max_52s_pct": -6.0,
+      "distancia_min_52s_pct": 15.0,
+      "tendencia": "BAJISTA",
+      "volumen_vs_media_pct": 130,
+      "catalizador_tipo": "MACRO",
+      "catalizador_desc": "Temor a regulación más estricta en el sector",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.8,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Cambios abruptos en la política energética",
+      "horizonte_dias": 5,
+      "eventos_proximos": []
+    },
+    {
+      "ranking": 5,
+      "ticker": "CLNX",
+      "nombre": "Cellnex Telecom",
+      "sector": "Infraestructuras Telecom",
+      "accion": "COMPRA",
+      "conviccion": "BAJA",
+      "precio_actual": 32.14,
+      "entrada": 31.8,
+      "stop_loss": 30.65,
+      "stop_pct": -3.6,
+      "take_profit_1": 33.5,
+      "tp1_pct": 4.2,
+      "take_profit_2": 34.5,
+      "tp2_pct": 7.3,
+      "soporte_obvio": 31.0,
+      "resistencia_obvia": 33.0,
+      "soporte_secundario": 30.0,
+      "resistencia_secundaria": 35.0,
+      "distancia_max_52s_pct": -20.0,
+      "distancia_min_52s_pct": 22.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 90,
+      "catalizador_tipo": "SECTORIAL",
+      "catalizador_desc": "Expansión de mercados de telecomunicaciones",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.5,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Alta competencia en el sector",
+      "horizonte_dias": 5,
+      "eventos_proximos": []
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "REP",
+      "razon": "Presión por caídas en precios del petróleo",
+      "shorts_pct": 0.7
+    },
+    {
+      "ticker": "SAB",
+      "razon": "Alto porcentaje de shorts institucionales",
+      "shorts_pct": 0.9
+    }
+  ]
+}

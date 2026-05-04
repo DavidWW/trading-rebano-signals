@@ -1,0 +1,156 @@
+{
+  "fecha": "2026-03-04",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Petróleo Brent",
+        "var_dia_pct": -1.8,
+        "nuevo_precio": 68.4
+      },
+      {
+        "activo": "Cobre",
+        "var_dia_pct": 2.3,
+        "nuevo_precio": 9.215
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "DAX",
+        "var_dia_pct": -0.8
+      },
+      {
+        "indice": "FTSE MIB",
+        "var_dia_pct": 1.2
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 16.8,
+      "nivel": "NORMAL",
+      "cambio_significativo": false
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Renovables Europeas",
+        "var_dia_pct": 2.1,
+        "direccion": "POSITIVO"
+      },
+      {
+        "nombre": "Petróleo y Gas Europeo",
+        "var_dia_pct": -1.5,
+        "direccion": "NEGATIVO"
+      }
+    ],
+    "resumen_cambios": "Sesión mixta con rotación sectorial, cobre fuerte por datos China"
+  },
+  "resumen": {
+    "ibex_var_pct": 0.3,
+    "valores_destacados": [
+      "SLR +1.8%",
+      "ANE +1.5%",
+      "REP -1.2%",
+      "TEF -0.9%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "CABK",
+      "nivel_barrido": 10.05,
+      "recupero": true,
+      "recuperacion_pct": 0.8
+    },
+    {
+      "ticker": "MEL",
+      "nivel_barrido": 8.0,
+      "recupero": true,
+      "recuperacion_pct": 0.7
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "SLR",
+      "nombre": "Solaria",
+      "sector": "Renovables",
+      "accion": "COMPRA",
+      "precio_cierre": 19.81,
+      "soporte_obvio": 19.35,
+      "resistencia_obvia": 20.65,
+      "soporte_secundario": 18.85,
+      "resistencia_secundaria": 21.15,
+      "distancia_max_52s_pct": -12.5,
+      "distancia_min_52s_pct": 28.3,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 165,
+      "catalizador_tipo": "MACRO",
+      "razon": "Impulso renovables por políticas verdes UE, ruptura resistencia 19.50 con volumen",
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-03-12",
+          "descripcion": "Q4 2025 results"
+        }
+      ]
+    },
+    {
+      "ticker": "CABK",
+      "nombre": "CaixaBank",
+      "sector": "Banca",
+      "accion": "COMPRA",
+      "precio_cierre": 10.13,
+      "soporte_obvio": 9.85,
+      "resistencia_obvia": 10.45,
+      "soporte_secundario": 9.65,
+      "resistencia_secundaria": 10.75,
+      "distancia_max_52s_pct": -8.2,
+      "distancia_min_52s_pct": 15.7,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 145,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Barrido y recuperación 10.05, preparando ruptura canal lateral",
+      "eventos_proximos": [
+        {
+          "tipo": "EX_DIVIDENDO",
+          "fecha": "2026-03-18",
+          "descripcion": "0.22€ dividend"
+        }
+      ]
+    },
+    {
+      "ticker": "IDR",
+      "nombre": "Indra",
+      "sector": "Defensa/Tech",
+      "accion": "VIGILAR",
+      "precio_cierre": 64.5,
+      "soporte_obvio": 62.15,
+      "resistencia_obvia": 67.85,
+      "soporte_secundario": 60.35,
+      "resistencia_secundaria": 69.25,
+      "distancia_max_52s_pct": -5.8,
+      "distancia_min_52s_pct": 42.6,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 120,
+      "catalizador_tipo": "GEOPOLITICO",
+      "razon": "Sector defensa en máximos, esperando pullback para entrada",
+      "eventos_proximos": [
+        {
+          "tipo": "OTRO",
+          "fecha": "2026-03-10",
+          "descripcion": "Defense contract announcement expected"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "TEF",
+      "razon": "Debilidad continuada, rompiendo soportes técnicos",
+      "shorts_pct": 1.2
+    },
+    {
+      "ticker": "REP",
+      "razon": "Presión por caída petróleo, resistencia fuerte en 20.50",
+      "shorts_pct": 0.8
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "fecha": "2026-01-26",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "resumen": {
+    "ibex_var_pct": 0.0,
+    "valores_destacados": [
+      "SAN +2%",
+      "TEF -1%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "TEF",
+      "nivel_barrido": 3.35,
+      "recupero": true,
+      "recuperacion_pct": 0.89
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "accion": "COMPRA",
+      "precio_cierre": 15.97,
+      "soporte_obvio": 15.5,
+      "resistencia_obvia": 16.5,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "razon": "Recuperación en precios del petróleo"
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "SAB",
+      "razon": "Alto nivel de incertidumbre en sector bancario"
+    }
+  ]
+}

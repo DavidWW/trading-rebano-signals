@@ -1,0 +1,292 @@
+{
+  "fecha": "2026-03-27",
+  "sesion": "manana",
+  "sentimiento": "NEUTRAL",
+  "radar_macro": {
+    "commodities": {
+      "oro": {
+        "precio_usd": 2185.4,
+        "var_semanal_pct": 1.2,
+        "var_mensual_pct": 3.1,
+        "dist_max_52s_pct": -4.2,
+        "alerta": false
+      },
+      "plata": {
+        "precio_usd": 28.95,
+        "var_semanal_pct": 2.8,
+        "var_mensual_pct": 5.4,
+        "dist_max_52s_pct": -8.1,
+        "alerta": false
+      },
+      "petroleo_brent": {
+        "precio_usd": 82.45,
+        "var_semanal_pct": -1.5,
+        "var_mensual_pct": -2.8,
+        "alerta": false
+      }
+    },
+    "indices": {
+      "sp500": {
+        "valor": 5956,
+        "var_semanal_pct": 0.3,
+        "dist_max_52s_pct": -2.1,
+        "alerta": false
+      },
+      "nasdaq100": {
+        "valor": 20485,
+        "var_semanal_pct": -0.8,
+        "dist_max_52s_pct": -3.5,
+        "alerta": false
+      },
+      "stoxx600": {
+        "valor": 528.4,
+        "var_semanal_pct": 0.6,
+        "dist_max_52s_pct": -1.8,
+        "alerta": false
+      },
+      "msci_em": {
+        "valor": 1156,
+        "var_semanal_pct": 1.2,
+        "dist_max_52s_pct": -5.2,
+        "alerta": false
+      },
+      "nikkei225": {
+        "valor": 41250,
+        "var_semanal_pct": -1.1,
+        "dist_max_52s_pct": -2.9,
+        "alerta": false
+      }
+    },
+    "sectores_europa": {
+      "mejor_sector": {
+        "nombre": "Utilities",
+        "var_semanal_pct": 2.4
+      },
+      "peor_sector": {
+        "nombre": "Tech",
+        "var_semanal_pct": -2.1
+      },
+      "sector_en_correccion": {
+        "hay_correccion": false,
+        "nombre": "",
+        "caida_desde_max_pct": 0.0,
+        "causa": ""
+      }
+    },
+    "divisas": {
+      "eur_usd": {
+        "valor": 1.0845,
+        "var_semanal_pct": 0.4,
+        "var_mensual_pct": 1.2
+      }
+    },
+    "vix": {
+      "valor": 17.2,
+      "nivel": "NORMAL"
+    },
+    "eventos_clave": [
+      {
+        "evento": "IPC Eurozona Flash",
+        "hora_cet": "11:00",
+        "relevancia": "ALTA"
+      },
+      {
+        "evento": "PCE Core EEUU",
+        "hora_cet": "14:30",
+        "relevancia": "ALTA"
+      },
+      {
+        "evento": "Intervención Powell",
+        "hora_cet": "16:15",
+        "relevancia": "MEDIA"
+      }
+    ],
+    "resumen_macro": "Entorno neutral con rotación sectorial hacia utilities y cautela en tech"
+  },
+  "recomendaciones": [
+    {
+      "ranking": 1,
+      "ticker": "IBE",
+      "nombre": "Iberdrola",
+      "sector": "Utilities",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 19.21,
+      "entrada": 19.15,
+      "stop_loss": 18.35,
+      "stop_pct": -4.2,
+      "take_profit_1": 20.25,
+      "tp1_pct": 5.8,
+      "take_profit_2": 21.1,
+      "tp2_pct": 10.2,
+      "soporte_obvio": 18.8,
+      "resistencia_obvia": 20.0,
+      "soporte_secundario": 18.35,
+      "resistencia_secundaria": 20.45,
+      "distancia_max_52s_pct": -7.8,
+      "distancia_min_52s_pct": 24.1,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 145,
+      "catalizador_tipo": "SECTORIAL",
+      "catalizador_desc": "Rotación hacia utilities por expectativas de tipos estables y dividendos seguros",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.2,
+      "prob_barrido": "BAJA",
+      "riesgo": "Corrección general del mercado o subida tipos más agresiva de lo esperado",
+      "horizonte_dias": 4,
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-04-15",
+          "descripcion": "Dividendo trimestral €0.12"
+        }
+      ]
+    },
+    {
+      "ranking": 2,
+      "ticker": "BBVA",
+      "nombre": "Banco Bilbao Vizcaya",
+      "sector": "Banca",
+      "accion": "COMPRA",
+      "conviccion": "ALTA",
+      "precio_actual": 18.3,
+      "entrada": 18.25,
+      "stop_loss": 17.65,
+      "stop_pct": -3.3,
+      "take_profit_1": 19.1,
+      "tp1_pct": 4.7,
+      "take_profit_2": 19.85,
+      "tp2_pct": 8.5,
+      "soporte_obvio": 18.0,
+      "resistencia_obvia": 19.0,
+      "soporte_secundario": 17.65,
+      "resistencia_secundaria": 19.25,
+      "distancia_max_52s_pct": -12.4,
+      "distancia_min_52s_pct": 31.6,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 125,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "catalizador_desc": "Mejores márgenes esperados y posible aumento de dividendo tras resultados Q1",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.4,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Deterioro crédito México o regulación bancaria europea más estricta",
+      "horizonte_dias": 5,
+      "eventos_proximos": [
+        {
+          "tipo": "RESULTADOS",
+          "fecha": "2026-04-28",
+          "descripcion": "Resultados Q1 2026"
+        }
+      ]
+    },
+    {
+      "ranking": 3,
+      "ticker": "ITX",
+      "nombre": "Inditex",
+      "sector": "Retail",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 50.48,
+      "entrada": 50.25,
+      "stop_loss": 48.35,
+      "stop_pct": -3.8,
+      "take_profit_1": 52.1,
+      "tp1_pct": 3.7,
+      "take_profit_2": 53.8,
+      "tp2_pct": 7.1,
+      "soporte_obvio": 49.5,
+      "resistencia_obvia": 52.0,
+      "soporte_secundario": 48.35,
+      "resistencia_secundaria": 53.25,
+      "distancia_max_52s_pct": -5.2,
+      "distancia_min_52s_pct": 18.9,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 110,
+      "catalizador_tipo": "FUNDAMENTAL",
+      "catalizador_desc": "Inicio temporada primavera-verano y mejora consumo europeo",
+      "catalizador_reversible": true,
+      "shorts_pct": 0.3,
+      "prob_barrido": "MEDIA",
+      "riesgo": "Debilidad consumo por inflación persistente o problemas cadena suministro",
+      "horizonte_dias": 4,
+      "eventos_proximos": []
+    },
+    {
+      "ranking": 4,
+      "ticker": "ACS",
+      "nombre": "ACS Construcción",
+      "sector": "Construcción",
+      "accion": "COMPRA",
+      "conviccion": "MEDIA",
+      "precio_actual": 104.6,
+      "entrada": 104.25,
+      "stop_loss": 100.85,
+      "stop_pct": -3.3,
+      "take_profit_1": 108.15,
+      "tp1_pct": 3.7,
+      "take_profit_2": 111.5,
+      "tp2_pct": 6.9,
+      "soporte_obvio": 102.5,
+      "resistencia_obvia": 107.0,
+      "soporte_secundario": 100.85,
+      "resistencia_secundaria": 109.25,
+      "distancia_max_52s_pct": -8.9,
+      "distancia_min_52s_pct": 28.4,
+      "tendencia": "LATERAL",
+      "volumen_vs_media_pct": 95,
+      "catalizador_tipo": "SECTORIAL",
+      "catalizador_desc": "Expectativas nuevos contratos infraestructuras y mejora márgenes",
+      "catalizador_reversible": false,
+      "shorts_pct": 0.1,
+      "prob_barrido": "BAJA",
+      "riesgo": "Retrasos en adjudicaciones públicas o presión costes materiales",
+      "horizonte_dias": 5,
+      "eventos_proximos": []
+    },
+    {
+      "ranking": 5,
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "sector": "Energía",
+      "accion": "VENTA",
+      "conviccion": "MEDIA",
+      "precio_actual": 24.17,
+      "entrada": 24.25,
+      "stop_loss": 25.15,
+      "stop_pct": -3.7,
+      "take_profit_1": 23.2,
+      "tp1_pct": 4.3,
+      "take_profit_2": 22.35,
+      "tp2_pct": 7.9,
+      "soporte_obvio": 23.0,
+      "resistencia_obvia": 25.0,
+      "soporte_secundario": 22.35,
+      "resistencia_secundaria": 25.65,
+      "distancia_max_52s_pct": -14.2,
+      "distancia_min_52s_pct": 19.8,
+      "tendencia": "BAJISTA",
+      "volumen_vs_media_pct": 135,
+      "catalizador_tipo": "MACRO",
+      "catalizador_desc": "Debilidad petróleo por expectativas menor demanda china y fortalecimiento dólar",
+      "catalizador_reversible": true,
+      "shorts_pct": 1.2,
+      "prob_barrido": "ALTA",
+      "riesgo": "Escalada geopolítica o cortes producción OPEP+ inesperados",
+      "horizonte_dias": 3,
+      "eventos_proximos": []
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "TEF",
+      "razon": "Sector telecom bajo presión regulatoria y alta competencia",
+      "shorts_pct": 0.8
+    },
+    {
+      "ticker": "IAG",
+      "razon": "Volatilidad combustible y posible debilidad demanda viajes",
+      "shorts_pct": 0.6
+    }
+  ]
+}

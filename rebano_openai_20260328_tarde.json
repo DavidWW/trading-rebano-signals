@@ -1,0 +1,81 @@
+{
+  "fecha": "2026-03-28",
+  "sesion": "tarde",
+  "sentimiento": "NEUTRAL",
+  "radar_macro_cambios": {
+    "commodity_movimiento_2pct": [
+      {
+        "activo": "Petróleo",
+        "var_dia_pct": 2.1,
+        "nuevo_precio": 105.2
+      }
+    ],
+    "indice_movimiento_notable": [
+      {
+        "indice": "S&P 500",
+        "var_dia_pct": -0.5
+      }
+    ],
+    "vix_cambio": {
+      "valor_cierre": 18.3,
+      "nivel": "NORMAL",
+      "cambio_significativo": false
+    },
+    "sector_destacado": [
+      {
+        "nombre": "Energía",
+        "var_dia_pct": 1.8,
+        "direccion": "POSITIVO"
+      }
+    ],
+    "resumen_cambios": "Incremento en commodities y estabilidad en índices"
+  },
+  "resumen": {
+    "ibex_var_pct": -0.1,
+    "valores_destacados": [
+      "SLR +2.5%",
+      "FER -1.5%"
+    ]
+  },
+  "barridos": [
+    {
+      "ticker": "BBVA",
+      "nivel_barrido": 17.5,
+      "recupero": true,
+      "recuperacion_pct": 2.0
+    }
+  ],
+  "oportunidades_manana": [
+    {
+      "ticker": "REP",
+      "nombre": "Repsol",
+      "sector": "Energía",
+      "accion": "COMPRA",
+      "precio_cierre": 24.07,
+      "soporte_obvio": 23.5,
+      "resistencia_obvia": 25.0,
+      "soporte_secundario": 22.85,
+      "resistencia_secundaria": 26.0,
+      "distancia_max_52s_pct": -5.0,
+      "distancia_min_52s_pct": 10.0,
+      "tendencia": "ALCISTA",
+      "volumen_vs_media_pct": 110,
+      "catalizador_tipo": "TECNICO",
+      "razon": "Ruptura técnica con volumen",
+      "eventos_proximos": [
+        {
+          "tipo": "DIVIDENDO",
+          "fecha": "2026-04-15",
+          "descripcion": "Fecha de pago de dividendo"
+        }
+      ]
+    }
+  ],
+  "evitar": [
+    {
+      "ticker": "SAN",
+      "razon": "Corto institucional alto",
+      "shorts_pct": 0.65
+    }
+  ]
+}

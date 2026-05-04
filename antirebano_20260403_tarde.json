@@ -1,0 +1,81 @@
+{
+  "version": "4.5",
+  "fecha": "2026-04-03",
+  "sesion": "tarde",
+  "hora": "19:51",
+  "alertas_shorts": [],
+  "consensos_ayer_pendientes": [],
+  "triangulacion": {
+    "consensos": [],
+    "solo_claude": [],
+    "solo_openai": [],
+    "evitar": [
+      {
+        "ticker": "ACX",
+        "razon": "Acero directamente en el centro de la guerra arancelaria. Trump impone aranceles del 25% al acero importado. Sector en caída libre, sin suelo técnico visible. Riesgo de profit warnings.",
+        "shorts_pct": 4.2
+      },
+      {
+        "ticker": "CIE",
+        "razon": "Automoción con exposición directa a aranceles EE.UU. sobre vehículos y componentes. Clientes OEM bajo presión severa. Posibles recortes de producción en planta.",
+        "shorts_pct": 3.1
+      },
+      {
+        "ticker": "IAG",
+        "razon": "Aerolíneas son las más vulnerables en escenario de recesión global. Caída del petróleo ayuda costes pero la demanda de viajes corporativos e internacionales se desplomará. Riesgo sistémico elevado.",
+        "shorts_pct": 3.85
+      },
+      {
+        "ticker": "REP",
+        "razon": "Petróleo Brent cayendo >6% por combinación de aranceles recesivos y aumento de producción OPEP+. Repsol con doble presión: precio commodities y posible contracción demanda. Sin soporte técnico claro hasta 22.50.",
+        "shorts_pct": 2.4
+      },
+      {
+        "ticker": "ITX",
+        "razon": "Inditex con exposición masiva a cadenas de suministro asiáticas (Bangladesh, Vietnam, China). Aranceles EE.UU. impactan mercado norteamericano directamente. Riesgo de márgenes y revisión de guidance.",
+        "shorts_pct": 2.8
+      },
+      {
+        "ticker": "SAN",
+        "razon": "Exposición a Brasil, México y EE.UU. en un entorno de guerra comercial y posible recesión global. Curva de tipos impredecible. Shorts institucionales elevados. Nivel técnico roto.",
+        "shorts_pct": 3.6
+      },
+      {
+        "ticker": "BBVA",
+        "razon": "Exposición crítica a México (50%+ beneficios). El peso mexicano bajo presión severa por aranceles Trump. Riesgo divisa y riesgo crediticio en mercados emergentes. Evitar hasta estabilización.",
+        "shorts_pct": 3.2
+      },
+      {
+        "ticker": "FDR",
+        "razon": "Sector industrial con exposición a ciclo económico global. En entorno de contracción de comercio mundial, la demanda industrial caerá. Sin catalizadores defensivos.",
+        "shorts_pct": 1.8
+      },
+      {
+        "ticker": "PUIG",
+        "razon": "Lujo/consumo discrecional con exposición EE.UU. y China. Doble frente arancelario. Sector más castigado históricamente en fases de recesión. Valor cotizado recientemente con baja liquidez.",
+        "shorts_pct": 2.1
+      },
+      {
+        "ticker": "MEL",
+        "razon": "Turismo/Juego con alta dependencia del turista norteamericano y confianza del consumidor. VIX en 45 indica colapso de confianza. Sector con beta alta en caídas.",
+        "shorts_pct": 1.5
+      },
+      {
+        "ticker": "TEF",
+        "razon": "Shorts institucionales elevados",
+        "shorts_pct": 0.65
+      }
+    ],
+    "sentimiento_claude": "BAJISTA",
+    "sentimiento_openai": "NEUTRAL",
+    "radar_macro_claude": {},
+    "radar_macro_openai": {}
+  },
+  "reglas_aplicadas": {
+    "R9_delay": false,
+    "R10_shorts": false,
+    "consensos_hoy": 0,
+    "valores_evitar": 11
+  },
+  "accion_recomendada": "EVALUAR"
+}
